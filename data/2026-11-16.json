@@ -1,0 +1,7 @@
+{"date":"2026-11-16",
+ "weather":{"location":"Kocaeli · İzmit","high":16.0,"low":7.7,"condition":"Bulutlu","icon":"cloud","rain":10,
+   "next":[{"day":"Salı","high":16.6,"low":10.0,"icon":"rain"},{"day":"Çarşamba","high":19.9,"low":10.0,"icon":"partly"},{"day":"Perşembe","high":20.3,"low":15.8,"icon":"partly"}],
+   "source":"Hava tahmin servisi"},
+ "gold":{"gram_buy":6276.47,"gram_sell":6277.52,"quarter_buy":10290,"quarter_sell":10374,"prev_gram_sell":null,"time":"06:00","source":"Truncgil Finans"},
+ "usd":{"buy":50.3806,"sell":50.3973,"prev_sell":null,"time":"06:00","source":"Truncgil Finans"},
+ "eur":{"buy":55.5539,"sell":55.5865,"prev_sell":null,"time":"06:00","source":"Truncgil Finans"}}
