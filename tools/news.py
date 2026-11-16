@@ -66,8 +66,24 @@ def build_map():
     lay = Image.new("RGB", (MW, MH), (30, 32, 35)); d = ImageDraw.Draw(lay)
     for name, pts in polys:
         if name == "Kocaeli": d.polygon(pts, fill=(48, 50, 55))
+    # arazi dokusu
+    rng2 = np.random.default_rng(11)
+    tex = np.zeros((MH, MW), np.float32)
+    for sc_, amp in [(96, 4), (24, 3), (6, 2.5)]:
+        n_ = rng2.normal(0, 1, (MH // sc_ + 2, MW // sc_ + 2)).astype(np.float32)
+        tex += np.asarray(Image.fromarray(n_).resize((MW, MH), Image.BICUBIC)) * amp
+    lay = Image.fromarray(np.clip(np.asarray(lay, np.float32) + tex[..., None], 0, 255).astype(np.uint8))
+    d = ImageDraw.Draw(lay)
+    # ilçe sınırları
+    dj = json.load(open(os.path.join(A, "tr-districts-marmara.json"), encoding="utf-8"))
+    for f in dj["features"]:
+        g = f["geometry"]
+        rings = [g["coordinates"]] if g["type"] == "Polygon" else g["coordinates"]
+        for poly in rings:
+            pts = [ll2px(la, lo) for lo, la in poly[0]]
+            d.line(pts + [pts[0]], fill=(92, 96, 102), width=2)
     for name, pts in polys:
-        if name != "Kocaeli": d.line(pts + [pts[0]], fill=(82, 85, 90), width=3)
+        if name != "Kocaeli": d.line(pts + [pts[0]], fill=(98, 101, 106), width=3)
     for name, pts in polys:
         if name == "Kocaeli": d.line(pts + [pts[0]], fill=(150, 153, 158), width=5)
     # kıyı parıltısı
@@ -108,7 +124,87 @@ def bed(T, seed=7):
     k = np.exp(-np.arange(2000) / 300.0)
     x += np.convolve(pulse, k)[:n] * 0.6 * np.sin(2 * np.pi * 55 * t)
     env = np.clip(t / 1.5, 0, 1) * np.clip((T - t) / 1.5, 0, 1)
-    return x / np.abs(x).max() * env * 0.07
+    return x / np.abs(x).max() * env * 0.13
+
+
+def ig_icon(d, x, y, s):
+    """Instagram benzeri basit kamera simgesi (beyaz çizgi)."""
+    d.rounded_rectangle((x, y, x + s, y + s), radius=s * 0.28, outline=WHITE, width=max(2, s // 12))
+    r = s * 0.22; cx, cy = x + s / 2, y + s / 2
+    d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=WHITE, width=max(2, s // 12))
+    d.ellipse((x + s * 0.72, y + s * 0.18, x + s * 0.82, y + s * 0.28), fill=WHITE)
+
+
+def ig_badge(size):
+    """Renkli Instagram rozeti (RGBA)."""
+    n = size; yy, xx = np.mgrid[0:n, 0:n] / n
+    t = np.clip((xx * 0.5 + (1 - yy) * 0.7), 0, 1)[..., None]
+    c1 = np.array([255, 196, 70]); c2 = np.array([235, 45, 110]); c3 = np.array([120, 60, 210])
+    col = np.where(t < 0.5, c1 + (c2 - c1) * (t / 0.5), c2 + (c3 - c2) * ((t - 0.5) / 0.5))
+    im = Image.fromarray(col.astype(np.uint8), "RGB").convert("RGBA")
+    mask = Image.new("L", (n, n), 0); ImageDraw.Draw(mask).rounded_rectangle((0, 0, n - 1, n - 1), radius=n * 0.27, fill=255)
+    im.putalpha(mask)
+    d = ImageDraw.Draw(im); m_ = n * 0.2; w_ = max(3, n // 14)
+    d.rounded_rectangle((m_, m_, n - m_, n - m_), radius=n * 0.17, outline=WHITE, width=w_)
+    r = n * 0.16; d.ellipse((n / 2 - r, n / 2 - r, n / 2 + r, n / 2 + r), outline=WHITE, width=w_)
+    d.ellipse((n * 0.66, n * 0.27, n * 0.73, n * 0.34), fill=WHITE)
+    return im
+
+
+def speech_bounds(x):
+    e = np.convolve(x ** 2, np.ones(441) / 441, "same")
+    idx = np.where(e > (e.max() * 0.01))[0]
+    return (idx[0] / SR, idx[-1] / SR) if len(idx) else (0, len(x) / SR)
+
+
+def make_chunks(narr, x, offset, maxw=3):
+    """Altyazıyı 2-4 kelimelik parçalara böl, konuşma süresine harf sayısıyla yay."""
+    words = narr.split(); chunks = []; cur = []
+    for w in words:
+        cur.append(w)
+        if len(cur) >= maxw or w[-1] in ".,;:!?":
+            chunks.append(" ".join(cur)); cur = []
+    if cur: chunks.append(" ".join(cur))
+    a, b = speech_bounds(x); a += offset; b += offset
+    tot = sum(len(c) + 2 for c in chunks); t = a; out = []
+    for c in chunks:
+        dt = (b - a) * (len(c) + 2) / tot
+        out.append((t, t + dt + (0.25 if c is chunks[-1] else 0.05), c)); t += dt
+    return out
+
+
+def whoosh(seed=0):
+    n = int(SR * 0.7); t = np.arange(n) / SR; rng = np.random.default_rng(seed)
+    noise = rng.normal(0, 1, n)
+    env = np.exp(-((t - 0.25) / 0.12) ** 2)
+    sweep = np.cumsum(noise) ; sweep -= np.convolve(sweep, np.ones(60) / 60, "same")
+    hit = np.sin(2 * np.pi * 58 * t) * np.exp(-t * 7) * (t > 0.25)
+    y = sweep / (np.abs(sweep).max() + 1e-9) * env * 0.5 + np.roll(hit, 0) * 0.55
+    return y
+
+
+def outro_frame(m, tl, prog):
+    """Kapanış: KOCAELİ RADAR + Instagram + TAKİP ET."""
+    fr = m.crop((int(MW * 0.25), int(MH * 0.30), int(MW * 0.25 + 1500), int(MH * 0.30 + 2667))).resize((W, H), Image.BILINEAR).convert("RGBA")
+    fr.alpha_composite(Image.new("RGBA", (W, H), (5, 6, 8, 205)))
+    d = ImageDraw.Draw(fr)
+    d.rectangle((0, 0, W, 8), fill=(255, 255, 255, 60)); d.rectangle((0, 0, int(W * prog), 8), fill=YEL + (255,))
+    a = ease(tl / 0.5)
+    text(d, (W / 2, 820), "KOCAELİ", 64, WHITE + (int(255 * a),), 500, "mm", sp=14)
+    text(d, (W / 2, 930), "RADAR", 150, WHITE + (int(255 * a),), 700, "mm")
+    b = ease((tl - 0.3) / 0.4)
+    if b > 0:
+        sz = int(120 * (0.6 + 0.4 * b)); badge = ig_badge(sz)
+        fr.alpha_composite(badge, (int(W / 2 - sz / 2), int(1100 - sz / 2)))
+        text(d, (W / 2, 1215), "@KOCAELIRADAR41", 44, WHITE, 600, "mm")
+    c = ease((tl - 0.8) / 0.35)
+    if c > 0:
+        f = font(int(44 * (0.7 + 0.3 * c)), 700); tw = f.getlength("TAKİP ET")
+        pulse = 1 + 0.04 * math.sin(tl * 6)
+        hw = (tw / 2 + 26) * pulse; hh = 38 * pulse
+        d.rectangle((W / 2 - hw, 1300 - hh, W / 2 + hw, 1300 + hh), fill=RED + (255,))
+        d.text((W / 2, 1300), "TAKİP ET", font=f, fill=WHITE, anchor="mm")
+    return fr
 
 
 def wrap(s, f, maxw):
@@ -133,7 +229,8 @@ def overlay(sc, k, tl, cat, source, prog):
     d.rectangle((52, 118, 58, 168), fill=YEL + (255,))
     text(d, (76, 143), "KOCAELİ", 40, YEL, 700, "lm")
     text(d, (76 + font(40).getlength("KOCAELİ ") , 143), cat, 40, WHITE, 700, "lm")
-    text(d, (W - 60, 236), "@KOCAELIRADAR41", 22, WHITE, 600, "rm")
+    ig_icon(d, W - 60 - 98, 190, 34)
+    text(d, (W - 60, 240), "@KOCAELIRADAR41", 20, WHITE, 600, "rm")
     # vinyet
     a = ease(tl / 0.35)
     big = sc.get("big"); cy = 1180
@@ -160,15 +257,13 @@ def overlay(sc, k, tl, cat, source, prog):
         y = cy + 105
         d.rectangle((W / 2 - tw / 2 - 18, y - 32, W / 2 + tw / 2 + 18, y + 32), fill=bg + (int(240 * b),))
         d.text((W / 2, y), sub, font=f, fill=fg + (int(255 * b),), anchor="mm")
-    narr = sc.get("narr")
-    if narr:
-        f = font(38, 600); lines = wrap(narr, f, 860)
-        y = 1560 - (len(lines) - 1) * 26
-        for ln in lines:
-            tw = f.getlength(ln)
-            d.rectangle((W / 2 - tw / 2 - 16, y - 27, W / 2 + tw / 2 + 16, y + 27), fill=(8, 8, 10, int(225 * a)))
-            d.text((W / 2, y), ln, font=f, fill=WHITE + (int(255 * a),), anchor="mm")
-            y += 54
+    chunk = None
+    for c0, c1, txt in sc.get("_chunks", []):
+        if c0 <= tl < c1: chunk = txt
+    if chunk:
+        f = font(44, 700); tw = f.getlength(chunk); y = 1560
+        d.rectangle((W / 2 - tw / 2 - 18, y - 32, W / 2 + tw / 2 + 18, y + 32), fill=(8, 8, 10, 230))
+        d.text((W / 2, y), chunk, font=f, fill=WHITE, anchor="mm")
     text(d, (52, 1790), source, 22, (200, 200, 205), 500, "lm")
     return o
 
@@ -203,14 +298,20 @@ def main(spec_path):
     gap = 0.35
     clips = [wav_read(sc["wav"]) for sc in S["scenes"]]
     durs = [len(c) / SR + gap for c in clips]
-    durs[0] += 0.3; durs[-1] += 1.2
-    T = sum(durs)
+    durs[0] += 0.3; durs[-1] += 0.6
+    OUT = 3.6
+    T = sum(durs) + OUT
     audio = np.zeros(int(SR * T) + SR)
     t0 = 0.0
     for i, c in enumerate(clips):
         st = int(SR * (t0 + (0.3 if i == 0 else 0.1)))
         audio[st:st + len(c)] += c * 0.95
+        S["scenes"][i]["_chunks"] = make_chunks(S["scenes"][i].get("narr", ""), c, (0.3 if i == 0 else 0.1))
+        if i > 0:
+            wz = whoosh(i); ws = max(0, int(SR * (t0 - 0.25)))
+            audio[ws:ws + len(wz)] += wz[:len(audio) - ws] * 0.35
         t0 += durs[i]
+    wz = whoosh(99); ws = int(SR * (t0 - 0.25)); audio[ws:ws + len(wz)] += wz * 0.4
     audio = audio[:int(SR * T)] + bed(T)
     audio = np.clip(audio, -1, 1)
     wavp = out + ".tmp.wav"
@@ -253,6 +354,9 @@ def main(spec_path):
             p.stdin.write(fr.convert("RGB").tobytes())
         start += durs[i]
         prev_view = view
+    for k in range(int(round(OUT * FPS))):
+        tl = k / FPS
+        p.stdin.write(outro_frame(m, tl, (start + tl) / T).convert("RGB").tobytes())
     p.stdin.close(); p.wait()
     os.replace(tmp, out); os.remove(wavp)
     print("OK", out, round(T, 1), "sn")
