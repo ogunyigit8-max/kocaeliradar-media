@@ -2,3 +2,5 @@ s/*.jpg
 s/*.wav
 s/*.tmp.mp4
 __pycache__/
+tools/assets/_map_cache.png
+v/*.tmp.*
