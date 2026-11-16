@@ -47,3 +47,9 @@
 - Keşfet kuralları: özgünlük, siyasi içerik takip etmeyenlere önerilmez, clickbait/etkileşim dilenciliği öneri dışı (https://creators.instagram.com/recommendations-and-originality , https://themarkup.org/automated-censorship/2024/03/25/instagram-creators-check-if-your-posts-are-political); Trial Reels ≥1.000 takipçi (https://www.thekeyword.co/news/instagram-expands-trial-reels-to-all-public-creators-with-1k-or-more-followers).
 - 0–1.000 takipçi için güvenilir büyüme benchmark'ı bulunamadı.
 **Bildirilen/uygulanan (tekrar bildirme):** önceki 6 öneri uygulandı; yeni öneriler: collab daveti (kullanıcı onayı gerekir), haftalık Hesap Durumu kontrolü, seri formatlar.
+
+## 2026-11-17 (~02:10 TSİ) — kullanıcı onayı: sayı okuma + simülasyon
+- tools/tr_numbers.py: TTS metninde sayılar bütün okunur (1000→bin, D-100→"Deyüz" (ayrı "de yüz" yazınca TTS 0,35 sn duraksıyordu), 17.30→on yedi otuz, %109→yüzde yüz dokuz, 95,60 TL→doksan beş lira altmış kuruş). Speko transcribe testinde sayılar bütün olarak tanındı.
+- tools/news.py "sim": crash / road (traffic|closed) / rain / fire / outage temsili canlandırma; ekranda otomatik "TEMSİLİ CANLANDIRMA" etiketi, caption'a "Görseller temsilidir.". Kullanıcı: simüle edilebilen her olay simüle edilsin. Örnek (Gebze kazası) −14,2 LUFS, tepe −1,7 dBFS.
+- grab_tts.py: Speko sonuç dosya adı biçimi değişmişti (…-<sayı>-<ek>.txt), sıralama düzeltildi.
+- Sabah ve son dakika görev talimatları güncellendi (tr_numbers + sim + pending/breaking "sim" alanı). Büyüme görevi: sim'li ve sim'siz videoların izlenme/atlama farkını takip etsin.

@@ -19,6 +19,9 @@ haber.json:
    {"type":"road","road":[[lat,lon],...],"status":"traffic"|"closed"}   yoğun trafik akışı / yol kapandı
    {"type":"rain","storm":true}   yağış (+şimşek)     {"type":"fire","at":[lat,lon]}   yangın + duman
    {"type":"outage","at":[lat,lon],"r":160}   bölgesel elektrik/su kesintisi
+   KULLANICI İSTEĞİ (17.11.2026): simüle edilebilen HER olayı simüle et; her videoda olaya uyan en az bir
+   "sim" sahnesi olsun (kaza→crash, trafik/yol çalışması/kapanma→road, yağış/fırtına/sel→rain, yangın→fire,
+   elektrik/su/doğalgaz kesintisi→outage). Uygun tür yoksa sim koyma, zorlama.
    Kurallar: yalnızca kaynakta yazan olayı canlandır (kaza türü, yer, yol); ayrıntı uydurma; can kaybı olan
    olaylarda çarpışma animasyonu yerine sakin "road"/pin kullan; kaza sahnelerinde zoom 2.4-2.8.
    Yol koordinatları (yaklaşık): D-100 Gebze-İzmit [[40.835,29.30],[40.82,29.37],[40.805,29.42],[40.797,29.455],
