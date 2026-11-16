@@ -207,6 +207,52 @@ def outro_frame(m, tl, prog):
     return fr
 
 
+def music(T, bpm=100, seed=5):
+    """Telifsiz sentetik haber müziği: davul, bas, akor ve arpej (Am-F-C-G)."""
+    n = int(SR * T); t = np.arange(n) / SR; x = np.zeros(n); rng = np.random.default_rng(seed)
+    beat = 60.0 / bpm; bar = beat * 4
+    prog = [(57, [57, 60, 64]), (53, [53, 57, 60]), (48, [55, 60, 64]), (55, [55, 59, 62])]
+    hz = lambda m: 440 * 2 ** ((m - 69) / 12)
+    def add(st, sig):
+        i = int(st * SR)
+        if i >= n: return
+        L = min(len(sig), n - i); x[i:i + L] += sig[:L]
+    kL = int(SR * 0.35); kt = np.arange(kL) / SR
+    kick = np.sin(2 * np.pi * (45 + 90 * np.exp(-kt * 30)) * kt) * np.exp(-kt * 9) * 0.9
+    hL = int(SR * 0.05); hat = rng.normal(0, 1, hL); hat = (hat - np.convolve(hat, np.ones(8) / 8, "same")) * np.exp(-np.arange(hL) / SR * 90) * 0.18
+    sL = int(SR * 0.2); st_ = np.arange(sL) / SR
+    snare = (rng.normal(0, 1, sL) * 0.5 + np.sin(2 * np.pi * 190 * st_)) * np.exp(-st_ * 18) * 0.35
+    nb = int(T / beat) + 1
+    for b in range(nb):
+        tb = b * beat
+        if b % 4 in (0, 2): add(tb, kick)
+        if b % 4 in (1, 3): add(tb, snare)
+        add(tb, hat); add(tb + beat / 2, hat * 0.7)
+    for k in range(int(T / bar) + 1):
+        root, ch = prog[k % 4]; tb = k * bar
+        L = int(SR * bar); tt = np.arange(L) / SR
+        pad = sum(np.sin(2 * np.pi * hz(m) * tt) + 0.3 * np.sin(2 * np.pi * hz(m) * 2.003 * tt) for m in ch)
+        add(tb, pad * np.clip(tt / 0.3, 0, 1) * np.clip((bar - tt) / 0.3, 0, 1) * 0.07)
+        for q in range(8):  # bas sekizlikler
+            bl = int(SR * beat / 2); bt = np.arange(bl) / SR
+            add(tb + q * beat / 2, np.tanh(2 * np.sin(2 * np.pi * hz(root - 12) * bt)) * np.exp(-bt * 6) * 0.22)
+        arp = ch + [ch[1] + 12]
+        for q in range(8):
+            al = int(SR * 0.3); at = np.arange(al) / SR; m = arp[q % 4] + 12
+            add(tb + q * beat / 2, (np.sin(2 * np.pi * hz(m) * at) + 0.4 * np.sin(4 * np.pi * hz(m) * at)) * np.exp(-at * 9) * 0.08)
+    x = _lowpass(x, 9000)
+    env = np.clip(t / 0.8, 0, 1) * np.clip((T - t) / 1.2, 0, 1)
+    return x / (np.abs(x).max() + 1e-9) * env
+
+
+def _lowpass(x, fc):
+    try:
+        from scipy.signal import butter, sosfilt
+        return sosfilt(butter(2, fc, btype="low", fs=SR, output="sos"), x)
+    except Exception:
+        return x
+
+
 def wrap(s, f, maxw):
     words, lines, cur = s.split(), [], ""
     for w in words:
@@ -299,7 +345,8 @@ def main(spec_path):
     clips = [wav_read(sc["wav"]) for sc in S["scenes"]]
     durs = [len(c) / SR + gap for c in clips]
     durs[0] += 0.3; durs[-1] += 0.6
-    OUT = 3.6
+    cta = wav_read(S["outro_wav"]) if S.get("outro_wav") else None
+    OUT = max(3.6, (len(cta) / SR + 1.1) if cta is not None else 0)
     T = sum(durs) + OUT
     audio = np.zeros(int(SR * T) + SR)
     t0 = 0.0
@@ -312,7 +359,11 @@ def main(spec_path):
             audio[ws:ws + len(wz)] += wz[:len(audio) - ws] * 0.35
         t0 += durs[i]
     wz = whoosh(99); ws = int(SR * (t0 - 0.25)); audio[ws:ws + len(wz)] += wz * 0.4
-    audio = audio[:int(SR * T)] + bed(T)
+    if cta is not None:
+        cs = int(SR * (t0 + 0.35)); audio[cs:cs + len(cta)] += cta[:len(audio) - cs] * 0.95
+    voice_env = np.convolve(np.abs(audio[:int(SR * T)]), np.ones(4410) / 4410, "same")
+    duck = 1 - 0.4 * np.clip(voice_env / (voice_env.max() * 0.25 + 1e-9), 0, 1)
+    audio = audio[:int(SR * T)] + music(T) * 0.5 * duck
     audio = np.clip(audio, -1, 1)
     wavp = out + ".tmp.wav"
     with wave.open(wavp, "wb") as w:
