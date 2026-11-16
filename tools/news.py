@@ -278,12 +278,14 @@ def overlay(sc, k, tl, cat, source, prog):
     ig_icon(d, W - 60 - 98, 190, 34)
     text(d, (W - 60, 240), "@KOCAELIRADAR41", 20, WHITE, 600, "rm")
     # vinyet
-    a = ease(tl / 0.35)
+    # İlk sahnede başlık 0. kareden itibaren tam görünür (Instagram kapak/akış önizlemesi için)
+    st0 = sc.get("_static", False)
+    a = 1.0 if st0 else ease(tl / 0.35)
     big = sc.get("big"); cy = 1180
     if big:
         col = {"white": WHITE, "yellow": YEL, "red": RED, "green": GRN}.get(sc.get("big_color", "white"), WHITE)
         size = 120 if len(big) <= 14 else (96 if len(big) <= 20 else 78)
-        s = 1 + 0.25 * (1 - ease(tl / 0.3))
+        s = 1.0 if st0 else 1 + 0.25 * (1 - ease(tl / 0.3))
         f = font(int(size * s))
         lines = wrap(big, f, W - 120)
         y = cy - (len(lines) - 1) * size * 1.05
@@ -295,7 +297,7 @@ def overlay(sc, k, tl, cat, source, prog):
         cy = y - size * 1.05
     sub = sc.get("sub")
     if sub:
-        b = ease((tl - 0.2) / 0.3)
+        b = 1.0 if st0 else ease((tl - 0.2) / 0.3)
         f = font(44, 700); tw = f.getlength(sub)
         st = sc.get("sub_style", "yellow")
         bg = {"yellow": YEL, "red": RED, "dark": (12, 12, 14)}[st]
@@ -341,6 +343,7 @@ def main(spec_path):
     root = os.path.dirname(HERE)
     out = os.path.join(root, S["out"]) if not os.path.isabs(S["out"]) else S["out"]
     m = build_map()
+    S["scenes"][0]["_static"] = True  # kapak karesi: ilk sahnenin başlığı ilk karede görünür
     gap = 0.35
     clips = [wav_read(sc["wav"]) for sc in S["scenes"]]
     durs = [len(c) / SR + gap for c in clips]
