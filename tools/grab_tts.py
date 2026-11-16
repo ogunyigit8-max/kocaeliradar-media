@@ -17,7 +17,7 @@ out, names = sys.argv[1], sys.argv[2:]
 os.makedirs(out, exist_ok=True)
 fs = sorted(glob.glob(os.path.expanduser("~/.claude/projects/*/*/tool-results/mcp-Speko-audio_synthesize-*.txt")) +
             glob.glob("/root/.claude/projects/*/*/tool-results/mcp-Speko-audio_synthesize-*.txt"),
-            key=lambda p: int(re.search(r"-(\d+)\.txt$", p).group(1)))
+            key=lambda p: int(re.search(r"audio_synthesize-(\d+)(?:-\w+)?\.txt$", p).group(1)))
 fs = list(dict.fromkeys(fs))[-len(names):]
 if len(fs) < len(names):
     sys.exit(f"Yalnızca {len(fs)} sonuç bulundu, {len(names)} gerekiyordu")

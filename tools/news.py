@@ -13,6 +13,20 @@ haber.json:
      "words": [{"text": "Gebze'de", "start_ms": 100, "end_ms": 500}, ...]}
   ]
 }
+"sim" (isteğe bağlı): olayın TEMSİLİ canlandırması; ekranda otomatik "TEMSİLİ CANLANDIRMA" etiketi çıkar.
+   {"type":"crash","at":[lat,lon],"road":[[lat,lon],...],"t_hit":1.9}  iki araç yaklaşır, çarpışır, çakarlar yanar
+       (t_hit≈0.05 verilirse doğrudan olay sonrası görüntü: devrilmiş araçlar + çakar)
+   {"type":"road","road":[[lat,lon],...],"status":"traffic"|"closed"}   yoğun trafik akışı / yol kapandı
+   {"type":"rain","storm":true}   yağış (+şimşek)     {"type":"fire","at":[lat,lon]}   yangın + duman
+   {"type":"outage","at":[lat,lon],"r":160}   bölgesel elektrik/su kesintisi
+   Kurallar: yalnızca kaynakta yazan olayı canlandır (kaza türü, yer, yol); ayrıntı uydurma; can kaybı olan
+   olaylarda çarpışma animasyonu yerine sakin "road"/pin kullan; kaza sahnelerinde zoom 2.4-2.8.
+   Yol koordinatları (yaklaşık): D-100 Gebze-İzmit [[40.835,29.30],[40.82,29.37],[40.805,29.42],[40.797,29.455],
+   [40.79,29.50],[40.78,29.56],[40.775,29.62],[40.765,29.75],[40.765,29.92]]; TEM [[40.84,29.30],[40.83,29.45],
+   [40.80,29.60],[40.78,29.80],[40.77,29.95],[40.75,30.10]].
+SESLENDİRME METNİ: her cümleyi TTS'e göndermeden önce `python3 tools/tr_numbers.py "<cümle>"` ile çevir
+   (sayılar bütün okunur: 1000 -> bin, D-100 -> Deyüz, 17.30 -> on yedi otuz, %109 -> yüzde yüz dokuz,
+   95,60 TL -> doksan beş lira altmış kuruş). Altyazı (narr) metninde rakamlar olduğu gibi kalır.
 "words" (isteğe bağlı, önerilir): o sahnenin WAV'ı için Speko audio_transcribe
 (language "tr", word_timestamps true) çıktısındaki "words" listesi aynen yapıştırılır.
 Altyazı kelime kelime konuşmayla senkron olur; yoksa süre harf sayısıyla tahmin edilir.
@@ -436,6 +450,149 @@ def pins_layer(sc, tl, crop):
     return o
 
 
+# ---------------------------------------------------------------------------
+# OLAY SİMÜLASYONU (temsili canlandırma). Sahnede "sim" alanı ile açılır:
+#   {"type": "crash", "at": [lat, lon], "road": [[lat, lon], ...]}   iki araç yaklaşır, çarpışma, çakar
+#   {"type": "road",  "road": [[lat, lon], ...], "status": "closed"|"traffic"}  yol kapandı / yoğunluk
+#   {"type": "rain",  "storm": true}                                   yağmur (+ şimşek)
+#   {"type": "fire",  "at": [lat, lon]}                                yangın parıltısı + duman
+#   {"type": "outage","at": [lat, lon], "r": 160}                      bölgesel kesinti (karanlık alan)
+# Simülasyon olan sahnelerde ekranda "TEMSİLİ CANLANDIRMA" etiketi otomatik çıkar
+# (izleyici gerçek görüntü sanmasın; yanıltıcı içerik Keşfet'ten düşer).
+# ---------------------------------------------------------------------------
+_RAIN = None
+
+
+def _to_scr(la, lo, crop):
+    x0, y0, cw, ch = crop
+    mx, my = ll2px(la, lo)
+    return ((mx - x0) * W / cw, (my - y0) * H / ch)
+
+
+def _along(pts, f):
+    """Kırık çizgi üzerinde 0..1 oranındaki nokta ve yön açısı."""
+    seg = [math.dist(pts[i], pts[i + 1]) for i in range(len(pts) - 1)]
+    L = sum(seg) or 1; t = max(0.0, min(1.0, f)) * L
+    for i, s in enumerate(seg):
+        if t <= s or i == len(seg) - 1:
+            a = t / s if s else 0
+            p = (pts[i][0] + (pts[i + 1][0] - pts[i][0]) * a, pts[i][1] + (pts[i + 1][1] - pts[i][1]) * a)
+            return p, math.atan2(pts[i + 1][1] - pts[i][1], pts[i + 1][0] - pts[i][0])
+        t -= s
+    return pts[-1], 0.0
+
+
+def _car(d, c, ang, col, L=66, Wd=32, tilt=0.0):
+    """Üstten görünüm araç (dönük dikdörtgen + ön cam)."""
+    ang += tilt
+    ca, sa = math.cos(ang), math.sin(ang)
+    def P(u, v): return (c[0] + u * ca - v * sa, c[1] + u * sa + v * ca)
+    body = [P(-L / 2, -Wd / 2), P(L / 2, -Wd / 2), P(L / 2, Wd / 2), P(-L / 2, Wd / 2)]
+    d.polygon([(x + 3, y + 4) for x, y in body], fill=(0, 0, 0, 140))
+    d.polygon(body, fill=col + (255,), outline=(20, 20, 24, 255))
+    d.polygon([P(L * 0.12, -Wd * 0.38), P(L * 0.32, -Wd * 0.38), P(L * 0.32, Wd * 0.38), P(L * 0.12, Wd * 0.38)], fill=(30, 40, 55, 255))
+
+
+def _road(d, pts, prog, col=(255, 204, 0), w=14):
+    seg = [math.dist(pts[i], pts[i + 1]) for i in range(len(pts) - 1)]
+    L = sum(seg); tgt = L * prog; acc = 0.0; out = [pts[0]]
+    for i, s in enumerate(seg):
+        if acc + s <= tgt: out.append(pts[i + 1]); acc += s
+        else:
+            a = (tgt - acc) / s if s else 0
+            out.append((pts[i][0] + (pts[i + 1][0] - pts[i][0]) * a, pts[i][1] + (pts[i + 1][1] - pts[i][1]) * a)); break
+    if len(out) >= 2:
+        d.line(out, fill=col + (70,), width=w + 16, joint="curve")
+        d.line(out, fill=col + (230,), width=w, joint="curve")
+
+
+def sim_layer(sc, tl, crop):
+    global _RAIN
+    s = sc["sim"]; typ = s.get("type")
+    o = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(o)
+    road = [_to_scr(la, lo, crop) for la, lo in s.get("road", [])]
+    if typ in ("crash", "road") and len(road) >= 2:
+        _road(d, road, ease(tl / 0.8), RED if s.get("status") == "closed" else YEL)
+    if typ == "crash":
+        at = _to_scr(*s["at"], crop); t_hit = s.get("t_hit", 1.6)
+        if len(road) >= 2:  # çarpışma noktasına yol üzerinden yaklaşan iki araç
+            k = min(range(len(road)), key=lambda i: math.dist(road[i], at))
+            pa = road[:k + 1] + [at] if k > 0 else [road[0], at]
+            pb = list(reversed(road[k:])) + [at] if k < len(road) - 1 else [road[-1], at]
+        else:
+            pa = [(at[0] - 380, at[1] + 40), at]; pb = [(at[0] + 380, at[1] - 30), at]
+        f = ease(min(tl / t_hit, 1.0)) * 0.97 + 0.03 * min(tl / t_hit, 1.0)
+        after = max(0.0, tl - t_hit)
+        for path, col, side, tilt_dir in ((pa, (245, 245, 248), -1, 1), (pb, YEL, 1, -1)):
+            rp = list(reversed(path)); Lr = sum(math.dist(rp[i], rp[i + 1]) for i in range(len(rp) - 1)) or 1
+            p, ang = _along(rp, min(1.0, 420 * (1 - f) / Lr)); ang += math.pi  # çarpışma noktasına 420 px'ten yaklaş
+            if after > 0:  # çarpışma sonrası savrulma/devrilme
+                kick = min(after / 0.35, 1.0)
+                p = (at[0] + side * 34 * kick, at[1] + side * 18 * kick)
+                _car(d, p, ang, col, tilt=tilt_dir * 1.2 * ease(kick))
+            else:
+                _car(d, p, ang, col)
+        if after > 0:
+            # darbe parlaması + şok halkaları
+            fl = max(0.0, 1 - after / 0.45)
+            if fl > 0:
+                r = 40 + 220 * (1 - fl)
+                d.ellipse((at[0] - r, at[1] - r, at[0] + r, at[1] + r), fill=(255, 240, 200, int(160 * fl)))
+                for j in range(10):
+                    a = j * math.pi / 5 + 0.3
+                    d.line([(at[0] + math.cos(a) * 30, at[1] + math.sin(a) * 30),
+                            (at[0] + math.cos(a) * (60 + 140 * (1 - fl)), at[1] + math.sin(a) * (60 + 140 * (1 - fl)))],
+                           fill=(255, 220, 120, int(230 * fl)), width=6)
+            for j in range(3):
+                ph = ((after * 0.9) - j * 0.33) % 1.0
+                r = 30 + 150 * ph
+                d.ellipse((at[0] - r, at[1] - r, at[0] + r, at[1] + r), outline=RED + (int(200 * (1 - ph)),), width=5)
+            # ambulans/polis çakarı
+            if after > 0.5:
+                blink = int(tl * 6) % 2
+                for dx, col in ((-16, (230, 40, 50)), (16, (40, 110, 255))):
+                    on = (dx < 0) == bool(blink)
+                    rr = 26 if on else 12
+                    d.ellipse((at[0] + dx - rr, at[1] - 70 - rr, at[0] + dx + rr, at[1] - 70 + rr), fill=col + (230 if on else 110,))
+    elif typ == "road" and s.get("status") == "closed" and len(road) >= 2:
+        c, _ = _along(road, 0.5); a = min(1.0, max(0.0, (tl - 0.6) / 0.3)); r = 46 * (0.6 + 0.4 * a)
+        d.ellipse((c[0] - r - 8, c[1] - r - 8, c[0] + r + 8, c[1] + r + 8), fill=(255, 255, 255, int(235 * a)))
+        d.ellipse((c[0] - r, c[1] - r, c[0] + r, c[1] + r), fill=RED + (int(255 * a),))
+        d.rectangle((c[0] - r * 0.6, c[1] - 7, c[0] + r * 0.6, c[1] + 7), fill=(255, 255, 255, int(255 * a)))
+    elif typ == "road" and len(road) >= 2:  # yoğun trafik: yol boyunca akan araç noktaları
+        for j in range(18):
+            p, _ = _along(road, ((j / 18) + tl * 0.05) % 1.0)
+            d.ellipse((p[0] - 7, p[1] - 7, p[0] + 7, p[1] + 7), fill=(RED if j % 3 else YEL) + (230,))
+    elif typ == "fire":
+        at = _to_scr(*s["at"], crop); g = 0.75 + 0.25 * math.sin(tl * 9) * math.sin(tl * 5.3)
+        for r, al in ((150, 45), (100, 80), (60, 140), (30, 220)):
+            rr = r * g; d.ellipse((at[0] - rr, at[1] - rr, at[0] + rr, at[1] + rr), fill=(255, 120 + (30 if r < 60 else 0), 20, al))
+        rng = np.random.default_rng(5)
+        for j in range(26):
+            ph = (tl * 0.35 + j / 26) % 1.0; dx = rng.uniform(-40, 40) + 70 * ph * rng.uniform(0.3, 1)
+            r = 18 + 60 * ph
+            d.ellipse((at[0] + dx - r, at[1] - 40 - 330 * ph - r, at[0] + dx + r, at[1] - 40 - 330 * ph + r), fill=(70, 70, 75, int(110 * (1 - ph))))
+    elif typ == "outage":
+        at = _to_scr(*s["at"], crop); r = s.get("r", 160) * (1 + 0.04 * math.sin(tl * 3))
+        fl = 1.0 if (int(tl * 7) % 9) else 0.55
+        d.ellipse((at[0] - r, at[1] - r, at[0] + r, at[1] + r), fill=(0, 0, 0, int(170 * fl)), outline=YEL + (200,), width=4)
+    if typ == "rain":
+        if _RAIN is None:
+            rng = np.random.default_rng(42); _RAIN = (rng.uniform(0, W, 260), rng.uniform(0, H, 260), rng.uniform(0.6, 1.4, 260))
+        xs, ys, sp = _RAIN
+        d.rectangle((0, 0, W, H), fill=(10, 20, 35, 60))
+        for x, y, v in zip(xs, ys, sp):
+            yy = (y + tl * 1900 * v) % (H + 80) - 40; xx = (x - tl * 260 * v) % W
+            d.line([(xx, yy), (xx - 9 * v, yy + 46 * v)], fill=(190, 210, 235, int(120 * v)), width=2)
+        if s.get("storm") and (1.1 < (tl % 3.2) < 1.22 or 1.3 < (tl % 3.2) < 1.36):
+            d.rectangle((0, 0, W, H), fill=(235, 240, 255, 110))
+    # zorunlu etiket
+    f = font(28, 700); lab = "TEMSİLİ CANLANDIRMA"; tw = f.getlength(lab)
+    d.rectangle((52, 196, 52 + tw + 28, 240), fill=(10, 10, 12, 215)); d.rectangle((52, 196, 58, 240), fill=RED + (255,))
+    d.text((70, 218), lab, font=f, fill=WHITE, anchor="lm")
+    return o
+
+
 def main(spec_path):
     S = json.load(open(spec_path, encoding="utf-8"))
     root = os.path.dirname(HERE)
@@ -507,6 +664,7 @@ def main(spec_path):
                 g = np.clip(np.maximum(0.55 - yy * 2.2, (yy - 0.55) * 1.4), 0, 0.75)
                 base_ov = Image.fromarray(np.dstack([np.zeros((H, W, 3), np.uint8), (np.repeat(g, W, 1) * 255).astype(np.uint8)]), "RGBA")
             fr.alpha_composite(base_ov)
+            if sc.get("sim"): fr.alpha_composite(sim_layer(sc, tl, (x0, y0, cw, ch)))
             if sc.get("pins"): fr.alpha_composite(pins_layer(sc, tl, (x0, y0, cw, ch)))
             prog = (start + tl) / T
             fr.alpha_composite(overlay(sc, k, tl, S.get("category", "GÜNDEM"), S["source"], prog))
