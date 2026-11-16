@@ -10,8 +10,8 @@ Etiketler: [VERİ] kendi metriklerimiz · [META] Meta/Instagram kaynaklı · [KA
 
 ## Paylaşım aralığı (EN ÖNEMLİ)
 - İki Reels arasında EN AZ 60 dk (tercihen 2+ saat). Dakikalar içinde atılan videolarda dağıtım 1–2 videoda toplandı, diğerleri ~150 erişimde kaldı. [VERİ]
-- Sabah görevi yalnızca 1. videoyu hemen paylaşır; diğerleri "Sıradaki Reels" görevine kalır (12:07, 18:47, 21:17 slotları, slot başına 1 Reels).
-- Son dakika (A) istisnadır; ama 60 dk içinde başka Reels atılmışsa slot görevi bekler.
+- Sabah görevi yalnızca 1. videoyu hemen paylaşır; diğerlerini saatlik son dakika görevi 12:31, 18:31, 21:31'de birer birer paylaşır.
+- Son dakika (A) istisnadır; ama 60 dk içinde başka Reels atılmışsa sıradaki video bir sonraki slota kayar.
 - Günde 3–5 Reels yeterli; medya sektörü ortalaması haftada ~32 gönderi. Sayıyı değil kaliteyi artır. [KAYNAK: Dash Social]
 
 ## Keşfet'e (öneriye) uygunluk — ihlal etme
@@ -57,7 +57,7 @@ Son: hashtag seti (3–6 etiket).
 
 ## En iyi paylaşım saatleri
 - Kendi veri: 19:42 son dakika en yüksek erişim; sabah kümesi aralık sorunu yüzünden ölçülemedi. [VERİ, zayıf]
-- Plan: 08:00–08:30 (sabah 1. video: kesinti/trafik/hava), 12:07, 18:47, 21:17. 7–14 gün sonra saat bazlı erişimle güncellenecek. [ÖNERİ]
+- Plan: ~08:15 (sabah 1. video: kesinti/trafik/hava), 12:31, 18:31, 21:31. 7–14 gün sonra saat bazlı erişimle güncellenecek. [ÖNERİ]
 
 ## Öncelikli konu türleri
 1. Son dakika kaza/olay (somut sayı, yer) [VERİ: en yüksek erişim]
