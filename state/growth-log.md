@@ -32,3 +32,18 @@
 - İzlenecek rakip: @kocaeligundem (https://hypeauditor.com/instagram/kocaeligundem/ — rakamlar okunmadı)
 
 **Bildirilen öneriler (tekrar bildirme):** (1) min. 60 dk paylaşım aralığı, (2) müzik seviyesini düşürme, (3) altyazıyı güvenli alana taşıma, (4) Cartesia kelime zaman damgası, (5) Emre hız 0.9, (6) pending kaydına voice alanı.
+
+## 2026-11-16 (Pzt, ~23:55 TSİ) — kullanıcı tüm önerileri onayladı, uygulandı
+**Kod (tools/news.py, tools/grab_tts.py):**
+- Müzik: kazanç 0.5→0.20, ducking yalnızca konuşma izinden, derinlik 0.4→0.65, yumuşak atak/bırakma, müzikte 800–3000 Hz ~−5 dB. Test: konuşma/müzik ayrımı ~10 dB → ~23 dB.
+- Ses zinciri: kompresör + ölçümlü sabit kazanç + limitör (tek geçiş loudnorm kısa videoda −17/−18 LUFS'ta kalıyordu; yeni zincir −14,3 LUFS, tepe −1,2 dBFS).
+- Altyazı y 1560→1400, kaynak satırı 1790→1478 (Instagram alt arayüzü dışında); punto 44→48; konuşulan kelime sarı vurgulu.
+- Kelime senkronu: sahneye "words" (Speko audio_transcribe word_timestamps, gemini-3.5-transcribe; Türkçe testte çalıştı, 100 ms çözünürlük) eklenirse altyazı kelime kelime senkron; yoksa eski tahmin. grab_tts.py imzalı ses URL'lerini urls.json'a yazıyor.
+- Emre: Speko synthesize "speed": 0.9 (196 → ~176 kelime/dk). Aylin 1.0.
+**Görev akışı:** sabah görevi yalnızca 1. Reels'i hemen paylaşır; diğerleri yeni "Sıradaki Reels" görevine (12:07, 18:47, 21:17; min. 60 dk aralık). Son dakika kayıtlarına voice + reel_posted_at alanı. Büyüme görevi artık küçük, test edilmiş iyileştirmeleri uygulayabilir.
+**Araştırma (rakip/benchmark):**
+- Ulusal: @bpthaber ~3,23 mn (https://livecounts.org/instagram-takipci-sayaci/bpthaber), @trthaber ~3,15 mn ER %0,16, @tvahaber ~1,74 mn ER %0,29, @tvgundemi ~569 bin ER %0,85, @sondakika.turkiye ~340 bin ER %0,69 (https://socialveins.com/influencer/instagram/<hesap>, Nisan 2026). Yerel: @igdir_havadis ~54,6 bin, @polatlihaberleri ~50,7 bin, @hayaleturkcom ~24,6 bin; @kocaeligundem verisi okunamadı.
+- Benchmark: 1–5 bin takipçi yıllık takipçi büyümesi ~%22, Reels başına ort. ~580 izlenme (https://www.socialinsider.io/instagram-engagement-report-2025/ , https://www.socialinsider.io/tr/social-media-benchmarks/instagram); <1.000 takipçide Reels medyan erişimi 134 (https://www.netinfluencer.com/instagram-carousels-outperform-reels-for-larger-accounts-content-performance-benchmarks-show/); Reels erişiminin ~%47'si takip etmeyenlerden (https://www.fanpagekarma.com/insights/tiktok-vs-instagram-reach/); medya sektörü aylık takipçi büyümesi %0,9, haftada ~32 gönderi (https://dashsocial.com/social-media-benchmarks/media-industry); 10 bin altı collab gönderileri ~5x etkileşim (https://www.netinfluencer.com/instagram-collaboration-posts-outperform-standard-content-analysis-finds/).
+- Keşfet kuralları: özgünlük, siyasi içerik takip etmeyenlere önerilmez, clickbait/etkileşim dilenciliği öneri dışı (https://creators.instagram.com/recommendations-and-originality , https://themarkup.org/automated-censorship/2024/03/25/instagram-creators-check-if-your-posts-are-political); Trial Reels ≥1.000 takipçi (https://www.thekeyword.co/news/instagram-expands-trial-reels-to-all-public-creators-with-1k-or-more-followers).
+- 0–1.000 takipçi için güvenilir büyüme benchmark'ı bulunamadı.
+**Bildirilen/uygulanan (tekrar bildirme):** önceki 6 öneri uygulandı; yeni öneriler: collab daveti (kullanıcı onayı gerekir), haftalık Hesap Durumu kontrolü, seri formatlar.

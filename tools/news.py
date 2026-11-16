@@ -9,9 +9,13 @@ haber.json:
   "scenes": [
     {"wav": "/yol/sahne1.wav", "big": "BAŞLIK", "big_color": "white|yellow|red|green",
      "sub": "ALT BAŞLIK", "sub_style": "yellow|red|dark", "narr": "Altyazı metni",
-     "focus": [lat, lon], "zoom": 1.0, "pins": [["ETİKET", lat, lon], ...]}
+     "focus": [lat, lon], "zoom": 1.0, "pins": [["ETİKET", lat, lon], ...],
+     "words": [{"text": "Gebze'de", "start_ms": 100, "end_ms": 500}, ...]}
   ]
 }
+"words" (isteğe bağlı, önerilir): o sahnenin WAV'ı için Speko audio_transcribe
+(language "tr", word_timestamps true) çıktısındaki "words" listesi aynen yapıştırılır.
+Altyazı kelime kelime konuşmayla senkron olur; yoksa süre harf sayısıyla tahmin edilir.
 Harita verisi: tools/assets/tr-cities.json (il sınırları GeoJSON).
 """
 import json, os, sys, wave, subprocess, math
@@ -25,6 +29,12 @@ from stories import font, text, W, H, YEL, RED, GRN, WHITE  # noqa: E402
 A = os.path.join(HERE, "assets")
 FPS = 30
 SR = 44100
+# Altyazı ve kaynak satırı Instagram Reels arayüzünün (alt açıklama + sağ butonlar) dışında
+SUB_Y = 1400
+SRC_Y = 1478
+# Ses miksi: anlatım altındaki müzik ~18-20 dB geride olmalı (anlatım netliği)
+MUSIC_GAIN = 0.20     # müzik taban seviyesi (eski: 0.5); konuşma altında ~22-23 dB geride
+DUCK_DEPTH = 0.65     # konuşma sırasında müziği ek ~-9 dB kıs (eski: 0.4 ≈ -4 dB)
 # Harita kanvası (eşdikdörtgen, cos(enlem) düzeltmeli)
 LON0, LON1 = 28.2, 31.2
 LAT_C = 40.8
@@ -157,19 +167,63 @@ def speech_bounds(x):
     return (idx[0] / SR, idx[-1] / SR) if len(idx) else (0, len(x) / SR)
 
 
-def make_chunks(narr, x, offset, maxw=3):
-    """Altyazıyı 2-4 kelimelik parçalara böl, konuşma süresine harf sayısıyla yay."""
-    words = narr.split(); chunks = []; cur = []
-    for w in words:
-        cur.append(w)
+def _norm(w):
+    import re as _re
+    w = w.lower().replace("i̇", "i").replace("’", "'")
+    return _re.sub(r"[^\wçğıöşü]", "", w)
+
+
+def word_times(narr_words, stt_words):
+    """Altyazı kelimelerine (narr) STT kelime zaman damgalarını eşle (difflib ile hizalama).
+    stt_words: Speko audio_transcribe(word_timestamps=true) çıktısındaki 'words' listesi
+    ([{"text","start_ms","end_ms"}]). Eşleşmeyen kelimeler komşularından enterpole edilir.
+    Döner: [(başlangıç_sn, bitiş_sn), ...] (narr_words ile aynı uzunlukta) veya None."""
+    import difflib
+    if not stt_words or not narr_words:
+        return None
+    a = [_norm(w) for w in narr_words]; b = [_norm(w["text"]) for w in stt_words]
+    tm = [None] * len(a)
+    for blk in difflib.SequenceMatcher(None, a, b, autojunk=False).get_matching_blocks():
+        for k in range(blk.size):
+            w = stt_words[blk.b + k]; tm[blk.a + k] = (w["start_ms"] / 1000, w["end_ms"] / 1000)
+    if sum(t is not None for t in tm) < max(2, len(a) * 0.4):
+        return None  # hizalama zayıf -> eski yönteme dön
+    t0 = stt_words[0]["start_ms"] / 1000; t1 = stt_words[-1]["end_ms"] / 1000
+    known = [i for i, t in enumerate(tm) if t is not None]
+    for i in range(len(tm)):
+        if tm[i] is not None: continue
+        lo = max([k for k in known if k < i], default=None); hi = min([k for k in known if k > i], default=None)
+        s = tm[lo][1] if lo is not None else t0; e = tm[hi][0] if hi is not None else t1
+        n_gap = (hi if hi is not None else len(tm)) - (lo if lo is not None else -1) - 1
+        pos = i - (lo if lo is not None else -1) - 1
+        step = max(e - s, 0.01) / n_gap
+        tm[i] = (s + step * pos, s + step * (pos + 1))
+    return tm
+
+
+def make_chunks(narr, x, offset, maxw=3, stt=None):
+    """Altyazıyı 2-3 kelimelik parçalara böl.
+    stt (kelime zaman damgaları) varsa her kelime gerçek konuşma anına göre zamanlanır;
+    yoksa konuşma süresine harf sayısıyla yayılır.
+    Döner: [(başlangıç, bitiş, metin, [(kelime, k_başlangıç, k_bitiş), ...]), ...]"""
+    words = narr.split()
+    groups = []; cur = []
+    for i, w in enumerate(words):
+        cur.append(i)
         if len(cur) >= maxw or w[-1] in ".,;:!?":
-            chunks.append(" ".join(cur)); cur = []
-    if cur: chunks.append(" ".join(cur))
-    a, b = speech_bounds(x); a += offset; b += offset
-    tot = sum(len(c) + 2 for c in chunks); t = a; out = []
-    for c in chunks:
-        dt = (b - a) * (len(c) + 2) / tot
-        out.append((t, t + dt + (0.25 if c is chunks[-1] else 0.05), c)); t += dt
+            groups.append(cur); cur = []
+    if cur: groups.append(cur)
+    wt = word_times(words, stt) if stt else None
+    if wt is None:
+        a, b = speech_bounds(x)
+        tot = sum(len(w) + 1 for w in words) or 1; t = a; wt = []
+        for w in words:
+            dt = (b - a) * (len(w) + 1) / tot; wt.append((t, t + dt)); t += dt
+    out = []
+    for gi, g in enumerate(groups):
+        s = wt[g[0]][0] + offset
+        e = (wt[groups[gi + 1][0]][0] + offset) if gi + 1 < len(groups) else (wt[g[-1]][1] + offset + 0.3)
+        out.append((s - 0.05, e, " ".join(words[i] for i in g), [(words[i], wt[i][0] + offset, wt[i][1] + offset) for i in g]))
     return out
 
 
@@ -253,6 +307,44 @@ def _lowpass(x, fc):
         return x
 
 
+def loudnorm_filter(wavp, I=-14.0):
+    """Ses zinciri: hafif konuşma kompresörü -> ölçülen değere göre sabit kazanç (-14 LUFS)
+    -> tepe limitörü (~-1.9 dBFS). Tek geçişli loudnorm kısa videolarda hedefin 3-4 LU
+    altında kalıyordu; bu zincir hedefe doğrusal (pompalamasız) ulaşır."""
+    pre = "acompressor=threshold=0.1:ratio=3:attack=5:release=120:makeup=1.6"
+    lim = "alimiter=limit=0.8:attack=2:release=50:level=false"
+    import re as _re
+    def meas(chain):
+        r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", wavp, "-af", chain + ",ebur128", "-f", "null", "-"],
+                           capture_output=True, text=True).stderr
+        return float(_re.findall(r"I:\s+(-?[\d.]+) LUFS", r)[-1])
+    try:
+        gain = I - meas(pre)
+        for _ in range(3):  # limitörün yediği seviyeyi telafi ederek hedefe yaklaş
+            got = meas(f"{pre},volume={gain:.2f}dB,{lim}")
+            if abs(got - I) < 0.3: break
+            gain = max(-20.0, min(24.0, gain + (I - got)))
+        return f"{pre},volume={gain:.2f}dB,{lim}"
+    except Exception:
+        return f"{pre},loudnorm=I={I}:TP=-1.5:LRA=11"
+
+
+def _movavg(x, k):
+    """Hızlı hareketli ortalama (kümülatif toplam, 'same' hizalı)."""
+    c = np.cumsum(np.concatenate([np.zeros(k // 2 + 1), x, np.zeros(k - k // 2)]))
+    return (c[k:k + len(x)] - c[:len(x)]) / k
+
+
+def _speech_eq(x):
+    """Müzikte konuşma bandını (≈800-3000 Hz) ~5 dB oy: anlatım daha net duyulur."""
+    try:
+        from scipy.signal import butter, sosfilt
+        band = sosfilt(butter(2, [800, 3000], btype="band", fs=SR, output="sos"), x)
+        return x - 0.45 * band
+    except Exception:
+        return x
+
+
 def wrap(s, f, maxw):
     words, lines, cur = s.split(), [], ""
     for w in words:
@@ -306,13 +398,19 @@ def overlay(sc, k, tl, cat, source, prog):
         d.rectangle((W / 2 - tw / 2 - 18, y - 32, W / 2 + tw / 2 + 18, y + 32), fill=bg + (int(240 * b),))
         d.text((W / 2, y), sub, font=f, fill=fg + (int(255 * b),), anchor="mm")
     chunk = None
-    for c0, c1, txt in sc.get("_chunks", []):
-        if c0 <= tl < c1: chunk = txt
+    for c0, c1, txt, wl in sc.get("_chunks", []):
+        if c0 <= tl < c1: chunk = (txt, wl)
+    # Altyazı: Instagram'ın alt arayüzünden (açıklama/butonlar) uzak, güvenli bölgede.
+    # Konuşulan kelime sarı vurgulanır (kelime zaman damgasıyla senkron).
     if chunk:
-        f = font(44, 700); tw = f.getlength(chunk); y = 1560
-        d.rectangle((W / 2 - tw / 2 - 18, y - 32, W / 2 + tw / 2 + 18, y + 32), fill=(8, 8, 10, 230))
-        d.text((W / 2, y), chunk, font=f, fill=WHITE, anchor="mm")
-    text(d, (52, 1790), source, 22, (200, 200, 205), 500, "lm")
+        txt, wl = chunk
+        f = font(48, 700); sp = f.getlength(" "); tw = f.getlength(txt); y = SUB_Y
+        d.rectangle((W / 2 - tw / 2 - 20, y - 36, W / 2 + tw / 2 + 20, y + 36), fill=(8, 8, 10, 230))
+        x = W / 2 - tw / 2
+        for w, w0, w1 in wl:
+            col = YEL if w0 <= tl < max(w1, w0 + 0.12) else WHITE
+            d.text((x, y), w, font=f, fill=col, anchor="lm"); x += f.getlength(w) + sp
+    text(d, (W / 2, SRC_Y), source, 24, (205, 205, 210), 500, "mm")
     return o
 
 
@@ -352,11 +450,13 @@ def main(spec_path):
     OUT = max(3.6, (len(cta) / SR + 1.1) if cta is not None else 0)
     T = sum(durs) + OUT
     audio = np.zeros(int(SR * T) + SR)
+    voice = np.zeros_like(audio)
     t0 = 0.0
     for i, c in enumerate(clips):
         st = int(SR * (t0 + (0.3 if i == 0 else 0.1)))
-        audio[st:st + len(c)] += c * 0.95
-        S["scenes"][i]["_chunks"] = make_chunks(S["scenes"][i].get("narr", ""), c, (0.3 if i == 0 else 0.1))
+        audio[st:st + len(c)] += c * 0.95; voice[st:st + len(c)] += c
+        S["scenes"][i]["_chunks"] = make_chunks(S["scenes"][i].get("narr", ""), c, (0.3 if i == 0 else 0.1),
+                                                stt=S["scenes"][i].get("words"))
         if i > 0:
             wz = whoosh(i); ws = max(0, int(SR * (t0 - 0.25)))
             audio[ws:ws + len(wz)] += wz[:len(audio) - ws] * 0.35
@@ -364,9 +464,14 @@ def main(spec_path):
     wz = whoosh(99); ws = int(SR * (t0 - 0.25)); audio[ws:ws + len(wz)] += wz * 0.4
     if cta is not None:
         cs = int(SR * (t0 + 0.35)); audio[cs:cs + len(cta)] += cta[:len(audio) - cs] * 0.95
-    voice_env = np.convolve(np.abs(audio[:int(SR * T)]), np.ones(4410) / 4410, "same")
-    duck = 1 - 0.4 * np.clip(voice_env / (voice_env.max() * 0.25 + 1e-9), 0, 1)
-    audio = audio[:int(SR * T)] + music(T) * 0.5 * duck
+        voice[cs:cs + len(cta)] += cta[:len(audio) - cs]
+    audio = audio[:int(SR * T)]
+    # ducking yalnızca konuşma izinden (whoosh'lar hariç), yumuşak atak/bırakma (~0.35 sn)
+    venv = _movavg(np.abs(voice[:int(SR * T)]), 2205)
+    gate = np.clip(venv / (venv.max() * 0.08 + 1e-9), 0, 1)
+    gate = _movavg(gate, int(SR * 0.35))
+    duck = 1 - DUCK_DEPTH * np.clip(gate * 1.5, 0, 1)
+    audio = audio + _speech_eq(music(T)) * MUSIC_GAIN * duck
     audio = np.clip(audio, -1, 1)
     wavp = out + ".tmp.wav"
     with wave.open(wavp, "wb") as w:
@@ -375,7 +480,7 @@ def main(spec_path):
     tmp = out + ".tmp.mp4"
     p = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
                           "-i", wavp, "-c:v", "libx264", "-preset", "slow", "-crf", "18", "-profile:v", "high", "-pix_fmt", "yuv420p",
-                          "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-shortest", "-movflags", "+faststart", tmp], stdin=subprocess.PIPE)
+                          "-af", loudnorm_filter(wavp), "-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-shortest", "-movflags", "+faststart", tmp], stdin=subprocess.PIPE)
     default_focus = [40.78, 29.85]
     start = 0.0
     prev_view = None
