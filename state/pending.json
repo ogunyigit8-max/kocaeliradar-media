@@ -3,7 +3,7 @@
   {
    "date": "2026-11-17",
    "created_at": "2026-11-17T08:12:59+03:00",
-   "status": "scheduled",
+   "status": "published",
    "videos": [
     {
      "file": "v/2026-11-17-elektrik-kesintisi.mp4",
@@ -35,9 +35,11 @@
      "caption": "⚽ Kocaelispor, Cumartesi evinde Fenerbahçe'yi ağırlıyor\nSüper Lig'in 12. haftasında 21 Kasım Cumartesi oynanacak maç için yeşil-siyahlılar Körfez'deki tesislerde hazırlanıyor.\nKaleci Onurcan Piri kapalı gişe beklediğini, Mustafa Ege Bilim ise önceliklerinin 3 puan olduğunu söyledi.\nSizce Kocaelispor Fenerbahçe'yi yener mi?\nKaynak: A Spor, Yeni Şafak, Habertürk\n#kocaeli #kocaeliradar #kocaelispor #fenerbahçe #izmit",
      "voice": "aylin",
      "sim": false,
-     "story_done": false,
-     "reel_done": false,
-     "posted_at": null
+     "story_done": true,
+     "reel_done": true,
+     "posted_at": "2026-11-17T18:34:19+03:00",
+     "story_media_id": "17924581704452250",
+     "reel_media_id": "18121449350089781"
     }
    ]
   }
