@@ -1,1 +1,41 @@
-{"batches": []}
+{
+ "batches": [
+  {
+   "date": "2026-11-17",
+   "created_at": "2026-11-17T08:12:59+03:00",
+   "status": "scheduled",
+   "videos": [
+    {
+     "file": "v/2026-11-17-elektrik-kesintisi.mp4",
+     "title": "Kocaeli'de bugün bazı mahalleler 8 saat elektriksiz",
+     "caption": "⚡ Kocaeli elektrik kesintisi: bugün bazı mahalleler 8 saat elektriksiz\nSEDAŞ'ın planlı kesinti listesine göre bugün (17 Kasım) Gölcük (Ayvazpınarı, Lütfiye, Sofular), Körfez (Belen, Elmacık, Atalar), Başiskele (Aydınkent, Serdar) ve Çayırova'da (İnönü, Özgürlük) 09.00-17.00 arası kesinti var.\nİzmit Yahyakaptan'da 09.00-12.00 ve 13.00-16.00, Darıca Bayramoğlu'nda 09.00-16.00 arası elektrik olmayacak. Kandıra, Karamürsel, Kartepe ve Derince'de de kısa süreli kesintiler planlandı. Arıza bildirimi: 186.\nMahallenizde kesinti var mı? Bu listeyi etkilenen birine gönder.\nGörseller temsilidir.\nKaynak: SEDAŞ, Kocaeli Kent Gazetesi\n#kocaeli #kocaeliradar #elektrikkesintisi #gölcük #körfez #izmit",
+     "voice": "aylin",
+     "sim": true,
+     "story_done": false,
+     "reel_done": false,
+     "posted_at": null
+    },
+    {
+     "file": "v/2026-11-17-darica-26-hat.mp4",
+     "title": "Darıca'da 26 otobüs hattının güzergâhı değişiyor",
+     "caption": "🚌 Darıca'da 26 otobüs hattının güzergâhı değişiyor\nBağlarbaşı Mahallesi İstasyon Caddesi'ndeki altyapı çalışması nedeniyle 26 hat, 18 Kasım saat 09.30'dan 19 Kasım Çarşamba 23.00'e kadar farklı güzergâh kullanacak.\nEtkilenen hatlar: 310, 315, 400, 410, 415, 420, 425, 440, 500, 501, 501B, 501E, 501H, 502, 504, 504B, 506, 507, 510, 510B, 515, 515B, 530, 535, 550B, SH21.\nBu hatlardan birini kullanıyor musunuz? Bu duyuruyu bu hatla yolculuk eden birine gönder.\nGörseller temsilidir.\nKaynak: Kocaeli Büyükşehir Belediyesi, Özgün Kocaeli\n#kocaeli #kocaeliradar #kocaelibüyükşehir #kocaelitrafik #darıca",
+     "voice": "emre",
+     "sim": true,
+     "story_done": false,
+     "reel_done": false,
+     "posted_at": null
+    },
+    {
+     "file": "v/2026-11-17-kocaelispor-fenerbahce.mp4",
+     "title": "Kocaelispor, Cumartesi evinde Fenerbahçe'yi ağırlıyor",
+     "caption": "⚽ Kocaelispor, Cumartesi evinde Fenerbahçe'yi ağırlıyor\nSüper Lig'in 12. haftasında 21 Kasım Cumartesi oynanacak maç için yeşil-siyahlılar Körfez'deki tesislerde hazırlanıyor.\nKaleci Onurcan Piri kapalı gişe beklediğini, Mustafa Ege Bilim ise önceliklerinin 3 puan olduğunu söyledi.\nSizce Kocaelispor Fenerbahçe'yi yener mi?\nKaynak: A Spor, Yeni Şafak, Habertürk\n#kocaeli #kocaeliradar #kocaelispor #fenerbahçe #izmit",
+     "voice": "aylin",
+     "sim": false,
+     "story_done": false,
+     "reel_done": false,
+     "posted_at": null
+    }
+   ]
+  }
+ ]
+}
