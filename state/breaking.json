@@ -36,6 +36,15 @@
   {
    "date": "2026-11-17",
    "topic": "Kocaelispor-Fenerbahçe 12. hafta (21 Kasım) maç önü"
+  },
+  {
+   "date": "2026-11-17",
+   "time": "15:45",
+   "topic": "MGM sarı kodlu rüzgar/fırtına uyarısı Kocaeli (18 Kasım 00.00 - 19 Kasım 13.00, güneyli 60-80 km/s)",
+   "level": "B",
+   "voice": "emre",
+   "sim": true,
+   "reel_posted_at": null
   }
  ]
 }
