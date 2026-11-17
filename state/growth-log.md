@@ -53,3 +53,21 @@
 - tools/news.py "sim": crash / road (traffic|closed) / rain / fire / outage temsili canlandırma; ekranda otomatik "TEMSİLİ CANLANDIRMA" etiketi, caption'a "Görseller temsilidir.". Kullanıcı: simüle edilebilen her olay simüle edilsin. Örnek (Gebze kazası) −14,2 LUFS, tepe −1,7 dBFS.
 - grab_tts.py: Speko sonuç dosya adı biçimi değişmişti (…-<sayı>-<ek>.txt), sıralama düzeltildi.
 - Sabah ve son dakika görev talimatları güncellendi (tr_numbers + sim + pending/breaking "sim" alanı). Büyüme görevi: sim'li ve sim'siz videoların izlenme/atlama farkını takip etsin.
+
+## 2026-11-17 (Sal, ~23:30 TSİ) — günlük analiz
+**Hesap (Windsor.ai, önbellek; TRIAL planda force_refresh yok):** 428 takipçi (16.11 analizinde 107). Yeni takipçi 15.11 +2, 16.11 +268 (17.11 henüz 0/eksik). Günlük erişim 15.11 2.753 · 16.11 17.617 · 17.11 14.827; takip etmeyen payı %99,5 / %98,2.
+| Saat (TSİ) | Video | Ses | Sim | Süre | Erişim | Atlama | Ort. izl. | Payl.+Kayıt/Erişim |
+|---|---|---|---|---|---|---|---|---|
+| 16.11 19:42 | Gebze minibüs kazası (güncel) | ? | – | 31,9 sn | 11.301 | %37,9 | 13,7 sn | %0,70 (69 payl.) |
+| 17.11 08:14 | Elektrik kesintisi 8 saat | Aylin | ✓ | 34,2 sn | 6.664 | %43,5 | 9,2 sn | %0,89 (52 payl.) |
+| 17.11 12:33 | Darıca 26 hat | Emre | ✓ | 33,6 sn | 1.394 | %43,3 | 8,0 sn | %0,93 |
+| 17.11 15:41 | Fırtına uyarısı (B) | Emre | ✓ | 29,5 sn | 3.360 | %57,1 | 6,5 sn | %0,63 |
+| 17.11 18:34 | Kocaelispor–Fenerbahçe | Aylin | – | 27,8 sn | 1.393 | %42,2 | 8,9 sn | %0,22 (0 payl.) |
+- Aralık kuralı doğrulandı: 17.11'de 2–3 saat arayla 4 video → hepsi 1.390+; 16.11 peş peşe 4 video → 179–245.
+- Yeni ses/altyazı sürümü (17.11) vs eski (16.11, kümelenmeyenler): ort. atlama %46,5 vs %44,3, ort. izlenme 8,1 vs 9,1 sn → fark yok/örneklem küçük. Aynı konu: elektrik %50,8→%43,5 atlama, 7,7→9,2 sn (iyileşme); hava uyarısı %49,9→%57,1 (kötüleşme). Ses (Emre/Aylin) ve sim etkisi n=2'de ayrıştırılamıyor; 7 gün sonra tekrar bak.
+- Hashtag: Instagram Aralık 2025'ten beri gönderi başına 5 hashtag sınırı uyguluyor; 17.11 elektrik/fırtına caption'larında 6 vardı → growth.md kuralı ≤5 (tek ilçe) yapıldı.
+- Meta 3. çeyrek bilançosu: önerilen Reels'in ~%45'i 1 günden yeni; Reels artık Reels dizilerini sıralıyor → tazelik/hız kuralı eklendi.
+- Kod değişikliği yok: yeni sürüm 1 günlük, veriyle değerlendirilmeden ses/altyazıya dokunulmadı. 0. kare kontrolü (fırtına, elektrik): başlık ilk karede tam görünür.
+- @kocaeligundem: hypeauditor erişilemedi, socialveins/livecounts izin zaman aşımı → rakam yok.
+**Kaynaklar:** https://keywordseverywhere.com/news/instagram-algorithm-updates/ (16.11.2026; Q3 bilanço, Features testi, Nisan orijinallik), https://metricool.com/instagram-news/ (Trial Reels aylık sınır, skip/share rate Insights'ta), https://www.truefuturemedia.com/articles/lower-instagram-reels-skip-rate , https://metricool.com/instagram-reel-analytics/ , https://www.socialmediatoday.com/news/instagram-implements-new-limits-on-hashtag-use/808309/ , https://www.businesstoday.in/technology/news/story/no-more-hashtag-stuffing-instagram-limits-hashtag-usage-to-just-5-per-reel-and-post-507444-2025-12-19
+**Bildirilen (tekrar bildirme):** Windsor.ai TRIAL planda — deneme bitince günlük analiz durur; karar: ücretli plan ya da Supermetrics (instagram_insights/IGI, bağlı) ile yedek. Hashtag ≤5 kuralı bilgi olarak iletildi.
