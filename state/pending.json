@@ -42,6 +42,23 @@
      "reel_media_id": "18121449350089781"
     }
    ]
+  },
+  {
+   "date": "2026-11-18",
+   "created_at": "2026-11-18T08:16:00+03:00",
+   "status": "scheduled",
+   "videos": [
+    {
+     "file": "v/2026-11-18-elektrik-kesintisi.mp4",
+     "title": "Kocaeli'de bugün 7 ilçede elektrik kesintisi",
+     "caption": "⚡ Kocaeli elektrik kesintisi: bugün 7 ilçede, bazı adreslerde 8 saat\n18 Kasım'da Gebze (Arapçeşme, Sultan Orhan) ve Dilovası Tepecik'te 09.00-17.00 arası kesinti var. Darıca'da Cami, Piri Reis ve Bağlarbaşı'nda 09.00-15.00, Çayırova'da 09.00-16.00 arası dönem dönem elektrik kesilecek.\nİzmit Yahyakaptan'da 09.00-12.00 ve 13.00-16.00, Derince Çenedağ ve Çınarlı'da 09.00-17.00 arası; Kandıra'da Kurtyeri dahil 11 mahallede de kesinti planlandı.\nMahallenizde kesinti var mı? Bu listeyi etkilenen birine gönder.\nGörseller temsilidir.\nKaynak: Özgün Kocaeli\n#kocaeli #kocaeliradar #elektrikkesintisi #gebze #izmit",
+     "voice": "aylin",
+     "sim": true,
+     "story_done": false,
+     "reel_done": false,
+     "posted_at": null
+    }
+   ]
   }
  ]
 }
