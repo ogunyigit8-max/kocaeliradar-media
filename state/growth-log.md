@@ -71,3 +71,20 @@
 - @kocaeligundem: hypeauditor erişilemedi, socialveins/livecounts izin zaman aşımı → rakam yok.
 **Kaynaklar:** https://keywordseverywhere.com/news/instagram-algorithm-updates/ (16.11.2026; Q3 bilanço, Features testi, Nisan orijinallik), https://metricool.com/instagram-news/ (Trial Reels aylık sınır, skip/share rate Insights'ta), https://www.truefuturemedia.com/articles/lower-instagram-reels-skip-rate , https://metricool.com/instagram-reel-analytics/ , https://www.socialmediatoday.com/news/instagram-implements-new-limits-on-hashtag-use/808309/ , https://www.businesstoday.in/technology/news/story/no-more-hashtag-stuffing-instagram-limits-hashtag-usage-to-just-5-per-reel-and-post-507444-2025-12-19
 **Bildirilen (tekrar bildirme):** Windsor.ai TRIAL planda — deneme bitince günlük analiz durur; karar: ücretli plan ya da Supermetrics (instagram_insights/IGI, bağlı) ile yedek. Hashtag ≤5 kuralı bilgi olarak iletildi.
+
+## 2026-11-18 (Çar, ~23:30 TSİ) — günlük analiz
+**Hesap (Windsor.ai):** 511 takipçi (17.11: 428). Yeni takipçi 16.11 +268 · 17.11 +221 · 18.11 ~+83 (gün içi). Günlük erişim 17.11 20.021 (takip etmeyen %98,7), 18.11 3.314 (eksik). Dönüşüm 17.11 %1,1. Projeksiyon (tahmin): 1.000 takipçi ≈ 21–25 Kasım.
+| Saat (TSİ) | Video | Ses | Sim | Süre | Erişim | Atlama | Ort. izl. | Payl.+Kayıt/Erişim |
+|---|---|---|---|---|---|---|---|---|
+| 17.11 08:14 | Elektrik kesintisi | Aylin | ✓ | 34,2 | 8.930 | %43,4 | 9,8 | %0,87 (65 payl.) |
+| 17.11 12:33 | Darıca 26 hat | Emre | ✓ | 33,6 | 1.963 | %42,8 | 9,4 | %1,73 |
+| 17.11 15:41 | Fırtına uyarısı | Emre | ✓ | 29,5 | 4.785 | %55,7 | 7,3 | %0,65 |
+| 17.11 18:34 | Kocaelispor maç önü | Aylin | – | 27,8 | 1.539 | %42,9 | 8,9 | %0,32 |
+| 18.11 08:09 | Elektrik kesintisi (7 ilçe) | Aylin | ✓ | 38,8 | 2.157 | %47,0 | 8,6 | %1,30 |
+| 18.11 12:34 | Baraj doluluk | Emre | – | 32,3 | 1.661 | %49,0 | 9,6 | %0,12 (0 payl.) |
+- 18.11'de yalnızca 2 Reels (18:31/21:31 slotları boş) → günlük erişim düşük.
+- Aynı format ertesi gün: elektrik 8,9 bin → 2,2 bin; growth.md'ye "tekrarlayan format yorulması" kuralı eklendi. Baraj/spor: paylaşım yok → "gönder" sebebi olmayan konular.
+- Ses/sim: Emre vs Aylin ve sim'li vs sim'siz farkı hâlâ konu etkisinden ayrıştırılamıyor (n küçük). Kod değişikliği yok (veri desteği yetersiz).
+- @kocaeligundem: hypeauditor client_error; rakam yok.
+**Kaynaklar:** https://www.socialpilot.co/es/blog/instagram-reels-algorithm (Eyl 2026: Your Algorithm Reels→Keşfet→Akış, Nis 2026 orijinallik/aggregator, 3 dk öneri sınırı), https://www.pulse-advertising.com/resources/social-media-news/instagram-algorithm-changes-2026/
+**Bildirilen:** yok (yeni karar gerektiren öneri yok, kod değişikliği yok).
