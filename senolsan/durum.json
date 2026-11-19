@@ -12,8 +12,16 @@
       "paylasim_zamani": "2026-11-19T12:59:00+03:00",
       "secenek_a": "AÇ",
       "secenek_b": "GÖTÜR",
-      "sonuc": null,
-      "oylar": null
+      "sonuc": "AÇ",
+      "oylar": {
+        "a": 2,
+        "b": 1
+      }
     }
+  ],
+  "cevaplanan_yorumlar": [
+    "17893776816686153",
+    "18143559076740456",
+    "18039386072660748"
   ]
 }
