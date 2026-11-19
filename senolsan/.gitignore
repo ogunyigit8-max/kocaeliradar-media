@@ -1,0 +1,4 @@
+*.mp4
+_gecici/
+bolumler/*/ses/ham.mp3
+__pycache__/

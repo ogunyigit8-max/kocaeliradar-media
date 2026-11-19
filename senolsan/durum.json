@@ -1,0 +1,19 @@
+{
+  "instagram_hesap_id": "17841458144556548",
+  "instagram_kullanici": "senolsannesecerdin",
+  "dizi": "Paket",
+  "son_bolum": 1,
+  "bolumler": [
+    {
+      "no": 1,
+      "klasor": "bolumler/b01",
+      "media_id": "18606877837071850",
+      "oylama_yorum_id": "18651601693030757",
+      "paylasim_zamani": "2026-11-19T12:59:00+03:00",
+      "secenek_a": "AÇ",
+      "secenek_b": "GÖTÜR",
+      "sonuc": null,
+      "oylar": null
+    }
+  ]
+}
