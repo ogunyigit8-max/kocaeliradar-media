@@ -88,3 +88,20 @@
 - @kocaeligundem: hypeauditor client_error; rakam yok.
 **Kaynaklar:** https://www.socialpilot.co/es/blog/instagram-reels-algorithm (Eyl 2026: Your Algorithm Reels→Keşfet→Akış, Nis 2026 orijinallik/aggregator, 3 dk öneri sınırı), https://www.pulse-advertising.com/resources/social-media-news/instagram-algorithm-changes-2026/
 **Bildirilen:** yok (yeni karar gerektiren öneri yok, kod değişikliği yok).
+
+## 2026-11-19 (Per, ~23:30 TSİ) — günlük analiz
+**Hesap (Windsor.ai):** 564 takipçi (18.11: 511, +53). Yeni takipçi (kesin) 18.11 +32 (gün içi tahmin +83 idi). Günlük erişim 18.11 5.695 · 19.11 6.051 (takip etmeyen %96,9). Büyüme ~220/gün → ~43/gün (son 48 sa). Projeksiyon (tahmin): 1.000 ≈ 29.11–1.12; haftada 1 viral günle 25–27.11.
+| Saat (TSİ) | Video | Süre | Erişim | Atlama | Ort. izl. | Payl.+Kayıt/Erişim |
+|---|---|---|---|---|---|---|
+| 18.11 08:09 | Elektrik kesintisi (güncel) | 38,8 | 2.441 | %46,8 | 8,8 | %1,15 |
+| 18.11 12:34 | Baraj doluluk (güncel) | 32,3 | 1.803 | %48,6 | 9,6 | %0,11 |
+| 19.11 08:09 | Fırtına bugün 75 km | ? | 2.319 | %60,5 | 5,9 | %1,16 |
+| 19.11 12:33 | Elektrik Dilovası (3. gün) | ? | 1.865 | %54,5 | 6,9 | %0,75 |
+| 19.11 17:38 | Fırtına yarın sabah (B) | ? | 2.742 | %51,1 | 8,5 | %1,86 (46 payl.) |
+| 19.11 18:41 | Servis denetimi | ? | 1.279 | %48,6 | 7,2 | %0,08 |
+- Ses: pending.json/breaking.json boş (alan temizlenmiş) → bugünkü videoların ses bilgisi yok; ses/sim karşılaştırması yapılamadı. Görevler "voice" bilgisini log/commit mesajına da yazarsa analiz mümkün olur.
+- Elektrik format yorulması 3. günde doğrulandı (9,1→2,4→1,9 bin). "Yarın" uyarısı + durumsal gönder çağrısı en iyi paylaşım oranı. 19.11 atlama ort. %53,6 (kötüleşme; konu tekrarı olası neden).
+- Kod değişikliği yok (veriyle desteklenen ses/altyazı değişikliği yok; atlama artışı konu tekrarıyla açıklanabiliyor).
+- @kocaeligundem: instastatistics/hypeauditor yine rakam vermedi.
+**Kaynaklar:** https://uppbeat.io/blog/creator-news/whats-working-on-instagram-right-now-carousels-and-sends-says-adam-mosseri (03.11.2026: müzikli karusel Reels akışında; gönderim/erişim yeni üreticiler için en önemli metrik), https://influencermarketinghub.com/instagram-sends-per-reach-playbook/ (durumsal gönder çağrısı; sayısal çağrı = etkileşim dilenciliği), https://ground.news/article/instagram-reels-algorithm-2026-how-it-works-and-what-changed (Kasım'da yeni algoritma değişikliği yok)
+**Bildirilen (tekrar bildirme):** büyüme yavaşlaması uyarısı; öneri: elektrik kesintisi listesini Reels yerine müzikli karusel (+hikâye) olarak test et; Reels'i yalnızca büyük kesintide kullan.
