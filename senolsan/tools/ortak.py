@@ -7,9 +7,8 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # senolsan/
 
 def anahtar(ad):
     v = os.environ.get(ad, "").strip().strip('"')
-    if not v:
-        sys.exit(f"{ad} ortam degiskeni yok. Bulut ortaminin ayarlarina eklenmeli.")
-    return v
+    # Bulut ortaminda anahtari ag vekili (proxy) istege kendisi ekler; degisken yoksa yer tutucu gonder.
+    return v or "proxy-tarafindan-eklenir"
 
 
 def istek(url, veri=None, basliklar=None, yontem=None, ham=False, deneme=3):
