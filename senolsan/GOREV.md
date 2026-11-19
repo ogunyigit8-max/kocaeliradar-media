@@ -48,16 +48,17 @@ Anahtarlar ortam değişkeninde: KIE_API_KEY, ELEVENLABS_API_KEY. Bunları ASLA 
 
 ## 6. Paylaş (20:00)
 - 20:00'den önceyse 20:00'e kadar bekle (sleep). Geçtiyse hemen paylaş.
-- url=$(python3 tools/yukle.py bolumler/bXX/bXX.mp4)
+- url=$(python3 tools/yayin.py bolumler/bXX/bXX.mp4)  (videoyu senolsan/v/ içine koyar, push eder, açık GitHub adresini verir;
+  önceki adımların değişiklikleri de o anda commit edilmiş olsun ki çakışma olmasın)
 - Windsor execute_action: connector instagram, account 17841458144556548, action create_video_post,
   params {video_url: url, caption, share_to_feed: true, thumb_offset: 2000}. Hata olursa 60 sn bekle, bir kez tekrar dene.
 - Açıklama ve oylama yorumu: STRATEJI.md "Güncel ayarlar" kalıpları. Oran sadece gerçek oy varsa ("Siz seçtiniz: %NN AÇ.").
-- create_comment ile oylama yorumu; sonra create_story {video_url: url} (video 60 sn'den uzunsa ilk 59 sn'yi kesip ayrı yükle).
+- create_comment ile oylama yorumu; sonra create_story {video_url: url} (video 60 sn'den uzunsa ilk 59 sn'yi bXX_hikaye.mp4 olarak kesip yayin.py ile ayrı koy).
 - durum.json'a yeni bölüm (no, klasor, media_id, oylama_yorum_id, hikaye_id, paylasim_zamani ISO +03:00, secenek_a, secenek_b,
   sonuc null, oylar null), son_bolum artır. hikaye_defteri.md'ye bölüm özeti + açık sırlar.
 
 ## 7. Kaydet
-- Depoya mp4 KOYMA (.gitignore var). Resimler, ses, metinler kalsın.
+- mp4 sadece senolsan/v/ içinde olur (yayin.py koyar, 4 günden eskisini siler). Bölüm klasörlerine mp4 koyma.
 - git add senolsan; commit (user.name "Sen Olsan", user.email noreply@anthropic.com);
   `git pull --rebase origin main` sonra `git -c push.negotiate=true push origin HEAD:main`. Depodaki başka klasörlere DOKUNMA.
 

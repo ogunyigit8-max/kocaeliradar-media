@@ -8,6 +8,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from ortak import anahtar, istek, KOK
 
 API = "https://api.kie.ai/api/v1/jobs"
+# Depo herkese acik: depodaki dosyalar referans olarak bu adresten verilir (yukleme gerekmez).
+RAW = "https://raw.githubusercontent.com/ogunyigit8-max/kocaeliradar-media/main/senolsan/"
 
 
 def _h():
@@ -15,6 +17,15 @@ def _h():
 
 
 def ref_yukle(yol):
+    """Depoda (push edilmis) bir dosyaysa acik GitHub adresini dondurur; degilse Kie'ye yukler."""
+    tam = os.path.abspath(yol)
+    if tam.startswith(KOK + os.sep):
+        url = RAW + os.path.relpath(tam, KOK).replace(os.sep, "/")
+        try:
+            istek(url, ham=True, deneme=1)
+            return url
+        except Exception:
+            pass
     with open(yol, "rb") as f:
         b = f.read()
     mime = "image/png" if b[:1] == b"\x89" else "image/jpeg"
