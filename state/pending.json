@@ -77,7 +77,7 @@
   {
    "date": "2026-11-19",
    "created_at": "2026-11-19T08:16:00+03:00",
-   "status": "scheduled",
+   "status": "published",
    "videos": [
     {
      "file": "v/2026-11-19-firtina-uyarisi.mp4",
@@ -109,9 +109,11 @@
      "caption": "🚐 Kocaeli servis denetimi: 6.380 araç denetlendi, 1.799'una işlem yapıldı\nKocaeli Büyükşehir Belediyesi Toplu Taşıma Şube Müdürlüğü ekipleri kent genelinde 6 bin 380 servis aracını denetledi; evrak eksiği bulunan 1.799 araç ve sürücüsü hakkında işlem yapıldı.\nAraçların teknik donanımı, fiziki durumu ve sürücülerin belgeleri incelendi; özellikle öğrenci taşımacılığında güvenliğe dikkat çekildi.\nÇocuğunuzun servisinin belgelerini kontrol ettiniz mi? Bu haberi servis kullanan bir veliye gönder.\nKaynak: Kocaeli Büyükşehir Belediyesi, İHA\n#kocaeli #kocaeliradar #kocaelibüyükşehir #kocaelihaber #izmit",
      "voice": "aylin",
      "sim": false,
-     "story_done": false,
-     "reel_done": false,
-     "posted_at": null
+     "story_done": true,
+     "reel_done": true,
+     "posted_at": "2026-11-19T18:41:38+03:00",
+     "story_media_id": "18088590428319930",
+     "reel_media_id": "18030301862879814"
     }
    ]
   }
