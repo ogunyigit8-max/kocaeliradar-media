@@ -12,6 +12,22 @@ Etiketler: [VERİ] kendi metriklerimiz · [META] Meta/Instagram kaynaklı · [KA
 - Kıyas: <1.000 takipçili hesaplarda Reels medyan erişimi ~134; 1–5 bin takipçide Reels başına ort. ~580 izlenme → bizim tüm videolarımız (aralık kuralına uyulanlar) 1.300+ erişimde. [KAYNAK: netinfluencer/Metricool, Socialinsider]
 - Hedef metrikler: ilk 3 sn atlama < %40 (17–18.11 ort. ~%46; 19.11 ort. %53,6 — kötüleşiyor), ort. izlenme ≥ 10 sn (19.11 ort. 7,1 sn), paylaşım+kayıt / erişim ≥ %1. Instagram'ın evrensel atlama eşiği yok; kendi son 10–20 Reels medyanımızla kıyasla. [VERİ + KAYNAK: TrueFuture Media]
 
+## Kitle (Instagram Insights, 19.11, 490 takipçi kırılımı) [VERİ]
+- Cinsiyet: erkek %53, kadın %26, belirsiz %20. Yaş: 35–54 %56, 25–34 %17, 55+ %19, 18–24 %6.
+- İlçe: Gebze ekseni (Gebze 92, Darıca 50, Şekerpınar 19, Tuzla 14) en büyük blok; İzmit 60, Derince 31, Sarımeşe 28, Gölcük 26, Hereke 13, Karamürsel 11. Kandıra/Kartepe zayıf.
+- Sonuç: yetişkin, işe gidip gelen, aile/çocuk sahibi kitle → ulaşım, kesinti, servis/okul, fatura/fiyat, güvenlik. Gebze–Darıca–Çayırova haberine öncelik; başlıkta ilçe adı.
+- Yorumlar: kesinti videolarında "Derince'de kesilecek mi?", "kesilmedi?" soruları → kişiye özel bilgi talebi (karusel bunu çözer). Kaza/uyarı haberlerinde doğruluk itirazları ("1 ölü var", "yalan sıkmayın") → rakamı "ilk bilgilere göre" ve saatle ver, gelişince güncelle.
+
+## Karusel (kullanıcı onayı 19.11 — liste tipi servis içeriği)
+- Günlük PLANLI KESİNTİ listesi (elektrik/su) artık Reels DEĞİL, karusel: `python3 tools/carousel.py spec.json` → c/<tarih>-<slug>/01..NN.jpg (4:5, 1080x1350) + story.jpg. Reels yalnızca büyük kesintide (≥5 ilçe ve ≥8 saat, ya da Gebze/İzmit merkezde geniş).
+- Yapı: 1) kapak: ilçe sayısı + en çarpıcı bilgi (sarı bant), harita pinleri, "MAHALLEN LİSTEDE Mİ? KAYDIR" 2) ÖZET kare (ilçe · mahalle sayısı · saat) — Instagram geçilen karuseli 2. kareyle yeniden gösterebildiği için kendi başına anlaşılır 3..) mahalle listesi (ilçe başlıklı, saat sağda) son) GÖNDER / KAYDET / TAKİP ET + arıza hattı. En fazla 10 kare, tek şablon.
+- Paylaşım: önce hikâye (story.jpg, create_story image_url), sonra create_carousel_post (items: her kare image_url + alt_text "Kocaeli <tarih> elektrik kesintisi: <ilçe> <mahalleler> <saat>"). Karusel Reels 60 dk kuralına sayılmaz; Reels'ten en az 30 dk uzak tut.
+- Caption: "⚡ Kocaeli elektrik kesintisi <gün Ay>: <N> ilçede, en uzun <ilçe> <süre>" + "Mahallen listede mi? Kaydır 👉" + "Listede mahallesi olan birine gönder." + Kaynak + kesinti hashtag seti. API ile karusele müzik eklenemiyor; başarı ölçütü kayıt+gönderim/erişim ve media_follows. [KAYNAK: uppbeat 03.11.2026; karusel rehberleri (görüş); ÖNERİ]
+- Ölçüm: karuselde media_follows / media_profile_visits ölçülebiliyor (Reels'te değil) → hangi içeriğin takip getirdiğini buradan öğren.
+
+## Yorumlar
+- Yorumlardaki SORULARA kısa, doğrulanmış, nazik cevap (ör. "Derince'de bugün Çenedağ ve Çınarlı'da 09.00-17.00; net bilgi SEDAŞ 186"); hakaret/polemik/siyasete cevap yok. Otomatik cevap HENÜZ AKTİF DEĞİL — kullanıcının açık onayı bekleniyor. [ÖNERİ]
+
 ## Paylaşım aralığı (EN ÖNEMLİ)
 - İki Reels arasında EN AZ 60 dk (tercihen 2+ saat). 16.11'de dakikalar içinde atılan 4 video ~180–245 erişimde kaldı; 17.11'de 2–3 saat arayla atılan 4 videonun hepsi 1.390+ erişim aldı. Kural doğrulandı. [VERİ]
 - Sabah görevi yalnızca 1. videoyu hemen paylaşır; diğerlerini saatlik son dakika görevi 12:31, 18:31, 21:31'de birer birer paylaşır.
@@ -85,7 +101,7 @@ Son: hashtag seti (EN FAZLA 5 etiket — Instagram Aralık 2025'ten beri gönder
 2. Her Reels'i hikâyede paylaş (zaten yapılıyor) + ilk yoruma kaynak/detay yorumu sabitle. [ÖNERİ]
 3. Son dakikada hız: aynı olayı ilk veren yerel hesap olmak; büyük olaylarda (kaza, yangın) gelişme videosu (yaralı durumu, yol açıldı mı) ile seriye dönüştür. [ÖNERİ; Gebze kazası viral oldu]
 4. 1.000 takipçiden sonra Trial Reels ile kapak/hook varyasyonlarını takip etmeyenlerde test et (Trial Reels ≥1.000 takipçili herkese açık hesaplara açık). [KAYNAK]
-5. Liste tipi servis içeriği (elektrik kesintisi mahalle listesi) için müzikli KARUSEL formatı test edilebilir (aranabilir, kaydedilebilir, Reels akışında da görünür). Akış/format değişikliği → kullanıcı onayı bekliyor. [ÖNERİ]
+5. Karusel: kesinti listeleri karusele taşındı (19.11, kullanıcı onayı). 26.11'de karusel vs eski kesinti Reels'i kıyasla: erişim, kayıt+gönderim/erişim, takip.
 6. Özgün katkı: veri karşılaştırması, harita, "size etkisi" açıklaması — salt haber metni okumak yetmez. [ÖNERİ]
 
 ## Rakip/örnek sayfalar (izlenecek)
