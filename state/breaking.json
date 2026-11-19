@@ -70,6 +70,15 @@
   {
    "date": "2026-11-19",
    "topic": "Kocaeli Büyükşehir servis denetimi: 6.380 araç, 1.799 işlem (18 Kasım açıklaması)"
+  },
+  {
+   "date": "2026-11-19",
+   "time": "17:36",
+   "topic": "MGM sarı kodlu rüzgar/fırtına uyarısı 20 Kasım Cuma 03.00-13.00 (güney yönlü 50-70, hamle 80 km/s; İzmit, Gebze, Derince, Körfez, Kandıra)",
+   "level": "B",
+   "voice": "emre",
+   "sim": true,
+   "reel_posted_at": null
   }
  ]
 }
