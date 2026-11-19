@@ -18,7 +18,7 @@ Yeni bölüm yazmadan önce bu dosyanın tamamı okunur. Tutarlılık şart: isi
 - Açık sırlar: paketi kim gönderdi, siyah arabadaki kim, telefondaki kişi Emre'yi nereden tanıyor, adresteki ev kimin.
 - Sonuç: AÇ kazandı (AÇ 2, GÖTÜR 1). Emre paketi açtı.
 
-## Bölüm 2 (19.11.2026 20:00)
+## Bölüm 2 (19.11.2026 19:27, Yiğit'in isteğiyle erken paylaşıldı)
 - Emre paketi açtı: içinde kendi fotoğrafı, telefonun altında elli bin lira ve bir adres olan kalın bir zarf.
 - Siyah araba yaklaştı, farları Emre'nin yüzüne vurdu, durmadan geçip gitti.
 - Telefona mesaj: "Adrese git. Kapıyı çalma. Paketi eşiğe bırak." Adres on dakika ötede: Emre'nin kendi sokağı.

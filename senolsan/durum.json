@@ -2,7 +2,7 @@
   "instagram_hesap_id": "17841458144556548",
   "instagram_kullanici": "senolsannesecerdin",
   "dizi": "Paket",
-  "son_bolum": 1,
+  "son_bolum": 2,
   "bolumler": [
     {
       "no": 1,
@@ -17,6 +17,19 @@
         "a": 2,
         "b": 1
       }
+    },
+    {
+      "no": 2,
+      "klasor": "bolumler/b02",
+      "media_id": "18137434567662569",
+      "permalink": "https://www.instagram.com/reel/Df7hBANgQFM/",
+      "oylama_yorum_id": "18038758373664886",
+      "hikaye_id": "18019061288967228",
+      "paylasim_zamani": "2026-11-19T19:27:00+03:00",
+      "secenek_a": "SOR",
+      "secenek_b": "KAÇ",
+      "sonuc": null,
+      "oylar": null
     }
   ],
   "cevaplanan_yorumlar": [
