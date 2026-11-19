@@ -85,9 +85,11 @@
      "caption": "🌬️ Kocaeli fırtına uyarısı: bugün rüzgâr saatte 75 km'ye çıkabilir\nKocaeli Valiliği, Meteoroloji'nin değerlendirmesine göre fırtınanın 19 Kasım sabahından itibaren etkili olacağını duyurdu. Batı ve kuzeybatıdan esecek rüzgârın saatte 50-75 km'ye ulaşması, akşam saatlerinden itibaren etkisini yitirmesi bekleniyor.\nMeteoroloji Kocaeli dahil 9 ile sarı kodlu uyarı verdi. Özellikle deniz ulaşımında aksamalar yaşanabilir; İzmit, Gölcük ve Karamürsel'de yola çıkmadan seferleri kontrol edin.\nBugün feribot ya da deniz yolu kullanacak birine gönder.\nGörseller temsilidir.\nKaynak: Kocaeli Valiliği, AA, Mavi Kocaeli, Özgün Kocaeli\n#kocaeli #kocaeliradar #havadurumu #kocaelihavadurumu #izmit",
      "voice": "aylin",
      "sim": true,
-     "story_done": false,
-     "reel_done": false,
-     "posted_at": null
+     "story_done": true,
+     "reel_done": true,
+     "posted_at": "2026-11-19T08:09:44+03:00",
+     "story_media_id": "18149591065570747",
+     "reel_media_id": "18126219622989764"
     },
     {
      "file": "v/2026-11-19-elektrik-8-saat.mp4",
