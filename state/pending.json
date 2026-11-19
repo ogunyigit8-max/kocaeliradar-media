@@ -73,6 +73,43 @@
      "reel_media_id": "18100321754673015"
     }
    ]
+  },
+  {
+   "date": "2026-11-19",
+   "created_at": "2026-11-19T08:16:00+03:00",
+   "status": "scheduled",
+   "videos": [
+    {
+     "file": "v/2026-11-19-firtina-uyarisi.mp4",
+     "title": "Kocaeli'de bugün fırtına: rüzgâr 75 km'ye çıkabilir",
+     "caption": "🌬️ Kocaeli fırtına uyarısı: bugün rüzgâr saatte 75 km'ye çıkabilir\nKocaeli Valiliği, Meteoroloji'nin değerlendirmesine göre fırtınanın 19 Kasım sabahından itibaren etkili olacağını duyurdu. Batı ve kuzeybatıdan esecek rüzgârın saatte 50-75 km'ye ulaşması, akşam saatlerinden itibaren etkisini yitirmesi bekleniyor.\nMeteoroloji Kocaeli dahil 9 ile sarı kodlu uyarı verdi. Özellikle deniz ulaşımında aksamalar yaşanabilir; İzmit, Gölcük ve Karamürsel'de yola çıkmadan seferleri kontrol edin.\nBugün feribot ya da deniz yolu kullanacak birine gönder.\nGörseller temsilidir.\nKaynak: Kocaeli Valiliği, AA, Mavi Kocaeli, Özgün Kocaeli\n#kocaeli #kocaeliradar #havadurumu #kocaelihavadurumu #izmit",
+     "voice": "aylin",
+     "sim": true,
+     "story_done": false,
+     "reel_done": false,
+     "posted_at": null
+    },
+    {
+     "file": "v/2026-11-19-elektrik-8-saat.mp4",
+     "title": "Derince, Dilovası, Çayırova ve Kandıra'da 8 saatlik elektrik kesintisi",
+     "caption": "⚡ Kocaeli elektrik kesintisi: Dilovası'nda 6 mahallede 8 saat elektrik yok\nBugün 09.00-17.00 arası Derince'de Çenedağ ve Çınarlı, Dilovası'nda Kargalı, Tepecik, Yağcılar, Ahatlı, Duraklı ve Hatipler, Çayırova'da Atatürk ve Yeni, Kandıra'da Çalköy'ün bazı adreslerinde planlı kesinti var.\nGebze Yenikent'te 09.00-16.00 arası, Darıca'da Nenehatun, Sırasöğütler, İstasyon ve Kazımkarabekir'de daha kısa kesintiler planlandı. Arıza bildirimi için SEDAŞ 186.\nMahallenizde elektrik kesik mi? Bu listeyi etkilenen birine gönder.\nGörseller temsilidir.\nKaynak: SEDAŞ listesi, Kocaeli Kent Gazetesi, Özgün Kocaeli\n#kocaeli #kocaeliradar #elektrikkesintisi #dilovası",
+     "voice": "emre",
+     "sim": true,
+     "story_done": false,
+     "reel_done": false,
+     "posted_at": null
+    },
+    {
+     "file": "v/2026-11-19-servis-denetimi.mp4",
+     "title": "Kocaeli'de 6.380 servis denetlendi, 1.799'una işlem",
+     "caption": "🚐 Kocaeli servis denetimi: 6.380 araç denetlendi, 1.799'una işlem yapıldı\nKocaeli Büyükşehir Belediyesi Toplu Taşıma Şube Müdürlüğü ekipleri kent genelinde 6 bin 380 servis aracını denetledi; evrak eksiği bulunan 1.799 araç ve sürücüsü hakkında işlem yapıldı.\nAraçların teknik donanımı, fiziki durumu ve sürücülerin belgeleri incelendi; özellikle öğrenci taşımacılığında güvenliğe dikkat çekildi.\nÇocuğunuzun servisinin belgelerini kontrol ettiniz mi? Bu haberi servis kullanan bir veliye gönder.\nKaynak: Kocaeli Büyükşehir Belediyesi, İHA\n#kocaeli #kocaeliradar #kocaelibüyükşehir #kocaelihaber #izmit",
+     "voice": "aylin",
+     "sim": false,
+     "story_done": false,
+     "reel_done": false,
+     "posted_at": null
+    }
+   ]
   }
  ]
 }
