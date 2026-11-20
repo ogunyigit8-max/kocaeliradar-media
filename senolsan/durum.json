@@ -28,8 +28,11 @@
       "paylasim_zamani": "2026-11-19T19:27:00+03:00",
       "secenek_a": "SOR",
       "secenek_b": "KAÇ",
-      "sonuc": null,
-      "oylar": null
+      "sonuc": "SOR",
+      "oylar": {
+        "a": 4,
+        "b": 0
+      }
     }
   ],
   "cevaplanan_yorumlar": [

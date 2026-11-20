@@ -25,4 +25,4 @@ Yeni bölüm yazmadan önce bu dosyanın tamamı okunur. Tutarlılık şart: isi
 - Ters köşe: kapının önünde ev sahibi bekliyor, elinde aynı paketten bir tane var.
 - Soru: Kapıdaki adama (ev sahibine) soracak mısın, kaçacak mısın? SOR / KAÇ.
 - Açık sırlar: fotoğrafı kim çekti, ev sahibinin paketi nereden geldi, siyah araba neden durmadı, elli bin lira kimin parası.
-- Sonuç: (bekleniyor)
+- Sonuç: SOR kazandı (SOR 4, KAÇ 0). Emre ev sahibine sordu.
