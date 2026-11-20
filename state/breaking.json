@@ -85,6 +85,15 @@
   {
    "date": "2026-11-20",
    "topic": "20 Kasım planlı elektrik kesintisi (SEDAŞ, 12 ilçe; en uzun İzmit Kozluca 8 saat) — karusel"
+  },
+  {
+   "date": "2026-11-20",
+   "time": "14:10",
+   "topic": "Kocaeli Valiliği kuvvetli sağanak uyarısı 20 Kasım öğleden sonra (21-45 kg/m²; sel, su baskını, yıldırım, dolu, ulaşımda aksama)",
+   "level": "A",
+   "voice": "aylin",
+   "sim": true,
+   "reel_posted_at": null
   }
  ]
 }
