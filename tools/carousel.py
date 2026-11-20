@@ -49,7 +49,17 @@ def arrow(d, x, y, s, col):
 
 
 def count_names(items):
-    return sum(len([p for p in n.replace(" ve ", ",").split(",") if p.strip()]) for n, _ in items)
+    """Benzersiz mahalle sayısı (aynı mahalle farklı saatlerde tekrar edebilir)."""
+    return len({p.strip() for n, _ in items for p in n.replace(" ve ", ",").split(",") if p.strip()})
+
+
+def span(hours):
+    """Saat aralıklarından en erken başlangıç - en geç bitiş ("09.00-12.00", "14.00-17.00" -> "09.00-17.00")."""
+    hs = [h.replace(" ", "") for h in hours if h and "-" in h]
+    if not hs:
+        return ""
+    a = min(h.split("-")[0] for h in hs); b = max(h.split("-")[1] for h in hs)
+    return f"{a}-{b}"
 
 
 def wrap(s, f, maxw):
@@ -148,10 +158,10 @@ def summary_slide(spec, page, total):
         d.rectangle((MARGIN, y, CW - MARGIN, y + rh - 14), fill=PANEL)
         d.rectangle((MARGIN, y, MARGIN + 10, y + rh - 14), fill=YEL)
         cy = y + (rh - 14) / 2
-        d.text((MARGIN + 34, cy), tr_upper(g["name"]), font=font(min(54, rh - 50), 700), fill=YEL, anchor="lm")
-        d.text((CW / 2 - 40, cy), f"{cnt} mahalle", font=font(min(42, rh - 60), 500), fill=WHITE, anchor="lm")
-        d.text((CW - MARGIN - 24, cy), hours[-1] if len(hours) == 1 else (max(hours, key=len) if hours else ""),
-               font=font(min(42, rh - 60), 600), fill=WHITE, anchor="rm")
+        d.text((MARGIN + 34, cy), tr_upper(g["name"]), font=font(int(min(54, (rh - 14) * 0.62)), 700), fill=YEL, anchor="lm")
+        d.text((CW / 2 - 40, cy), f"{cnt} mahalle", font=font(int(min(42, (rh - 14) * 0.55)), 500), fill=WHITE, anchor="lm")
+        d.text((CW - MARGIN - 24, cy), span(hours),
+               font=font(int(min(42, (rh - 14) * 0.55)), 600), fill=WHITE, anchor="rm")
         y += rh
     footer(d, spec.get("source", ""))
     return im

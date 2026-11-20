@@ -116,6 +116,39 @@
      "reel_media_id": "18030301862879814"
     }
    ]
+  },
+  {
+   "date": "2026-11-20",
+   "created_at": "2026-11-20T07:56:45+03:00",
+   "status": "scheduled",
+   "videos": [],
+   "note": "Speko (TTS) bağlantısı koptuğu için bugün sabah videosu üretilemedi.",
+   "carousel": {
+    "dir": "c/2026-11-20-elektrik",
+    "slides": [
+     "c/2026-11-20-elektrik/01.jpg",
+     "c/2026-11-20-elektrik/02.jpg",
+     "c/2026-11-20-elektrik/03.jpg",
+     "c/2026-11-20-elektrik/04.jpg",
+     "c/2026-11-20-elektrik/05.jpg",
+     "c/2026-11-20-elektrik/06.jpg",
+     "c/2026-11-20-elektrik/07.jpg"
+    ],
+    "caption": "⚡ Kocaeli elektrik kesintisi 20 Kasım: 12 ilçede, en uzun İzmit Kozluca'da 8 saat\nMahallen listede mi? Kaydır 👉\n\nSEDAŞ'ın planlı çalışmaları nedeniyle bugün Kartepe, Gölcük, Körfez, Kandıra, İzmit, Dilovası, Gebze, Karamürsel, Çayırova, Darıca, Başiskele ve Derince'de elektrik kesintisi var. En geniş etkilenen ilçe Kartepe: 9 mahalle, 09.30-18.00 arası.\n\nMahallende kesinti var mı?\nListede mahallesi olan birine gönder.\n\nArıza bildirimi: SEDAŞ 186\nKaynak: SEDAŞ, Kocaeli Kent Gazetesi\n\n#kocaeli #kocaeliradar #elektrikkesintisi #izmit",
+    "alt_texts": [
+     "Kocaeli 20 Kasım 2026 elektrik kesintisi: 12 ilçede planlı kesinti (Kartepe, Gölcük, Körfez, Kandıra, İzmit, Dilovası, Gebze, Karamürsel, Çayırova, Darıca, Başiskele, Derince). En uzun: İzmit Kozluca'da 09.30-17.30, 8 saat.",
+     "Kocaeli 20 Kasım 2026 elektrik kesintisi: ilçe özeti. Kartepe 9 mahalle 09.30-18.00; Gölcük 6 mahalle 09.00-17.00; Körfez 5 mahalle 09.00-17.00; Kandıra 5 mahalle 09.00-17.00; İzmit 4 mahalle 09.00-17.30; Dilovası 4 mahalle 09.00-17.00; Gebze 3 mahalle 08.30-16.00; Karamürsel 3 mahalle 09.00-17.00; Çayırova 2 mahalle 09.00-17.00; Darıca 2 mahalle 12.30-15.30; Başiskele 1 mahalle 09.00-11.00; Derince 1 mahalle 09.00-13.00.",
+     "Kocaeli 20 Kasım 2026 elektrik kesintisi: Kartepe: Havluburun, Uzuntarla 09.30-12.00; Emekevler, Uzuntarla 14.00-17.00; Acısu, Emekevler, Sarımeşe, Suadiye 14.00-16.00; Eşme, Eşmeahmediye, Havluburun, Ketenciler, Uzuntarla 16.00-18.00. Gölcük: Ayvazpınarı, Lütfiye, Mesruriye, Şevketiye 09.00-17.00; Çiftlik 09.00-13.30 ve 14.00-15.30; Değirmendere Merkez 16.00-17.00.",
+     "Kocaeli 20 Kasım 2026 elektrik kesintisi: Körfez: Çıraklı, Cuma, Karayakuplu, Osmanlı, Sevindikli 09.00-17.00. Kandıra: Goncaaydın, Kocakaymas, Topluca 09.00-16.00; Çalca, Selametli 09.00-17.00. İzmit: Kuruçeşme Fatih, Şirintepe 09.00-17.00; Yahyakaptan 09.00-12.00 ve 13.00-17.00; Kozluca 09.30-17.30.",
+     "Kocaeli 20 Kasım 2026 elektrik kesintisi: Dilovası: Ahatlı, Duraklı, Hatipler, Tepemanayır 09.00-17.00. Gebze: Barış 08.30-10.30 ve 10.30-12.30; Yenikent 09.00-16.00; Köşklü Çeşme 09.00-15.00. Karamürsel: Akpınar, Safiye, Suludere 09.00-17.00. Çayırova: Emek, Yavuz Selim 09.00-12.00.",
+     "Kocaeli 20 Kasım 2026 elektrik kesintisi: Çayırova: Emek 09.30-11.00 ve 09.30-17.00. Darıca: Bayramoğlu, Emek 12.30-15.30. Başiskele: Karadenizliler 09.00-11.00. Derince: Yavuz Sultan 09.00-13.00.",
+     "Kocaeli 20 Kasım 2026 elektrik kesintisi: listede mahallesi olan birine gönder, kaydet, takip et. Arıza bildirimi: SEDAŞ 186."
+    ],
+    "story_done": false,
+    "post_done": false,
+    "posted_at": null,
+    "media_id": null
+   }
   }
  ]
 }
