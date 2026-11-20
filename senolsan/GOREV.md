@@ -21,6 +21,7 @@ Anahtarlar ortam değişkeninde: KIE_API_KEY, ELEVENLABS_API_KEY. Bunları ASLA 
 - durum.json (sonuc, oylar {a,b}) ve hikaye_defteri.md'ye yaz.
 - Cevapsız yorumlardan en fazla 10'una reply_to_comment ile kısa, samimi, birbirinden farklı cevap (STRATEJI.md bölüm 2).
   Cevaplananları durum.json "cevaplanan_yorumlar" listesine ekle.
+  Windsor verisi önbellekten gelebilir: senolsannesecerdin'in comment_parent_id ile cevap verdiği yorumları da cevaplanmış say; Yiğit'in isteğiyle amaç hiçbir yorumun cevapsız kalmaması (spam/hakaret hariç), 10 sınırını aşan yorum varsa hepsine cevap ver.
 
 ## 2. Yeni bölümü yaz (bXX = sonraki numara, iki haneli)
 - hikaye_defteri.md ile tutarlı; kazanan seçimin sonucu hemen ilk satırda görülsün.
@@ -66,3 +67,4 @@ Anahtarlar ortam değişkeninde: KIE_API_KEY, ELEVENLABS_API_KEY. Bunları ASLA 
 ## 8. Bildirim
 PushNotification (<routine_summary> etiketiyle), sade Türkçe, 4-6 satır: oy sonucu, bölümün tek cümlelik özeti,
 Reels + hikaye paylaşıldı mı (varsa link), kaç yoruma cevap verildi, sorun varsa ne.
+- YARI OTOMATİK TikTok + YouTube Shorts (Yiğit elle yükler): bildirime ayrıca şunları ekle: (a) video linki: https://raw.githubusercontent.com/ogunyigit8-max/kocaeliradar-media/main/senolsan/v/bXX.mp4, (b) TikTok açıklaması: kanca cümlesi + 'Sen olsan ne seçerdin? Yoruma <A> ya da <B> yaz.' + 'Paket | Bölüm N' + 4-5 etiket (#hikaye #gerilim #animasyon #dizi #senolsannesecerdin), (c) YouTube Shorts başlığı (en fazla 80 karakter, merak uyandıran, sonunda #Shorts) ve kısa açıklaması (2-3 satır + oylama çağrısı + 'Yeni bölüm her akşam 19:00'). Aynı metinleri bolumler/bXX/diger_platformlar.md dosyasına yaz ve commit et. Bildirim uzun olabilir; sığmazsa video linki ve iki başlığı bildirime, tam metinleri dosyaya koy ve dosyanın GitHub adresini (https://github.com/ogunyigit8-max/kocaeliradar-media/blob/main/senolsan/bolumler/bXX/diger_platformlar.md) bildirime ekle.
