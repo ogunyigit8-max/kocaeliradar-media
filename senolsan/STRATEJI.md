@@ -17,7 +17,7 @@ Son güncelleme: 2026-11-19 (ilk sürüm). Bu dosyayı günlük görev, sabah hi
 
 ## 2. Sabit kurallar (haftalık analiz bunları değiştirmez)
 - Günde 1 bölüm (Reels). Daha fazlası oyu böler ve hikayeyi bozar.
-- Bölüm saati: her gün 20:00 (Türkiye). Oylama ertesi gün 17:00'de kapanır.
+- Bölüm saati: her gün 19:00 (Türkiye). Oylama ertesi gün 17:00'de kapanır.
 - Her bölüm Reels olarak paylaşıldıktan hemen sonra aynı video hikayede de paylaşılır.
 - Sabah hatırlatma hikayesi YOK (Yiğit 2026-11-19'da istemedi). Araç hazır: hikaye_hatirlatma.ps1.
 - Yorumlara cevap: günlük görevde, cevapsız yorumlardan en fazla 10 tanesine kısa, samimi,
@@ -33,7 +33,7 @@ Son güncelleme: 2026-11-19 (ilk sürüm). Bu dosyayı günlük görev, sabah hi
 - Kapak karesi: thumb_offset 2000 (kancanın görüldüğü kare).
 - Açıklama kalıbı:
   "<kanca cümlesi> 📦\n\nSiz seçtiniz: <SONUÇ>.\n\nSen olsan ne seçerdin?\n👉 Yoruma <A> ya da <B> yaz.\n
-  🔁 <A> diyecek bir arkadaşına gönder.\nYeni bölüm her akşam 20:00'de.\n\nPaket | Bölüm N\n\n
+  🔁 <A> diyecek bir arkadaşına gönder.\nYeni bölüm her akşam 19:00'da.\n\nPaket | Bölüm N\n\n
   #senolsannesecerdin #hikaye #gerilim #animasyon #dizi"
   (5 etiket; fazlası işe yaramıyor.)
 - Oylama yorumu: "🗳️ Oy burada: <A> mı, <B> mi? Tek kelime yaz. Oylama yarın 17:00'de kapanıyor."
@@ -56,3 +56,4 @@ Son güncelleme: 2026-11-19 (ilk sürüm). Bu dosyayı günlük görev, sabah hi
 ## 5. Değişiklik günlüğü
 - 2026-11-19: İlk sürüm. Paylaşım saati 08:00'den 20:00'e alındı (akşam dilimi daha güçlü, hikaye gece geçiyor).
   Günlük hikaye paylaşımı eklendi (sabah hatırlatma hikayesi Yiğit istemediği için yok). Etiket sayısı 8'den 5'e indi.
+- 2026-11-20: Paylaşım saati 20:00'den 19:00'a alındı (en yoğun dilimin başı, Yiğit onayladı).

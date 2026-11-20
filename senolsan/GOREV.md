@@ -1,4 +1,4 @@
-# Bulut günlük görevi: yeni bölümü üret ve 20:00'de @senolsannesecerdin'e paylaş
+# Bulut günlük görevi: yeni bölümü üret ve 19:00'da @senolsannesecerdin'e paylaş
 
 Yiğit (sahibi) 19.11.2026'da onayladı: her gün bölüm, yorumlardaki oy çoğunluğuna göre senaryo, Reels + aynı video hikaye,
 yorumlara cevap, analize göre ayarları sürekli iyileştirme. Paylaşım için ayrıca onay beklenmez.
@@ -47,8 +47,8 @@ Anahtarlar ortam değişkeninde: KIE_API_KEY, ELEVENLABS_API_KEY. Bunları ASLA 
 - Kontrol: ffprobe 1080x1920 + ses akışı; ffmpeg ile 3-4 kare çıkar ve Read ile bak (altyazı okunur, yüzün üstünde değil,
   Türkçe harfler doğru, oylama kartı görünüyor). Sorun varsa düzelt, düzelmeden paylaşma.
 
-## 6. Paylaş (20:00)
-- 20:00'den önceyse 20:00'e kadar bekle (sleep). Geçtiyse hemen paylaş.
+## 6. Paylaş (19:00)
+- 19:00'dan önceyse 19:00'a kadar bekle (sleep). Geçtiyse hemen paylaş.
 - url=$(python3 tools/yayin.py bolumler/bXX/bXX.mp4)  (videoyu senolsan/v/ içine koyar, push eder, açık GitHub adresini verir;
   önceki adımların değişiklikleri de o anda commit edilmiş olsun ki çakışma olmasın)
 - Windsor execute_action: connector instagram, account 17841458144556548, action create_video_post,
