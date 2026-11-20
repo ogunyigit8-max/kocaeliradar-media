@@ -9,6 +9,7 @@ Anahtarlar ortam değişkeninde: KIE_API_KEY, ELEVENLABS_API_KEY. Bunları ASLA 
 ## 0. Ön kontrol
 - Saat dilimi Europe/Istanbul. durum.json'daki son bölümün paylasim_zamani bugünse DUR.
 - Windsor get_connectors: instagram hesabı 17841458144556548 yoksa üretimi yap ama paylaşma; bildirimde "Instagram bağlantısı koptu" de.
+- durum.json'da tarihi bugün olan 'hazir_bolum' varsa: adım 1'de oyları yine say. Kazanan 'varsayilan_sonuc' ile aynıysa adım 2-5'i ATLA, hazır videoyu (video_url, açık adreste duruyor mu kontrol et) ve hazır açıklamayı ({ORAN} gerçek oranla) kullanarak adım 6'dan devam et. Kazanan farklıysa bölümü adım 2-5 ile yeniden üret. Paylaşımdan sonra 'hazir_bolum' kaydını sil.
 
 ## 1. Oyları say + yorumlara cevap
 - Windsor get_data: connector instagram, accounts ["17841458144556548"],
