@@ -25,6 +25,9 @@ Son güncelleme: 2026-11-19 (ilk sürüm). Bu dosyayı günlük görev, sabah hi
   hakaret/spam yorumlara cevap verme. Oy yorumlarına cevap oyu değiştirmez.
 - Emre'nin sabit tarifi, çizim tarzı ve Fatih sesi dizi boyunca değişmez (izleyici tanır). Değişiklik ancak Yiğit isterse.
 - Uydurma sayı, sahte yorum, takip/takipten çıkma oyunu, satın alınmış takipçi YOK.
+- Her yoruma cevap (spam/hakaret hariç).
+- Tahmin yarışması: her bölümde en iyi tahmin bir sonraki bölümün açıklamasında anılır.
+- Her pazar: 'Şimdiye kadar' özet Reels ve ortak paylaşım araştırması (OZET_VE_ISBIRLIGI.md).
 
 ## 3. Güncel ayarlar (haftalık analiz günceller)
 - Hedef süre: 35-48 sn (kısa video daha çok sonuna kadar izleniyor).
@@ -57,3 +60,4 @@ Son güncelleme: 2026-11-19 (ilk sürüm). Bu dosyayı günlük görev, sabah hi
 - 2026-11-19: İlk sürüm. Paylaşım saati 08:00'den 20:00'e alındı (akşam dilimi daha güçlü, hikaye gece geçiyor).
   Günlük hikaye paylaşımı eklendi (sabah hatırlatma hikayesi Yiğit istemediği için yok). Etiket sayısı 8'den 5'e indi.
 - 2026-11-20: Paylaşım saati 20:00'den 19:00'a alındı (en yoğun dilimin başı, Yiğit onayladı).
+- 2026-11-20: Tahmin yarışması, pazar özet videosu, ortak paylaşım araştırması eklendi (Yiğit onayladı).

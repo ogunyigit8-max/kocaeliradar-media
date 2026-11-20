@@ -22,6 +22,7 @@ Anahtarlar ortam değişkeninde: KIE_API_KEY, ELEVENLABS_API_KEY. Bunları ASLA 
 - Cevapsız yorumlardan en fazla 10'una reply_to_comment ile kısa, samimi, birbirinden farklı cevap (STRATEJI.md bölüm 2).
   Cevaplananları durum.json "cevaplanan_yorumlar" listesine ekle.
   Windsor verisi önbellekten gelebilir: senolsannesecerdin'in comment_parent_id ile cevap verdiği yorumları da cevaplanmış say; Yiğit'in isteğiyle amaç hiçbir yorumun cevapsız kalmaması (spam/hakaret hariç), 10 sınırını aşan yorum varsa hepsine cevap ver.
+- Tahmin ustası: son bölümün yorumlarında sadece oy değil, sonrası için tahmin yazanları oku. Hakaret/spam olmayan, en yaratıcı ya da gerçeğe en yakın tahmini seç. Yeni bölümün açıklamasına hashtaglerden önce '🏆 Tahmin ustası: @kullanici' satırı ekle ve o yoruma 'Tahminin bu akşamki bölümün açıklamasında 🏆' gibi kısa bir cevap ver. Kullanıcı adını videonun içine koyma, hikayeye gerçek kişi sokma. Uygun tahmin yoksa satırı koyma, uydurma.
 
 ## 2. Yeni bölümü yaz (bXX = sonraki numara, iki haneli)
 - hikaye_defteri.md ile tutarlı; kazanan seçimin sonucu hemen ilk satırda görülsün.
@@ -55,6 +56,7 @@ Anahtarlar ortam değişkeninde: KIE_API_KEY, ELEVENLABS_API_KEY. Bunları ASLA 
 - Windsor execute_action: connector instagram, account 17841458144556548, action create_video_post,
   params {video_url: url, caption, share_to_feed: true, thumb_offset: 2000}. Hata olursa 60 sn bekle, bir kez tekrar dene.
 - Açıklama ve oylama yorumu: STRATEJI.md "Güncel ayarlar" kalıpları. Oran sadece gerçek oy varsa ("Siz seçtiniz: %NN AÇ.").
+- Oylama yorumunun sonuna ' Bir de tahminini yaz: en iyi tahmin yarınki bölümde anılır 🏆' ekle.
 - create_comment ile oylama yorumu; sonra create_story {video_url: url} (video 60 sn'den uzunsa ilk 59 sn'yi bXX_hikaye.mp4 olarak kesip yayin.py ile ayrı koy).
 - durum.json'a yeni bölüm (no, klasor, media_id, oylama_yorum_id, hikaye_id, paylasim_zamani ISO +03:00, secenek_a, secenek_b,
   sonuc null, oylar null), son_bolum artır. hikaye_defteri.md'ye bölüm özeti + açık sırlar.
