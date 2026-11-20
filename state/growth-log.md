@@ -113,3 +113,20 @@
 - Derin veri [VERİ]: kitle %53 erkek, %56'sı 35–54 yaş; Gebze–Darıca–Şekerpınar–Tuzla bloğu en büyük, sonra İzmit. Hikâye erişimi 22–56 (takipçinin ~%4–10'u). Profil bağlantı tıklaması 0. Yorumlar: kesintide kişiye özel soru, kaza/uyarıda doğruluk itirazı. Hesap Instagram Login ile bağlı → Reels repost metriği alınamıyor (Facebook Login ile yeniden bağlanırsa açılır).
 **Kaynaklar:** https://instacarousel.com/blog/instagram-carousel-guide-2026/ , https://www.adpicto.com/en/blog/instagram-carousel-best-practices-2026 , https://carouselpost.io/digest/carousel-slide-count-hook-tips-2026 , https://niemanlab.org/2021/07/the-new-york-times-is-using-instagram-slides-and-twitter-cards-to-make-stories-more-digestible , https://mobileanddigitaljournalism.substack.com/p/the-carousel-post-an-overview , https://journalism.co.uk/tip-of-the-day/tip-create-slides-and-cards-on-social-media-to-increase-audience-engagement/s419/a850360
 **Bildirilen (tekrar bildirme):** karusel uygulandı; yorumlara otomatik cevap önerisi (onay bekliyor); Facebook Login ile yeniden bağlama önerisi.
+
+## 2026-11-20 (Cum, ~23:30 TSİ) — günlük analiz
+**Hesap (Windsor.ai):** 612 takipçi (19.11 gece 564). Yeni takipçi (kesin) 19.11 +68. Günlük erişim 19.11 7.991 (takip etmeyen %96,9) · 20.11 3.745 (gün içi). Sabah Reels'i Speko (TTS) bağlantısı koptuğu için üretilemedi (pending.json notu); 18:31/21:31 slotları da boş. Projeksiyon (tahmin): ~+50/gün → 1.000 ≈ 27–29.11.
+| Saat (TSİ) | İçerik | Ses | Erişim | Atlama | Ort. izl. | Payl.+Kayıt/Erişim |
+|---|---|---|---|---|---|---|
+| 19.11 17:38 | Fırtına yarın sabah (güncel) | Emre | 5.335 | %50,3 | 9,7 | %1,87 (91 payl.) |
+| 19.11 18:41 | Servis denetimi (güncel) | Aylin | 1.457 | %49,3 | 7,1 | %0,07 |
+| 20.11 07:58 | KARUSEL kesinti 12 ilçe (7 kare) | – | 174 | – | – | %0 (0 takip, 3 profil ziyareti) |
+| 20.11 14:06 | Sağanak uyarısı (A, bugün) | Aylin | 2.882 | %53,4 | 6,7 | %0,97 |
+- İlk karusel çok zayıf: erişim 174 (takipçinin ~%28'i), kesinti Reels'leri 1,9–9,2 bin. Fanpage Karma verisi (<10 bin takipçi: Reels takipçi başına erişim %4,9 vs karusel %2,6; takip etmeyene ~3 kat) bununla uyumlu. n=1, karusel erişimi günlerce birikebilir; 26.11 kıyası sürüyor.
+- Ses ilk kez ayrıştırıldı (pending.json voice): Aylin 6 video ort. atlama %49,4 / 7,9 sn; Emre 4 video %48,8 / 8,9 sn. Konu karışık, karar yok.
+- Hava "bugün" videoları yüksek atlama (%53–60), "yarın" uyarısı en iyi paylaşım. Yorum: "Yoo kesilmedi" → kesinti iptal/kayma notu önerisi growth.md'ye.
+- Hikâye: erişim 30–48, paylaşım 0. Speko bakiyesi 9,30 USD (20.11 20:21 UTC).
+- Kod değişikliği yok (veriyle desteklenen küçük kalite değişikliği yok).
+- @kocaeligundem: hypeauditor yine 4xx.
+**Kaynaklar:** https://www.fanpagekarma.com/insights/instagram-format-reach/ (07.08.2026; 3 mn+ gönderi, Oca–Nis 2026), https://buffer.com/resources/instagram-reach-engagement-analysis/ (Eki 2024: Reels erişimi karuselin 1,36 katı, karusel etkileşimi 1,12 katı)
+**Bildirilen (tekrar bildirme):** karusel ilk sonucu zayıf → karar önerisi: kesinti için kısa Reels + ayrıntı karuseli (hibrit) ya da karuseli müzikle elle paylaşma; sabah Speko kopukluğu ve düşük Speko bakiyesi uyarısı.
