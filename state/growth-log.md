@@ -130,3 +130,4 @@
 - @kocaeligundem: hypeauditor yine 4xx.
 **Kaynaklar:** https://www.fanpagekarma.com/insights/instagram-format-reach/ (07.08.2026; 3 mn+ gönderi, Oca–Nis 2026), https://buffer.com/resources/instagram-reach-engagement-analysis/ (Eki 2024: Reels erişimi karuselin 1,36 katı, karusel etkileşimi 1,12 katı)
 **Bildirilen (tekrar bildirme):** karusel ilk sonucu zayıf → karar önerisi: kesinti için kısa Reels + ayrıntı karuseli (hibrit) ya da karuseli müzikle elle paylaşma; sabah Speko kopukluğu ve düşük Speko bakiyesi uyarısı.
+- 20.11 ~23:45 kullanıcı: "en mantıklı hangisiyse öyle devam" → HİBRİT seçildi: kesinti günlerinde sabah 1. video kısa kesinti Reels'i + ayrıntı karuseli (≥30 dk sonra). Sabah görevi talimatı güncellendi; Speko araçları görünmezse ToolSearch ile bekleyip yeniden deneme adımı eklendi. Speko maliyeti ~0,03–0,04 USD/video (ledger) → 9,30 USD birkaç hafta yeter.

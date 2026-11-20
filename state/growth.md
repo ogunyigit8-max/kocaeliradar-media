@@ -21,8 +21,10 @@ Etiketler: [VERİ] kendi metriklerimiz · [META] Meta/Instagram kaynaklı · [KA
 - Hikâye (son 24 sa): erişim 30–48, çıkış %7–33, paylaşım 0 → hikâye büyüme kanalı değil, takipçiye hatırlatma. [VERİ]
 - Yorumlar: kesinti videolarında "Derince'de kesilecek mi?", "kesilmedi?" soruları → kişiye özel bilgi talebi (karusel bunu çözer). Kaza/uyarı haberlerinde doğruluk itirazları ("1 ölü var", "yalan sıkmayın") → rakamı "ilk bilgilere göre" ve saatle ver, gelişince güncelle.
 
-## Karusel (kullanıcı onayı 19.11 — liste tipi servis içeriği)
-- Günlük PLANLI KESİNTİ listesi (elektrik/su) artık Reels DEĞİL, karusel: `python3 tools/carousel.py spec.json` → c/<tarih>-<slug>/01..NN.jpg (4:5, 1080x1350) + story.jpg. Reels yalnızca büyük kesintide (≥5 ilçe ve ≥8 saat, ya da Gebze/İzmit merkezde geniş).
+## Karusel + kesinti Reels (HİBRİT — 20.11 kullanıcı onayı, veriye göre)
+- Kesinti günlerinde sabah 1. video KISA KESİNTİ REELS'i (18–25 sn, 3–4 sahne, outage sim): ilk sahnede ilçe sayısı + en uzun/en kalabalık kesinti, her gün FARKLI açı (dünkü başlığı tekrarlama), son sahne "Tüm mahalle listesi profilimizde". Keşfet erişimi buradan gelir.
+- Tam mahalle listesi AYRICA karusel (Reels'ten ≥30 dk sonra) — takipçiye ve aramaya hizmet; büyüme kanalı değil.
+- Karusel üretimi: `python3 tools/carousel.py spec.json` → c/<tarih>-<slug>/01..NN.jpg (4:5, 1080x1350) + story.jpg. Reels yalnızca büyük kesintide (≥5 ilçe ve ≥8 saat, ya da Gebze/İzmit merkezde geniş).
 - Yapı: 1) kapak: ilçe sayısı + en çarpıcı bilgi (sarı bant), harita pinleri, "MAHALLEN LİSTEDE Mİ? KAYDIR" 2) ÖZET kare (ilçe · mahalle sayısı · saat) — Instagram geçilen karuseli 2. kareyle yeniden gösterebildiği için kendi başına anlaşılır 3..) mahalle listesi (ilçe başlıklı, saat sağda) son) GÖNDER / KAYDET / TAKİP ET + arıza hattı. En fazla 10 kare, tek şablon.
 - Paylaşım: önce hikâye (story.jpg, create_story image_url), sonra create_carousel_post (items: her kare image_url + alt_text "Kocaeli <tarih> elektrik kesintisi: <ilçe> <mahalleler> <saat>"). Karusel Reels 60 dk kuralına sayılmaz; Reels'ten en az 30 dk uzak tut.
 - Caption: "⚡ Kocaeli elektrik kesintisi <gün Ay>: <N> ilçede, en uzun <ilçe> <süre>" + "Mahallen listede mi? Kaydır 👉" + "Listede mahallesi olan birine gönder." + Kaynak + kesinti hashtag seti. API ile karusele müzik eklenemiyor; başarı ölçütü kayıt+gönderim/erişim ve media_follows. [KAYNAK: uppbeat 03.11.2026; karusel rehberleri (görüş); ÖNERİ]
