@@ -2,7 +2,7 @@
   "instagram_hesap_id": "17841458144556548",
   "instagram_kullanici": "senolsannesecerdin",
   "dizi": "Paket",
-  "son_bolum": 2,
+  "son_bolum": 3,
   "bolumler": [
     {
       "no": 1,
@@ -33,6 +33,19 @@
         "a": 4,
         "b": 0
       }
+    },
+    {
+      "no": 3,
+      "klasor": "bolumler/b03",
+      "media_id": "18341133850273951",
+      "permalink": "https://www.instagram.com/reel/Df-COCaD8e7/",
+      "oylama_yorum_id": "18143283940624477",
+      "hikaye_id": "17876460300601468",
+      "paylasim_zamani": "2026-11-20T19:01:00+03:00",
+      "secenek_a": "GİR",
+      "secenek_b": "GİT",
+      "sonuc": null,
+      "oylar": null
     }
   ],
   "cevaplanan_yorumlar": [
@@ -43,19 +56,5 @@
     "17997715701063021",
     "18121412468063394",
     "18101605475547610"
-  ],
-  "hazir_bolum": {
-    "no": 3,
-    "klasor": "bolumler/b03",
-    "tarih": "2026-11-20",
-    "varsayilan_sonuc": "SOR",
-    "oylar_hazirlarken": {
-      "a": 4,
-      "b": 0
-    },
-    "video_url": "https://raw.githubusercontent.com/ogunyigit8-max/kocaeliradar-media/main/senolsan/v/b03.mp4",
-    "secenek_a": "GİR",
-    "secenek_b": "GİT",
-    "aciklama": "Sordun. Ev sahibin paketi sana uzattı: \"Bu senin.\" 📦\n\nSiz seçtiniz: {ORAN}.\n\nSen olsan ne seçerdin?\n👉 Yoruma GİR ya da GİT yaz.\n🔁 GİR diyecek bir arkadaşına gönder.\nYeni bölüm her akşam 19:00'da.\n\nPaket | Bölüm 3\n\n#senolsannesecerdin #hikaye #gerilim #animasyon #dizi"
-  }
+  ]
 }

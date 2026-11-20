@@ -26,3 +26,12 @@ Yeni bölüm yazmadan önce bu dosyanın tamamı okunur. Tutarlılık şart: isi
 - Soru: Kapıdaki adama (ev sahibine) soracak mısın, kaçacak mısın? SOR / KAÇ.
 - Açık sırlar: fotoğrafı kim çekti, ev sahibinin paketi nereden geldi, siyah araba neden durmadı, elli bin lira kimin parası.
 - Sonuç: SOR kazandı (SOR 4, KAÇ 0). Emre ev sahibine sordu.
+
+## Bölüm 3 (20.11.2026 19:01)
+- Emre sordu. Ev sahibi paketi uzattı: "Bu senin." Kutunun üstünde Emre'nin adı, Emre'nin kendi el yazısıyla.
+- Ev sahibi de mesaj almış: "Kira borcun bu gece kapanacakmış." Siyah araba sokağın başında yeniden belirdi, farları söndü.
+- Ev sahibi kapıyı araladı: "İçeri gel. Bodrumda biri seni bekliyor."
+- Ters köşe: telefona mesaj "Sakın girme." Gönderen numara Emre'nin kendi numarası.
+- Soru: Kapıdan içeri girecek misin, gidecek misin? GİR / GİT.
+- Açık sırlar: bodrumda kim var, kutudaki el yazısı nasıl Emre'nin, mesajı Emre'nin numarasından kim atıyor, kira borcunu kim kapatıyor.
+- Sonuç: (bekleniyor)
