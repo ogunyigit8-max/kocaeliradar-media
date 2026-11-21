@@ -32,4 +32,10 @@ geçmesini istediğin adı yaz (gerçek adın olmak zorunda değil)."
   sample(liste, len(liste)) sırası) seçilir ve ona da aynı mesaj gider, sonraki bölüme alınır.
 
 ## Sonuç
+### Başlangıç (21.11.2026)
+- Yarışma hikayesi: VİDEO (v/yarisma_hikaye.mp4), hikaye id 18138234736708971
+- Kural yorumu: 3. bölüm (media 18341133850273951) altına, yorum id 17915688060590816
+- Katılım: 21.11 12:00 – 23.11 12:00
+
+### Kura
 (kura sonrası doldurulacak)
