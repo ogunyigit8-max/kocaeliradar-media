@@ -34,4 +34,14 @@ Yeni bölüm yazmadan önce bu dosyanın tamamı okunur. Tutarlılık şart: isi
 - Ters köşe: telefona mesaj "Sakın girme." Gönderen numara Emre'nin kendi numarası.
 - Soru: Kapıdan içeri girecek misin, gidecek misin? GİR / GİT.
 - Açık sırlar: bodrumda kim var, kutudaki el yazısı nasıl Emre'nin, mesajı Emre'nin numarasından kim atıyor, kira borcunu kim kapatıyor.
+- Sonuç: GİR kazandı (GİR 3, GİT 2; 17:00 itibarıyla, kişi başı tek oy). Emre içeri girdi.
+
+## Bölüm 4 (21.11.2026 19:00)
+- Emre içeri girdi, kapı arkasından kendiliğinden kilitlendi. Ev sahibi bodrum merdivenini gösterdi.
+- Bodrumda uzun bir masa, üstünde onlarca paket; hepsinde Emre'nin el yazısı. Masanın yanında Emre'ninkinin aynısı turuncu bir kurye çantası.
+- Karanlıktan tanıdık bir ses: "Geç kaldın Emre. Yine."
+- Ters köşe: masa lambası yandı; masadaki adamın yüzü Emre'nin yüzü (ikiz/kopya). Koyu gri kapüşonlu giyiyor, kask yok.
+- Soru: Onunla kalacak mısın, kaçacak mısın? KAL / KAÇ.
+- Açık sırlar: masadaki "öteki Emre" kim, "yine" ne demek (Emre bunu daha önce yaşadı mı), paketler kime gidiyor, ikinci turuncu çanta kimin, ev sahibi ne kadar biliyor.
+- Öteki Emre (sabit tarif): a white round-head stick-figure young man with short curly black hair exactly like Emre, the same face as Emre, wearing a plain dark grey hooded sweatshirt, no helmet
 - Sonuç: (bekleniyor)

@@ -44,8 +44,11 @@
       "paylasim_zamani": "2026-11-20T19:01:00+03:00",
       "secenek_a": "GİR",
       "secenek_b": "GİT",
-      "sonuc": null,
-      "oylar": null
+      "sonuc": "GİR",
+      "oylar": {
+        "a": 3,
+        "b": 2
+      }
     }
   ],
   "cevaplanan_yorumlar": [
