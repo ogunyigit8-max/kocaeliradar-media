@@ -1,0 +1,12 @@
+{
+ "target": 1000,
+ "file": "v/ozel-1000-takipci.mp4",
+ "status": "ready",
+ "created": "2026-11-22",
+ "followers_at_creation": 798,
+ "caption": "🎉 Kocaeli Radar 1000 kişi oldu! Teşekkürler Kocaeli\nİzmit'ten Gebze'ye, Kandıra'dan Karamürsel'e 12 ilçede bizi takip eden herkese teşekkürler. Son dakika, elektrik ve su kesintileri, yol durumu ve Kocaelispor: hepsini sizin için 7/24 takip ediyoruz.\n\nSen hangi ilçedensin? Yorumlara yaz 👇\nBizi bir arkadaşına gönder, 2000'e birlikte gidelim.\n\n#kocaeli #kocaeliradar #kocaelihaber #izmit #gebze",
+ "story_done": false,
+ "reel_done": false,
+ "posted_at": null,
+ "note": "Saatlik son dakika görevi takipçi sayısı >= target olduğunda 10:00-22:00 arasında, son Reels'ten 60 dk sonra önce hikâye sonra Reels olarak paylaşır."
+}
