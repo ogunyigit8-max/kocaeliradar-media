@@ -154,7 +154,7 @@
   {
    "date": "2026-11-21",
    "created_at": "2026-11-21T08:00:06+03:00",
-   "status": "scheduled",
+   "status": "published",
    "videos": [
     {
      "file": "v/2026-11-21-kesinti.mp4",
@@ -185,9 +185,11 @@
      "caption": "⚽ Kocaelispor - Fenerbahçe bu akşam 19.00'da: iki takım da 19 puan\nSüper Lig'in 12. haftasında Kocaelispor, Fenerbahçe'yi Kocaeli Stadı'nda ağırlıyor. Kocaelispor 7., Fenerbahçe 6. sırada; iki takım da 11 maçta 6 galibiyet aldı.\nMaç beIN Sports 1'den canlı yayınlanacak.\n\nSkor tahminin ne? Yorumlara yaz.\n\nKaynak: Sporx, Kocaeli Kent Gazetesi\n\n#kocaeli #kocaeliradar #kocaelispor #izmit",
      "voice": "emre",
      "sim": false,
-     "story_done": false,
-     "reel_done": false,
-     "posted_at": null
+     "story_done": true,
+     "reel_done": true,
+     "posted_at": "2026-11-21T15:33:56+03:00",
+     "story_media_id": "18145371298611716",
+     "reel_media_id": "18210083008373398"
     }
    ],
    "carousel": {
