@@ -42,3 +42,4 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - 21.11.2026 18:35: okunabildi → ozgunkocaeli.com.tr/sondakika-haberleri, sondakika.com/kocaeli-kaza, sondakika.com/kocaeli-izmit. Okunamadı → istekocaeli.com (PROVENANCE_REQUIRED).
 - 21.11.2026 19:35: okunabildi → ozgunkocaeli.com.tr/sondakika-haberleri, sondakika.com/kocaeli-deprem (önbellek 15:19), sondakika.com/kocaeli-izmit (eski önbellek, 27.10). Okunamadı (client_error) → istekocaeli.com, enkocaeli.com.
 - 21.11.2026 20:35: okunabildi → ozgunkocaeli.com.tr/sondakika-haberleri (önbellek 16:30), sondakika.com/kocaeli. Okunamadı (client_error) → cagdaskocaeli.com.tr, istekocaeli.com, seskocaeli.com.
+- 21.11.2026 21:35: okunabildi → sozcu.com.tr, fanatik.com.tr (maç sonucu). Okunamadı (client_error) → cagdaskocaeli.com.tr.
