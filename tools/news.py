@@ -27,6 +27,19 @@ haber.json:
    Yol koordinatları (yaklaşık): D-100 Gebze-İzmit [[40.835,29.30],[40.82,29.37],[40.805,29.42],[40.797,29.455],
    [40.79,29.50],[40.78,29.56],[40.775,29.62],[40.765,29.75],[40.765,29.92]]; TEM [[40.84,29.30],[40.83,29.45],
    [40.80,29.60],[40.78,29.80],[40.77,29.95],[40.75,30.10]].
+"anim" (isteğe bağlı, KULLANICI İSTEĞİ 21.11.2026: "görsel ne kadar animasyonlu olursa o kadar iyi"):
+   konuya uyan ANİMASYONLU SİMGE (tools/anim.py başındaki tür listesine bak). Örnek:
+   {"type":"fuel","value":"68,80","unit":"TL","dir":"down","label":"BENZİN"}  (akaryakıt: pompa + fiyat sayacı)
+   Türler: fuel, price, coins, bus, tram, school, water, gauge, football, cones, wind, snow, thermo,
+   calendar, megaphone, quake, house, hospital, factory, ship.
+   KURAL: HER HABER VİDEOSUNDA en az 2 sahnede (mümkünse kapak sahnesi dahil) konuya uyan bir "anim" kullan;
+   haritanın göründüğü sahnelerin çoğunda simge olsun. "sim" ile aynı sahnede de kullanılabilir (sim haritada,
+   anim üst-ortada). Örnek eşleşmeler: akaryakıt→fuel; zam/indirim/ücret/tarife→price; maaş/ekonomi→coins;
+   otobüs/sefer/hat→bus; tramvay/raylı→tram; okul/tatil→school (stamp "TATİL"); su kesintisi→water cut;
+   baraj/oran→gauge; maç→football (score); yol çalışması→cones; fırtına→wind; kar→snow; sıcaklık→thermo;
+   tarih/başvuru/son gün→calendar; duyuru/uyarı→megaphone; deprem→quake; konut/TOKİ→house; sağlık→hospital;
+   sanayi/OSB→factory; feribot/deniz→ship. Sayılar (value, score, mag, from/to) KAYNAKTAKİ değerle birebir.
+   Simge 0. karede (kapak) tam görünür; sayılar sıfırdan sayarak gerçek değere varır.
 SESLENDİRME METNİ: her cümleyi TTS'e göndermeden önce `python3 tools/tr_numbers.py "<cümle>"` ile çevir
    (sayılar bütün okunur: 1000 -> bin, D-100 -> Deyüz, 17.30 -> on yedi otuz, %109 -> yüzde yüz dokuz,
    95,60 TL -> doksan beş lira altmış kuruş). Altyazı (narr) metninde rakamlar olduğu gibi kalır.
@@ -42,6 +55,7 @@ from PIL import Image, ImageDraw, ImageFilter
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from stories import font, text, W, H, YEL, RED, GRN, WHITE  # noqa: E402
+from anim import anim_layer  # noqa: E402
 
 A = os.path.join(HERE, "assets")
 FPS = 30
@@ -669,6 +683,7 @@ def main(spec_path):
             fr.alpha_composite(base_ov)
             if sc.get("sim"): fr.alpha_composite(sim_layer(sc, tl, (x0, y0, cw, ch)))
             if sc.get("pins"): fr.alpha_composite(pins_layer(sc, tl, (x0, y0, cw, ch)))
+            if sc.get("anim"): fr.alpha_composite(anim_layer(sc, tl))
             prog = (start + tl) / T
             fr.alpha_composite(overlay(sc, k, tl, S.get("category", "GÜNDEM"), S["source"], prog))
             p.stdin.write(fr.convert("RGB").tobytes())
