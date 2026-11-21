@@ -46,3 +46,4 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - 21.11.2026 22:35: okunabildi → sondakika.com/kocaeli, haberler.com/kocaeli (kısmi). Okunamadı (client_error) → iha.com.tr/kocaeli.
 - 21.11.2026 23:32: okunabildi → sondakika.com/kocaeli (en yeni Kocaeli haberi 21:29), sondakika.com haber sayfaları.
 - 22.11.2026 00:32: okunabildi → sondakika.com/kocaeli (en yeni 21:29), sondakika.com/kocaeli-kaza (en yeni 17.11).
+- 22.11.2026 01:35: okunabildi → sondakika.com/kocaeli (en yeni 21:29), haberler.com/kocaeli (en yeni 21.11 22:19). Okunamadı (client_error) → istekocaeli.com.
