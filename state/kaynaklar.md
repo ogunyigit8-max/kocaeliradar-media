@@ -34,3 +34,4 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 
 ## Okunabilirlik (tarihli notlar; görevler ekler)
 - 21.11.2026: okunabildi → ozgunkocaeli.com.tr, kocaelikentgazetesi.com, sondakika.com, diken.com.tr. Okunamadı (client_error) → bugunkocaeli.com.tr, kocaelitv.com.tr, kocaeligazetesi.com.tr, demokratkocaeli.com, aydinlik.com.tr, turkgun.com, ensonhaber.com. mgm.gov.tr açılıyor ama veri boş (JavaScript).
+- 21.11.2026 13:38: okunabildi → sondakika.com, haberler.com, kocaelimeydan.com. Okunamadı (client_error) → istekocaeli.com, ozgurkocaeli.com.tr.
