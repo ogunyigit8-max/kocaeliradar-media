@@ -39,3 +39,4 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - 21.11.2026 15:35: Okunamadı → kocaelihalkgazetesi.com (client_error), koeri.boun.edu.tr/scripts/lst0.asp (302 yönlendirme döngüsü; deprem için AFAD'ı aktaran haberlere bak).
 - 21.11.2026 16:35: okunabildi → ozgunkocaeli.com.tr/sondakika-haberleri. Okunamadı → enkocaeli.com, bugunkocaeli.com.tr (client_error), kocaelimeydan.com (PROVENANCE_REQUIRED).
 - 21.11.2026 17:35: okunabildi → ozgunkocaeli.com.tr, ntv.com.tr, star.com.tr. Okunamadı (client_error) → noktagazetesi.com.tr, kocaeligazetesi.com.tr, bugunkocaeli.com.tr.
+- 21.11.2026 18:35: okunabildi → ozgunkocaeli.com.tr/sondakika-haberleri, sondakika.com/kocaeli-kaza, sondakika.com/kocaeli-izmit. Okunamadı → istekocaeli.com (PROVENANCE_REQUIRED).
