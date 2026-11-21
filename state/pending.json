@@ -199,10 +199,10 @@
      "Kocaeli 21 Kasım 2026 elektrik kesintisi: Kartepe Uzuntarla 09.00-17.00.",
      "Kocaeli 21 Kasım 2026 elektrik kesintisi: listeyi kaydet, mahallesi listede olan birine gönder. Arıza bildirimi SEDAŞ 186."
     ],
-    "story_done": false,
-    "post_done": false,
-    "posted_at": null,
-    "media_id": null
+    "story_done": true,
+    "post_done": true,
+    "posted_at": "2026-11-21T08:34:11+03:00",
+    "media_id": "17960341749274239"
    }
   }
  ]
