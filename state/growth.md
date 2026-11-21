@@ -36,7 +36,7 @@ Etiketler: [VERİ] kendi metriklerimiz · [META] Meta/Instagram kaynaklı · [KA
 
 ## Paylaşım aralığı (EN ÖNEMLİ)
 - İki Reels arasında EN AZ 60 dk (tercihen 2+ saat). 16.11'de dakikalar içinde atılan 4 video ~180–245 erişimde kaldı; 17.11'de 2–3 saat arayla atılan 4 videonun hepsi 1.390+ erişim aldı. Kural doğrulandı. [VERİ]
-- Sabah görevi yalnızca 1. videoyu hemen paylaşır; diğerlerini saatlik son dakika görevi 12:31, 18:31, 21:31'de birer birer paylaşır.
+- Sabah görevi yalnızca 1. videoyu hemen paylaşır; diğerlerini saatlik son dakika görevi 12:31, 15:31, 18:31, 21:31'de birer birer paylaşır. (21.11: kullanıcı günde 4 sabah videosuna çıkardı.)
 - Son dakika (A) istisnadır; ama 60 dk içinde başka Reels atılmışsa sıradaki video bir sonraki slota kayar.
 - Günde 3–5 Reels yeterli; medya sektörü ortalaması haftada ~32 gönderi. Sayıyı değil kaliteyi artır. [KAYNAK: Dash Social]
 
