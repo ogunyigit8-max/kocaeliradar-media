@@ -1,15 +1,15 @@
 # Kocaeli Radar — Büyüme Kuralları (güncel)
-Son güncelleme: 2026-11-20 gece. Diğer görevler bu dosyayı okuyup uygular.
+Son güncelleme: 2026-11-21 gece. Diğer görevler bu dosyayı okuyup uygular.
 Etiketler: [VERİ] kendi metriklerimiz · [META] Meta/Instagram kaynaklı · [KAYNAK] 3. taraf veri · [ÖNERİ] test edilecek.
 
 ## Durum ve hedef
-- 20.11 gece: 612 takipçi (19.11 kesin +68, erişim 7,99 bin; 20.11 gün içi erişim 3,7 bin — Speko kopukluğu nedeniyle sabah Reels'i yok). [VERİ]
-- 19.11 gece: 564 takipçi (16.11 sabah ~107 → 17.11 428 → 18.11 511 → 19.11 564). Yeni takipçi: 16.11 +268 · 17.11 +221 · 18.11 +32 · 19.11 ~+53. Günlük erişim 16.11 17,6 bin · 17.11 20,0 bin · 18.11 5,7 bin · 19.11 6,1 bin. [VERİ]
-- YAVAŞLAMA: 17.11'den beri 5 bin+ erişimli video yok → büyüme günde ~220'den ~40–50'ye indi. Büyüme tek tek viral videolara bağlı; 2–3 bin erişimli rutin videolar takipçi getirmiyor (dönüşüm ~%0,6–0,9). [VERİ]
+- 21.11 gece: 790 takipçi (20.11 gece 612 → ~+178/24 sa). Günlük erişim 21.11 22,4 bin (rekor; takip etmeyen %98,6), 335 paylaşım. Sebep: HİBRİT kesinti Reels'i (08:01, Emre, "Gebze'de 8 saat: bugün 10 ilçede") 27,3 bin erişim, 439 paylaşım, 46 kayıt (%1,78 paylaşım+kayıt/erişim), atlama %44, ort. 10,2 sn → hesabın en iyi videosu. [VERİ]
+- Seyir: 16.11 ~107 → 17.11 428 → 18.11 511 → 19.11 564 → 20.11 ~640 → 21.11 790. Yeni takipçi 16.11 +268 · 17.11 +221 · 18.11 +32 · 19.11 +68 · 20.11 +77 · 21.11 ~+150. Günlük erişim 17,6 / 20,0 / 5,7 / 8,0 / 11,7 / 22,4 bin. [VERİ]
+- Büyüme hâlâ viral videolara bağlı: 5 bin+ erişimli video olan günler +150–270, olmayan günler +30–80. [VERİ]
 - Erişimin %95–99'u takip etmeyenlerden → büyüme tamamen Keşfet/öneriden geliyor. [VERİ]
 - Takipçi dönüşümü (yeni takipçi / günlük erişim): 16.11 %1,5 · 17.11 %1,1. [VERİ]
 - Büyüme hızı: 4 günde ~+457; son 48 saatte ~+85 (günde ~43). Viral video (5 bin+ erişim) olan günler +200 üstü; olmayan günler +30–55. [VERİ]
-- Projeksiyon (TAHMİN, 20.11): son 3 gün ort. ~+50/gün → 1.000 takipçi ≈ 27–29 Kasım; haftada 1 viral günle ≈ 24–26 Kasım. Sabah Reels'i atlanan gün erişim yarıya iniyor → üretim kesintisi en büyük risk. Aralık sonu: viral yoksa ~2 bin, haftada 1–2 viral günle 3–4 bin. 7 gün dolunca (23.11) yeniden hesapla.
+- Projeksiyon (TAHMİN, 21.11): viral olmayan gün ~+60, viral gün ~+150–250 → 1.000 takipçi ≈ 23–25 Kasım. Aralık sonu: viral yoksa ~2,5 bin, haftada 1–2 viral günle 4–5 bin. Sabah Reels'i atlanan gün erişim yarıya iniyor → üretim kesintisi en büyük risk. 23.11'de 7 günlük ortalamayla yeniden hesapla.
 - Kıyas: <1.000 takipçili hesaplarda Reels medyan erişimi ~134; 1–5 bin takipçide Reels başına ort. ~580 izlenme → bizim tüm videolarımız (aralık kuralına uyulanlar) 1.300+ erişimde. [KAYNAK: netinfluencer/Metricool, Socialinsider]
 - Hedef metrikler: ilk 3 sn atlama < %40 (17–18.11 ort. ~%46; 19.11 ort. %53,6 — kötüleşiyor), ort. izlenme ≥ 10 sn (19.11 ort. 7,1 sn), paylaşım+kayıt / erişim ≥ %1. Instagram'ın evrensel atlama eşiği yok; kendi son 10–20 Reels medyanımızla kıyasla. [VERİ + KAYNAK: TrueFuture Media]
 
@@ -18,7 +18,7 @@ Etiketler: [VERİ] kendi metriklerimiz · [META] Meta/Instagram kaynaklı · [KA
 - İlçe: Gebze ekseni (Gebze 92, Darıca 50, Şekerpınar 19, Tuzla 14) en büyük blok; İzmit 60, Derince 31, Sarımeşe 28, Gölcük 26, Hereke 13, Karamürsel 11. Kandıra/Kartepe zayıf.
 - Sonuç: yetişkin, işe gidip gelen, aile/çocuk sahibi kitle → ulaşım, kesinti, servis/okul, fatura/fiyat, güvenlik. Gebze–Darıca–Çayırova haberine öncelik; başlıkta ilçe adı.
 - Ses [VERİ, 10 Reels, konu karışık]: Aylin (6) ort. atlama %49,4 / izlenme 7,9 sn; Emre (4) %48,8 / 8,9 sn → Emre hafif önde ama konu etkisinden ayrıştırılamıyor; ses değiştirme gerekçesi yok.
-- Hikâye (son 24 sa): erişim 30–48, çıkış %7–33, paylaşım 0 → hikâye büyüme kanalı değil, takipçiye hatırlatma. [VERİ]
+- Hikâye: 21.11 erişim 19–452 (en iyi 2 hikâye 404/452 — viral gün takipçi artışıyla), paylaşım hep 0 → büyüme kanalı değil, takipçiye hatırlatma. [VERİ]
 - Yorumlar: kesinti videolarında "Derince'de kesilecek mi?", "kesilmedi?" soruları → kişiye özel bilgi talebi (karusel bunu çözer). Kaza/uyarı haberlerinde doğruluk itirazları ("1 ölü var", "yalan sıkmayın") → rakamı "ilk bilgilere göre" ve saatle ver, gelişince güncelle.
 
 ## Karusel + kesinti Reels (HİBRİT — 20.11 kullanıcı onayı, veriye göre)
@@ -28,10 +28,12 @@ Etiketler: [VERİ] kendi metriklerimiz · [META] Meta/Instagram kaynaklı · [KA
 - Yapı: 1) kapak: ilçe sayısı + en çarpıcı bilgi (sarı bant), harita pinleri, "MAHALLEN LİSTEDE Mİ? KAYDIR" 2) ÖZET kare (ilçe · mahalle sayısı · saat) — Instagram geçilen karuseli 2. kareyle yeniden gösterebildiği için kendi başına anlaşılır 3..) mahalle listesi (ilçe başlıklı, saat sağda) son) GÖNDER / KAYDET / TAKİP ET + arıza hattı. En fazla 10 kare, tek şablon.
 - Paylaşım: önce hikâye (story.jpg, create_story image_url), sonra create_carousel_post (items: her kare image_url + alt_text "Kocaeli <tarih> elektrik kesintisi: <ilçe> <mahalleler> <saat>"). Karusel Reels 60 dk kuralına sayılmaz; Reels'ten en az 30 dk uzak tut.
 - Caption: "⚡ Kocaeli elektrik kesintisi <gün Ay>: <N> ilçede, en uzun <ilçe> <süre>" + "Mahallen listede mi? Kaydır 👉" + "Listede mahallesi olan birine gönder." + Kaynak + kesinti hashtag seti. API ile karusele müzik eklenemiyor; başarı ölçütü kayıt+gönderim/erişim ve media_follows. [KAYNAK: uppbeat 03.11.2026; karusel rehberleri (görüş); ÖNERİ]
-- İLK SONUÇ (20.11, ~18 sa) [VERİ n=1]: kesinti karuseli 174 erişim (takipçinin ~%28'i → neredeyse yalnız takipçiler), 0 paylaşım, 0 kayıt, 0 takip, 3 profil ziyareti. Kıyas: kesinti Reels'leri 1,9–9,2 bin erişim, 15–66 paylaşım. Fanpage Karma (Oca–Nis 2026, 3 mn+ gönderi): <10 bin takipçide takipçi başına medyan erişim Reels %4,9 vs karusel %2,6; Reels ~3 kat daha çok takip etmeyene ulaşıyor. [KAYNAK] → Karusel tek başına Keşfet büyümesini durduruyor; karar kullanıcıda (öneri: kısa kesinti Reels'i + ayrıntı karuseli, ya da karuseli uygulamadan müzikle elle paylaşmak). Karar gelene kadar akış değişmez; 26.11 kıyası yine yapılacak.
+- HİBRİT DOĞRULANDI (21.11) [VERİ n=1]: kısa kesinti Reels'i 27,3 bin erişim / 439 paylaşım; aynı günün karuseli 330 erişim, 11 paylaşım, 0 takip, 2 profil ziyareti. Reels büyüme, karusel hizmet — akış böyle kalsın. Reels caption'ındaki "Tüm mahalle listesi profilimizde" yönlendirmesi kalsın.
+- İLK SONUÇ (20.11) [VERİ n=1]: kesinti karuseli (Reels'siz) 238 erişim (takipçinin ~%28'i → neredeyse yalnız takipçiler), 0 paylaşım, 0 kayıt, 0 takip, 3 profil ziyareti. Kıyas: kesinti Reels'leri 1,9–9,2 bin erişim, 15–66 paylaşım. Fanpage Karma (Oca–Nis 2026, 3 mn+ gönderi): <10 bin takipçide takipçi başına medyan erişim Reels %4,9 vs karusel %2,6; Reels ~3 kat daha çok takip etmeyene ulaşıyor. [KAYNAK] → Karusel tek başına Keşfet büyümesini durduruyor; karar kullanıcıda (öneri: kısa kesinti Reels'i + ayrıntı karuseli, ya da karuseli uygulamadan müzikle elle paylaşmak). Karar gelene kadar akış değişmez; 26.11 kıyası yine yapılacak.
 - Ölçüm: karuselde media_follows / media_profile_visits ölçülebiliyor (Reels'te değil) → hangi içeriğin takip getirdiğini buradan öğren.
 
 ## Yorumlar
+- 21.11 viral kesinti Reels'inde 13 yorum: "Nenehatun var mı", "Erenler var mı" (mahalle sorusu → cevap: "Tam liste profildeki kaydırmalı gönderide"), "kesilmedi / gitti" durum bildirimi, ve "Bugün yerine tarih deseniz daha iyi olur" → ekrandaki başlıkta ve ilk cümlede "bugün" yerine/yanında TARİH yaz ("21 Kasım'da 10 ilçede…"); video ertesi gün de öneriliyor. [VERİ n=1 + ÖNERİ]
 - Yorumlardaki SORULARA kısa, doğrulanmış, nazik cevap (ör. "Derince'de bugün Çenedağ ve Çınarlı'da 09.00-17.00; net bilgi SEDAŞ 186"); hakaret/polemik/siyasete cevap yok. Kesinti iptal/kayma şikâyeti ("Yoo kesilmedi", "kesilmedi?") tekrarlıyor → caption'da "SEDAŞ planı; çalışma iptal/kayabilir" notu ekle. [VERİ + ÖNERİ] Otomatik cevap HENÜZ AKTİF DEĞİL — kullanıcının açık onayı bekleniyor. [ÖNERİ]
 
 ## Paylaşım aralığı (EN ÖNEMLİ)
@@ -96,9 +98,9 @@ Son: hashtag seti (EN FAZLA 5 etiket — Instagram Aralık 2025'ten beri gönder
 4. Seri formatlar: "Kocaeli'de bugün: 3 başlık" (sabah), "Akşam trafik/yol durumu" — alışkanlık yaratır. [ÖNERİ]
 - Tekrarlayan günlük format yorulması: elektrik kesintisi 17.11 9,1 bin → 18.11 2,4 bin → 19.11 1,9 bin (atlama %43→%47→%55). [VERİ, n=3, doğrulandı] Günlük kesintiyi her gün 1. video yapma; yalnızca geniş/uzun (≥5 ilçe veya ≥8 saat, ya da kalabalık ilçe Gebze/İzmit merkez) ise ver, başlığı her gün farklı açıyla kur (en uzun kesinti/en kalabalık mahalle önde). [VERİ, n=2]
 - Paylaşım üretmeyen konular: baraj doluluk (0 paylaşım, 1,7 bin), spor maç önü (2 paylaşım) → bilgi iyi ama "birine gönder" sebebi yok. Servis/uyarı haberleri (elektrik, hat değişikliği, fırtına) paylaşımın asıl kaynağı (Darıca hatları %1,7 paylaşım+kayıt/erişim, en iyi oran). [VERİ]
-- Spor maç önü (Kocaelispor) erişim iyi (1,5 bin) ama paylaşım 2 → haftada 1–2 ile sınırla; maç sonucu/skor daha güçlü olabilir. [VERİ + ÖNERİ]
 - En iyi gönderim oranı = "yarın/bu gece" uyarısı + durumsal gönder çağrısı: 19.11 17:38 fırtına (yarın sabah) 2,7 bin erişim, 46 paylaşım (%1,9 paylaşım+kayıt/erişim, şimdiye kadarki en iyi). Aynı gün sabah "bugün" fırtına %1,2. → Uyarıyı olaydan ÖNCEKİ akşam ver. [VERİ]
 - Hava uyarılarında "bugün" videoları yüksek atlama (%53–60; 19.11 %60, 20.11 %53) — "yarın/bu gece" olanlar %50 ve daha çok paylaşım (19.11 17:38 → güncel 5,3 bin erişim, 91 paylaşım). Temsili görsel + tekrar eden hava konusu muhtemel neden; ilk sahnede etkilenen saat/yer ve somut eşik ver. [VERİ]
+- Akaryakıt fiyatı zayıf: 16.11 273 erişim, 21.11 benzin indirimi 360 erişim (viral videodan 3,5 sa sonra) → yalnızca büyük değişimde (≥2 TL) ve 1. video değilse kısa ver. Maç sonucu da paylaşım getirmedi (21.11 2-2: 1,1 bin, 0 paylaşım; maç önü 1,4 bin) → spor haftada 1. [VERİ]
 - Kurumsal denetim/istatistik haberleri (servis denetimi 19.11: 1,3 bin, 1 paylaşım) zayıf. [VERİ]
 - Aynı gün aynı konuyu iki kez Reels yapma (19.11 iki fırtına videosu); ikinci kez yalnızca yeni gelişme varsa. [VERİ + ÖNERİ]
 - Düşük öncelik: salt fiyat listesi, genel hava, kurumsal vizyon (COP31 tipi), siyasi demeçler.
@@ -107,7 +109,7 @@ Son: hashtag seti (EN FAZLA 5 etiket — Instagram Aralık 2025'ten beri gönder
 1. Collab (ortak gönderi): yerel işletme/mahalle/ilçe sayfaları ve muhabirlerle ortak Reels; 10 bin altı hesaplarda kabul edilmiş collab gönderileri ~5 kat etkileşim aldı (korelasyon). Davet kullanıcı onayıyla yapılır. [KAYNAK: Emplifi]
 2. Her Reels'i hikâyede paylaş (zaten yapılıyor) + ilk yoruma kaynak/detay yorumu sabitle. [ÖNERİ]
 3. Son dakikada hız: aynı olayı ilk veren yerel hesap olmak; büyük olaylarda (kaza, yangın) gelişme videosu (yaralı durumu, yol açıldı mı) ile seriye dönüştür. [ÖNERİ; Gebze kazası viral oldu]
-4. 1.000 takipçiden sonra Trial Reels ile kapak/hook varyasyonlarını takip etmeyenlerde test et (Trial Reels ≥1.000 takipçili herkese açık hesaplara açık). [KAYNAK]
+4. Trial Reels: bir 3. taraf rehber (superprofile, 30.10.2026, Instagram Yardım'a atıfla) profesyonel hesaplarda alt sınırı 200 takipçi diyor; Metricool 1.000 diyor → uygulamada Reels paylaşırken "Deneme" seçeneği görünüyor mu kontrol et. Graph API ile deneme paylaşımı belgelenmemiş → elle. Tek değişken test et (hook cümlesi veya kapak). [KAYNAK, doğrulanmadı]
 5. Karusel: kesinti listeleri karusele taşındı (19.11, kullanıcı onayı). 26.11'de karusel vs eski kesinti Reels'i kıyasla: erişim, kayıt+gönderim/erişim, takip.
 6. Özgün katkı: veri karşılaştırması, harita, "size etkisi" açıklaması — salt haber metni okumak yetmez. [ÖNERİ]
 

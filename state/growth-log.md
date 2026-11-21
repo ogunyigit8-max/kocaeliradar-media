@@ -131,3 +131,22 @@
 **Kaynaklar:** https://www.fanpagekarma.com/insights/instagram-format-reach/ (07.08.2026; 3 mn+ gönderi, Oca–Nis 2026), https://buffer.com/resources/instagram-reach-engagement-analysis/ (Eki 2024: Reels erişimi karuselin 1,36 katı, karusel etkileşimi 1,12 katı)
 **Bildirilen (tekrar bildirme):** karusel ilk sonucu zayıf → karar önerisi: kesinti için kısa Reels + ayrıntı karuseli (hibrit) ya da karuseli müzikle elle paylaşma; sabah Speko kopukluğu ve düşük Speko bakiyesi uyarısı.
 - 20.11 ~23:45 kullanıcı: "en mantıklı hangisiyse öyle devam" → HİBRİT seçildi: kesinti günlerinde sabah 1. video kısa kesinti Reels'i + ayrıntı karuseli (≥30 dk sonra). Sabah görevi talimatı güncellendi; Speko araçları görünmezse ToolSearch ile bekleyip yeniden deneme adımı eklendi. Speko maliyeti ~0,03–0,04 USD/video (ledger) → 9,30 USD birkaç hafta yeter.
+
+## 2026-11-21 (Cmt, ~23:30 TSİ) — günlük analiz
+**Hesap (Windsor.ai):** 790 takipçi (20.11 gece 612 → ~+178/24 sa). Yeni takipçi (kesin) 20.11 +77. Günlük erişim 20.11 11.654 · 21.11 22.386 (rekor, takip etmeyen %98,6, 335 paylaşım). Projeksiyon (tahmin): 1.000 ≈ 23–25.11.
+| Saat (TSİ) | İçerik | Ses | Erişim | Atlama | Ort. izl. | Payl.+Kayıt/Erişim |
+|---|---|---|---|---|---|---|
+| 20.11 14:06 | Sağanak uyarısı (güncel) | Aylin | 4.141 | %51,9 | 7,5 | %0,87 |
+| 21.11 08:01 | HİBRİT kesinti Reels (10 ilçe, Gebze 8 sa) | Emre | 27.269 | %44,0 | 10,2 | %1,78 (439 payl., 46 kayıt) |
+| 21.11 08:33 | Kesinti karuseli | – | 330 | – | – | %3,3 (11 payl., 0 takip, 2 profil) |
+| 21.11 12:35 | Benzin 68,80 TL | Aylin | 360 | %46,7 | 8,5 | %1,1 |
+| 21.11 15:33 | Kocaelispor–FB maç önü | Emre | 1.369 | %40,3 | 8,0 | %0,15 |
+| 21.11 21:38 | Kocaelispor 2-2 FB (B) | Aylin | 1.141 | %52,8 | 7,5 | %0 |
+- Hibrit akış (kısa kesinti Reels'i + karusel) ilk günde hesabın en iyi videosunu üretti; karusel yine yalnız takipçiye (330). Akış korunuyor.
+- Akaryakıt fiyatı n=2 zayıf (273, 360); maç sonucu 0 paylaşım. growth.md konu önceliği güncellendi.
+- Yorumlar: mahalle soruları ("Nenehatun var mı"), "kesilmedi/gitti", "Bugün yerine tarih deseniz" → başlıkta tarih kuralı (ÖNERİ) growth.md'ye.
+- Hikâye erişimi 19–452, paylaşım 0.
+- Kod değişikliği yok (veriyle desteklenen kalite değişikliği yok; en iyi video mevcut ayarlarla geldi).
+- Rakip rakamı bugün aranmadı (açı: Trial Reels uygunluğu).
+**Kaynaklar:** https://superprofile.bio/guides/instagram-trial-reels (30.10.2026: profesyonel hesapta 200 takipçi, kişiselde 1.000; Instagram Yardım'a atıf), https://metricool.com/instagram-trial-reels/ (03.07.2026: 1.000 takipçi; 72 sa otomatik paylaşım; tek değişken test)
+**Bildirilen (tekrar bildirme):** Trial Reels muhtemelen şimdiden açık olabilir → uygulamada "Deneme" seçeneğini kontrol et, elle hook testi önerisi.
