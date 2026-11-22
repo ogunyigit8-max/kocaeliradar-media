@@ -33,7 +33,6 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - WebSearch ile "site:instagram.com <hesap>" veya hesap adı + "son dakika" ara. Burada görülen haberi Grup 1-6'daki bir siteden doğrulamadan PAYLAŞMA. Görselleri/videoları kullanma (telif).
 
 ## Okunabilirlik (tarihli notlar; görevler ekler)
-- 22.11.2026 08:15 (sabah): okunabildi → ozgunkocaeli.com.tr (haber sayfaları), daricagazetesi.com.tr, mavikocaeli.com.tr, golcukpostasi.com, hurriyet.com.tr, ntv.com.tr, milligazete.com.tr, politikam.com. Okunamadı (client_error) → cagdaskocaeli.com.tr, kocaelikoz.com, kocaelitv.com.tr, kocaeligazetesi.com.tr; sondakika.com ve mgm.gov.tr/sunum (PROVENANCE_REQUIRED).
 - 22.11.2026 08:35: okunabildi → sondakika.com/kocaeli (eski önbellek, 27.10). Okunamadı (client_error) → kocaeligazetesi.com.tr.
 - 22.11.2026 09:35: okunabildi → sondakika.com/kocaeli-izmit (en yeni 21.11), haberler.com/kocaeli (kısmi), kocaelimeydan.com. Okunamadı → istekocaeli.com, kocaeligundem.com (client_error), koeri.boun.edu.tr (yönlendirme döngüsü).
 - 22.11.2026 10:35: okunabildi → ozgunkocaeli.com.tr/sondakika-haberleri (eski önbellek), sondakika.com/kocaeli-izmit (en yeni 21.11 17:30), gebzehaber.net (tarihsiz). Okunamadı (client_error) → istekocaeli.com, enkocaeli.com, bugunkocaeli.com.tr.
@@ -48,3 +47,4 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - 22.11.2026 20:35: okunamadı (client_error) → seskocaeli.com/kocaeli-son-dakika-haberler, ozgurkocaeli.com.tr ana sayfa.
 - 22.11.2026 21:35: okunabildi → sondakika.com/kocaeli (en yeni 20:53), cumhuriyet.com.tr (deprem listesi 08:59). haberler.com/kocaeli eski önbellek (27.10). Okunamadı (client_error) → enkocaeli.com, istekocaeli.com.
 - 22.11.2026 22:35: okunabildi ama eski önbellek → sondakika.com/kocaeli (27.10), sondakika.com/kocaeli-kaza (24.10); hurriyet okul tatili galerisi 2022 tarihli.
+- 22.11.2026 23:35: okunabildi → haberler.com/kocaeli (20:54 kopyası). Okunamadı (client_error) → istekocaeli.com, kocaeligundem.com.
