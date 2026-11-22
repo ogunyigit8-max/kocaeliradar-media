@@ -222,7 +222,7 @@
   {
    "date": "2026-11-22",
    "created_at": "2026-11-22T08:22:00+03:00",
-   "status": "scheduled",
+   "status": "published",
    "videos": [
     {
      "file": "v/2026-11-22-kesinti.mp4",
@@ -254,9 +254,11 @@
      "caption": "🌧️ Kocaeli'de pazartesi 23, çarşamba 10 derece: sıcaklık 2 günde 13 derece düşüyor\nMGM tahminine göre yarın (pazartesi) gök gürültülü sağanak var, en yüksek 23 derece. Salı yağmur sürüyor ve en yüksek sıcaklık 13 dereceye iniyor. Çarşamba parçalı bulutlu; en düşük 5, en yüksek 10 derece.\n\nMontları çıkarma vakti: sabah erken çıkan birine gönder.\n\nGörseller temsilidir.\nKaynak: MGM (Özgün Kocaeli, Darıca Gazetesi)\n\n#kocaeli #kocaeliradar #havadurumu #kocaelihavadurumu #izmit",
      "voice": "aylin",
      "sim": true,
-     "story_done": false,
-     "reel_done": false,
-     "posted_at": null
+     "story_done": true,
+     "reel_done": true,
+     "posted_at": "2026-11-22T15:37:11+03:00",
+     "story_media_id": "17980116233929208",
+     "reel_media_id": "17990314821088966"
     }
    ],
    "carousel": {
