@@ -8,5 +8,24 @@
  "story_done": false,
  "reel_done": false,
  "posted_at": null,
- "note": "Kutlama tarzı (tools/celebrate.py, spec state/kutlama-1000.json): Emre ve Aylin sırayla konuşur, sonda ikisi birlikte 'Teşekkürler Kocaeli!' der. Saatlik son dakika görevi takipçi sayısı >= target olduğunda 10:00-22:00 arasında, son Reels'ten 60 dk sonra önce hikâye sonra Reels olarak paylaşır."
+ "note": "Kutlama tarzı (tools/celebrate.py, spec state/kutlama-1000.json): Emre ve Aylin sırayla konuşur, sonda ikisi birlikte 'Teşekkürler Kocaeli!' der. Saatlik son dakika görevi takipçi sayısı >= target olduğunda 10:00-22:00 arasında, son Reels'ten 60 dk sonra önce hikâye sonra Reels olarak paylaşır.",
+ "poll_reminder": {
+  "enabled": true,
+  "question": "Hangi ilçedensin?",
+  "options": [
+   "İzmit",
+   "Gebze",
+   "Diğer ilçeler"
+  ]
+ },
+ "auto_reply": {
+  "enabled": true,
+  "hours": 48,
+  "max_per_run": 25,
+  "skip": "hakaret, siyaset, spam, reklam, tartışma"
+ },
+ "replied_comment_ids": [],
+ "replies_count": 0,
+ "story_media_id": null,
+ "reel_media_id": null
 }
