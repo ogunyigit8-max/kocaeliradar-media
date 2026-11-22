@@ -1,0 +1,36 @@
+{
+  "satirlar": [
+    {
+      "metin": "Gece ikide sahipsiz bir paket titriyor.",
+      "resim": "bolumler/b02/cekimler/02.png"
+    },
+    {
+      "metin": "Paketi açıyorsun. İçinde senin fotoğrafın var.",
+      "resim": "bolumler/b02/cekimler/01.png"
+    },
+    {
+      "metin": "Kapıda ev sahibin. Elinde aynı paket.",
+      "resim": "bolumler/b02/cekimler/06.png"
+    },
+    {
+      "metin": "Kutunun üstünde kendi el yazın var.",
+      "resim": "bolumler/b03/cekimler/02.png"
+    },
+    {
+      "metin": "Senin numarandan mesaj geliyor: Sakın girme.",
+      "resim": "bolumler/b03/cekimler/06.png"
+    },
+    {
+      "metin": "Bodruma iniyorsun. Onlarca paket var.",
+      "resim": "bolumler/b04/cekimler/03.png"
+    },
+    {
+      "metin": "Masadaki adamın yüzü... senin yüzün.",
+      "resim": "bolumler/b04/cekimler/06.png"
+    },
+    {
+      "metin": "Şimdi sıra sende. Yeni bölüm bu akşam yedide."
+    }
+  ],
+  "muzik_sesi": 0.45
+}
