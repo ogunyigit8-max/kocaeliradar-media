@@ -33,7 +33,6 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - WebSearch ile "site:instagram.com <hesap>" veya hesap adı + "son dakika" ara. Burada görülen haberi Grup 1-6'daki bir siteden doğrulamadan PAYLAŞMA. Görselleri/videoları kullanma (telif).
 
 ## Okunabilirlik (tarihli notlar; görevler ekler)
-- 21.11.2026 22:35: okunabildi → sondakika.com/kocaeli, haberler.com/kocaeli (kısmi). Okunamadı (client_error) → iha.com.tr/kocaeli.
 - 21.11.2026 23:32: okunabildi → sondakika.com/kocaeli (en yeni Kocaeli haberi 21:29), sondakika.com haber sayfaları.
 - 22.11.2026 00:32: okunabildi → sondakika.com/kocaeli (en yeni 21:29), sondakika.com/kocaeli-kaza (en yeni 17.11).
 - 22.11.2026 01:35: okunabildi → sondakika.com/kocaeli (en yeni 21:29), haberler.com/kocaeli (en yeni 21.11 22:19). Okunamadı (client_error) → istekocaeli.com.
@@ -48,3 +47,4 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - 22.11.2026 09:35: okunabildi → sondakika.com/kocaeli-izmit (en yeni 21.11), haberler.com/kocaeli (kısmi), kocaelimeydan.com. Okunamadı → istekocaeli.com, kocaeligundem.com (client_error), koeri.boun.edu.tr (yönlendirme döngüsü).
 - 22.11.2026 10:35: okunabildi → ozgunkocaeli.com.tr/sondakika-haberleri (eski önbellek), sondakika.com/kocaeli-izmit (en yeni 21.11 17:30), gebzehaber.net (tarihsiz). Okunamadı (client_error) → istekocaeli.com, enkocaeli.com, bugunkocaeli.com.tr.
 - 22.11.2026 11:35: okunabildi → sondakika.com/kocaeli-izmit (en yeni 21.11 17:30), hurriyet.com.tr (MGM sarı kod 21 il, Kocaeli yok). Okunamadı (client_error) → ozgurkocaeli.com.tr.
+- 22.11.2026 12:35: okunabildi → sabah.com.tr/son-depremler/kocaeli (kayıt yok). Okunamadı → seskocaeli.com, istekocaeli.com (client_error), sondakika.com/kocaeli (PROVENANCE_REQUIRED).
