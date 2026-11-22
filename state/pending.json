@@ -218,6 +218,55 @@
     "posted_at": "2026-11-21T08:34:11+03:00",
     "media_id": "17960341749274239"
    }
+  },
+  {
+   "date": "2026-11-22",
+   "created_at": "2026-11-22T08:22:00+03:00",
+   "status": "scheduled",
+   "videos": [
+    {
+     "file": "v/2026-11-22-kesinti.mp4",
+     "title": "Gebze ve Kandıra'da 8 saat: 22 Kasım'da 4 ilçede elektrik kesintisi",
+     "caption": "⚡ Kocaeli elektrik kesintisi 22 Kasım: 4 ilçede, en uzun Gebze ve Kandıra 8 saat\nSEDAŞ'ın planlı çalışmaları nedeniyle bugün Gebze, Kandıra, İzmit ve Dilovası'nda kesinti var.\nGebze Barış, İstasyon, Kazımkarabekir ve Tatlıkuyu'da 09.00-17.00, Tavşanlı'da 10.00-17.30; Kandıra Aydınlık, Çarşı ve Orhan'da 09.00-17.00.\n\nTüm mahalle listesi profilimizde (kaydırmalı liste).\nListede mahallesi olan birine gönder.\n\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nGörseller temsilidir.\nKaynak: SEDAŞ, Özgün Kocaeli\n\n#kocaeli #kocaeliradar #elektrikkesintisi #gebze",
+     "voice": "aylin",
+     "sim": true,
+     "story_done": false,
+     "reel_done": false,
+     "posted_at": null
+    },
+    {
+     "file": "v/2026-11-22-okullar-aciliyor.mp4",
+     "title": "Kocaeli'de yarın okul var: ara tatil bitti, ders başı 23 Kasım",
+     "caption": "🎒 Kocaeli'de yarın okul var: ara tatil bitti, ders başı 23 Kasım Pazartesi\nTürkiye genelinde yaklaşık 17 milyon öğrencinin 9 günlük ara tatili bugün sona eriyor. Birinci dönem 22 Ocak'ta bitiyor; yarıyıl tatili 25 Ocak-5 Şubat 2027, ikinci dönem ara tatili 8-12 Mart 2027.\n\nOkula giden çocuğu olan birine gönder.\n\nKaynak: AA/NTV, Milli Gazete (MEB 2026-2027 takvimi)\n\n#kocaeli #kocaeliradar #kocaelihaber #aratatil #izmit",
+     "voice": "emre",
+     "sim": false,
+     "story_done": false,
+     "reel_done": false,
+     "posted_at": null
+    }
+   ],
+   "carousel": {
+    "dir": "c/2026-11-22-elektrik",
+    "slides": [
+     "c/2026-11-22-elektrik/01.jpg",
+     "c/2026-11-22-elektrik/02.jpg",
+     "c/2026-11-22-elektrik/03.jpg",
+     "c/2026-11-22-elektrik/04.jpg",
+     "c/2026-11-22-elektrik/05.jpg"
+    ],
+    "caption": "⚡ Kocaeli elektrik kesintisi 22 Kasım: 4 ilçede, en uzun Gebze ve Kandıra 8 saat\nMahallen listede mi? Kaydır 👉\n\nSEDAŞ'ın planlı çalışmaları nedeniyle bugün Gebze, Kandıra, İzmit ve Dilovası'nda elektrik kesintisi var. Gebze Barış, İstasyon, Kazımkarabekir ve Tatlıkuyu'da 09.00-17.00, Tavşanlı'da 10.00-17.30.\n\nMahallende kesinti var mı?\nListede mahallesi olan birine gönder.\n\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir. Arıza bildirimi: SEDAŞ 186\nKaynak: SEDAŞ, Özgün Kocaeli\n\n#kocaeli #kocaeliradar #elektrikkesintisi #kandıra",
+    "alt_texts": [
+     "Kocaeli 22 Kasım 2026 elektrik kesintisi: 4 ilçede planlı kesinti (Gebze, Kandıra, İzmit, Dilovası). En uzun: Gebze ve Kandıra'da 8 saat.",
+     "Kocaeli 22 Kasım 2026 elektrik kesintisi: ilçe özeti. Gebze 5 mahalle 09.00-17.30; Kandıra 3 mahalle 09.00-17.00; İzmit 3 mahalle 09.00-14.00; Dilovası 2 mahalle 09.00-15.00.",
+     "Kocaeli 22 Kasım 2026 elektrik kesintisi: Gebze Barış, İstasyon, Kazımkarabekir, Tatlıkuyu 09.00-17.00; Tavşanlı 10.00-17.30. Kandıra Aydınlık, Çarşı, Orhan 09.00-17.00. İzmit Körfez, Sanayi 09.00-14.00.",
+     "Kocaeli 22 Kasım 2026 elektrik kesintisi: İzmit Sanayi 09.00-13.00; Kuğu Sokak çevresi 10.00-12.00. Dilovası Organize Bölge 09.00-11.00; Köseler, Organize Bölge 11.00-15.00.",
+     "Kocaeli 22 Kasım 2026 elektrik kesintisi: listeyi mahallesi olan birine gönder, kaydet, Kocaeli Radar'ı takip et. Arıza bildirimi: SEDAŞ 186."
+    ],
+    "story_done": false,
+    "post_done": false,
+    "posted_at": null,
+    "media_id": null
+   }
   }
  ]
 }
