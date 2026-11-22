@@ -60,8 +60,11 @@
       "paylasim_zamani": "2026-11-21T19:01:00+03:00",
       "secenek_a": "KAL",
       "secenek_b": "KAÇ",
-      "sonuc": null,
-      "oylar": null
+      "sonuc": "KAL",
+      "oylar": {
+        "a": 2,
+        "b": 1
+      }
     }
   ],
   "cevaplanan_yorumlar": [

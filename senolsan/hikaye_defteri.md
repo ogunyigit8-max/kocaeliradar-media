@@ -44,4 +44,13 @@ Yeni bölüm yazmadan önce bu dosyanın tamamı okunur. Tutarlılık şart: isi
 - Soru: Onunla kalacak mısın, kaçacak mısın? KAL / KAÇ.
 - Açık sırlar: masadaki "öteki Emre" kim, "yine" ne demek (Emre bunu daha önce yaşadı mı), paketler kime gidiyor, ikinci turuncu çanta kimin, ev sahibi ne kadar biliyor.
 - Öteki Emre (sabit tarif): a white round-head stick-figure young man with short curly black hair exactly like Emre, the same face as Emre, wearing a plain dark grey hooded sweatshirt, no helmet
+- Sonuç: KAL kazandı (KAL 2, KAÇ 1; 17:00 itibarıyla, kişi başı tek oy). Emre kaldı.
+
+## Bölüm 5 (22.11.2026 19:00)
+- Emre kaldı. Öteki Emre gülümseyip sandalyeyi itti: "Beşinci kez geldin. Yine geç kaldın." (Emre bu geceyi daha önce yaşamış olabilir.)
+- Öteki Emre bir paket uzattı: içinde çatlak bir kask, Emre'nin kaskının aynısı.
+- Patron aradı: "Son paket hâlâ yolda Emre!" Yukarıda ev sahibi bodrum kapısını kilitledi.
+- Ters köşe: öteki Emre çatlak kaskı taktı: "Son paketi ya ben götürürüm, ya sen."
+- Soru: Paketi götürecek misin, bırakacak mısın? GÖTÜR / BIRAK.
+- Açık sırlar: "beşinci kez" ne demek (zaman döngüsü mü), çatlak kask neyin işareti, son paket kime gidiyor, patron neyi biliyor, ev sahibi neden kilitledi.
 - Sonuç: (bekleniyor)
