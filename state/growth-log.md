@@ -150,3 +150,23 @@
 - Rakip rakamı bugün aranmadı (açı: Trial Reels uygunluğu).
 **Kaynaklar:** https://superprofile.bio/guides/instagram-trial-reels (30.10.2026: profesyonel hesapta 200 takipçi, kişiselde 1.000; Instagram Yardım'a atıf), https://metricool.com/instagram-trial-reels/ (03.07.2026: 1.000 takipçi; 72 sa otomatik paylaşım; tek değişken test)
 **Bildirilen (tekrar bildirme):** Trial Reels muhtemelen şimdiden açık olabilir → uygulamada "Deneme" seçeneğini kontrol et, elle hook testi önerisi.
+
+## 2026-11-22 (Paz, ~23:30 TSİ) — günlük analiz + HAFTALIK ÖZET
+**Hesap (Windsor.ai):** 846 takipçi (21.11 gece 790 → +56). Yeni takipçi (kesin) 21.11 +150. Günlük erişim 21.11 25.417 (rekor) · 22.11 7.138 (gün içi, takip etmeyen %95,4). Hafta 16–22.11: ~+740 takipçi, ~95 bin erişim; 7 gün ort. ~+125/gün, son 5 gün ~+77/gün. Projeksiyon (tahmin): 1.000 ≈ 24–25.11; Aralık sonu 3–5 bin.
+| Saat (TSİ) | İçerik | Ses | Erişim | Atlama | Ort. izl. | Payl.+Kayıt/Erişim |
+|---|---|---|---|---|---|---|
+| 21.11 08:01 | Hibrit kesinti Reels (güncel) | Emre | 28.666 | %44,0 | 10,3 | %1,77 (459 payl.) |
+| 22.11 08:08 | Kesinti Reels 4 ilçe | Aylin | 3.289 | %44,4 | 8,0 | %1,31 |
+| 22.11 08:40 | Kesinti karuseli | – | 169 | – | – | %0 (0 takip, 4 profil) |
+| 22.11 12:34 | Yarın okul var (MEB takvimi) | Emre | 2.261 | %52,2 | 9,6 | %2,88 (55 payl., 10 kayıt) |
+| 22.11 15:36 | Sıcaklık 13 derece düşüyor | Aylin | 1.513 | %65,6 | 5,9 | %0,33 |
+| 22.11 18:38 | Yarın fırtına 90 km (B) | Emre | 2.034 | %54,2 | 7,2 | %1,38 |
+- Hafta en iyi: 21.11 kesinti Reels 28,7 bin; 16.11 Gebze minibüs kazası 11,8 bin; 17.11 kesinti 9,4 bin. En kötü: 16.11 hava tahmini 249, Körfez çamuru 262, akaryakıt 281 (hepsi aralık kuralı öncesi peş peşe). Karuseller 256 / 372 / 169, toplam 0 takip.
+- Ses (18 Reels): Aylin atlama %50,9 / 7,8 sn; Emre %48,4 / 8,8 sn. Konu karışık.
+- Kitle (664 kırılım): Gebze 92→143, İzmit 60→88, Darıca 50→60, Derince 31→48; cinsiyet/yaş değişmedi (erkek %53, 35–54 %52).
+- Yorumlar: fırtına videosunda "Okul tatil mi / Valimiz tatil yok mu" → okul tatili kararı bilgisi kuralı growth.md'ye. Kesinti videosunda mahalle soruları ve "gitmedi/kesilmedi" sürüyor.
+- Hikâye erişimi 33–80, paylaşım 0.
+- Kod değişikliği yok (konuşma zaten 0,3 sn'de başlıyor; atlama farkları konu kaynaklı).
+- @kocaeligundem: hypeauditor yine okunamadı.
+**Kaynaklar:** https://keywordseverywhere.com/news/instagram-algorithm-updates/ (21.11: 17.11 içerik koruma aracı Instagram üreticilerine açılıyor; Eki–Kas'ta Keşfet'e özgü doğrulanmış değişiklik yok), https://www.pulse.bot/digital-marketing/news/human-speech-and-presence-help-drive-reels-engagement-26291baf-0b96-441f-aefa-8af987fa02e8 (Social Media Today/Emplifi, Mar 2026: ilk 3 sn konuşma ~%25 daha iyi 10 sn tutma)
+**Bildirilen (tekrar bildirme):** haftalık özet; öneriler: içerik korumayı uygulamada aç, okul tatili kararı takibi/notu, sesi varsayılan Emre yapma seçeneği (kullanıcı kararı).
