@@ -242,9 +242,11 @@
      "caption": "🎒 Kocaeli'de yarın okul var: ara tatil bitti, ders başı 23 Kasım Pazartesi\nTürkiye genelinde yaklaşık 17 milyon öğrencinin 9 günlük ara tatili bugün sona eriyor. Birinci dönem 22 Ocak'ta bitiyor; yarıyıl tatili 25 Ocak-5 Şubat 2027, ikinci dönem ara tatili 8-12 Mart 2027.\n\nOkula giden çocuğu olan birine gönder.\n\nKaynak: AA/NTV, Milli Gazete (MEB 2026-2027 takvimi)\n\n#kocaeli #kocaeliradar #kocaelihaber #aratatil #izmit",
      "voice": "emre",
      "sim": false,
-     "story_done": false,
-     "reel_done": false,
-     "posted_at": null
+     "story_done": true,
+     "reel_done": true,
+     "posted_at": "2026-11-22T12:34:36+03:00",
+     "story_media_id": "18130653248477245",
+     "reel_media_id": "17968082988208089"
     },
     {
      "file": "v/2026-11-22-hava-soguyor.mp4",
