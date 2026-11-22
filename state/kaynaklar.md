@@ -33,7 +33,6 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - WebSearch ile "site:instagram.com <hesap>" veya hesap adı + "son dakika" ara. Burada görülen haberi Grup 1-6'daki bir siteden doğrulamadan PAYLAŞMA. Görselleri/videoları kullanma (telif).
 
 ## Okunabilirlik (tarihli notlar; görevler ekler)
-- 22.11.2026 05:35: okunabildi → ozgunkocaeli.com.tr/sondakika-haberleri (önbellek eski), ntv.com.tr/deprem/kocaeli. Okunamadı → sondakika.com/kocaeli (PROVENANCE_REQUIRED), kocaelikoz.com (client_error).
 - 22.11.2026 06:32: okunabildi → sondakika.com/kocaeli (en yeni 21.11 21:29), sondakika.com/kocaeli-yangin (eski önbellek 25.10), ozgunkocaeli.com.tr/sondakika-haberleri (eski önbellek). Okunamadı (client_error) → istekocaeli.com, kocaelitv.com.tr.
 - 22.11.2026 07:35: okunabildi → sondakika.com/kocaeli (en yeni 21.11 21:29), ozgunkocaeli.com.tr/sondakika-haberleri (eski önbellek). Okunamadı (client_error) → istekocaeli.com.
 - 22.11.2026 08:15 (sabah): okunabildi → ozgunkocaeli.com.tr (haber sayfaları), daricagazetesi.com.tr, mavikocaeli.com.tr, golcukpostasi.com, hurriyet.com.tr, ntv.com.tr, milligazete.com.tr, politikam.com. Okunamadı (client_error) → cagdaskocaeli.com.tr, kocaelikoz.com, kocaelitv.com.tr, kocaeligazetesi.com.tr; sondakika.com ve mgm.gov.tr/sunum (PROVENANCE_REQUIRED).
@@ -48,3 +47,4 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - 22.11.2026 16:35: okunabildi → hurses.com.tr, medyahaber.com. Okunamadı (client_error) → seskocaeli.com, kocaelikoz.com, haberglobal.com.
 - 22.11.2026 17:35: Okunamadı → sondakika.com/kocaeli (PROVENANCE_REQUIRED), kocaelikoz.com, istekocaeli.com, seskocaeli.com (client_error).
 - 22.11.2026 18:35: okunabildi → ozgunkocaeli.com.tr (haber sayfası), golcukpostasi.com, hurriyet.com.tr. Okunamadı (client_error) → demokratkocaeli.com, kocaelitv.com.tr, istekocaeli.com.
+- 22.11.2026 20:35: okunamadı (client_error) → seskocaeli.com/kocaeli-son-dakika-haberler, ozgurkocaeli.com.tr ana sayfa.
