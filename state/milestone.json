@@ -8,5 +8,5 @@
  "story_done": false,
  "reel_done": false,
  "posted_at": null,
- "note": "Saatlik son dakika görevi takipçi sayısı >= target olduğunda 10:00-22:00 arasında, son Reels'ten 60 dk sonra önce hikâye sonra Reels olarak paylaşır."
+ "note": "Kutlama tarzı (tools/celebrate.py, spec state/kutlama-1000.json): Emre ve Aylin sırayla konuşur, sonda ikisi birlikte 'Teşekkürler Kocaeli!' der. Saatlik son dakika görevi takipçi sayısı >= target olduğunda 10:00-22:00 arasında, son Reels'ten 60 dk sonra önce hikâye sonra Reels olarak paylaşır."
 }
