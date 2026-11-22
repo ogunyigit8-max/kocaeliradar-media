@@ -188,6 +188,16 @@
    "date": "2026-11-22",
    "time": "17:35",
    "topic": "Tarama: yeni A/B olayı yok (kocaelikoz 'Sürücüler dikkat: peş peşe uyarılar' = valilik yağış uyarısıyla aynı konu, zaten kayıtlı; istekocaeli 'yangında 1 kişi can verdi' tarihsiz/okunamadı, eski haber izlenimi). Takipçi 825 (<1000). Video yapılmadı"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "18:45",
+   "topic": "Kocaeli Valiliği 23 Kasım Pazartesi fırtına (güney/güneybatı 50-70, yer yer 80-90 km/sa, sabahtan itibaren) + öğleden sonra yerel kuvvetli sağanak (21-50 kg/m²) uyarısı; renk kodu yok — Özgün Kocaeli 16:27, Gölcük Postası 16:54",
+   "level": "B",
+   "voice": "emre",
+   "sim": true,
+   "file": "v/2026-11-22-sondakika-firtina-uyarisi.mp4",
+   "reel_posted_at": null
   }
  ]
 }
