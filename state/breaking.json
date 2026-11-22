@@ -167,6 +167,12 @@
    "date": "2026-11-22",
    "topic": "Kasım ara tatili bitti, okullar 23 Kasım Pazartesi açılıyor (yarıyıl 25 Ocak-5 Şubat 2027, 2. ara tatil 8-12 Mart 2027)",
    "voice": "emre"
+  },
+  {
+   "date": "2026-11-22",
+   "topic": "Kocaeli'de sıcaklık düşüşü (MGM 5 günlük: Pzt 23 Kasım sağanak 11/23, Salı yağmur 12/13, Çarşamba parçalı bulutlu 5/10)",
+   "voice": "aylin",
+   "sim": true
   }
  ]
 }
