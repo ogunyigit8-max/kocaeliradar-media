@@ -48,3 +48,4 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - 22.11.2026 12:35: okunabildi → sabah.com.tr/son-depremler/kocaeli (kayıt yok). Okunamadı → seskocaeli.com, istekocaeli.com (client_error), sondakika.com/kocaeli (PROVENANCE_REQUIRED).
 - 22.11.2026 13:35: okunabildi → hurriyet.com.tr (haber sayfası), haberler.com/kocaeli (12:02 kopyası, 22.11 yeni Kocaeli haberi yok). Okunamadı → bugunkocaeli.com.tr, seskocaeli.com (client_error), kocaeli.gov.tr (ROBOTS_UNREACHABLE).
 - 22.11.2026 14:32: okunabildi → aa.com.tr, memurlar.net (20-21.11 sarı kod 24 il, eski). Okunamadı (client_error) → kocaelikoz.com, kocaeligazetesi.com.tr, ensonhaber.com, kocaelibarisgazetesi.com.
+- 22.11.2026 15:37: okunabildi → sondakika.com/kocaeli (en yeni 14:56), hurriyet.com.tr. Okunamadı (client_error) → seskocaeli.com.
