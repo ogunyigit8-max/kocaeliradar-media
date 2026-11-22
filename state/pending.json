@@ -274,10 +274,11 @@
      "Kocaeli 22 Kasım 2026 elektrik kesintisi: İzmit Sanayi 09.00-13.00; Kuğu Sokak çevresi 10.00-12.00. Dilovası Organize Bölge 09.00-11.00; Köseler, Organize Bölge 11.00-15.00.",
      "Kocaeli 22 Kasım 2026 elektrik kesintisi: listeyi mahallesi olan birine gönder, kaydet, Kocaeli Radar'ı takip et. Arıza bildirimi: SEDAŞ 186."
     ],
-    "story_done": false,
-    "post_done": false,
-    "posted_at": null,
-    "media_id": null
+    "story_done": true,
+    "post_done": true,
+    "posted_at": "2026-11-22T08:40:42+03:00",
+    "media_id": "18350569270248806",
+    "story_media_id": "18040509770659117"
    }
   }
  ]
