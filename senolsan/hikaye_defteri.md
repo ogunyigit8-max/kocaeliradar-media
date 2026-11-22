@@ -52,5 +52,6 @@ Yeni bölüm yazmadan önce bu dosyanın tamamı okunur. Tutarlılık şart: isi
 - Patron aradı: "Son paket hâlâ yolda Emre!" Yukarıda ev sahibi bodrum kapısını kilitledi.
 - Ters köşe: öteki Emre çatlak kaskı taktı: "Son paketi ya ben götürürüm, ya sen."
 - Soru: Paketi götürecek misin, bırakacak mısın? GÖTÜR / BIRAK.
+- Reels: https://www.instagram.com/reel/DgDL0zLDBoG/ (hikaye de paylaşıldı). Tahmin ustası: @enisxx93 (patron arayacak tahmini).
 - Açık sırlar: "beşinci kez" ne demek (zaman döngüsü mü), çatlak kask neyin işareti, son paket kime gidiyor, patron neyi biliyor, ev sahibi neden kilitledi.
 - Sonuç: (bekleniyor)
