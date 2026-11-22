@@ -33,7 +33,6 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - WebSearch ile "site:instagram.com <hesap>" veya hesap adı + "son dakika" ara. Burada görülen haberi Grup 1-6'daki bir siteden doğrulamadan PAYLAŞMA. Görselleri/videoları kullanma (telif).
 
 ## Okunabilirlik (tarihli notlar; görevler ekler)
-- 21.11.2026: okunabildi → ozgunkocaeli.com.tr, kocaelikentgazetesi.com, sondakika.com, diken.com.tr. Okunamadı (client_error) → bugunkocaeli.com.tr, kocaelitv.com.tr, kocaeligazetesi.com.tr, demokratkocaeli.com, aydinlik.com.tr, turkgun.com, ensonhaber.com. mgm.gov.tr açılıyor ama veri boş (JavaScript).
 - 21.11.2026 13:38: okunabildi → sondakika.com, haberler.com, kocaelimeydan.com. Okunamadı (client_error) → istekocaeli.com, ozgurkocaeli.com.tr.
 - 21.11.2026 14:35: okunabildi → sondakika.com/kocaeli, haberler.com/kocaeli. Okunamadı (client_error) → ozgurkocaeli.com.tr (3 haber), kocaeligazetesi.com.tr.
 - 21.11.2026 15:35: Okunamadı → kocaelihalkgazetesi.com (client_error), koeri.boun.edu.tr/scripts/lst0.asp (302 yönlendirme döngüsü; deprem için AFAD'ı aktaran haberlere bak).
@@ -48,3 +47,4 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - 22.11.2026 00:32: okunabildi → sondakika.com/kocaeli (en yeni 21:29), sondakika.com/kocaeli-kaza (en yeni 17.11).
 - 22.11.2026 01:35: okunabildi → sondakika.com/kocaeli (en yeni 21:29), haberler.com/kocaeli (en yeni 21.11 22:19). Okunamadı (client_error) → istekocaeli.com.
 - 22.11.2026 02:32: okunabildi → sondakika.com/kocaeli (en yeni 21:29), sondakika.com/gebze, haberler.com/kocaeli (en yeni 21.11 22:19).
+- 22.11.2026 03:32: okunabildi → sondakika.com/kocaeli (en yeni 21.11 21:29), sondakika.com/kocaeli-kaza (en yeni 18.11).
