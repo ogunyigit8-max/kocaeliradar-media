@@ -37,5 +37,16 @@ geçmesini istediğin adı yaz (gerçek adın olmak zorunda değil)."
 - Kural yorumu: 3. bölüm (media 18341133850273951) altına, yorum id 17915688060590816
 - Katılım: 21.11 12:00 – 23.11 12:00
 
-### Kura
-(kura sonrası doldurulacak)
+### Kura (23.11.2026 12:00)
+- Veri: Windsor.ai instagram, last_14dT, force_refresh istendi ama veri ÖNBELLEKTEN geldi (plan anlık yenilemeyi
+  içermiyor). Önbellekteki en son yorum 22.11 22:04 (TSİ); 22.11 22:04 – 23.11 12:00 arası yorumlar eksik olabilir.
+- Pencere: 21.11 12:00 – 23.11 12:00 (TSİ). Bu aralıkta Paket bölümlerine gelen kullanıcı yorumları incelendi;
+  hiçbirinde 3 farklı @etiket yok (tek @'li yorum, @senolsannesecerdin'e cevap).
+- Geçerli katılımcı listesi (alfabetik): [] (0 kişi)
+- Tohum: 20261123. random.Random(20261123).sample([], 0) = [] ; yedek sıra = []
+- Kazanan: YOK. Tebrik mesajı gönderilmedi.
+- Uzatma kuralı uygulandı: yarışma 1 hafta uzatıldı. Yeni katılım: 30.11.2026 12:00'ye kadar. Yeni kura:
+  Pazartesi 30.11.2026 12:00 (tohum o günün tarihi: 20261130).
+- Hatırlatma yorumu: 5. bölüm (media 18097755857165312) altına, yorum id 18010559097005865.
+- Salı 24.11 bölümünde konuk karakter yok; bölüm normal akışla devam eder.
+
