@@ -303,7 +303,32 @@
      "reel_media_id": "17957933394280586"
     }
    ],
-   "carousel": null
+   "carousel": {
+    "dir": "c/2026-11-23-elektrik",
+    "slides": [
+     "c/2026-11-23-elektrik/01.jpg",
+     "c/2026-11-23-elektrik/02.jpg",
+     "c/2026-11-23-elektrik/03.jpg",
+     "c/2026-11-23-elektrik/04.jpg",
+     "c/2026-11-23-elektrik/05.jpg",
+     "c/2026-11-23-elektrik/06.jpg",
+     "c/2026-11-23-elektrik/07.jpg"
+    ],
+    "caption": "⚡ Kocaeli elektrik kesintisi 23 Kasım: 8 ilçede, en uzun İzmit, Kandıra ve Darıca 8 saat\nMahallen listede mi? Kaydır 👉\nDarıca, İzmit, Kandıra, Kartepe, Gölcük, Gebze, Dilovası ve Karamürsel'de SEDAŞ'ın planlı çalışmaları var; tüm mahalleler ve saatler karelerde.\nListede mahallesi olan birine gönder.\n\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nKaynak: SEDAŞ planlı kesinti listesi, Kocaeli Kent Gazetesi\n\n#kocaeli #kocaeliradar #elektrikkesintisi #darıca",
+    "alt_texts": [
+     "Kocaeli 23 Kasım 2026 elektrik kesintisi: 8 ilçede planlı kesinti; en uzun İzmit, Kandıra ve Darıca'da 8 saat (09.00-17.00).",
+     "Kocaeli 23 Kasım 2026 elektrik kesintisi: özet: Darıca 11 mahalle 09.00-17.00, İzmit 10 mahalle 09.00-17.00, Kandıra 13 mahalle 09.00-17.00, Kartepe 11 mahalle 09.00-16.00, Gölcük 7 mahalle 09.00-17.00, Gebze 1 mahalle 08.30-15.30, Dilovası 2 mahalle 09.00-17.00, Karamürsel 2 mahalle 09.00-17.00.",
+     "Kocaeli 23 Kasım 2026 elektrik kesintisi: Darıca Abdi İpekçi, Kazımkarabekir, Sırasöğütler 09.00-12.00; Yeni 09.00-13.00; Kazımkarabekir, Nenehatun 09.00-17.00; Abdi İpekçi, Balçık, Kazımkarabekir, Pelitli, Tavşanlı 12.00-15.00; Balçık, Fevziçakmak, Kazımkarabekir, Piri Reis, Sultan Orhan 13.00-15.00; Kazımkarabekir 15.00-17.00. İzmit Bögürgen, Çağırgan, Geredeli, Hakaniye 09.00-17.00.",
+     "Kocaeli 23 Kasım 2026 elektrik kesintisi: İzmit Kaynarca, Kulmahmut, Süverler, Tahtalı, Yenişehir, Gökçeören 09.00-17.00. Kandıra Antaplı, Balaban, Beylerbeyi, Çerçili, Merkez Erikli 09.00-17.00; Beyce, Eğercili, Gebeşler, Hacışeyh, Hüdaverdiler, Karadivan, Kubuzcu, Sepetçi 09.00-15.30.",
+     "Kocaeli 23 Kasım 2026 elektrik kesintisi: Kartepe Eşme, Uzuntarla 09.00-12.00; Bayraktar, Karaabdülbaki, Ketenciler, Uzunbey, Uzuntarla 09.00-13.00; İbrikdere, Maşukiye, Uzuntarla, Havluburun, Acısu, Derbent 13.00-16.00. Gölcük Şehitler, Yeni 09.00-10.30; Düzağaç, İpek Yolu, Şirinköy, Yeni 11.00-13.00; Piyalepaşa, Şehitler 13.00-15.00.",
+     "Kocaeli 23 Kasım 2026 elektrik kesintisi: Gölcük Dumlupınar 15.30-17.00; Gebze Muallimköy 08.30-15.30; Dilovası Çerkeşli, Çerkeşli OSB 09.00-17.00; Karamürsel Ulaşlı, Ulaşlı Yalı 09.00-17.00.",
+     "Kocaeli 23 Kasım 2026 elektrik kesintisi: listeyi mahallesi olan birine gönder, kaydet, Kocaeli Radar'ı takip et. Arıza bildirimi: SEDAŞ 186."
+    ],
+    "story_done": false,
+    "post_done": false,
+    "posted_at": null,
+    "media_id": null
+   }
   }
  ]
 }
