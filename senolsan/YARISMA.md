@@ -1,5 +1,9 @@
 # "Paket'te sen de oyna" yarışması (1. tur)
 
+> **İPTAL EDİLDİ (23.11.2026, Yiğit'in isteğiyle).** Kura yapılmayacak, kimse bölüme alınmayacak, tebrik mesajı
+> gönderilmeyecek. Görevler bu dosyadaki kuralları UYGULAMAZ. Kural yorumu (17915688060590816) ve hatırlatma
+> yorumu (18010559097005865) Instagram'da gizlendi (silinmedi; gerekirse geri açılabilir).
+
 Yiğit 20.11.2026'da onayladı. Kazananlar çizgi film karakteri olarak bir bölümde yer alır.
 
 ## Takvim
@@ -45,7 +49,7 @@ geçmesini istediğin adı yaz (gerçek adın olmak zorunda değil)."
 - Geçerli katılımcı listesi (alfabetik): [] (0 kişi)
 - Tohum: 20261123. random.Random(20261123).sample([], 0) = [] ; yedek sıra = []
 - Kazanan: YOK. Tebrik mesajı gönderilmedi.
-- Uzatma kuralı uygulandı: yarışma 1 hafta uzatıldı. Yeni katılım: 30.11.2026 12:00'ye kadar. Yeni kura:
+- (Sonra iptal edildi, en üstteki nota bak.) Uzatma kuralı uygulandı: yarışma 1 hafta uzatıldı. Yeni katılım: 30.11.2026 12:00'ye kadar. Yeni kura:
   Pazartesi 30.11.2026 12:00 (tohum o günün tarihi: 20261130).
 - Hatırlatma yorumu: 5. bölüm (media 18097755857165312) altına, yorum id 18010559097005865.
 - Salı 24.11 bölümünde konuk karakter yok; bölüm normal akışla devam eder.
