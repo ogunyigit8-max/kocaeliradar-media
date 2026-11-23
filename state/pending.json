@@ -344,10 +344,11 @@
      "Kocaeli 23 Kasım 2026 elektrik kesintisi: Gölcük Dumlupınar 15.30-17.00; Gebze Muallimköy 08.30-15.30; Dilovası Çerkeşli, Çerkeşli OSB 09.00-17.00; Karamürsel Ulaşlı, Ulaşlı Yalı 09.00-17.00.",
      "Kocaeli 23 Kasım 2026 elektrik kesintisi: listeyi mahallesi olan birine gönder, kaydet, Kocaeli Radar'ı takip et. Arıza bildirimi: SEDAŞ 186."
     ],
-    "story_done": false,
-    "post_done": false,
-    "posted_at": null,
-    "media_id": null
+    "story_done": true,
+    "post_done": true,
+    "posted_at": "2026-11-23T08:32:40+03:00",
+    "media_id": "18082980305739180",
+    "story_media_id": "18035377487681294"
    }
   }
  ]
