@@ -33,7 +33,6 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - WebSearch ile "site:instagram.com <hesap>" veya hesap adı + "son dakika" ara. Burada görülen haberi Grup 1-6'daki bir siteden doğrulamadan PAYLAŞMA. Görselleri/videoları kullanma (telif).
 
 ## Okunabilirlik (tarihli notlar; görevler ekler)
-- 22.11.2026 21:35: okunabildi → sondakika.com/kocaeli (en yeni 20:53), cumhuriyet.com.tr (deprem listesi 08:59). haberler.com/kocaeli eski önbellek (27.10). Okunamadı (client_error) → enkocaeli.com, istekocaeli.com.
 - 22.11.2026 22:35: okunabildi ama eski önbellek → sondakika.com/kocaeli (27.10), sondakika.com/kocaeli-kaza (24.10); hurriyet okul tatili galerisi 2022 tarihli.
 - 22.11.2026 23:35: okunabildi → haberler.com/kocaeli (20:54 kopyası). Okunamadı (client_error) → istekocaeli.com, kocaeligundem.com.
 - 23.11.2026 01:35: okunabildi → sondakika.com/kocaeli (en yeni 22.11 20:53), tekkocaeli.com (eski haber). Okunamadı (client_error) → istekocaeli.com.
