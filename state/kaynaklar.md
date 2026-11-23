@@ -33,7 +33,6 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - WebSearch ile "site:instagram.com <hesap>" veya hesap adı + "son dakika" ara. Burada görülen haberi Grup 1-6'daki bir siteden doğrulamadan PAYLAŞMA. Görselleri/videoları kullanma (telif).
 
 ## Okunabilirlik (tarihli notlar; görevler ekler)
-- 22.11.2026 18:35: okunabildi → ozgunkocaeli.com.tr (haber sayfası), golcukpostasi.com, hurriyet.com.tr. Okunamadı (client_error) → demokratkocaeli.com, kocaelitv.com.tr, istekocaeli.com.
 - 22.11.2026 20:35: okunamadı (client_error) → seskocaeli.com/kocaeli-son-dakika-haberler, ozgurkocaeli.com.tr ana sayfa.
 - 22.11.2026 21:35: okunabildi → sondakika.com/kocaeli (en yeni 20:53), cumhuriyet.com.tr (deprem listesi 08:59). haberler.com/kocaeli eski önbellek (27.10). Okunamadı (client_error) → enkocaeli.com, istekocaeli.com.
 - 22.11.2026 22:35: okunabildi ama eski önbellek → sondakika.com/kocaeli (27.10), sondakika.com/kocaeli-kaza (24.10); hurriyet okul tatili galerisi 2022 tarihli.
@@ -48,3 +47,4 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - 23.11.2026 09:35: okunabildi → ozgunkocaeli.com.tr/sondakika-haberleri (en yeni 00:03), sondakika.com/kocaeli-izmit (22.11 14:32), haberturk deprem listesi. Okunamadı (PROVENANCE_REQUIRED) → istekocaeli.com.
 - 23.11.2026 10:35: okunabildi → ozgunkocaeli.com.tr/sondakika-haberleri (en yeni 00:03), haberturk.com (MGM sarı kod 06:26). Okunamadı (client_error) → istekocaeli.com, gundemkocaeli.com.tr.
 - 23.11.2026 11:35: okunabildi → milliyet.com.tr deprem galerisi (09:55). Okunamadı → duzcedamla.com, istekocaeli.com (client_error), habersosyal.com.tr (SERVER_ERROR).
+- 23.11.2026 12:35: okunabildi → haberturk.com (AKOM 11:19), ozgunkocaeli.com.tr (valilik uyarısı). Okunamadı → sondakika.com/kocaeli (PROVENANCE_REQUIRED), kocaeligundem.com (client_error).
