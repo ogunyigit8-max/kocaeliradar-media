@@ -288,7 +288,7 @@
   {
    "date": "2026-11-23",
    "created_at": "2026-11-23T08:00:58+03:00",
-   "status": "scheduled",
+   "status": "published",
    "videos": [
     {
      "file": "v/2026-11-23-kesinti.mp4",
@@ -318,9 +318,11 @@
      "caption": "🏠 1 Aralık'tan itibaren tapuda yeni dönem: ev, arsa ve iş yeri satışında güvenli ödeme zorunlu\nTicaret Bakanlığı düzenlemesiyle satış bedeli, tapu devri tamamlanana kadar güvenli hesapta tutulacak; devir olunca satıcıya geçecek, satış olmazsa alıcıya iade edilecek.\nNakit, havale ve EFT ile yapılan ödemeler kapsamda. Hizmet bedelinin tutarı henüz açıklanmadı.\n\nYakında ev ya da arsa alıp satacak birine gönder.\nKaynak: Karar, Milli Gazete (Ticaret Bakanlığı düzenlemesi)\n\n#kocaeli #kocaeliradar #ekonomi #kocaeliesnaf #izmit",
      "voice": "emre",
      "sim": false,
-     "story_done": false,
-     "reel_done": false,
-     "posted_at": null
+     "story_done": true,
+     "reel_done": true,
+     "posted_at": "2026-11-23T15:34:17+03:00",
+     "story_media_id": "17923393101242079",
+     "reel_media_id": "17964721329224150"
     }
    ],
    "carousel": {
