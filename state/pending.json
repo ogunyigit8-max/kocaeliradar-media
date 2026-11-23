@@ -284,6 +284,24 @@
     "media_id": "18350569270248806",
     "story_media_id": "18040509770659117"
    }
+  },
+  {
+   "date": "2026-11-23",
+   "created_at": "2026-11-23T08:00:58+03:00",
+   "status": "scheduled",
+   "videos": [
+    {
+     "file": "v/2026-11-23-kesinti.mp4",
+     "title": "Darıca, İzmit ve Kandıra'da 8 saat: 23 Kasım'da 8 ilçede elektrik kesintisi",
+     "caption": "⚡ Kocaeli elektrik kesintisi 23 Kasım: 8 ilçede, en uzun İzmit, Kandıra ve Darıca 8 saat\nSEDAŞ'ın planlı çalışmaları nedeniyle bugün Darıca, Gebze, İzmit, Kandıra, Kartepe, Gölcük, Dilovası ve Karamürsel'de kesinti var.\nDarıca Nenehatun ve Kazımkarabekir'de 09.00-17.00; İzmit Yenişehir ve Kaynarca, Süverler gibi köy mahallelerinde 09.00-17.00; Kandıra'da 13 mahallede çalışma var. Gebze'de Muallimköy 08.30-15.30.\n\nTüm mahalle listesi profilimizde (kaydırmalı liste).\nListede mahallesi olan birine gönder.\n\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nGörseller temsilidir.\nKaynak: SEDAŞ planlı kesinti listesi, Kocaeli Kent Gazetesi\n\n#kocaeli #kocaeliradar #elektrikkesintisi #darıca",
+     "voice": "aylin",
+     "sim": true,
+     "story_done": false,
+     "reel_done": false,
+     "posted_at": null
+    }
+   ],
+   "carousel": null
   }
  ]
 }
