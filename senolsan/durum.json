@@ -76,8 +76,11 @@
       "paylasim_zamani": "2026-11-22T19:00:00+03:00",
       "secenek_a": "GÖTÜR",
       "secenek_b": "BIRAK",
-      "sonuc": null,
-      "oylar": null
+      "sonuc": "BIRAK",
+      "oylar": {
+        "a": 0,
+        "b": 1
+      }
     }
   ],
   "cevaplanan_yorumlar": [

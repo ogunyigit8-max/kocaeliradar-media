@@ -54,4 +54,4 @@ Yeni bölüm yazmadan önce bu dosyanın tamamı okunur. Tutarlılık şart: isi
 - Soru: Paketi götürecek misin, bırakacak mısın? GÖTÜR / BIRAK.
 - Reels: https://www.instagram.com/reel/DgDL0zLDBoG/ (hikaye de paylaşıldı). Tahmin ustası: @enisxx93 (patron arayacak tahmini).
 - Açık sırlar: "beşinci kez" ne demek (zaman döngüsü mü), çatlak kask neyin işareti, son paket kime gidiyor, patron neyi biliyor, ev sahibi neden kilitledi.
-- Sonuç: (bekleniyor)
+- Sonuç: BIRAK kazandı (BIRAK 1, GÖTÜR 0; 23.11 17:00 itibarıyla, kişi başı tek oy). Emre paketi bıraktı. (23.11 akşamı bölüm çıkmadı, 6. bölüm 24.11'de geldi.)
