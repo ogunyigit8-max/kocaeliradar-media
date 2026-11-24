@@ -339,7 +339,9 @@
    "voice": "aylin",
    "sim": false,
    "file": "v/2026-11-24-ogretmen-240-konut.mp4",
-   "reel_posted_at": null
+   "reel_posted_at": "2026-11-24T22:31:39+03:00",
+   "story_media_id": "17992107860874600",
+   "reel_media_id": "18125766679734224"
   },
   {
    "date": "2026-11-24",
@@ -349,7 +351,9 @@
    "voice": "emre",
    "sim": false,
    "file": "v/2026-11-24-izmit-8-tutuklama.mp4",
-   "reel_posted_at": null
+   "reel_posted_at": "2026-11-24T22:31:39+03:00",
+   "story_media_id": "18127804475515976",
+   "reel_media_id": "18654124510049808"
   }
  ]
 }
