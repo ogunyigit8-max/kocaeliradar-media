@@ -55,3 +55,15 @@ Yeni bölüm yazmadan önce bu dosyanın tamamı okunur. Tutarlılık şart: isi
 - Reels: https://www.instagram.com/reel/DgDL0zLDBoG/ (hikaye de paylaşıldı). Tahmin ustası: @enisxx93 (patron arayacak tahmini).
 - Açık sırlar: "beşinci kez" ne demek (zaman döngüsü mü), çatlak kask neyin işareti, son paket kime gidiyor, patron neyi biliyor, ev sahibi neden kilitledi.
 - Sonuç: BIRAK kazandı (BIRAK 1, GÖTÜR 0; 23.11 17:00 itibarıyla, kişi başı tek oy). Emre paketi bıraktı. (23.11 akşamı bölüm çıkmadı, 6. bölüm 24.11'de geldi.)
+
+## Bölüm 6 (24.11.2026 22:34, 23.11'de bölüm çıkmadığı için bir gün geç)
+- Emre paketi bıraktı. Öteki Emre (çatlak kasklı) paketi kapıp merdivenden kaçtı; bodrum kapısı ona açıldı, Emre'ye yeniden kilitlendi.
+- Masadaki bir paketin üstünde Emre'nin adı ve bugünün tarihi var.
+- Telefona konum: Emre'nin motoru Emre'siz yola çıkmış (öteki Emre sürüyor).
+- Masanın altındaki eski dolaptan üç tık sesi.
+- Ters köşe: dolapta yaşlı bir adam elini uzatıyor; yüzü Emre'nin yüzü (yaşlı Emre).
+- Soru: Elini tutacak mısın, itecek misin? TUT / İT.
+- Reels: https://www.instagram.com/reel/DgItnmfjMKN/ (hikaye de paylaşıldı). Tahmin ustası: yok (uygun tahmin gelmedi).
+- Yaşlı Emre (sabit tarif): a white round-head stick-figure old man with short curly grey hair, the same face as Emre but wrinkled and tired, a grey stubble, wearing a faded worn-out orange courier jacket with a thin reflective silver stripe across the chest
+- Açık sırlar: yaşlı Emre kim (gelecekteki Emre mi, döngüde kalan biri mi), "beşinci kez" ile bağı, öteki Emre paketi kime götürüyor, üstünde bugünün tarihi olan paketin içinde ne var.
+- Sonuç: (bekleniyor)
