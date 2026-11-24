@@ -330,6 +330,26 @@
    "date": "2026-11-23",
    "time": "16:35",
    "topic": "Tarama: yeni A/B olayı yok (İzmit Kuruçeşme'de freni boşalan kamyon park halindeki 5-6 araca çarptı, ilk bilgilere göre 2 yaralı: A ölçütü değil, 15:35'te not edilen olay; 5 ilçede planlı elektrik ve Derince/Darıca su kesintisi sıradan; istekocaeli 'yangında bir kişi can verdi' tarihsiz/eski görünüyor, başka kaynakta bugüne ait kayıt yok; valilik sarı kod fırtına/yağış kayıtlı; Marmara'da M4+ deprem yok). 0c saat dışı (16:xx); 0d: son Reels 15:34 (<60 dk), takipçi son ölçüm 860; 0e milestone yayınlanmadı. Video yapılmadı"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "22:35",
+   "topic": "Büyükşehir: İzmit Orhan Mahallesi'nde öğretmenlere 240 konut (Kent Konut; 7 adet 1+1, 233 adet 2+1, 6 ticari alan). Kullanıcının canlı isteğiyle paylaşıldı",
+   "level": "B",
+   "voice": "aylin",
+   "sim": false,
+   "file": "v/2026-11-24-ogretmen-240-konut.mp4",
+   "reel_posted_at": null
+  },
+  {
+   "date": "2026-11-24",
+   "time": "22:35",
+   "topic": "İzmit kurşunlama (17 Kasım Kadıköy Mah.) ve fırına el bombası (M. Ali Paşa Mah.) soruşturmasında 2'si çocuk 8 şüpheli tutuklandı (İHA 20:10). Kullanıcının canlı isteğiyle paylaşıldı",
+   "level": "B",
+   "voice": "emre",
+   "sim": false,
+   "file": "v/2026-11-24-izmit-8-tutuklama.mp4",
+   "reel_posted_at": null
   }
  ]
 }
