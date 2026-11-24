@@ -170,3 +170,21 @@
 - @kocaeligundem: hypeauditor yine okunamadı.
 **Kaynaklar:** https://keywordseverywhere.com/news/instagram-algorithm-updates/ (21.11: 17.11 içerik koruma aracı Instagram üreticilerine açılıyor; Eki–Kas'ta Keşfet'e özgü doğrulanmış değişiklik yok), https://www.pulse.bot/digital-marketing/news/human-speech-and-presence-help-drive-reels-engagement-26291baf-0b96-441f-aefa-8af987fa02e8 (Social Media Today/Emplifi, Mar 2026: ilk 3 sn konuşma ~%25 daha iyi 10 sn tutma)
 **Bildirilen (tekrar bildirme):** haftalık özet; öneriler: içerik korumayı uygulamada aç, okul tatili kararı takibi/notu, sesi varsayılan Emre yapma seçeneği (kullanıcı kararı).
+
+## 2026-11-24 (Sal, ~23:30 TSİ) — günlük analiz
+**Hesap (Windsor.ai, önbellek):** 891 takipçi (22.11 gece 846). Yeni takipçi 22.11 +53 · 23.11 +27. Günlük erişim 22.11 10.487 · 23.11 6.717 (takip etmeyen %96) · 24.11 576. Projeksiyon (tahmin): 1.000 ≈ 27–29.11.
+**ÜRETİM KESİNTİSİ:** 24.11 sabah görevi `USAGE_LIMIT_REACHED` ile başarısız; 23.11 16:33 → 24.11 22:27 arası depoda hiç commit/paylaşım yok (saatlik görev de çalışmamış görünüyor). Öğretmenler Günü videosu (v/ozel-2026-11-24-ogretmenler-gunu.mp4) hazır ama PAYLAŞILMADI (ozelgun.json "ready"). 23.11 büyüme analizi kaydı da yok.
+| Saat (TSİ) | İçerik | Ses | Erişim | Atlama | Ort. izl. | Payl.+Kayıt/Erişim |
+|---|---|---|---|---|---|---|
+| 22.11 18:38 | Yarın fırtına 90 km (güncel) | Emre | 3.721 | %51,0 | 7,9 | %2,07 |
+| 23.11 08:02 | Kesinti Reels 8 ilçe | Aylin | 6.355 | %46,8 | 8,6 | %2,28 (140 payl.) |
+| 23.11 08:33 | Kesinti karuseli | – | 242 | – | – | %1,2 (0 takip, 6 profil) |
+| 23.11 12:34 | Sarı kod sağanak/fırtına (bugün) | Aylin | 2.063 | %58,3 | 7,4 | %0,97 |
+| 23.11 15:34 | Tapuda güvenli ödeme (ulusal) | Emre | 295 | %59,5 | 5,5 | %0,7 |
+| 24.11 22:29 / 22:31 | Öğretmen konutu / İzmit 8 tutuklama (2 dk arayla) | – | 116 / 99 (erken) | – | – | – |
+- Kesinti Reels'i 3 gün üst üste en iyi video (28,9 bin / 3,7 bin / 6,4 bin); karuseller 0 takip. Hibrit sürüyor. "Bugün" hava uyarısı yine yüksek atlama (%58), "yarın" uyarısı %2,1 oran.
+- Yorumlar: okul tatili soruları sürüyor; kesintide mahalle adı.
+- Kod değişikliği yok (veriyle desteklenen küçük kalite değişikliği yok; kullanım limiti sorunu nedeniyle test videosu üretilmedi).
+- Algoritma: 18.11 sonrası doğrulanmış sıralama değişikliği yok (Content Protection yayılıyor). @kocaeligundem: hypeauditor yine okunamadı.
+**Kaynaklar:** https://keywordseverywhere.com/news/instagram-algorithm-updates/ (son güncelleme 18.11, kontrol 23.11)
+**Bildirilen (tekrar bildirme):** kullanım limiti nedeniyle sabah görevi başarısız + 30 saatlik paylaşım boşluğu + Öğretmenler Günü videosu paylaşılmadı; görev sayısını/sıklığını azaltma önerisi (saatlik tarama → 2 saatte bir veya gece 01–06 arası kapalı).
