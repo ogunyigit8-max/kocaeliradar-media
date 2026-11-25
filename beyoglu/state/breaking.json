@@ -38,6 +38,16 @@
    "reel_media_id": "18059655317927311",
    "story_media_id": null,
    "note": "Hikâye çağrısı zaman aşımına uğradı (sonucu bilinmiyor; Windsor önbelleği doğrulamaya izin vermedi), çift hikâye riski nedeniyle tekrar gönderilmedi"
+  },
+  {
+   "date": "2026-11-26",
+   "time": "01:15",
+   "topic": "maç sonucu 2026-11-25: Shakhtar Donetsk 0-1 Fenerbahçe (ŞL 5. hafta, gol Vedat Muriqi 56', FB 8 puan) (AA, Ajansspor, NTV Spor)",
+   "level": "C",
+   "voice": "emre",
+   "sim": false,
+   "file": "beyoglu/v/2026-11-26-spor-fenerbahce-shakhtar.mp4",
+   "reel_posted_at": null
   }
  ],
  "reel_posted_at": [
