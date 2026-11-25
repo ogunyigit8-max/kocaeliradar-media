@@ -357,10 +357,11 @@
      "Kocaeli 25 Kasım 2026 elektrik kesintisi: Derince Fatih Sultan 10.30-13.30, İbnisina 14.00-17.00. Başiskele Barbaros, Körfez, Sahil 09.00-16.00. Gebze Muallimköy 09.00-17.00. Dilovası Demirciler 09.00-17.00.",
      "Kocaeli 25 Kasım 2026 elektrik kesintisi: kaydet, gönder, takip et. Arıza bildirimi SEDAŞ 186."
     ],
-    "story_done": false,
-    "post_done": false,
-    "posted_at": null,
-    "media_id": null
+    "story_done": true,
+    "post_done": true,
+    "posted_at": "2026-11-25T08:36:00+03:00",
+    "media_id": "18101984996413731",
+    "story_media_id": "18019965152781205"
    }
   }
  ]
