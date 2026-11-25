@@ -29,6 +29,7 @@ uym.ibb.gov.tr ve ibb.istanbul duyuruları (yol çalışması, trafik düzenleme
 
 ## Grup 5: Instagram (yalnızca fark etmek için)
 Beyoğlu Belediyesi resmi hesabı, İstanbul son dakika ve trafik sayfaları. Kullanıcıdan takip ettiği yerel hesaplar istenecek.
+İzlenecek hesaplar (25.11.2026 rakip analizi; tek başına kaynak DEĞİL, yalnızca haberi fark etmek ve gelişmeyi yakalamak için): @beyoglusondakika34, @istanbul.sondakika, @istanbulduysun, @istanbulhaber_, @beyoglubld, @tc_beyoglu. Etkinlik için mekan hesapları: @tersaneistanbul, @akmistanbul, @galataport.
 
 ## Siyasi haber kuralı
 growth.md'deki kurala uy: siyasi haberden Reels yok; büyük gelişmede en fazla bir sade hikâye/karusel.
