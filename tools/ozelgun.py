@@ -93,7 +93,7 @@ def star(d, x, y, r, col, t):
 
 # ---------------------------------------------------------------- sahneler
 def cover(fr, d, tl, C):
-    pill(d, W / 2, 120, "KOCAELİ RADAR", 36, (10, 12, 22, 230), GOLD + (255,), padx=30)
+    pill(d, W / 2, 120, city.BRAND, 36, (10, 12, 22, 230), GOLD + (255,), padx=30)
     pill(d, W / 2, 225, C.get("date_label", ""), 46, GOLD + (255,), NAVY + (255,), padx=40)
     ys = [470 + i * 175 for i in range(len(C["_title"]))]
     for i, (sp, mk) in enumerate(C["_title"]):
@@ -211,7 +211,7 @@ def main(spec):
     tsz = 150 if max(len(s) for s in C["title"]) <= 11 else 120
     C["_title"] = [gold_text(s, tsz) for s in C["title"]]
     C["_big"] = [[gold_text(s, 118 if len(s) <= 12 else 96) for s in sc.get("big", [])] for sc in scenes]
-    spr = {"kr": gold_text("KOCAELİ RADAR", 110)}
+    spr = {"kr": gold_text(city.BRAND, 110)}
     lg = Image.open(city.asset("logo.jpg")).convert("RGBA").resize((560, 560), Image.LANCZOS)
     mk = Image.new("L", (560, 560), 0); ImageDraw.Draw(mk).ellipse((0, 0, 559, 559), fill=255); lg.putalpha(mk)
     spr["logo"] = lg

@@ -205,7 +205,7 @@ def is_rainy(w):
 if __name__ == "__main__":
     import sounds
     D = json.load(open(sys.argv[1]))
-    root = os.path.dirname(HERE); os.makedirs(os.path.join(root, "s"), exist_ok=True)
+    root = os.path.join(os.path.dirname(HERE), city.DIR); os.makedirs(os.path.join(root, "s"), exist_ok=True)
     pre = os.path.join(root, "s", D["date"])
     T = 8.0
     story_weather(D, pre + "-hava.jpg")

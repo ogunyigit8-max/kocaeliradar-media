@@ -1,4 +1,8 @@
 {
+ "dir": "",
+ "districts": ["İZMİT", "GEBZE", "DARICA", "ÇAYIROVA", "DİLOVASI", "KÖRFEZ", "DERİNCE", "GÖLCÜK", "KARAMÜRSEL", "BAŞİSKELE", "KARTEPE", "KANDIRA"],
+ "districts_label": "12 İLÇE",
+ "where_q": ["HANGİ", "İLÇEDENSİN?"],
  "name": "KOCAELİ",
  "brand": "KOCAELİ RADAR",
  "handle": "@kocaeliradar41",

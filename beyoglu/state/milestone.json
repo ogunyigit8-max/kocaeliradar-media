@@ -1,0 +1,21 @@
+{
+ "target": 1000,
+ "file": null,
+ "status": "not_ready",
+ "note": "Takipçi 900'ü geçince büyüme analizi görevi kutlama videosunu (RADAR_CITY=beyoglu tools/celebrate.py) hazırlar ve status 'ready' yapar.",
+ "poll_reminder": {
+  "question": "Beyoğlu'yla bağın ne?",
+  "options": [
+   "Burada yaşıyorum",
+   "Burada çalışıyorum",
+   "Gezmeye geliyorum"
+  ]
+ },
+ "auto_reply": {
+  "enabled": true,
+  "hours": 48,
+  "max_per_run": 25
+ },
+ "replied_comment_ids": [],
+ "replies_count": 0
+}

@@ -1,12 +1,12 @@
 # Beyoğlu Radar — Büyüme Kuralları (güncel)
-Son güncelleme: 2026-11-25 (kurulum). Diğer görevler bu dosyayı okuyup uygular.
+Son güncelleme: 2026-11-25 (kurulum; hesap @beyogluradar34). Diğer görevler bu dosyayı okuyup uygular.
 Etiketler: [VERİ-K] Kocaeli Radar'da doğrulandı · [VERİ] Beyoğlu metrikleri · [META] Meta/Instagram kaynaklı · [ÖNERİ] test edilecek.
 Kocaeli'nin genel kuralları (state/growth.md) burada özetlendi; Beyoğlu'na özel rakamlar ilk 2 haftada Beyoğlu verisiyle öğrenilecek.
 
 ## Durum ve hedef
-- Hesap henüz açılmadı (25.11.2026). İlk 14 gün öğrenme dönemi: her gece metrikleri oku, bu dosyayı güncelle.
+- Hesap: Instagram @beyogluradar34 (25.11.2026 açıldı). İlk 14 gün öğrenme dönemi: her gece metrikleri oku, bu dosyayı güncelle.
 - Haber hacmi (19–21.11 taraması): 3 günde ~7 video adayı (günde 2–3), çoğu asayiş; 1 tane A seviyesi (İstiklal yangını, tramvay durdu). [VERİ, n=3 gün]
-- Başlangıç temposu: günde 2 Reels + 1 karusel/hikâye. Haber varsa 3. Reels son dakika slotunda. [ÖNERİ]
+- Başlangıç temposu: günde en fazla 3 sabah Reels'i (yeterli doğrulanmış haber yoksa daha az) + varsa kesinti karuseli + 4 günlük hikâye (hava, altın, dolar, euro). Son dakika ayrıca. [ÖNERİ]
 
 ## Kitle (tahmin, doğrulanacak)
 - Beyoğlu'nda yaşayan + çalışan + gezen kitle; Kocaeli'den daha genç ve akşam/gece aktif olması bekleniyor. [ÖNERİ]
@@ -23,7 +23,7 @@ Kocaeli'nin genel kuralları (state/growth.md) burada özetlendi; Beyoğlu'na ö
 ## Paylaşım aralığı (EN ÖNEMLİ) [VERİ-K]
 - İki Reels arasında EN AZ 60 dk (tercihen 2+ saat). Peş peşe atılan videolar erişimde çöküyor.
 - Son dakika istisnadır; 60 dk içinde başka Reels atılmışsa sıradaki video bir sonraki slota kayar.
-- Başlangıç slotları: ~08:15 (ulaşım/kesinti), 12:31, 18:31, 21:31. Beyoğlu için akşam slotlarının daha güçlü olması bekleniyor; 14 gün sonra saat bazlı erişimle güncellenecek. [ÖNERİ]
+- Başlangıç slotları: ~08:15 (sabah görevi, 1. video), 12:46, 18:46, 21:46 (saatlik görev; Kocaeli görevleriyle aynı dakikaya denk gelmesin diye :46). Beyoğlu için akşam slotlarının daha güçlü olması bekleniyor; 14 gün sonra saat bazlı erişimle güncellenecek. [ÖNERİ]
 
 ## Keşfet'e uygunluk — ihlal etme [META]
 - Özgün içerik: kendi harita/animasyon videolarımız. Başkasının videosu, fotoğrafı, ekran görüntüsü yok.

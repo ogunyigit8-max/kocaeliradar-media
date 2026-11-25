@@ -16,6 +16,10 @@ HANDLE = CFG["handle"]                  # ör. "@kocaeliradar41"
 ACCENT = tuple(CFG.get("accent", [255, 204, 0]))
 MAP = CFG["map"]
 DEFAULT_FOCUS = CFG["default_focus"]
+DIR = CFG.get("dir", "")                # çıktı kökü: "" (Kocaeli: v/, s/, c/) veya "beyoglu" (beyoglu/v/ ...)
+DISTRICTS = CFG["districts"]            # kutlama/özel gün videolarındaki 12 çip
+DISTRICTS_LABEL = CFG["districts_label"]  # ör. "12 İLÇE"
+WHERE_Q = CFG["where_q"]                # kutlama sorusu, iki satır
 
 
 def asset(fn):

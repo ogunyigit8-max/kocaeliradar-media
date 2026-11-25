@@ -1,7 +1,11 @@
 {
+ "dir": "beyoglu",
+ "districts": ["TAKSİM", "GALATA", "KARAKÖY", "CİHANGİR", "KASIMPAŞA", "TARLABAŞI", "ŞİŞHANE", "TOPHANE", "HASKÖY", "SÜTLÜCE", "HALICIOĞLU", "PERA"],
+ "districts_label": "12 SEMT",
+ "where_q": ["HANGİ", "SEMTTESİN?"],
  "name": "BEYOĞLU",
  "brand": "BEYOĞLU RADAR",
- "handle": "@beyogluradar",
+ "handle": "@beyogluradar34",
  "accent": [217, 164, 65],
  "default_focus": [41.034, 28.976],
  "follow_text": "Beyoğlu'ndaki gelişmeleri kaçırma",
