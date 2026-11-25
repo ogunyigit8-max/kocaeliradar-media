@@ -34,11 +34,15 @@
    "voice": "aylin",
    "sim": false,
    "file": "beyoglu/v/2026-11-25-spor-program.mp4",
-   "reel_posted_at": null
+   "reel_posted_at": "2026-11-25T15:55:00+03:00",
+   "reel_media_id": "18059655317927311",
+   "story_media_id": null,
+   "note": "Hikâye çağrısı zaman aşımına uğradı (sonucu bilinmiyor; Windsor önbelleği doğrulamaya izin vermedi), çift hikâye riski nedeniyle tekrar gönderilmedi"
   }
  ],
  "reel_posted_at": [
   "2026-11-25T10:38:00+03:00",
-  "2026-11-25T13:33:00+03:00"
+  "2026-11-25T13:33:00+03:00",
+  "2026-11-25T15:55:00+03:00"
  ]
 }
