@@ -11,7 +11,7 @@ Kocaeli'nin genel kuralları (state/growth.md) burada özetlendi; Beyoğlu'na ö
 ## Kitle (tahmin, doğrulanacak)
 - Beyoğlu'nda yaşayan + çalışan + gezen kitle; Kocaeli'den daha genç ve akşam/gece aktif olması bekleniyor. [ÖNERİ]
 - Konu önceliği: ulaşım sorunları (M2, F1, T2 tramvay, Tünel, İETT, vapur), yol çalışmaları ve cadde kapanışları, İstiklal/Taksim kapanması, yangın/olay, su/elektrik kesintisi, mekan etkinlikleri ve konserler (Tersane İstanbul, Galataport, AKM, Salon İKSV vb.).
-- KONU KURALI (kullanıcı 25.11.2026'da açıkça istedi): eğlence merkezlerinin etkinlikleri, konserler, yol çalışmaları ve ulaşım sorunları HEPSİ haber olarak verilir. Etkinlik haberi haber diliyle, reklam tonu yok; saat/ücret yalnızca kaynakta yazıyorsa; günde en fazla 2 etkinlik videosu, aynı mekan haftada en fazla 2.
+- KONU KURALI (kullanıcı 25.11.2026'da açıkça istedi): eğlence merkezlerinin etkinlikleri, konserler, yol çalışmaları ve ulaşım sorunları HEPSİ haber olarak verilir. Etkinlik haberi haber diliyle, reklam tonu yok; saat/ücret yalnızca kaynakta yazıyorsa; günde en fazla 2 etkinlik/konser Reels'i, aynı mekan haftada en fazla 2 Reels. TÜM KONSERLER (kullanıcı 25.11.2026): o akşam Beyoğlu'ndaki doğrulanmış tüm konserler her gün 16:46'da "Bu akşam Beyoğlu'nda konser" karuseli + hikâyesiyle verilir; büyükleri ayrıca Reels olur.
 
 ## Siyasi haber kuralı (22.11.2026, kullanıcı onayladı)
 - Belediye parti değişimi, seçim, istifa, parti demeci gibi siyasi haberler Reels yapılmaz (Instagram takip etmeyenlere önermiyor; hesabın önerilme durumu zarar görebilir). [META]
