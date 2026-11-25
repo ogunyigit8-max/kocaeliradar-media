@@ -67,3 +67,14 @@ Yeni bölüm yazmadan önce bu dosyanın tamamı okunur. Tutarlılık şart: isi
 - Yaşlı Emre (sabit tarif): a white round-head stick-figure old man with short curly grey hair, the same face as Emre but wrinkled and tired, a grey stubble, wearing a faded worn-out orange courier jacket with a thin reflective silver stripe across the chest
 - Açık sırlar: yaşlı Emre kim (gelecekteki Emre mi, döngüde kalan biri mi), "beşinci kez" ile bağı, öteki Emre paketi kime götürüyor, üstünde bugünün tarihi olan paketin içinde ne var.
 - Sonuç: oy gelmedi (TUT 0, İT 0; 25.11 17:00 itibarıyla). Hikayeyi daha gerilimli ilerleten TUT seçildi, Emre yaşlı adamın elini tuttu.
+
+## Bölüm 7 (25.11.2026 19:01)
+- Emre yaşlı adamın elini tuttu: yaşlı adamın avucunda Emre'nin yara izi var. Yaşlı Emre: "Bu geceyi kırk yıldır yaşıyorum."
+- Dolaptan çatlak bir kask çıkardı; kaskın yanında beş çentik var (beş tekrar = "beşinci kez").
+- "Öteki sen paketi köprüye götürüyor. Teslim ederse gece baştan başlar." Telefondaki konum: motor köprüde durdu.
+- Yaşlı Emre, Emre'nin avucuna bodrumdan çıkış için eski demir bir anahtar bıraktı.
+- Ters köşe: yaşlı Emre gülümsedi: "O paketi gönderen benim."
+- Soru: Öteki senin peşinden koşacak mısın, yaşlı seni dinleyecek misin? KOŞ / DİNLE.
+- Reels: https://www.instagram.com/reel/DgK6P-HP-1g/ (hikaye de paylaşıldı). Tahmin ustası: yok (6. bölüme oy/tahmin gelmedi).
+- Açık sırlar: yaşlı Emre neden paketi gönderdi, köprüde kim bekliyor, paket teslim edilirse gece neden baştan başlıyor, anahtar hangi kapıyı açıyor.
+- Sonuç: (bekleniyor)
