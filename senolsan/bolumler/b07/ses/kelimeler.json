@@ -1,0 +1,870 @@
+{
+  "language_code": "tur",
+  "language_probability": 1.0,
+  "text": "Elini tuttun. Avucunda senin yara izin var. Yaşlı sen fısıldadı: \"Bu geceyi 40 yıldır yaşıyorum.\" Dolaptan çatlak bir kask çıkardı. Üstünde beş çentik var. Öteki sen paketi köprüye götürüyor. Teslim ederse gece baştan başlar. Telefonun titredi. Motorun köprüde durdu. Avucuna bir anahtar bıraktı ve gülümsedi. \"O paketi gönderen benim.\" Koşacak mısın? Dinleyecek misin? Koş ya da dinle. Yaz. Sekizinci bölümü çoğunluk yazar.",
+  "words": [
+    {
+      "text": "Elini",
+      "start": 0.08,
+      "end": 0.36,
+      "type": "word",
+      "logprob": -0.005243126935965847
+    },
+    {
+      "text": " ",
+      "start": 0.36,
+      "end": 0.42,
+      "type": "spacing",
+      "logprob": -0.0029157765675336123
+    },
+    {
+      "text": "tuttun.",
+      "start": 0.42,
+      "end": 0.78,
+      "type": "word",
+      "logprob": -0.00470040100377186
+    },
+    {
+      "text": " ",
+      "start": 0.78,
+      "end": 1.32,
+      "type": "spacing",
+      "logprob": -0.0001456631434848532
+    },
+    {
+      "text": "Avucunda",
+      "start": 1.32,
+      "end": 1.74,
+      "type": "word",
+      "logprob": -0.001517378321295837
+    },
+    {
+      "text": " ",
+      "start": 1.74,
+      "end": 1.78,
+      "type": "spacing",
+      "logprob": -4.6132929128361866e-05
+    },
+    {
+      "text": "senin",
+      "start": 1.78,
+      "end": 2.02,
+      "type": "word",
+      "logprob": -4.6132929128361866e-05
+    },
+    {
+      "text": " ",
+      "start": 2.02,
+      "end": 2.08,
+      "type": "spacing",
+      "logprob": -0.0008262557676061988
+    },
+    {
+      "text": "yara",
+      "start": 2.08,
+      "end": 2.24,
+      "type": "word",
+      "logprob": -0.0002179185407840123
+    },
+    {
+      "text": " ",
+      "start": 2.24,
+      "end": 2.28,
+      "type": "spacing",
+      "logprob": -0.25268644094467163
+    },
+    {
+      "text": "izin",
+      "start": 2.28,
+      "end": 2.5,
+      "type": "word",
+      "logprob": -0.25268644094467163
+    },
+    {
+      "text": " ",
+      "start": 2.5,
+      "end": 2.54,
+      "type": "spacing",
+      "logprob": -6.079655122448457e-06
+    },
+    {
+      "text": "var.",
+      "start": 2.54,
+      "end": 2.8,
+      "type": "word",
+      "logprob": -2.190409088598244e-05
+    },
+    {
+      "text": " ",
+      "start": 2.8,
+      "end": 2.8,
+      "type": "spacing",
+      "logprob": -0.0007201223634183407
+    },
+    {
+      "text": "Yaşlı",
+      "start": 3.98,
+      "end": 4.32,
+      "type": "word",
+      "logprob": -0.00030571548340958544
+    },
+    {
+      "text": " ",
+      "start": 4.32,
+      "end": 4.38,
+      "type": "spacing",
+      "logprob": -0.016387280076742172
+    },
+    {
+      "text": "sen",
+      "start": 4.38,
+      "end": 4.54,
+      "type": "word",
+      "logprob": -0.016387280076742172
+    },
+    {
+      "text": " ",
+      "start": 4.54,
+      "end": 4.58,
+      "type": "spacing",
+      "logprob": -0.0008671099785715342
+    },
+    {
+      "text": "fısıldadı:",
+      "start": 4.58,
+      "end": 5.06,
+      "type": "word",
+      "logprob": -0.02015666274819523
+    },
+    {
+      "text": " ",
+      "start": 5.06,
+      "end": 5.06,
+      "type": "spacing",
+      "logprob": -0.00024291902082040906
+    },
+    {
+      "text": "\"Bu",
+      "start": 5.06,
+      "end": 6.14,
+      "type": "word",
+      "logprob": -0.00011999303872774665
+    },
+    {
+      "text": " ",
+      "start": 6.14,
+      "end": 6.22,
+      "type": "spacing",
+      "logprob": -0.001276512397453189
+    },
+    {
+      "text": "geceyi",
+      "start": 6.22,
+      "end": 6.56,
+      "type": "word",
+      "logprob": -0.0008719487062383754
+    },
+    {
+      "text": " ",
+      "start": 6.56,
+      "end": 6.64,
+      "type": "spacing",
+      "logprob": -0.001177094760350883
+    },
+    {
+      "text": "40",
+      "start": 6.68,
+      "end": 6.82,
+      "type": "word",
+      "logprob": -5.9604346347441606e-06
+    },
+    {
+      "text": " ",
+      "start": 6.82,
+      "end": 6.88,
+      "type": "spacing",
+      "logprob": -0.00028939827461726964
+    },
+    {
+      "text": "yıldır",
+      "start": 6.88,
+      "end": 7.12,
+      "type": "word",
+      "logprob": -0.00028939827461726964
+    },
+    {
+      "text": " ",
+      "start": 7.12,
+      "end": 7.18,
+      "type": "spacing",
+      "logprob": -0.00024327656137757003
+    },
+    {
+      "text": "yaşıyorum.\"",
+      "start": 7.18,
+      "end": 7.68,
+      "type": "word",
+      "logprob": -0.00017235626926941967
+    },
+    {
+      "text": " ",
+      "start": 7.68,
+      "end": 7.68,
+      "type": "spacing",
+      "logprob": -0.0005161621957086027
+    },
+    {
+      "text": "Dolaptan",
+      "start": 8.84,
+      "end": 9.28,
+      "type": "word",
+      "logprob": -0.0010813372282427736
+    },
+    {
+      "text": " ",
+      "start": 9.28,
+      "end": 9.32,
+      "type": "spacing",
+      "logprob": -0.00031275625224225223
+    },
+    {
+      "text": "çatlak",
+      "start": 9.32,
+      "end": 9.64,
+      "type": "word",
+      "logprob": -0.00022330966021399945
+    },
+    {
+      "text": " ",
+      "start": 9.64,
+      "end": 9.68,
+      "type": "spacing",
+      "logprob": -5.8412379075889476e-06
+    },
+    {
+      "text": "bir",
+      "start": 9.68,
+      "end": 9.76,
+      "type": "word",
+      "logprob": -5.8412379075889476e-06
+    },
+    {
+      "text": " ",
+      "start": 9.76,
+      "end": 9.8,
+      "type": "spacing",
+      "logprob": -0.2582720220088959
+    },
+    {
+      "text": "kask",
+      "start": 9.8,
+      "end": 10.04,
+      "type": "word",
+      "logprob": -0.06852596113458276
+    },
+    {
+      "text": " ",
+      "start": 10.04,
+      "end": 10.1,
+      "type": "spacing",
+      "logprob": -0.0005370128201320767
+    },
+    {
+      "text": "çıkardı.",
+      "start": 10.1,
+      "end": 10.56,
+      "type": "word",
+      "logprob": -0.0005634774424834177
+    },
+    {
+      "text": " ",
+      "start": 10.56,
+      "end": 10.56,
+      "type": "spacing",
+      "logprob": -7.378782902378589e-05
+    },
+    {
+      "text": "Üstünde",
+      "start": 11.04,
+      "end": 11.5,
+      "type": "word",
+      "logprob": -0.0001959344496883984
+    },
+    {
+      "text": " ",
+      "start": 11.5,
+      "end": 11.56,
+      "type": "spacing",
+      "logprob": -0.00015639036428183317
+    },
+    {
+      "text": "beş",
+      "start": 11.56,
+      "end": 11.78,
+      "type": "word",
+      "logprob": -0.00015639036428183317
+    },
+    {
+      "text": " ",
+      "start": 11.78,
+      "end": 11.84,
+      "type": "spacing",
+      "logprob": -0.0022494508884847164
+    },
+    {
+      "text": "çentik",
+      "start": 11.84,
+      "end": 12.2,
+      "type": "word",
+      "logprob": -0.001001240063563576
+    },
+    {
+      "text": " ",
+      "start": 12.2,
+      "end": 12.26,
+      "type": "spacing",
+      "logprob": -1.0013530300057027e-05
+    },
+    {
+      "text": "var.",
+      "start": 12.26,
+      "end": 12.5,
+      "type": "word",
+      "logprob": -9.030061505654885e-06
+    },
+    {
+      "text": " ",
+      "start": 12.5,
+      "end": 12.5,
+      "type": "spacing",
+      "logprob": -0.00014768941036891192
+    },
+    {
+      "text": "Öteki",
+      "start": 13.76,
+      "end": 14.04,
+      "type": "word",
+      "logprob": -0.00022425447532441466
+    },
+    {
+      "text": " ",
+      "start": 14.04,
+      "end": 14.1,
+      "type": "spacing",
+      "logprob": -0.0008562712464481592
+    },
+    {
+      "text": "sen",
+      "start": 14.1,
+      "end": 14.5,
+      "type": "word",
+      "logprob": -0.0008562712464481592
+    },
+    {
+      "text": " ",
+      "start": 14.5,
+      "end": 14.56,
+      "type": "spacing",
+      "logprob": -0.01465109083801508
+    },
+    {
+      "text": "paketi",
+      "start": 14.56,
+      "end": 14.84,
+      "type": "word",
+      "logprob": -0.007348015864408808
+    },
+    {
+      "text": " ",
+      "start": 14.84,
+      "end": 14.9,
+      "type": "spacing",
+      "logprob": -2.8132995794294402e-05
+    },
+    {
+      "text": "köprüye",
+      "start": 14.9,
+      "end": 15.26,
+      "type": "word",
+      "logprob": -0.029551321718567385
+    },
+    {
+      "text": " ",
+      "start": 15.26,
+      "end": 15.3,
+      "type": "spacing",
+      "logprob": -2.5152843591058627e-05
+    },
+    {
+      "text": "götürüyor.",
+      "start": 15.3,
+      "end": 15.82,
+      "type": "word",
+      "logprob": -0.00011787145067501114
+    },
+    {
+      "text": " ",
+      "start": 15.82,
+      "end": 15.82,
+      "type": "spacing",
+      "logprob": -0.00024196557933464646
+    },
+    {
+      "text": "Teslim",
+      "start": 16.3,
+      "end": 16.56,
+      "type": "word",
+      "logprob": -0.00023678120487602428
+    },
+    {
+      "text": " ",
+      "start": 16.56,
+      "end": 16.62,
+      "type": "spacing",
+      "logprob": -0.0018868515035137534
+    },
+    {
+      "text": "ederse",
+      "start": 16.64,
+      "end": 17.04,
+      "type": "word",
+      "logprob": -0.0012603646518982714
+    },
+    {
+      "text": " ",
+      "start": 17.04,
+      "end": 17.4,
+      "type": "spacing",
+      "logprob": -0.0005995621904730797
+    },
+    {
+      "text": "gece",
+      "start": 17.4,
+      "end": 17.68,
+      "type": "word",
+      "logprob": -0.0005995621904730797
+    },
+    {
+      "text": " ",
+      "start": 17.68,
+      "end": 17.78,
+      "type": "spacing",
+      "logprob": -0.0008074360666796565
+    },
+    {
+      "text": "baştan",
+      "start": 17.8,
+      "end": 18.2,
+      "type": "word",
+      "logprob": -0.00035838157013283006
+    },
+    {
+      "text": " ",
+      "start": 18.2,
+      "end": 18.26,
+      "type": "spacing",
+      "logprob": -4.7444173105759546e-05
+    },
+    {
+      "text": "başlar.",
+      "start": 18.26,
+      "end": 18.74,
+      "type": "word",
+      "logprob": -3.809510001571782e-05
+    },
+    {
+      "text": " ",
+      "start": 18.74,
+      "end": 18.74,
+      "type": "spacing",
+      "logprob": -0.0003762729174923152
+    },
+    {
+      "text": "Telefonun",
+      "start": 19.96,
+      "end": 20.38,
+      "type": "word",
+      "logprob": -0.0003007363072053219
+    },
+    {
+      "text": " ",
+      "start": 20.38,
+      "end": 20.42,
+      "type": "spacing",
+      "logprob": -0.0009260656661354005
+    },
+    {
+      "text": "titredi.",
+      "start": 20.42,
+      "end": 20.94,
+      "type": "word",
+      "logprob": -0.0008590978686697781
+    },
+    {
+      "text": " ",
+      "start": 20.94,
+      "end": 20.94,
+      "type": "spacing",
+      "logprob": -0.0006825978052802384
+    },
+    {
+      "text": "Motorun",
+      "start": 21.7,
+      "end": 22.22,
+      "type": "word",
+      "logprob": -0.0004891025476224188
+    },
+    {
+      "text": " ",
+      "start": 22.22,
+      "end": 22.3,
+      "type": "spacing",
+      "logprob": -4.565611743601039e-05
+    },
+    {
+      "text": "köprüde",
+      "start": 22.3,
+      "end": 22.82,
+      "type": "word",
+      "logprob": -0.006591945819569186
+    },
+    {
+      "text": " ",
+      "start": 22.82,
+      "end": 22.88,
+      "type": "spacing",
+      "logprob": -7.712543447269127e-05
+    },
+    {
+      "text": "durdu.",
+      "start": 22.88,
+      "end": 23.3,
+      "type": "word",
+      "logprob": -9.434944392220738e-05
+    },
+    {
+      "text": " ",
+      "start": 23.3,
+      "end": 23.3,
+      "type": "spacing",
+      "logprob": -0.00015567521040793508
+    },
+    {
+      "text": "Avucuna",
+      "start": 24.7,
+      "end": 25.12,
+      "type": "word",
+      "logprob": -0.002993170203158765
+    },
+    {
+      "text": " ",
+      "start": 25.12,
+      "end": 25.14,
+      "type": "spacing",
+      "logprob": -2.622600959512056e-06
+    },
+    {
+      "text": "bir",
+      "start": 25.14,
+      "end": 25.24,
+      "type": "word",
+      "logprob": -2.622600959512056e-06
+    },
+    {
+      "text": " ",
+      "start": 25.24,
+      "end": 25.32,
+      "type": "spacing",
+      "logprob": -0.00011550712952157483
+    },
+    {
+      "text": "anahtar",
+      "start": 25.32,
+      "end": 25.76,
+      "type": "word",
+      "logprob": -0.00014445387828995341
+    },
+    {
+      "text": " ",
+      "start": 25.76,
+      "end": 25.8,
+      "type": "spacing",
+      "logprob": -6.747018051100895e-05
+    },
+    {
+      "text": "bıraktı",
+      "start": 25.8,
+      "end": 26.28,
+      "type": "word",
+      "logprob": -9.623026263787844e-05
+    },
+    {
+      "text": " ",
+      "start": 26.28,
+      "end": 26.34,
+      "type": "spacing",
+      "logprob": -4.172316494077677e-06
+    },
+    {
+      "text": "ve",
+      "start": 26.34,
+      "end": 26.46,
+      "type": "word",
+      "logprob": -4.172316494077677e-06
+    },
+    {
+      "text": " ",
+      "start": 26.46,
+      "end": 26.56,
+      "type": "spacing",
+      "logprob": -0.0018636492313817143
+    },
+    {
+      "text": "gülümsedi.",
+      "start": 26.56,
+      "end": 27.28,
+      "type": "word",
+      "logprob": -0.011886013285402442
+    },
+    {
+      "text": " ",
+      "start": 27.28,
+      "end": 27.3,
+      "type": "spacing",
+      "logprob": -0.16026411950588226
+    },
+    {
+      "text": "\"O",
+      "start": 27.3,
+      "end": 28.42,
+      "type": "word",
+      "logprob": -0.0801365300812904
+    },
+    {
+      "text": " ",
+      "start": 28.42,
+      "end": 28.48,
+      "type": "spacing",
+      "logprob": -0.0002644904307089746
+    },
+    {
+      "text": "paketi",
+      "start": 28.48,
+      "end": 28.84,
+      "type": "word",
+      "logprob": -0.0001490534432377899
+    },
+    {
+      "text": " ",
+      "start": 28.84,
+      "end": 28.9,
+      "type": "spacing",
+      "logprob": -0.0002914242504630238
+    },
+    {
+      "text": "gönderen",
+      "start": 28.9,
+      "end": 29.4,
+      "type": "word",
+      "logprob": -0.00021937284924433698
+    },
+    {
+      "text": " ",
+      "start": 29.4,
+      "end": 29.46,
+      "type": "spacing",
+      "logprob": -0.000259723310591653
+    },
+    {
+      "text": "benim.\"",
+      "start": 29.46,
+      "end": 29.8,
+      "type": "word",
+      "logprob": -0.0646391951221241
+    },
+    {
+      "text": " ",
+      "start": 29.8,
+      "end": 29.8,
+      "type": "spacing",
+      "logprob": -0.002537485444918275
+    },
+    {
+      "text": "Koşacak",
+      "start": 31.2,
+      "end": 31.7,
+      "type": "word",
+      "logprob": -0.0007707347550811912
+    },
+    {
+      "text": " ",
+      "start": 31.7,
+      "end": 31.74,
+      "type": "spacing",
+      "logprob": -3.397406908334233e-05
+    },
+    {
+      "text": "mısın?",
+      "start": 31.74,
+      "end": 32.1,
+      "type": "word",
+      "logprob": -0.06457736212360032
+    },
+    {
+      "text": " ",
+      "start": 32.1,
+      "end": 32.38,
+      "type": "spacing",
+      "logprob": -5.757642793469131e-05
+    },
+    {
+      "text": "Dinleyecek",
+      "start": 32.38,
+      "end": 32.92,
+      "type": "word",
+      "logprob": -0.0008892347912478726
+    },
+    {
+      "text": " ",
+      "start": 32.92,
+      "end": 32.96,
+      "type": "spacing",
+      "logprob": -7.045020902296528e-05
+    },
+    {
+      "text": "misin?",
+      "start": 32.96,
+      "end": 33.34,
+      "type": "word",
+      "logprob": -3.8344398793318156e-05
+    },
+    {
+      "text": " ",
+      "start": 33.34,
+      "end": 33.34,
+      "type": "spacing",
+      "logprob": -0.014705715700984001
+    },
+    {
+      "text": "Koş",
+      "start": 34.32,
+      "end": 34.64,
+      "type": "word",
+      "logprob": -0.009859039530662509
+    },
+    {
+      "text": " ",
+      "start": 34.64,
+      "end": 35.32,
+      "type": "spacing",
+      "logprob": -0.001737157697789371
+    },
+    {
+      "text": "ya",
+      "start": 35.32,
+      "end": 35.42,
+      "type": "word",
+      "logprob": -0.001737157697789371
+    },
+    {
+      "text": " ",
+      "start": 35.42,
+      "end": 35.48,
+      "type": "spacing",
+      "logprob": -4.887569048150908e-06
+    },
+    {
+      "text": "da",
+      "start": 35.48,
+      "end": 35.62,
+      "type": "word",
+      "logprob": -4.887569048150908e-06
+    },
+    {
+      "text": " ",
+      "start": 35.62,
+      "end": 35.68,
+      "type": "spacing",
+      "logprob": -0.0002637753786984831
+    },
+    {
+      "text": "dinle.",
+      "start": 35.68,
+      "end": 36.22,
+      "type": "word",
+      "logprob": -0.009831881751779292
+    },
+    {
+      "text": " ",
+      "start": 36.22,
+      "end": 36.22,
+      "type": "spacing",
+      "logprob": -0.0014598437119275331
+    },
+    {
+      "text": "Yaz.",
+      "start": 36.8,
+      "end": 37.28,
+      "type": "word",
+      "logprob": -0.016803837788756937
+    },
+    {
+      "text": " ",
+      "start": 37.28,
+      "end": 37.28,
+      "type": "spacing",
+      "logprob": -0.0015595904551446438
+    },
+    {
+      "text": "Sekizinci",
+      "start": 38.18,
+      "end": 38.76,
+      "type": "word",
+      "logprob": -0.0006512702352160381
+    },
+    {
+      "text": " ",
+      "start": 38.76,
+      "end": 38.8,
+      "type": "spacing",
+      "logprob": -0.0011116046225652099
+    },
+    {
+      "text": "bölümü",
+      "start": 38.8,
+      "end": 39.14,
+      "type": "word",
+      "logprob": -0.0009334498548317546
+    },
+    {
+      "text": " ",
+      "start": 39.14,
+      "end": 39.22,
+      "type": "spacing",
+      "logprob": -0.00022456508304458112
+    },
+    {
+      "text": "çoğunluk",
+      "start": 39.22,
+      "end": 39.6,
+      "type": "word",
+      "logprob": -0.00020994999613321852
+    },
+    {
+      "text": " ",
+      "start": 39.6,
+      "end": 39.66,
+      "type": "spacing",
+      "logprob": -0.0003626880934461951
+    },
+    {
+      "text": "yazar.",
+      "start": 39.66,
+      "end": 40.1,
+      "type": "word",
+      "logprob": -0.00013653936881989162
+    }
+  ],
+  "transcription_id": "I20HQdS2H6lQfQftkach",
+  "audio_duration_secs": 40.4129375
+}

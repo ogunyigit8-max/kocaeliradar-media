@@ -92,8 +92,11 @@
       "paylasim_zamani": "2026-11-24T22:34:00+03:00",
       "secenek_a": "TUT",
       "secenek_b": "İT",
-      "sonuc": null,
-      "oylar": null
+      "sonuc": "TUT",
+      "oylar": {
+        "a": 0,
+        "b": 0
+      }
     }
   ],
   "cevaplanan_yorumlar": [

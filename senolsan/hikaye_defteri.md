@@ -66,4 +66,4 @@ Yeni bölüm yazmadan önce bu dosyanın tamamı okunur. Tutarlılık şart: isi
 - Reels: https://www.instagram.com/reel/DgItnmfjMKN/ (hikaye de paylaşıldı). Tahmin ustası: yok (uygun tahmin gelmedi).
 - Yaşlı Emre (sabit tarif): a white round-head stick-figure old man with short curly grey hair, the same face as Emre but wrinkled and tired, a grey stubble, wearing a faded worn-out orange courier jacket with a thin reflective silver stripe across the chest
 - Açık sırlar: yaşlı Emre kim (gelecekteki Emre mi, döngüde kalan biri mi), "beşinci kez" ile bağı, öteki Emre paketi kime götürüyor, üstünde bugünün tarihi olan paketin içinde ne var.
-- Sonuç: (bekleniyor)
+- Sonuç: oy gelmedi (TUT 0, İT 0; 25.11 17:00 itibarıyla). Hikayeyi daha gerilimli ilerleten TUT seçildi, Emre yaşlı adamın elini tuttu.
