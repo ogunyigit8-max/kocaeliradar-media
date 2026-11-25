@@ -36,10 +36,12 @@
      "caption": "🚇 Taksim metrosu ve F1 füniküler 25 Kasım 15.00'ten itibaren kapalı\nMetro İstanbul, İstanbul Valiliği kararı doğrultusunda M2 Taksim istasyonunun ve F1 Taksim-Kabataş füniküler hattının saat 15.00'ten itibaren ikinci bir duyuruya kadar hizmet vermeyeceğini açıkladı. Seferler sürecek ancak trenler Taksim'de durmayacak.\nŞişhane istasyonunun İstiklal Caddesi ve Beyoğlu Belediyesi çıkışları da kullanıma kapatılacak.\nTaksim'e metroyla mı gidecektiniz? Bu hattı kullanan birine gönder.\nGörseller temsilidir.\nKaynak: Metro İstanbul / İstanbul Valiliği kararı (İHA, Karar) · 25 Kasım 2026\n#beyoğlu #beyogluradar #istanbul #taksim #şişhane",
      "voice": "aylin",
      "sim": true,
-     "story_done": false,
-     "reel_done": false,
-     "posted_at": null,
-     "slot": "12:46"
+     "story_done": true,
+     "reel_done": true,
+     "posted_at": "2026-11-25T13:33:00+03:00",
+     "slot": "12:46",
+     "media_id": "17995080936097050",
+     "note": "12:46 slotu kaçtı (saatlik görev paylaşmadı); 15.00 kapanışından önce sabah görevi 13:33'te paylaştı"
     },
     {
      "file": "beyoglu/v/2026-11-25-eskisehir-5-sehit.mp4",
