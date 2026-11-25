@@ -41,3 +41,4 @@ growth.md'deki kurala uy: siyasi haberden Reels yok; büyük gelişmede en fazla
 - 25.11.2026 (son dakika 10:47): okunabildi → ntv.com.tr, haberturk.com maç programı (sayfa uzun, kesiliyor), sondakika.com haber sayfası (sayfadaki saat render zamanı, yayın tarihi değil). Okunamadı → akom.ibb.istanbul (robots okunamadı).
 - 25.11.2026 (son dakika 13:47): okunabildi → sabah.com.tr haber sayfası (Giriş Tarihi yazıyor), sondakika.com/guncel haber sayfası (yayın saati meta'da). Okunamadı → iett.istanbul/Announcement/Detail (server_error).
 - 25.11.2026 (son dakika 18:48): okunabildi → milligazete.com.tr (Taksim metro durumu, 17:00 haberi), karar.com, sabah.com.tr. haberler.com/beyoglu önbellekli (meta 10:02), son saatler için güvenilmez.
+- 25.11.2026 (son dakika 19:47): okunabildi → cumhuriyet.com.tr (güncelleme saati var), tgrthaber.com, milligazete.com.tr. Taksim metro/F1 için 19:06 itibarıyla açılış duyurusu yok.
