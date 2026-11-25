@@ -14,7 +14,18 @@
    "reel_media_id": "18350886601255020"
   },
   "2026-11-25 M2 Taksim + F1 füniküler 15.00'ten kapalı, Şişhane 2 çıkış kapalı (Metro İstanbul)",
-  "2026-11-25 Bu akşam Beyoğlu konserleri karuseli (AKM, Nardis, Blind, Pera 77)"
+  "2026-11-25 Bu akşam Beyoğlu konserleri karuseli (AKM, Nardis, Blind, Pera 77)",
+  {
+   "date": "2026-11-25",
+   "time": "14:41",
+   "topic": "Eskişehir AS-532 helikopter kazası, 5 şehit (kullanıcı isteği)",
+   "level": "A",
+   "voice": "emre",
+   "sim": false,
+   "file": "beyoglu/v/2026-11-25-eskisehir-5-sehit.mp4",
+   "reel_posted_at": "2026-11-25T14:41:00+03:00",
+   "reel_media_id": "18142761256681251"
+  }
  ],
  "reel_posted_at": [
   "2026-11-25T10:38:00+03:00",
