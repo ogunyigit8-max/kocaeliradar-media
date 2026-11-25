@@ -1,7 +1,18 @@
 {
  "covered": [
   "2026-11-25 BEDAŞ planlı kesinti Kaptanpaşa, Şehit Muhtar 09.00-17.00",
-  "2026-11-25 Taksim/İstiklal yol kapanışları 14.00 (25 Kasım programı)"
+  "2026-11-25 Taksim/İstiklal yol kapanışları 14.00 (25 Kasım programı)",
+  {
+   "date": "2026-11-25",
+   "time": "10:40",
+   "topic": "25 Kasım programı nedeniyle Taksim/İstiklal yol kapanışları (Emniyet, 14.00'ten itibaren)",
+   "level": "B",
+   "voice": "aylin",
+   "sim": true,
+   "file": "beyoglu/v/2026-11-25-taksim-yollar-kapali.mp4",
+   "reel_posted_at": "2026-11-25T10:40:00+03:00",
+   "reel_media_id": "18350886601255020"
+  }
  ],
  "reel_posted_at": [
   "2026-11-25T10:50:00+03:00"
