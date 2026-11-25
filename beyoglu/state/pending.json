@@ -13,7 +13,7 @@
      "sim": true,
      "story_done": true,
      "reel_done": true,
-     "posted_at": "2026-11-25T10:50:00+03:00",
+     "posted_at": "2026-11-25T10:38:00+03:00",
      "media_id": "17959839339277112"
     },
     {
@@ -29,6 +29,17 @@
      "story_media_id": "17958426852322772",
      "reel_media_id": "18350886601255020",
      "note": "İlk hali (M2/F1 kapanışı yok) kullanıcının 'hızlıca yayınla' isteğiyle paylaşıldı; yeniden paylaşma"
+    },
+    {
+     "file": "beyoglu/v/2026-11-25-taksim-metro-kapali.mp4",
+     "title": "Taksim metrosu ve F1 füniküler 15.00'ten itibaren kapalı",
+     "caption": "🚇 Taksim metrosu ve F1 füniküler 25 Kasım 15.00'ten itibaren kapalı\nMetro İstanbul, İstanbul Valiliği kararı doğrultusunda M2 Taksim istasyonunun ve F1 Taksim-Kabataş füniküler hattının saat 15.00'ten itibaren ikinci bir duyuruya kadar hizmet vermeyeceğini açıkladı. Seferler sürecek ancak trenler Taksim'de durmayacak.\nŞişhane istasyonunun İstiklal Caddesi ve Beyoğlu Belediyesi çıkışları da kullanıma kapatılacak.\nTaksim'e metroyla mı gidecektiniz? Bu hattı kullanan birine gönder.\nGörseller temsilidir.\nKaynak: Metro İstanbul / İstanbul Valiliği kararı (İHA, Karar) · 25 Kasım 2026\n#beyoğlu #beyogluradar #istanbul #taksim #şişhane",
+     "voice": "aylin",
+     "sim": true,
+     "story_done": false,
+     "reel_done": false,
+     "posted_at": null,
+     "slot": "12:46"
     }
    ],
    "carousel": {
@@ -49,7 +60,26 @@
     "posted_at": null,
     "media_id": null
    },
-   "weekend_carousel": null
+   "weekend_carousel": null,
+   "concert_carousel": {
+    "dir": "beyoglu/c/2026-11-25-konser",
+    "slides": [
+     "beyoglu/c/2026-11-25-konser/01.jpg",
+     "beyoglu/c/2026-11-25-konser/02.jpg",
+     "beyoglu/c/2026-11-25-konser/03.jpg"
+    ],
+    "caption": "🎶 Bu akşam Beyoğlu'nda 4 konser: TRT Hafif Müzik ve Caz Orkestrası, Flapper Swing, Cingi Performs Queen\nAKM Tiyatro Salonu: TRT İstanbul Radyosu Hafif Müzik ve Caz Orkestrası (konuk: Bora Çeliker) · 20.00\nNardis Jazz Club: Flapper Swing · 21.30\nBlind İstanbul: Cingi Performs Queen – Greatest Hits · 21.00\nPera 77: Ali Deniz Kardelen Trio · 21.00\nSaat ve bilet bilgisini mekanın duyurusundan teyit edin.\nBu akşam çıkacak birine gönder.\nKaynaklar: bizimcaz.com (Nardis), İndigo Dergisi, Haber Gazetesi · 25 Kasım 2026\n#beyoğlu #beyogluradar #istanbul #konser #taksim",
+    "alt_texts": [
+     "Bu akşam Beyoğlu'nda 4 konser, 25 Kasım 2026: AKM'de TRT Hafif Müzik ve Caz Orkestrası 20.00",
+     "25 Kasım 2026 Beyoğlu konserleri: AKM Tiyatro Salonu TRT İstanbul Radyosu Hafif Müzik ve Caz Orkestrası 20.00; Nardis Jazz Club Flapper Swing 21.30; Blind İstanbul Cingi Performs Queen 21.00; Pera 77 Ali Deniz Kardelen Trio 21.00",
+     "Gönder, kaydet, takip et. Saat ve bilet bilgisini mekanın duyurusundan teyit edin."
+    ],
+    "post_after": "16:00",
+    "story_done": false,
+    "post_done": false,
+    "posted_at": null,
+    "media_id": null
+   }
   }
  ]
 }

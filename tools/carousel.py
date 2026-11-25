@@ -138,7 +138,7 @@ def cover(spec, total):
             tw = fh.getlength(ln)
             d.rectangle((MARGIN, y, MARGIN + tw + 40, y + 64), fill=YEL)
             d.text((MARGIN + 20, y + 32), ln, font=fh, fill=(12, 12, 14), anchor="lm"); y += 72
-    d.text((CW - MARGIN - 70, CH - 130), "MAHALLEN LİSTEDE Mİ?  KAYDIR", font=font(40, 700), fill=YEL, anchor="rm")
+    d.text((CW - MARGIN - 70, CH - 130), spec.get("swipe_text", "MAHALLEN LİSTEDE Mİ?  KAYDIR"), font=font(40, 700), fill=YEL, anchor="rm")
     arrow(d, CW - MARGIN - 52, CH - 130, 52, YEL)
     footer(d, spec.get("source", ""))
     return im
@@ -216,7 +216,7 @@ def end_slide(spec, page, total):
     im = Image.new("RGB", (CW, CH), BG); d = ImageDraw.Draw(im)
     header(d, spec["category"], page, total)
     y = 330
-    for big, small in [("GÖNDER", "Listede mahallesi olan birine"), ("KAYDET", "Gün içinde tekrar bakmak için"),
+    for big, small in [("GÖNDER", spec.get("send_text", "Listede mahallesi olan birine")), ("KAYDET", "Gün içinde tekrar bakmak için"),
                        ("TAKİP ET", city.CFG.get("follow_text", ""))]:
         d.text((MARGIN, y), big, font=font(92, 700), fill=YEL if big != "TAKİP ET" else RED, anchor="la")
         d.text((MARGIN, y + 112), small, font=font(42, 400), fill=WHITE, anchor="la"); y += 240
@@ -244,9 +244,12 @@ def main(p):
         rest = sum(1 for s in slides[MAX_SLIDES - 3:] for r in s if r[0] == "R")
         slides = slides[:MAX_SLIDES - 3]
         slides[-1] = slides[-1][:-1] + [("R", f"… ve {rest} satır daha (tam liste kaynakta)", "")]
-    total = len(slides) + 3
-    ims = ([cover(spec, total), summary_slide(spec, 2, total)]
-           + [list_slide(s, spec, i + 3, total) for i, s in enumerate(slides)] + [end_slide(spec, total, total)])
+    # "no_summary": true -> özet karesi yok (kesinti dışı listeler: konser, etkinlik)
+    ns = bool(spec.get("no_summary"))
+    total = len(slides) + (2 if ns else 3)
+    k0 = 2 if ns else 3
+    ims = ([cover(spec, total)] + ([] if ns else [summary_slide(spec, 2, total)])
+           + [list_slide(s, spec, i + k0, total) for i, s in enumerate(slides)] + [end_slide(spec, total, total)])
     files = []
     for i, im in enumerate(ims, 1):
         f = os.path.join(out, f"{i:02d}.jpg"); im.save(f, "JPEG", quality=92, optimize=True); files.append(f)
