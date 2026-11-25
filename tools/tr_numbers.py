@@ -102,6 +102,10 @@ def tts_text(s):
     s = re.sub(r"\b(\d+),(\d+)\b", lambda m: _ondalik(m.group(1), m.group(2)), s)
     # binlik ayraçlı ve düz tam sayılar (ek korunur: 100'de -> yüz'de)
     s = re.sub(rf"\b({NUM})\b(?:['’](?=\w))?", lambda m: sayi(_int(m.group(1))), s)
+    # ay adı telaffuzu (kullanıcı 25.11.2026: "Kasım" yapay okunuyordu; Emre örnek 2 seçildi): Kasım -> Kâsım
+    s = re.sub(r"\bKasım(?=\b|['’])", "Kâsım", s)
+    s = re.sub(r"\bKASIM\b", "Kâsım", s)
+    s = re.sub(r"\bkasım(?=\b|['’])", "kâsım", s)
     # birimler
     s = re.sub(r"\bkm\b", "kilometre", s)
     s = re.sub(r"\bkg/m²|\bkg/m2\b|\bkg\b", "kilogram", s)
