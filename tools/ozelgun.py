@@ -27,6 +27,7 @@ from PIL import Image, ImageDraw, ImageFilter
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from stories import font, W, H, RED, WHITE  # noqa: E402
+import city  # noqa: E402
 from news import wav_read, loudnorm_filter, _movavg, _speech_eq, _lowpass, SR  # noqa: E402
 from celebrate import (ease, back, make_bg, make_rays, rays_layer, Confetti, Fireworks, gold_text, shine,  # noqa: E402
                        paste_c, ctext, pill, subtitle, speaker_tag, party_music, sfx_pop, sfx_whoosh, outro,
@@ -92,7 +93,7 @@ def star(d, x, y, r, col, t):
 
 # ---------------------------------------------------------------- sahneler
 def cover(fr, d, tl, C):
-    pill(d, W / 2, 120, "KOCAELİ RADAR", 36, (10, 12, 22, 230), GOLD + (255,), padx=30)
+    pill(d, W / 2, 120, city.BRAND, 36, (10, 12, 22, 230), GOLD + (255,), padx=30)
     pill(d, W / 2, 225, C.get("date_label", ""), 46, GOLD + (255,), NAVY + (255,), padx=40)
     ys = [470 + i * 175 for i in range(len(C["_title"]))]
     for i, (sp, mk) in enumerate(C["_title"]):
@@ -210,8 +211,8 @@ def main(spec):
     tsz = 150 if max(len(s) for s in C["title"]) <= 11 else 120
     C["_title"] = [gold_text(s, tsz) for s in C["title"]]
     C["_big"] = [[gold_text(s, 118 if len(s) <= 12 else 96) for s in sc.get("big", [])] for sc in scenes]
-    spr = {"kr": gold_text("KOCAELİ RADAR", 110)}
-    lg = Image.open(os.path.join(A, "logo.jpg")).convert("RGBA").resize((560, 560), Image.LANCZOS)
+    spr = {"kr": gold_text(city.BRAND, 110)}
+    lg = Image.open(city.asset("logo.jpg")).convert("RGBA").resize((560, 560), Image.LANCZOS)
     mk = Image.new("L", (560, 560), 0); ImageDraw.Draw(mk).ellipse((0, 0, 559, 559), fill=255); lg.putalpha(mk)
     spr["logo"] = lg
     C["_spr"] = spr

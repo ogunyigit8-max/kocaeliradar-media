@@ -25,6 +25,7 @@ from PIL import Image, ImageDraw, ImageFilter
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from stories import font, W, H, YEL, RED, WHITE  # noqa: E402
+import city  # noqa: E402
 from news import wav_read, loudnorm_filter, _movavg, _speech_eq, _lowpass, SR  # noqa: E402
 
 A = os.path.join(HERE, "assets")
@@ -32,8 +33,7 @@ FPS = 30
 GOLD = (255, 196, 40); GOLD2 = (255, 228, 120); GOLD3 = (196, 128, 10)
 NAVY = (8, 12, 26)
 SUB_Y = 1440
-DISTRICTS = ["İZMİT", "GEBZE", "DARICA", "ÇAYIROVA", "DİLOVASI", "KÖRFEZ",
-             "DERİNCE", "GÖLCÜK", "KARAMÜRSEL", "BAŞİSKELE", "KARTEPE", "KANDIRA"]
+DISTRICTS = city.DISTRICTS
 
 
 def ease(x):
@@ -262,7 +262,7 @@ def icon(d, kind, x, y, s, col):
 
 def scene1(fr, d, tl, C, spr):
     # üst etiket
-    pill(d, W / 2, 220, "KOCAELİ RADAR", 40, (10, 12, 22, 230), GOLD + (255,), padx=34)
+    pill(d, W / 2, 220, city.BRAND, 40, (10, 12, 22, 230), GOLD + (255,), padx=34)
     d.ellipse((W / 2 - 150, 210, W / 2 - 134, 226), fill=RED + (255,)) if False else None
     # halka + dönen ışıltılar
     cx, cy, R = W / 2, 640, 330
@@ -366,7 +366,7 @@ def outro(fr, d, tl, C):
     paste_c(fr, logo, W / 2, 560, max(0.01, s))
     a = int(255 * ease((tl - 0.3) / 0.4))
     paste_c(fr, C["_spr"]["kr"][0], W / 2, 990, 1.0, a / 255)
-    ctext(d, W / 2, 1110, "@kocaeliradar41", 56, (220, 225, 240, a))
+    ctext(d, W / 2, 1110, city.HANDLE, 56, (220, 225, 240, a))
     p = 1 + 0.05 * math.sin(tl * 6)
     if tl > 0.6:
         f = font(int(70 * p), 700); tw = f.getlength("TAKİP ET")
@@ -388,7 +388,7 @@ def finale(fr, d, tl, C):
         d.polygon([(hx - k * 0.98, hy - k * 0.25), (hx + k * 0.98, hy - k * 0.25), (hx, hy + k * 1.1)], fill=RED + (int(255 * a),))
         pill(d, W / 2 - 230, 1020, "EMRE", 50, (16, 22, 44, int(240 * a)), WHITE + (int(255 * a),), padx=34)
         pill(d, W / 2 + 230, 1020, "AYLİN", 50, (16, 22, 44, int(240 * a)), WHITE + (int(255 * a),), padx=34)
-    ctext(d, W / 2, 1200, "@kocaeliradar41", 50, (220, 225, 240, int(255 * a)))
+    ctext(d, W / 2, 1200, city.HANDLE, 50, (220, 225, 240, int(255 * a)))
 
 
 def speaker_tag(d, name, tl):
@@ -516,14 +516,14 @@ def main(spec):
     # ---- görüntü
     bg = make_bg(); rays = make_rays()
     spr = {"num": gold_text(C["number"], 330), "head": gold_text(C.get("headline", "KİŞİYİZ!"), 170),
-           "ilce": gold_text("12 İLÇE", 190), "724": gold_text("7/24", 200),
-           "q1": gold_text("HANGİ", 150), "q2": gold_text("İLÇEDENSİN?", 150), "kr": gold_text("KOCAELİ RADAR", 110),
+           "ilce": gold_text(city.DISTRICTS_LABEL, 190), "724": gold_text("7/24", 200),
+           "q1": gold_text(city.WHERE_Q[0], 150), "q2": gold_text(city.WHERE_Q[1], 150), "kr": gold_text(city.BRAND, 110),
            "tes": gold_text("TEŞEKKÜRLER", 175)}
-    kf = font(190, 700); kb = kf.getbbox("KOCAELİ!", stroke_width=6)
+    kf = font(190, 700); kb = kf.getbbox(city.CITY + "!", stroke_width=6)
     ki = Image.new("RGBA", (kb[2] - kb[0] + 40, kb[3] - kb[1] + 40), (0, 0, 0, 0))
-    ImageDraw.Draw(ki).text((20 - kb[0], 20 - kb[1]), "KOCAELİ!", font=kf, fill=WHITE + (255,), stroke_width=6, stroke_fill=(110, 60, 0, 255))
+    ImageDraw.Draw(ki).text((20 - kb[0], 20 - kb[1]), city.CITY + "!", font=kf, fill=WHITE + (255,), stroke_width=6, stroke_fill=(110, 60, 0, 255))
     spr["koc"] = ki
-    lg = Image.open(os.path.join(A, "logo.jpg")).convert("RGBA").resize((560, 560), Image.LANCZOS)
+    lg = Image.open(city.asset("logo.jpg")).convert("RGBA").resize((560, 560), Image.LANCZOS)
     mk = Image.new("L", (560, 560), 0); ImageDraw.Draw(mk).ellipse((0, 0, 559, 559), fill=255); lg.putalpha(mk)
     spr["logo"] = lg
     C["_spr"] = spr

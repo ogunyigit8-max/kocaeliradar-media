@@ -27,6 +27,7 @@ from PIL import Image, ImageDraw, ImageFilter
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from stories import font, YEL, RED, WHITE, GREY  # noqa: E402
+import city  # noqa: E402
 
 CW, CH = 1080, 1350
 BG = (18, 20, 24)
@@ -100,7 +101,7 @@ def map_bg(focus, zoom, pins, w, h):
 def header(d, cat, page, total):
     d.rectangle((0, 0, CW, 10), fill=YEL)
     d.rectangle((MARGIN, 56, MARGIN + 8, 112), fill=YEL)
-    d.text((MARGIN + 26, 84), "KOCAELİ RADAR", font=font(46, 700), fill=WHITE, anchor="lm")
+    d.text((MARGIN + 26, 84), city.BRAND, font=font(46, 700), fill=WHITE, anchor="lm")
     f = font(30, 600); tw = f.getlength(cat)
     d.rectangle((CW - MARGIN - tw - 36, 60, CW - MARGIN, 108), fill=RED)
     d.text((CW - MARGIN - 18, 84), cat, font=f, fill=WHITE, anchor="rm")
@@ -216,7 +217,7 @@ def end_slide(spec, page, total):
     header(d, spec["category"], page, total)
     y = 330
     for big, small in [("GÖNDER", "Listede mahallesi olan birine"), ("KAYDET", "Gün içinde tekrar bakmak için"),
-                       ("TAKİP ET", "Kocaeli'deki gelişmeleri kaçırma")]:
+                       ("TAKİP ET", city.CFG.get("follow_text", ""))]:
         d.text((MARGIN, y), big, font=font(92, 700), fill=YEL if big != "TAKİP ET" else RED, anchor="la")
         d.text((MARGIN, y + 112), small, font=font(42, 400), fill=WHITE, anchor="la"); y += 240
     if spec.get("note"):

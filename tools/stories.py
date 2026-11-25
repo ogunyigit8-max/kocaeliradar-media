@@ -23,7 +23,8 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 HERE = os.path.dirname(os.path.abspath(__file__))
 A = os.path.join(HERE, "assets")
 W, H = 1080, 1920
-YEL = (255, 204, 0); RED = (226, 35, 45); GRN = (60, 190, 110); WHITE = (255, 255, 255); BLACK = (10, 10, 12)
+import city  # noqa: E402  (RADAR_CITY)
+YEL = city.ACCENT; RED = (226, 35, 45); GRN = (60, 190, 110); WHITE = (255, 255, 255); BLACK = (10, 10, 12)
 GREY = (190, 194, 200)
 AYLAR = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]
 GUNLER = ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar"]
@@ -58,14 +59,14 @@ def tr_date(iso):
     return f"{dt.day} {AYLAR[dt.month - 1]} {dt.year}", GUNLER[dt.weekday()]
 
 def base(tag, date_iso):
-    im = Image.open(os.path.join(A, "story_bg.jpg")).convert("RGBA").resize((W, H))
+    im = Image.open(city.asset("story_bg.jpg")).convert("RGBA").resize((W, H))
     d = ImageDraw.Draw(im)
     # top brand bar
-    logo = Image.open(os.path.join(A, "logo.jpg")).convert("RGB").resize((104, 104))
+    logo = Image.open(city.asset("logo.jpg")).convert("RGB").resize((104, 104))
     m = Image.new("L", (104, 104), 0); ImageDraw.Draw(m).ellipse([0, 0, 103, 103], fill=255)
     im.paste(logo, (64, 150), m)
-    text(d, (186, 166), "KOCAELİ RADAR", 44, WHITE, 700, "la", 3)
-    text(d, (188, 222), "@kocaeliradar41", 26, GREY, 500, "la", 1)
+    text(d, (186, 166), city.BRAND, 44, WHITE, 700, "la", 3)
+    text(d, (188, 222), city.HANDLE, 26, GREY, 500, "la", 1)
     ds, gun = tr_date(date_iso)
     text(d, (W - 64, 168), ds.upper(), 30, WHITE, 600, "ra", 1)
     text(d, (W - 64, 210), gun.upper(), 26, YEL, 600, "ra", 2)
@@ -136,7 +137,7 @@ def change_badge(d, cx, cy, cur, prev):
 def story_weather(D, out):
     w = D["weather"]; im, d = base("HAVA DURUMU", D["date"])
     d = card(im, (64, 470, W - 64, 1150))
-    text(d, (W / 2, 530), w.get("location", "KOCAELİ").upper(), 36, YEL, 600, "mm", 6)
+    text(d, (W / 2, 530), w.get("location", city.CFG.get("weather_location", city.CITY)).upper(), 36, YEL, 600, "mm", 6)
     weather_icon(d, w.get("icon", "partly"), W / 2 - 200, 760, 200)
     text(d, (W / 2 + 40, 700), f"{round(w['high'])}°", 210, WHITE, 700, "lm")
     text(d, (W / 2 + 60, 850), f"EN DÜŞÜK {round(w['low'])}°", 44, GREY, 600, "lm", 2)
@@ -204,7 +205,7 @@ def is_rainy(w):
 if __name__ == "__main__":
     import sounds
     D = json.load(open(sys.argv[1]))
-    root = os.path.dirname(HERE); os.makedirs(os.path.join(root, "s"), exist_ok=True)
+    root = os.path.join(os.path.dirname(HERE), city.DIR); os.makedirs(os.path.join(root, "s"), exist_ok=True)
     pre = os.path.join(root, "s", D["date"])
     T = 8.0
     story_weather(D, pre + "-hava.jpg")

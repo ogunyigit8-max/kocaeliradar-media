@@ -1,0 +1,9 @@
+{
+ "next": "emre",
+ "voices": {
+  "emre": "39f753ef-b0eb-41cd-aa53-2f3c284f948f",
+  "aylin": "bb2347fe-69e9-4810-873f-ffd759fe8420"
+ },
+ "provider": "cartesia:sonic-3.5",
+ "note": "Beyoğlu Radar haber videoları sırayla: bir Emre, bir Aylin. Her video üretildikten sonra next değiştirilir."
+}
