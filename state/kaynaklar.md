@@ -33,8 +33,6 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - WebSearch ile "site:instagram.com <hesap>" veya hesap adı + "son dakika" ara. Burada görülen haberi Grup 1-6'daki bir siteden doğrulamadan PAYLAŞMA. Görselleri/videoları kullanma (telif).
 
 ## Okunabilirlik (tarihli notlar; görevler ekler)
-- 23.11.2026 04:35: okunabildi → sondakika.com/kocaeli-izmit (en yeni 22.11 13:41), sabah.com.tr/son-depremler/kocaeli (kayıt yok).
-- 23.11.2026 05:35: Okunamadı (client_error) → enkocaeli.com (haber sayfası).
 - 23.11.2026 08:20 (sabah): okunabildi → kocaelikentgazetesi.com (kesinti listesi), ozgunkocaeli.com.tr, sondakika.com/kocaeli, ntv, dha, milligazete, tgrthaber, karar, trthaber, haberturk.com/gundem, mavikocaeli, gazetevatan, timeturk. Okunamadı (client_error) → kocaelitv, cagdaskocaeli, kocaelibarisgazetesi, kocaeligazetesi, kocaelidenge, demokratkocaeli, seskocaeli, noktagazetesi, aydinlik, iha; golcukhaber (ROBOTS); kocaeli.bel.tr/haberler 404.
 - 23.11.2026 08:35: okunabildi → ozgunkocaeli.com.tr/sondakika-haberleri (en yeni 00:03), sondakika.com/kocaeli-izmit (08:14 kopyası). Okunamadı (client_error) → istekocaeli.com, bugunkocaeli.com.tr.
 - 23.11.2026 09:35: okunabildi → ozgunkocaeli.com.tr/sondakika-haberleri (en yeni 00:03), sondakika.com/kocaeli-izmit (22.11 14:32), haberturk deprem listesi. Okunamadı (PROVENANCE_REQUIRED) → istekocaeli.com.
@@ -49,3 +47,4 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - 25.11.2026 00:35: okunabildi → hurriyet.com.tr (MGM 24.11 21:35), ozgunkocaeli.com.tr (00:05, Bolu kazası), haberturk.com (eski 2024 sayfası).
 - 25.11.2026 01:35: okunabildi → sondakika.com/kocaeli (en yeni 24.11 23:19). Okunamadı (client_error) → noktagazetesi.com.tr, istekocaeli.com.
 - 25.11.2026 02:35: okunabildi → sondakika.com/kocaeli (en yeni 24.11 23:19); okunamadı (client_error) → cagdaskocaeli.com.tr haber sayfası.
+- 25.11.2026 03:35: okunabildi → sondakika.com/kocaeli-kaza (en yeni 21.11). Okunamadı (client_error) → ozgurkocaeli.com.tr ana sayfa.
