@@ -43,3 +43,4 @@ growth.md'deki kurala uy: siyasi haberden Reels yok; büyük gelişmede en fazla
 - 25.11.2026 (son dakika 18:48): okunabildi → milligazete.com.tr (Taksim metro durumu, 17:00 haberi), karar.com, sabah.com.tr. haberler.com/beyoglu önbellekli (meta 10:02), son saatler için güvenilmez.
 - 25.11.2026 (son dakika 19:47): okunabildi → cumhuriyet.com.tr (güncelleme saati var), tgrthaber.com, milligazete.com.tr. Taksim metro/F1 için 19:06 itibarıyla açılış duyurusu yok.
 - 25.11.2026 (son dakika 20:47): okunabildi → turkiyegazetesi.com.tr haber sayfası (meta saat var; 18:12 itibarıyla Taksim metro açılış duyurusu yok), milligazete.com.tr (sayfa uzun, kesiliyor), cumhuriyet.com.tr.
+- 25.11.2026 (son dakika 22:47): okunabildi → sondakika.com/guncel (meta saat var), yenidevir.com.tr (Taksim açılış haberi 2025 tarihli, eski), internethaber.com (sayfada tarih yok). Okunamadı → t24.com.tr, turkgun.com (client_error). 22:47 itibarıyla Taksim metro/F1 açılış duyurusu doğrulanamadı.
