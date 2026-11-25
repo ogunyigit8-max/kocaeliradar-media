@@ -129,3 +129,12 @@ Son: hashtag seti (EN FAZLA 5 etiket — Instagram Aralık 2025'ten beri gönder
 - Clickbait, abartı, doğrulanmamış bilgi, kaynaksız haber; siyasi polemik.
 - Başkasının videosunu yeniden yüklemek; görünür filigran.
 - 3 dk'dan uzun Reels; 5'ten fazla / alakasız hashtag.
+
+## Kullanıcı kararları (25.11.2026, kullanıcı açıkça onayladı)
+- Yorumlar: TÜM gönderilerdeki yorumlara samimi, kısa, doğru cevap verilir (state/comment_replies.json; saatlik görev adım 0f). Küfür/hakaret, siyaset, spam, suçlama/tartışma, anlamsız tek kelime cevapsız kalır.
+- İhbar hattı: biyografiye "İhbar & görüntü: DM" eklendi (kullanıcı elle). Gelen vatandaş görüntüsü yalnızca izinle ve haber Grup 1-6 kaynaktan doğrulanınca kullanılır; caption'da "Görüntü: takipçimiz" yazılır.
+- Video başı: hedef 15-20 sn; ilk karede tek çarpıcı sayı/etki; İlk 3 sn atlama hedefi < %40.
+- İçerik ağırlığı: kesinti, "yarın/bu gece" uyarıları, okul/aile, Gebze-Darıca ekseni öncelikli; "bugün" hava, akaryakıt, Kocaeli'ye özgü olmayan ulusal haber azaltılır (spor kullanıcı isteğiyle sürer).
+- Deneme Reels: API destekliyor (create_video_post trial_params). Haftada 1-2 sabah videosunda (son dakika DEĞİL) farklı açılışla deneme yapılabilir.
+- Collab: create_video_post/collaborators ile ilçe sayfaları davet edilebilir; davet edilecek hesap listesini kullanıcı onaylar.
+- Kullanıcı elle yapacak: TikTok/Facebook/YouTube hesapları, sabit gönderiler (kutlama + en iyi kesinti Reels'i), öne çıkanlar (Kesintiler, Son Dakika, Spor), Yayın Kanalı.
