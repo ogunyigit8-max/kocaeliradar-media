@@ -533,6 +533,16 @@
    "level": null,
    "reel_posted_at": null,
    "voice": null
+  },
+  {
+   "date": "2026-11-26",
+   "time": "01:15",
+   "topic": "Spor: Şampiyonlar Ligi 5. hafta Shakhtar Donetsk 0-1 Fenerbahçe (Stamford Bridge, Londra; gol Vedat Muriqi 56'; FB 8 puan, üst üste 2. galibiyet; sıradaki ŞL maçı 9 Aralık LASK Linz deplasmanı). 00:35 taramasında maç sürüyordu; kullanıcının canlı uyarısıyla maç bitiminde yapıldı",
+   "level": "C",
+   "voice": "emre",
+   "sim": false,
+   "file": "v/2026-11-26-spor-shakhtar-fenerbahce.mp4",
+   "reel_posted_at": null
   }
  ]
 }
