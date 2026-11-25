@@ -313,7 +313,7 @@
   {
    "date": "2026-11-25",
    "created_at": "2026-11-25T08:05:00+03:00",
-   "status": "scheduled",
+   "status": "published",
    "videos": [
     {
      "file": "v/2026-11-25-kesinti.mp4",
@@ -333,9 +333,11 @@
      "caption": "🏟️ Körfez'e 1.000 kişilik kapalı spor salonu: inşaat yüzde 48'de\nKörfez Güney Mahallesi'ndeki 12 bin m² kapalı spor kompleksinde fiziki ilerleme %48'e ulaştı. Tesiste hentbol, basketbol ve voleybola uygun 1.061 m² saha, 1.000 kişilik tribün, 5 antrenman salonu ve 125 araçlık otopark olacak (Büyükşehir, Spor Toto ve Körfez Belediyesi iş birliği).\nGölcük'te de 5.400 m² kapalı spor salonu ile 25 metre, 5 kulvarlı yarı olimpik kapalı havuz yapılıyor; havuzun çatısı tamamlandı.\n\nÇocuğunuzu hangi branşa yazdırmak isterdiniz?\nKaynak: İHA (Habertürk Yerel), 24 Kasım 2026\n\n#kocaeli #kocaeliradar #kocaelibüyükşehir #kocaelihaber #körfez",
      "voice": "aylin",
      "sim": false,
-     "story_done": false,
-     "reel_done": false,
-     "posted_at": null
+     "story_done": true,
+     "reel_done": true,
+     "posted_at": "2026-11-25T15:34:40+03:00",
+     "story_media_id": "17919319710504732",
+     "reel_media_id": "18075106781781316"
     }
    ],
    "carousel": {
