@@ -1,31 +1,32 @@
 {
- "target": 1000,
- "file": "v/ozel-1000-takipci.mp4",
- "status": "ready",
- "created": "2026-11-22",
- "followers_at_creation": 798,
- "caption": "🎉 Kocaeli Radar 1000 kişi oldu! Teşekkürler Kocaeli\nİzmit'ten Gebze'ye, Kandıra'dan Karamürsel'e 12 ilçede bizi takip eden herkese teşekkürler. Son dakika, elektrik ve su kesintileri, yol durumu ve Kocaelispor: hepsini sizin için 7/24 takip ediyoruz.\n\nSen hangi ilçedensin? Yorumlara yaz 👇\nBizi bir arkadaşına gönder, 2000'e birlikte gidelim.\n\n#kocaeli #kocaeliradar #kocaelihaber #izmit #gebze",
- "story_done": false,
- "reel_done": false,
- "posted_at": null,
- "note": "Kutlama tarzı (tools/celebrate.py, spec state/kutlama-1000.json): Emre ve Aylin sırayla konuşur, sonda ikisi birlikte 'Teşekkürler Kocaeli!' der. Saatlik son dakika görevi takipçi sayısı >= target olduğunda 10:00-22:00 arasında, son Reels'ten 60 dk sonra önce hikâye sonra Reels olarak paylaşır.",
- "poll_reminder": {
-  "enabled": true,
-  "question": "Hangi ilçedensin?",
-  "options": [
-   "İzmit",
-   "Gebze",
-   "Diğer ilçeler"
-  ]
- },
- "auto_reply": {
-  "enabled": true,
-  "hours": 48,
-  "max_per_run": 25,
-  "skip": "hakaret, siyaset, spam, reklam, tartışma"
- },
- "replied_comment_ids": [],
- "replies_count": 0,
- "story_media_id": null,
- "reel_media_id": null
+  "target": 1000,
+  "file": "v/ozel-1000-takipci.mp4",
+  "status": "published",
+  "created": "2026-11-22",
+  "followers_at_creation": 798,
+  "caption": "🎉 Kocaeli Radar 1000 kişi oldu! Teşekkürler Kocaeli\nİzmit'ten Gebze'ye, Kandıra'dan Karamürsel'e 12 ilçede bizi takip eden herkese teşekkürler. Son dakika, elektrik ve su kesintileri, yol durumu ve Kocaelispor: hepsini sizin için 7/24 takip ediyoruz.\n\nSen hangi ilçedensin? Yorumlara yaz 👇\nBizi bir arkadaşına gönder, 2000'e birlikte gidelim.\n\n#kocaeli #kocaeliradar #kocaelihaber #izmit #gebze",
+  "story_done": true,
+  "reel_done": true,
+  "posted_at": "2026-11-25T20:56:00+03:00",
+  "note": "Kutlama tarzı (tools/celebrate.py, spec state/kutlama-1000.json): Emre ve Aylin sırayla konuşur, sonda ikisi birlikte 'Teşekkürler Kocaeli!' der. Saatlik son dakika görevi takipçi sayısı >= target olduğunda 10:00-22:00 arasında, son Reels'ten 60 dk sonra önce hikâye sonra Reels olarak paylaşır.",
+  "poll_reminder": {
+    "enabled": true,
+    "question": "Hangi ilçedensin?",
+    "options": [
+      "İzmit",
+      "Gebze",
+      "Diğer ilçeler"
+    ]
+  },
+  "auto_reply": {
+    "enabled": true,
+    "hours": 48,
+    "max_per_run": 25,
+    "skip": "hakaret, siyaset, spam, reklam, tartışma"
+  },
+  "replied_comment_ids": [],
+  "replies_count": 0,
+  "story_media_id": "17928532449449281",
+  "reel_media_id": "17916449715663732",
+  "followers_at_post": 1015
 }
