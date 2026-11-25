@@ -56,6 +56,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from stories import font, text, W, H, YEL, RED, GRN, WHITE  # noqa: E402
 from anim import anim_layer  # noqa: E402
+import city  # noqa: E402  (RADAR_CITY: kocaeli | beyoglu)
 
 A = os.path.join(HERE, "assets")
 FPS = 30
@@ -67,13 +68,17 @@ SRC_Y = 1478
 MUSIC_GAIN = 0.20     # müzik taban seviyesi (eski: 0.5); konuşma altında ~22-23 dB geride
 DUCK_DEPTH = 0.65     # konuşma sırasında müziği ek ~-9 dB kıs (eski: 0.4 ≈ -4 dB)
 # Harita kanvası (eşdikdörtgen, cos(enlem) düzeltmeli)
-LON0, LON1 = 28.2, 31.2
-LAT_C = 40.8
-MW = 3240
+LON0, LON1 = city.MAP["lon0"], city.MAP["lon1"]
+LAT_C = city.MAP["lat_c"]
+MW = city.MAP.get("mw", 3240)
 PXLON = MW / (LON1 - LON0)
 PXLAT = PXLON / math.cos(math.radians(LAT_C))
 MH = int(MW * 16 / 9)
 LAT1 = LAT_C + (MH / 2) / PXLAT  # üst kenar
+
+
+HL_CITY = city.MAP.get("highlight_city")      # il sınırı vurgusu (Kocaeli)
+HL_DIST = city.MAP.get("highlight_district")  # ilçe sınırı vurgusu (Beyoğlu)
 
 
 def ll2px(lat, lon):
@@ -81,7 +86,7 @@ def ll2px(lat, lon):
 
 
 def build_map():
-    cache = os.path.join(A, "_map_cache.png")
+    cache = os.path.join(A, city.MAP.get("cache", "_map_cache.png"))
     if os.path.exists(cache):
         return Image.open(cache).convert("RGB")
     sea = (14, 30, 52)
@@ -93,10 +98,17 @@ def build_map():
     im = Image.blend(im, Image.merge("RGB", [nz, nz, nz]), 0.06)
     # kara maskesi (Natural Earth 10m kıyı çizgisi)
     land = Image.new("L", (MW, MH), 0); ld = ImageDraw.Draw(land)
-    for poly in json.load(open(os.path.join(A, "land.json")))["coordinates"]:
-        ld.polygon([ll2px(la, lo) for lo, la in poly[0]], fill=255)
-        for hole in poly[1:]:
-            ld.polygon([ll2px(la, lo) for lo, la in hole], fill=0)
+    if city.MAP.get("land") == "districts":
+        # ilçe ölçeği: kıyı çizgisi = ilçe poligonlarının birleşimi (Natural Earth bu ölçekte çok kaba)
+        for f in json.load(open(os.path.join(A, "tr-districts-marmara.json"), encoding="utf-8"))["features"]:
+            g = f["geometry"]
+            for poly in ([g["coordinates"]] if g["type"] == "Polygon" else g["coordinates"]):
+                ld.polygon([ll2px(la, lo) for lo, la in poly[0]], fill=255)
+    else:
+        for poly in json.load(open(os.path.join(A, "land.json")))["coordinates"]:
+            ld.polygon([ll2px(la, lo) for lo, la in poly[0]], fill=255)
+            for hole in poly[1:]:
+                ld.polygon([ll2px(la, lo) for lo, la in hole], fill=0)
     gj = json.load(open(os.path.join(A, "tr-cities.json"), encoding="utf-8"))
     polys = []
     for f in gj["features"]:
@@ -106,7 +118,13 @@ def build_map():
             polys.append((f["properties"]["name"], [ll2px(la, lo) for lo, la in poly[0]]))
     lay = Image.new("RGB", (MW, MH), (30, 32, 35)); d = ImageDraw.Draw(lay)
     for name, pts in polys:
-        if name == "Kocaeli": d.polygon(pts, fill=(48, 50, 55))
+        if name == HL_CITY: d.polygon(pts, fill=(48, 50, 55))
+    if HL_DIST:
+        for f in json.load(open(os.path.join(A, "tr-districts-marmara.json"), encoding="utf-8"))["features"]:
+            if f["properties"]["name"] != HL_DIST: continue
+            g = f["geometry"]
+            for poly in ([g["coordinates"]] if g["type"] == "Polygon" else g["coordinates"]):
+                d.polygon([ll2px(la, lo) for lo, la in poly[0]], fill=(48, 50, 55))
     # arazi dokusu
     rng2 = np.random.default_rng(11)
     tex = np.zeros((MH, MW), np.float32)
@@ -124,9 +142,16 @@ def build_map():
             pts = [ll2px(la, lo) for lo, la in poly[0]]
             d.line(pts + [pts[0]], fill=(92, 96, 102), width=2)
     for name, pts in polys:
-        if name != "Kocaeli": d.line(pts + [pts[0]], fill=(98, 101, 106), width=3)
+        if name != HL_CITY: d.line(pts + [pts[0]], fill=(98, 101, 106), width=3)
     for name, pts in polys:
-        if name == "Kocaeli": d.line(pts + [pts[0]], fill=(150, 153, 158), width=5)
+        if name == HL_CITY: d.line(pts + [pts[0]], fill=(150, 153, 158), width=5)
+    if HL_DIST:
+        for f in dj["features"]:
+            if f["properties"]["name"] != HL_DIST: continue
+            g = f["geometry"]
+            for poly in ([g["coordinates"]] if g["type"] == "Polygon" else g["coordinates"]):
+                pts = [ll2px(la, lo) for lo, la in poly[0]]
+                d.line(pts + [pts[0]], fill=(150, 153, 158), width=5)
     # kıyı parıltısı
     edge = land.filter(ImageFilter.FIND_EDGES).filter(ImageFilter.MaxFilter(5))
     glow = edge.filter(ImageFilter.GaussianBlur(16)).point(lambda v: min(255, v * 2))
@@ -134,11 +159,10 @@ def build_map():
     im = Image.composite(lay, im, land)
     im = Image.composite(Image.new("RGB", (MW, MH), (120, 160, 205)), im, edge.point(lambda v: 150 if v > 40 else 0))
     d = ImageDraw.Draw(im)
-    for lab, la, lo, col in [("KARADENİZ", 41.35, 29.9, (95, 125, 165)), ("MARMARA DENİZİ", 40.62, 28.75, (95, 125, 165)),
-                              ("İSTANBUL", 41.12, 28.95, (150, 152, 158)), ("SAKARYA", 40.75, 30.55, (150, 152, 158)),
-                              ("BURSA", 40.25, 29.2, (150, 152, 158)), ("YALOVA", 40.6, 29.15, (150, 152, 158))]:
+    for lab, la, lo, kind in city.MAP.get("labels", []):
+        col = (95, 125, 165) if kind == "sea" else (150, 152, 158)
         x, y = ll2px(la, lo)
-        text(d, (x, y), lab, 34, col, 500, "mm", sp=8)
+        text(d, (x, y), lab, city.MAP.get("label_size", 34), col, 500, "mm", sp=8)
     im = im.filter(ImageFilter.GaussianBlur(0.6))
     im.save(cache)
     return im
@@ -269,19 +293,19 @@ def whoosh(seed=0):
 
 
 def outro_frame(m, tl, prog):
-    """Kapanış: KOCAELİ RADAR + Instagram + TAKİP ET."""
+    """Kapanış: <ŞEHİR> RADAR + Instagram + TAKİP ET."""
     fr = m.crop((int(MW * 0.25), int(MH * 0.30), int(MW * 0.25 + 1500), int(MH * 0.30 + 2667))).resize((W, H), Image.BILINEAR).convert("RGBA")
     fr.alpha_composite(Image.new("RGBA", (W, H), (5, 6, 8, 205)))
     d = ImageDraw.Draw(fr)
     d.rectangle((0, 0, W, 8), fill=(255, 255, 255, 60)); d.rectangle((0, 0, int(W * prog), 8), fill=YEL + (255,))
     a = ease(tl / 0.5)
-    text(d, (W / 2, 820), "KOCAELİ", 64, WHITE + (int(255 * a),), 500, "mm", sp=14)
+    text(d, (W / 2, 820), city.CITY, 64, WHITE + (int(255 * a),), 500, "mm", sp=14)
     text(d, (W / 2, 930), "RADAR", 150, WHITE + (int(255 * a),), 700, "mm")
     b = ease((tl - 0.3) / 0.4)
     if b > 0:
         sz = int(120 * (0.6 + 0.4 * b)); badge = ig_badge(sz)
         fr.alpha_composite(badge, (int(W / 2 - sz / 2), int(1100 - sz / 2)))
-        text(d, (W / 2, 1215), "@KOCAELIRADAR41", 44, WHITE, 600, "mm")
+        text(d, (W / 2, 1215), city.HANDLE.upper(), 44, WHITE, 600, "mm")
     c = ease((tl - 0.8) / 0.35)
     if c > 0:
         f = font(int(44 * (0.7 + 0.3 * c)), 700); tw = f.getlength("TAKİP ET")
@@ -396,10 +420,10 @@ def overlay(sc, k, tl, cat, source, prog):
     # üst ilerleme çubuğu
     d.rectangle((0, 0, W, 8), fill=(255, 255, 255, 60)); d.rectangle((0, 0, int(W * prog), 8), fill=YEL + (255,))
     d.rectangle((52, 118, 58, 168), fill=YEL + (255,))
-    text(d, (76, 143), "KOCAELİ", 40, YEL, 700, "lm")
-    text(d, (76 + font(40).getlength("KOCAELİ ") , 143), cat, 40, WHITE, 700, "lm")
+    text(d, (76, 143), city.CITY, 40, YEL, 700, "lm")
+    text(d, (76 + font(40).getlength(city.CITY + " ") , 143), cat, 40, WHITE, 700, "lm")
     ig_icon(d, W - 60 - 98, 190, 34)
-    text(d, (W - 60, 240), "@KOCAELIRADAR41", 20, WHITE, 600, "rm")
+    text(d, (W - 60, 240), city.HANDLE.upper(), 20, WHITE, 600, "rm")
     # vinyet
     # İlk sahnede başlık 0. kareden itibaren tam görünür (Instagram kapak/akış önizlemesi için)
     st0 = sc.get("_static", False)
@@ -655,7 +679,7 @@ def main(spec_path):
     p = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
                           "-i", wavp, "-c:v", "libx264", "-preset", "slow", "-crf", "18", "-profile:v", "high", "-pix_fmt", "yuv420p",
                           "-af", loudnorm_filter(wavp), "-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-shortest", "-movflags", "+faststart", tmp], stdin=subprocess.PIPE)
-    default_focus = [40.78, 29.85]
+    default_focus = city.DEFAULT_FOCUS
     start = 0.0
     prev_view = None
     for i, sc in enumerate(S["scenes"]):

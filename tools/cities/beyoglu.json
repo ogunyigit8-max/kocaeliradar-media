@@ -1,0 +1,23 @@
+{
+ "name": "BEYOĞLU",
+ "brand": "BEYOĞLU RADAR",
+ "handle": "@beyogluradar",
+ "accent": [217, 164, 65],
+ "default_focus": [41.034, 28.976],
+ "follow_text": "Beyoğlu'ndaki gelişmeleri kaçırma",
+ "weather_location": "BEYOĞLU",
+ "map": {
+  "lon0": 28.895, "lon1": 29.035, "lat_c": 41.045, "mw": 3240,
+  "land": "districts",
+  "highlight_city": null,
+  "highlight_district": "Beyoğlu",
+  "cache": "_map_cache_beyoglu.png",
+  "labels": [["HALİÇ", 41.0300, 28.9560, "sea"], ["BOĞAZ", 41.0330, 29.0040, "sea"],
+             ["KASIMPAŞA", 41.0390, 28.9690, "land"], ["CİHANGİR", 41.0315, 28.9840, "land"],
+             ["KARAKÖY", 41.0235, 28.9770, "land"], ["TARLABAŞI", 41.0385, 28.9790, "land"],
+             ["HASKÖY", 41.0480, 28.9560, "land"], ["TAKSİM", 41.0385, 28.9870, "land"],
+             ["EMİNÖNÜ", 41.0160, 28.9700, "land"], ["ŞİŞLİ", 41.0560, 28.9880, "land"],
+             ["BEŞİKTAŞ", 41.0440, 29.0050, "land"]],
+  "label_size": 26
+ }
+}
