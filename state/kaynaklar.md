@@ -33,7 +33,6 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - WebSearch ile "site:instagram.com <hesap>" veya hesap adı + "son dakika" ara. Burada görülen haberi Grup 1-6'daki bir siteden doğrulamadan PAYLAŞMA. Görselleri/videoları kullanma (telif).
 
 ## Okunabilirlik (tarihli notlar; görevler ekler)
-- 23.11.2026 08:20 (sabah): okunabildi → kocaelikentgazetesi.com (kesinti listesi), ozgunkocaeli.com.tr, sondakika.com/kocaeli, ntv, dha, milligazete, tgrthaber, karar, trthaber, haberturk.com/gundem, mavikocaeli, gazetevatan, timeturk. Okunamadı (client_error) → kocaelitv, cagdaskocaeli, kocaelibarisgazetesi, kocaeligazetesi, kocaelidenge, demokratkocaeli, seskocaeli, noktagazetesi, aydinlik, iha; golcukhaber (ROBOTS); kocaeli.bel.tr/haberler 404.
 - 23.11.2026 08:35: okunabildi → ozgunkocaeli.com.tr/sondakika-haberleri (en yeni 00:03), sondakika.com/kocaeli-izmit (08:14 kopyası). Okunamadı (client_error) → istekocaeli.com, bugunkocaeli.com.tr.
 - 23.11.2026 09:35: okunabildi → ozgunkocaeli.com.tr/sondakika-haberleri (en yeni 00:03), sondakika.com/kocaeli-izmit (22.11 14:32), haberturk deprem listesi. Okunamadı (PROVENANCE_REQUIRED) → istekocaeli.com.
 - 23.11.2026 10:35: okunabildi → ozgunkocaeli.com.tr/sondakika-haberleri (en yeni 00:03), haberturk.com (MGM sarı kod 06:26). Okunamadı (client_error) → istekocaeli.com, gundemkocaeli.com.tr.
@@ -48,3 +47,4 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - 25.11.2026 01:35: okunabildi → sondakika.com/kocaeli (en yeni 24.11 23:19). Okunamadı (client_error) → noktagazetesi.com.tr, istekocaeli.com.
 - 25.11.2026 02:35: okunabildi → sondakika.com/kocaeli (en yeni 24.11 23:19); okunamadı (client_error) → cagdaskocaeli.com.tr haber sayfası.
 - 25.11.2026 03:35: okunabildi → sondakika.com/kocaeli-kaza (en yeni 21.11). Okunamadı (client_error) → ozgurkocaeli.com.tr ana sayfa.
+- 25.11.2026 05:35: okunamadı (client_error) → kocaeligazetesi.com.tr, cagdaskocaeli.com.tr, seskocaeli.com haber sayfaları (valilik fırtına uyarısı).
