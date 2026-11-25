@@ -91,10 +91,11 @@
      "Gönder, kaydet, takip et. Saat ve bilet bilgisini mekanın duyurusundan teyit edin."
     ],
     "post_after": "16:00",
-    "story_done": false,
-    "post_done": false,
-    "posted_at": null,
-    "media_id": null
+    "story_done": true,
+    "post_done": true,
+    "posted_at": "2026-11-25T16:49:02+03:00",
+    "media_id": "18124366489949383",
+    "story_media_id": "18117157241135803"
    }
   }
  ]
