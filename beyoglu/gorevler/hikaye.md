@@ -3,7 +3,7 @@ Beyoğlu Radar (Instagram @beyogluradar34) için GÜNLÜK HİKÂYE görevi. Koca
 Amaç: Bugün için 4 adet sesli video hikâye (hava durumu, gram altın, dolar, euro) üretip Instagram'a SIRAYLA paylaşmak.
 
 ADIMLAR
-1. Depoyu ekle ve klonla: add_repo(owner="ogunyigit8-max", repo="kocaeliradar-media", access="push"), ardından `git clone --depth 1 https://github.com/ogunyigit8-max/kocaeliradar-media /home/claude/kocaeliradar-media` (uzun timeout). Bugünün tarihini Europe/Istanbul saatine göre YYYY-MM-DD olarak belirle. Tüm araçları `RADAR_CITY=beyoglu` ile çalıştır.
+1. Depoyu ekle ve klonla: add_repo(owner="ogunyigit8-max", repo="kocaeliradar-media", access="push"), ardından `git clone --depth 1 https://github.com/ogunyigit8-max/kocaeliradar-media /home/claude/kocaeliradar-media` (uzun timeout). KORUMA: klonladıktan sonra tools/city.py ve tools/cities/beyoglu.json main dalında YOKSA (şehir ayarı henüz birleşmemiş) hiçbir şey üretme, paylaşma, bildirim gönderme; sessizce bitir (aksi halde Kocaeli markalı içerik Beyoğlu hesabına gider). Bugünün tarihini Europe/Istanbul saatine göre YYYY-MM-DD olarak belirle. Tüm araçları `RADAR_CITY=beyoglu` ile çalıştır.
    ÇİFT PAYLAŞIM KORUMASI: Depoda beyoglu/data/YYYY-MM-DD.json (bugünün tarihi) ZATEN VARSA bugünün hikâyeleri daha önce paylaşılmıştır. Bu durumda hiçbir şey üretme, hiçbir şey paylaşma, bildirim göndermeden bitir.
 
 2. Verileri topla (uydurma değer ASLA yazma). Sayfaları web-fetch alt ajanıyla oku.
@@ -17,7 +17,7 @@ ADIMLAR
 
 5. Depo bakımı: beyoglu/s/ ve beyoglu/v/ klasörlerinde 4 günden eski .mp4 dosyalarını sil (beyoglu/data/ JSON'larını SİLME; beyoglu/state/ozelgun.json'da "ready" olan beyoglu/v/ozel-* dosyalarını SİLME). Yalnızca beyoglu/s/ ve beyoglu/data/ (ve silinen eski mp4'ler) commit edilir; başka dosyalara (Kocaeli'nin s/, v/, data/, state/ klasörleri ve senolsan/ dahil) dokunma. Commit (user.name "Beyoğlu Radar", user.email noreply@anthropic.com) ve `git -c push.negotiate=true push origin HEAD:main`; reddedilirse `git pull --rebase origin main` sonra tekrar push.
 
-6. Paylaş (Windsor.ai, connector "instagram", account "{{HESAP_ID}}" (beyogluradar34; başka hesaba, özellikle kocaeliradar41'e ASLA paylaşma), action "create_story"), video_url = https://raw.githubusercontent.com/ogunyigit8-max/kocaeliradar-media/main/beyoglu/s/YYYY-MM-DD-{ad}.mp4. Önce raw URL'nin açıldığını doğrula (curl -sI 200). Sırayla: hava → altin → dolar → euro. Hata olursa 60 saniye bekleyip bir kez tekrar dene. Hâlâ hata varsa o hikâyeyi atla ve raporla. "Account is not available" hatası gelirse Instagram bağlantısı kopmuştur: paylaşmayı bırak ve bildir.
+6. Paylaş (Windsor.ai, connector "instagram", account "17841474340217916" (beyogluradar34; başka hesaba, özellikle kocaeliradar41'e ASLA paylaşma), action "create_story"), video_url = https://raw.githubusercontent.com/ogunyigit8-max/kocaeliradar-media/main/beyoglu/s/YYYY-MM-DD-{ad}.mp4. Önce raw URL'nin açıldığını doğrula (curl -sI 200). Sırayla: hava → altin → dolar → euro. Hata olursa 60 saniye bekleyip bir kez tekrar dene. Hâlâ hata varsa o hikâyeyi atla ve raporla. "Account is not available" hatası gelirse Instagram bağlantısı kopmuştur: paylaşmayı bırak ve bildir.
 
 7. PushNotification (<routine_summary> etiketiyle, ilk kelime "Beyoğlu Radar:") YALNIZCA sorun varsa gönder: atlanan/paylaşılamayan hikâye, okunamayan veri kaynağı, Instagram bağlantı hatası (ne oldu, neden, kullanıcının yapması gereken). Dört hikâye de sorunsuz paylaşıldıysa bildirim gönderme.
 

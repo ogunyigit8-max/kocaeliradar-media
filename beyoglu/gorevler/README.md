@@ -21,4 +21,4 @@ Saatler Kocaeli görevleriyle aynı dakikaya denk gelmesin diye kaydırıldı (a
 - 1000 takipçi kutlama videosu henüz yok; takipçi 900'ü geçince büyüme görevi hazırlar.
 
 ## Açma
-Görevler, Instagram hesabı Windsor.ai'ye bağlanıp hesap kimliği (`{{HESAP_ID}}`) öğrenilince bu metinlerle oluşturulur. Metindeki `{{HESAP_ID}}` gerçek kimlikle değiştirilir. PR #1 (şehir ayarı) main'e birleşmeden görevler çalışmaz.
+Hesap: Windsor.ai instagram, account 17841474340217916 (beyogluradar34), 25.11.2026'da bağlandı. Görevler bu metinlerle oluşturuldu. Her görev, şehir ayarı (tools/cities/beyoglu.json) main'de yoksa hiçbir şey yapmadan biter; PR #1 birleşince kendiliğinden çalışmaya başlar.
