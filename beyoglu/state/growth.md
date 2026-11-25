@@ -1,10 +1,12 @@
 # Beyoğlu Radar — Büyüme Kuralları (güncel)
-Son güncelleme: 2026-11-25 (kurulum; hesap @beyogluradar34; rakip analizi kuralları eklendi). Diğer görevler bu dosyayı okuyup uygular.
+Son güncelleme: 2026-11-25 gece (ilk gün verisi işlendi). Diğer görevler bu dosyayı okuyup uygular.
 Etiketler: [VERİ-K] Kocaeli Radar'da doğrulandı · [VERİ] Beyoğlu metrikleri · [META] Meta/Instagram kaynaklı · [ÖNERİ] test edilecek.
 Kocaeli'nin genel kuralları (state/growth.md) burada özetlendi; Beyoğlu'na özel rakamlar ilk 2 haftada Beyoğlu verisiyle öğrenilecek.
 
 ## Durum ve hedef
 - Hesap: Instagram @beyogluradar34 (25.11.2026 açıldı). İlk 14 gün öğrenme dönemi: her gece metrikleri oku, bu dosyayı güncelle.
+- İlk gün (25.11): 77 takipçi; hesap erişimi 8.856, görüntülenme 10.034, erişimin %99,9'u takip etmeyen (Keşfet/öneri), 32 paylaşım, 10 kayıt, 119 etkileşen hesap. Kocaeli aynı gün 9.555 erişim / 1.056 takipçi. [VERİ, n=1 gün]
+- Projeksiyon (tahmin, 1 güne dayanıyor, 7 günde yenilenecek): ilk gün hızı sürerse 1. haftada 250-400, 1. ayda ~1.000 takipçi. Öneri trafiği açık; büyüme takipçiye çevirmeye bağlı.
 - Haber hacmi (19–21.11 taraması): 3 günde ~7 video adayı (günde 2–3), çoğu asayiş; 1 tane A seviyesi (İstiklal yangını, tramvay durdu). [VERİ, n=3 gün]
 - Başlangıç temposu (kullanıcı 25.11.2026: "gerekirse günlük haber yayınını çoğalt"): günde en fazla 5 sabah Reels'i (yeterli doğrulanmış haber yoksa daha az) + varsa kesinti karuseli + 4 günlük hikâye (hava, altın, dolar, euro). Son dakika ayrıca. [ÖNERİ]
 
@@ -50,6 +52,12 @@ Son: EN FAZLA 5 hashtag.
 - Temel: #beyoğlu #beyogluradar #istanbul
 - + konu (1): #sondakika / #istiklalcaddesi / #taksim / #sukesintisi / #elektrikkesintisi / #istanbuletkinlik
 - + semt (1): #galata #karaköy #cihangir #kasımpaşa #tarlabaşı #şişhane #tophane #hasköy #perşembepazarı
+
+## İlk veri gözlemleri (25.11, n=1 gün; 7 günde doğrula) [VERİ]
+- Reels yerelde 130-204 erişim; ulusal duygusal haber (Eskişehir şehit, kullanıcı isteği) 1.567 erişim, 55 beğeni, tüm yorumlar onda. Yerel kural değişmez; ulusal büyük olay yalnızca kullanıcı isterse.
+- Karuseller yalnızca takipçiye gidiyor (15-23 erişim). Kesinti/konser listesi karuseli Reels'in yerine geçmez; Reels + karusel hibriti korunur.
+- Atlama oranı yüksek (%59-68), ort. izlenme 3,6-7,2 sn. En iyi yerel: metro kapanışı (atlama %59, 7,2 sn); en kötü: elektrik kesintisi (atlama %68, 3,6 sn). İlk sahnede etkilenen kişiyi doğrudan söyle ("Taksim'de metro durmuyor") ve ilk 1 sn'de hareket/kırmızı kapanma görseli olsun. [ÖNERİ]
+- Hikâyeler takipçilerin ~%35'ine ulaşıyor (22-29); konser hikâyesinde çıkış 13/22 (en yüksek). Konser hikâyesinde tek öne çıkan konser + saat göster, liste değil. [ÖNERİ]
 
 ## Formatlar
 - Son dakika Reels (yangın, kaza, olay, ulaşım durması).
