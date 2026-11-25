@@ -48,3 +48,4 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - 25.11.2026 17:35: okunabildi → sondakika.com/kocaeli (17:33 damgalı, en yeni 16:32), gebzehaber.net son dakika (yalnız saat gösteriyor).
 - 25.11.2026 18:35: okunabildi → sondakika.com/kocaeli (18:32 damgalı, en yeni 16:32), gebzehaber.net son dakika (tarihsiz).
 - 25.11.2026 19:35: okunabildi → sondakika.com/kocaeli (19:33 damgalı, 25.11 en yeni 18:03), bursasaati.com.tr deprem listesi (10:17'ye kadar). Okunamadı (client_error) → ozgurkocaeli.com.tr haber sayfası.
+- 26.11.2026 00:35: okunabildi → sondakika.com/kocaeli (güncel, 00:33 damgalı), hurriyet.com.tr canlı anlatım, ntvspor.net. Okunamadı (client_error) → iha.com.tr/kocaeli, gundemkocaeli.com.tr, kocaelitv.com.tr.
