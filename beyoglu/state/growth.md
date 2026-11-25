@@ -6,11 +6,12 @@ Kocaeli'nin genel kuralları (state/growth.md) burada özetlendi; Beyoğlu'na ö
 ## Durum ve hedef
 - Hesap: Instagram @beyogluradar34 (25.11.2026 açıldı). İlk 14 gün öğrenme dönemi: her gece metrikleri oku, bu dosyayı güncelle.
 - Haber hacmi (19–21.11 taraması): 3 günde ~7 video adayı (günde 2–3), çoğu asayiş; 1 tane A seviyesi (İstiklal yangını, tramvay durdu). [VERİ, n=3 gün]
-- Başlangıç temposu: günde en fazla 3 sabah Reels'i (yeterli doğrulanmış haber yoksa daha az) + varsa kesinti karuseli + 4 günlük hikâye (hava, altın, dolar, euro). Son dakika ayrıca. [ÖNERİ]
+- Başlangıç temposu (kullanıcı 25.11.2026: "gerekirse günlük haber yayınını çoğalt"): günde en fazla 5 sabah Reels'i (yeterli doğrulanmış haber yoksa daha az) + varsa kesinti karuseli + 4 günlük hikâye (hava, altın, dolar, euro). Son dakika ayrıca. [ÖNERİ]
 
 ## Kitle (tahmin, doğrulanacak)
 - Beyoğlu'nda yaşayan + çalışan + gezen kitle; Kocaeli'den daha genç ve akşam/gece aktif olması bekleniyor. [ÖNERİ]
-- Konu önceliği: ulaşım aksaması (M2, F1, T2 tramvay, Tünel, vapur), İstiklal/Taksim kapanması, yangın/olay, su/elektrik kesintisi, etkinlik.
+- Konu önceliği: ulaşım sorunları (M2, F1, T2 tramvay, Tünel, İETT, vapur), yol çalışmaları ve cadde kapanışları, İstiklal/Taksim kapanması, yangın/olay, su/elektrik kesintisi, mekan etkinlikleri ve konserler (Tersane İstanbul, Galataport, AKM, Salon İKSV vb.).
+- KONU KURALI (kullanıcı 25.11.2026'da açıkça istedi): eğlence merkezlerinin etkinlikleri, konserler, yol çalışmaları ve ulaşım sorunları HEPSİ haber olarak verilir. Etkinlik haberi haber diliyle, reklam tonu yok; saat/ücret yalnızca kaynakta yazıyorsa; günde en fazla 2 etkinlik videosu, aynı mekan haftada en fazla 2.
 
 ## Siyasi haber kuralı (22.11.2026, kullanıcı onayladı)
 - Belediye parti değişimi, seçim, istifa, parti demeci gibi siyasi haberler Reels yapılmaz (Instagram takip etmeyenlere önermiyor; hesabın önerilme durumu zarar görebilir). [META]
@@ -23,7 +24,7 @@ Kocaeli'nin genel kuralları (state/growth.md) burada özetlendi; Beyoğlu'na ö
 ## Paylaşım aralığı (EN ÖNEMLİ) [VERİ-K]
 - İki Reels arasında EN AZ 60 dk (tercihen 2+ saat). Peş peşe atılan videolar erişimde çöküyor.
 - Son dakika istisnadır; 60 dk içinde başka Reels atılmışsa sıradaki video bir sonraki slota kayar.
-- Başlangıç slotları: ~08:15 (sabah görevi, 1. video), 12:46, 18:46, 21:46 (saatlik görev; Kocaeli görevleriyle aynı dakikaya denk gelmesin diye :46). Beyoğlu için akşam slotlarının daha güçlü olması bekleniyor; 14 gün sonra saat bazlı erişimle güncellenecek. [ÖNERİ]
+- Başlangıç slotları: ~08:15 (sabah görevi, 1. video), 10:46, 12:46, 15:46, 18:46, 21:46 (saatlik görev; Kocaeli görevleriyle aynı dakikaya denk gelmesin diye :46). Beyoğlu için akşam slotlarının daha güçlü olması bekleniyor; 14 gün sonra saat bazlı erişimle güncellenecek. [ÖNERİ]
 
 ## Keşfet'e uygunluk — ihlal etme [META]
 - Özgün içerik: kendi harita/animasyon videolarımız. Başkasının videosu, fotoğrafı, ekran görüntüsü yok.

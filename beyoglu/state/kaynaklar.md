@@ -22,7 +22,10 @@ aa.com.tr, dha.com.tr (listesi okunamıyor; haberi haberler.com/sabah üzerinden
 - Afet/hava: deprem.afad.gov.tr (JavaScript; AFAD'ı aktaran haberlere bak), Kandilli, mgm.gov.tr
 
 ## Grup 4: Kültür ve etkinlik (haftalık "Beyoğlu'nda bu hafta" karuseli için)
-tersaneistanbul.com.tr (Winter Town, Salon Tersane), oggusto.com/etkinlik-rehberi, İKSV, AKM, Salon İKSV, Pera Müzesi, İstanbul Modern, Galataport duyuruları. Özel mekan içeriği haftada en fazla 1; reklam tonu yok. Ücret/saat teyit edilmeden yazılmaz.
+tersaneistanbul.com.tr (Winter Town, Salon Tersane), galataport.com, akmistanbul.gov.tr, iksv.org ve salon.iksv.org, arter.org.tr, peramuzesi.org.tr, istanbulmodern.org, nardisjazz.com, garajistanbul.org; bilet siteleri (biletix.com, passo.com.tr, biletinial.com) yalnızca tarih/saat doğrulaması için; oggusto.com/etkinlik-rehberi. Kullanıcı 25.11.2026'da etkinlik/konser haberlerinin hepsinin yayınlanmasını istedi: günde en fazla 2 etkinlik videosu, aynı mekan haftada en fazla 2; reklam tonu yok. Ücret/saat teyit edilmeden yazılmaz.
+
+## Grup 4b: Yol çalışması ve ulaşım (kullanıcı 25.11.2026)
+uym.ibb.gov.tr ve ibb.istanbul duyuruları (yol çalışması, trafik düzenlemesi), beyoglu.bel.tr Duyurular, metro.istanbul ve iett.istanbul duyuruları, sehirhatlari.istanbul sefer duyuruları, İSKİ/İGDAŞ kazı çalışmaları. Doğrudan okunamayanlar için aynı bilgiyi aktaran haber sitelerini ara ("<cadde> yol çalışması", "İETT hat değişikliği", "Şehir Hatları sefer iptal").
 
 ## Grup 5: Instagram (yalnızca fark etmek için)
 Beyoğlu Belediyesi resmi hesabı, İstanbul son dakika ve trafik sayfaları. Kullanıcıdan takip ettiği yerel hesaplar istenecek.
