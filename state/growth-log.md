@@ -188,3 +188,26 @@
 - Algoritma: 18.11 sonrası doğrulanmış sıralama değişikliği yok (Content Protection yayılıyor). @kocaeligundem: hypeauditor yine okunamadı.
 **Kaynaklar:** https://keywordseverywhere.com/news/instagram-algorithm-updates/ (son güncelleme 18.11, kontrol 23.11)
 **Bildirilen (tekrar bildirme):** kullanım limiti nedeniyle sabah görevi başarısız + 30 saatlik paylaşım boşluğu + Öğretmenler Günü videosu paylaşılmadı; görev sayısını/sıklığını azaltma önerisi (saatlik tarama → 2 saatte bir veya gece 01–06 arası kapalı).
+
+## 2026-11-25 (Çar, ~23:30 TSİ) — günlük analiz
+**Hesap (Windsor.ai, önbellek):** 1.052 takipçi — 1.000 aşıldı (kutlama Reels'i 20:54). Yeni takipçi 23.11 +27 · 24.11 +40; 22.11 gece 846 → 25.11 gece 1.052 (~+69/gün). Günlük erişim 24.11 6.364 · 25.11 9.355 (takip etmeyen %96–97). Projeksiyon (tahmin): 2.000 ≈ 10–18.12; Aralık sonu 2,5–3 bin (viral yoksa).
+| Saat (TSİ) | İçerik | Erişim | Atlama | Ort. izl. | Payl.+Kayıt/Erişim |
+|---|---|---|---|---|---|
+| 24.11 22:29 | Öğretmen konutu (2 dk sonra 2. Reels) | 212 | %65,9 | 4,9 | %2,4 |
+| 24.11 22:31 | İzmit kurşunlama: 8 tutuklama | 1.959 | %54,7 | 8,3 | %1,8 (27 payl.) |
+| 24.11 22:51 | GS 1-0 Aston Villa | 1.235 | %47,4 | 12,0 | %0,1 |
+| 25.11 08:04 | Kesinti Reels 8 ilçe | 1.694 | %59,8 | 6,3 | %0,8 |
+| 25.11 08:36 | Kesinti karuseli | 291 | – | – | %2,4 (0 takip, 2 profil) |
+| 25.11 09:08 | Eskişehir helikopter, 5 şehit | 1.261 | %74,6 | 5,5 | %0,2 |
+| 25.11 10:39 | FB maç programı | 1.124 | %49,3 | 7,3 | %0,1 |
+| 25.11 15:34 | Körfez spor salonu %48 | 213 | %69,9 | 3,6 | %0 |
+| 25.11 20:54 | 1.000 takipçi kutlaması | 164 (erken) | %84,2 | 2,7 | %0 |
+- Kesinti Reels'i serinin en kötüsü (23.11 6,4 bin → 25.11 1,7 bin, atlama %46,8 → %59,8); başlık 23.11 ile aynı kalıp ("8 ilçede, en uzun … 8 saat") → şablon yorulması. growth.md'ye dönüşümlü açı kuralı eklendi (ilçe+mahalle sayısı / mahalle adı önde / saat-etki).
+- Kocaeli dışı içerik (şehit, GS, FB) 1,1–1,3 bin, 0–1 paylaşım; Kocaeli'ye özgü İzmit tutuklama haberi 27 paylaşım. İnşaat ilerleme haberi ve kutlama Reels'i takip etmeyene gitmedi.
+- Karusel 5 adet (20–25.11): toplam 0 takip.
+- Yorumlar: otomatik cevaplar 25.11'de başladı; okul tatili soruları sürüyor; takip-takas spam'i ("takip ettim sende beni et") → cevap/takip yok kuralı.
+- Hikâye erişimi 26–129, paylaşım 0.
+- Kod değişikliği yok (düşüş başlık/konu kaynaklı; ses/altyazı ile ilgili veri sinyali yok).
+- Algoritma: 18.11 sonrası doğrulanmış sıralama değişikliği yok (keywordseverywhere son güncelleme 24.11). Instagram "linked Reels" (seri Reels) duyurdu; küresel tarih ve API desteği belirsiz → uygulamada çıkarsa kesinti/son dakika serilerinde denenebilir.
+**Kaynaklar:** https://keywordseverywhere.com/news/instagram-algorithm-updates/ · https://www.emarketer.com/content/instagram-introduces-linked-reels-enable-serialized-storytelling-drive-engagement · https://localmedia.org/2026/05/how-to-grow-your-instagram-reach-by-over-50-in-4-weeks/ (LMA, 12.05.2026: günlük hikâye, sabit saatte seri Reels; ölçülmüş sonuç yok)
+**Bildirilen:** yok (sessiz gün).
