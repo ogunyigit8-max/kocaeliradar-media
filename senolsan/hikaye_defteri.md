@@ -78,3 +78,13 @@ Yeni bölüm yazmadan önce bu dosyanın tamamı okunur. Tutarlılık şart: isi
 - Reels: https://www.instagram.com/reel/DgK6P-HP-1g/ (hikaye de paylaşıldı). Tahmin ustası: yok (6. bölüme oy/tahmin gelmedi).
 - Açık sırlar: yaşlı Emre neden paketi gönderdi, köprüde kim bekliyor, paket teslim edilirse gece neden baştan başlıyor, anahtar hangi kapıyı açıyor.
 - Sonuç: oy gelmedi (KOŞ 0, DİNLE 0; 26.11 17:00 itibarıyla; tek yorum "Kaç" iki seçeneğe de uymadı). Hikayeyi daha gerilimli ilerleten KOŞ seçildi, Emre öteki Emre'nin peşinden köprüye koştu.
+
+## Bölüm 8 (26.11.2026 19:01)
+- Emre anahtarla bodrumdan çıktı, motoru olmadan köprüye koştu; arkasında sokak lambaları sönüyor.
+- Köprünün ortasında motoru duruyor; paket korkulukta, öteki Emre yanında. Çatlak kaskını çıkarıp gülümsedi: "Bu sefer erken geldin."
+- Öteki Emre, Emre'nin avucuna gümüş bir çakmak bıraktı. Paketin alıcısı: Emre.
+- Ters köşe: Emre pakete uzanınca paket titredi, içinden Emre'nin kendi sesi geldi: "Beni yakma."
+- Soru: Paketi saklayacak mısın, yakacak mısın? SAKLA / YAK.
+- Reels: https://www.instagram.com/reel/DgNfAj1KKEP/ (hikaye de paylaşıldı). Tahmin ustası: yok (7. bölüme tahmin gelmedi).
+- Açık sırlar: paketin içinde ne/kim var, neden Emre'nin sesiyle konuşuyor, "bu sefer erken geldin" ne demek (önceki döngülerde geç mi kaldı), paket yakılırsa döngü kırılır mı, yaşlı Emre neden paketi gönderdi.
+- Sonuç: (bekleniyor)
