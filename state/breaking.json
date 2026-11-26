@@ -642,7 +642,15 @@
    "voice": "emre",
    "sim": false,
    "file": "v/2026-11-26-spor-program.mp4",
-   "reel_posted_at": null
+   "reel_posted_at": "2026-11-26T10:52:00+03:00",
+   "story_media_id": "18123389350748867",
+   "reel_media_id": "18651399808063949"
+  },
+  {
+   "date": "2026-11-26",
+   "time": "10:35",
+   "topic": "Tarama: yeni A/B olayı yok (Grup 1-7 + genel/resmi aramalarda can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; Gebze kağıt yüklü kamyon yangını ozgurkocaeli okunamadı, yaralı bilgisi yok, A değil). Spor: maç programı videosu paylaşıldı (Beşiktaş 20.45, Trabzonspor 23.00, TRT 1); maçlar 20.45 ve 23.00'te başlayacak, bitiş takibi akşam saatlik çalışmalarda.",
+   "level": null
   }
  ]
 }
