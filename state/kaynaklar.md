@@ -33,7 +33,6 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - WebSearch ile "site:instagram.com <hesap>" veya hesap adı + "son dakika" ara. Burada görülen haberi Grup 1-6'daki bir siteden doğrulamadan PAYLAŞMA. Görselleri/videoları kullanma (telif).
 
 ## Okunabilirlik (tarihli notlar; görevler ekler)
-- 25.11.2026 10:35: okunabildi → haberturk.com, hurriyet.com.tr, fotomac.com.tr, fanatik.com.tr (maç programı), gebzehaber.net, kocaelimeydan.com, sabah.com.tr/son-depremler/kocaeli. Okunamadı (client_error) → istekocaeli.com, ozgurkocaeli.com.tr, bugunkocaeli.com.tr.
 - 25.11.2026 13:35: okunabildi → sondakika.com/kocaeli (13:23), gebzehaber.net son dakika. Okunamadı (client_error) → bugunkocaeli.com.tr, istekocaeli.com.
 - 25.11.2026 17:35: okunabildi → sondakika.com/kocaeli (17:33 damgalı, en yeni 16:32), gebzehaber.net son dakika (yalnız saat gösteriyor).
 - 25.11.2026 18:35: okunabildi → sondakika.com/kocaeli (18:32 damgalı, en yeni 16:32), gebzehaber.net son dakika (tarihsiz).
@@ -48,3 +47,4 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - 26.11.2026 08:35: okunabildi → sondakika.com/kocaeli. Okunamadı (client_error) → noktagazetesi.com.tr, istekocaeli.com.
 - 26.11.2026 10:35: okunabildi → fotomac.com.tr, haberturk.com/spor, ajansspor.com, hurriyet.com.tr/sporarena (maç saat/kanal). Okunamadı → ozgurkocaeli.com.tr (client_error); aa.com.tr haber metni boş.
 - 26.11.2026 11:35: okunabildi → sondakika.com/kocaeli (11:30 damgalı, en yeni 26.11 01:49).
+- 26.11.2026 12:35: okunabildi → sondakika.com/kocaeli (footer 12:22, öğe saatleri tutarsız/önbellek olabilir).
