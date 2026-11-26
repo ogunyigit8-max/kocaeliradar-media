@@ -97,6 +97,78 @@
     "media_id": "18124366489949383",
     "story_media_id": "18117157241135803"
    }
+  },
+  {
+   "date": "2026-11-26",
+   "created_at": "2026-11-26T07:48+03:00",
+   "status": "scheduled",
+   "videos": [
+    {
+     "file": "beyoglu/v/2026-11-26-istiklal-mahallesi-elektrik.mp4",
+     "title": "İstiklal Mahallesi'nde 8 saat elektrik kesintisi (26 Kasım)",
+     "caption": "⚡ Beyoğlu elektrik kesintisi 26 Kasım: İstiklal Mahallesi'nde 8 saat\nBEDAŞ'ın planlı kesinti listesine göre İstiklal Mahallesi'nde (Paşalı Hasan) 26 Kasım'da 09.00-17.00 arasında elektrik kesintisi var. Kesinti İstiklal Caddesi'ni değil, İstiklal Mahallesi'ni kapsıyor; listede Beyoğlu'ndan başka bölge yok.\nBu bölgede oturan ya da çalışan birine gönder.\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi BEDAŞ 186.\nGörseller temsilidir. Konum yaklaşıktır.\nKaynak: BEDAŞ planlı kesinti listesi (Yeni Şafak, Genç Gazete, Manşet Haber) · 26 Kasım 2026\n#beyoğlu #beyogluradar #istanbul #elektrikkesintisi",
+     "voice": "aylin",
+     "sim": true,
+     "story_done": false,
+     "reel_done": false,
+     "posted_at": null
+    },
+    {
+     "file": "beyoglu/v/2026-11-26-tersane-ucretsiz-konser.mp4",
+     "title": "Tersane İstanbul'da hafta sonu 2 ücretsiz akustik konser",
+     "caption": "🎶 Tersane İstanbul'da hafta sonu 2 ücretsiz akustik konser\nKasımpaşa'daki Tersane İstanbul'un Winter Town sahnesinde 27 Kasım Cuma 19.00'da Melis Karaduman, 28 Kasım Cumartesi 19.00'da Deniz Sipahi sahne alıyor. Tersane'nin duyurusuna göre konserler ücretsiz; Winter Town 10 Ocak'a kadar açık.\nHangisine gitmeyi düşünüyorsunuz?\nHafta sonu planı yapan birine gönder.\n@tersaneistanbul\nKaynak: tersaneistanbul.com.tr · 26 Kasım 2026\nReklam değildir.\n#beyoğlu #beyogluradar #istanbul #istanbuletkinlik #kasımpaşa",
+     "voice": "emre",
+     "sim": false,
+     "user_tags": [
+      {
+       "username": "tersaneistanbul"
+      }
+     ],
+     "story_done": false,
+     "reel_done": false,
+     "posted_at": null
+    }
+   ],
+   "carousel": null,
+   "carousel_note": "Beyoğlu'nda kesinti listesinde tek bölge var (İstiklal Mahallesi, Paşalı Hasan); tam bilgi Reels caption'ında, ayrı liste karuseli yapılmadı.",
+   "concert_carousel": {
+    "dir": "beyoglu/c/2026-11-26-konser",
+    "slides": [
+     "beyoglu/c/2026-11-26-konser/01.jpg",
+     "beyoglu/c/2026-11-26-konser/02.jpg",
+     "beyoglu/c/2026-11-26-konser/03.jpg"
+    ],
+    "caption": "🎶 Bu akşam Beyoğlu'nda 2 konser: Berna Çiçeksever Quartet ve Cardinals\nNardis Jazz Club (Galata): Berna Çiçeksever Quartet \"Essence of Funk\", 21.30\nBlind İstanbul: Cardinals\nBu akşam çıkacak birine gönder.\nSaat ve bilet bilgisini mekanın duyurusundan teyit edin. Reklam değildir.\nKaynaklar: nardisjazz.com, konserlist.com, biletinial.com · 26 Kasım 2026\n#beyoğlu #beyogluradar #istanbul #konser #galata",
+    "alt_texts": [
+     "Bu akşam Beyoğlu'nda 2 konser, 26 Kasım 2026: Nardis Jazz Club'da Berna Çiçeksever Quartet 21.30, Blind İstanbul'da Cardinals",
+     "Nardis Jazz Club (Galata): Berna Çiçeksever Quartet, 21.30. Blind İstanbul: Cardinals",
+     "Gönder, kaydet, takip et. Saat ve bilet bilgisini mekanın duyurusundan teyit edin."
+    ],
+    "post_after": "16:00",
+    "story_done": false,
+    "post_done": false,
+    "posted_at": null,
+    "media_id": null
+   },
+   "weekend_carousel": {
+    "dir": "beyoglu/c/2026-11-26-haftasonu",
+    "slides": [
+     "beyoglu/c/2026-11-26-haftasonu/01.jpg",
+     "beyoglu/c/2026-11-26-haftasonu/02.jpg",
+     "beyoglu/c/2026-11-26-haftasonu/03.jpg"
+    ],
+    "caption": "🎭 Beyoğlu'nda bu hafta sonu: Tersane'de ücretsiz akustik konserler, AKM'de Edusa operası\nCuma 27 Kasım: Melis Karaduman, Tersane Winter Town, 19.00 (ücretsiz)\nCumartesi 28 Kasım: Deniz Sipahi, Tersane Winter Town, 19.00 (ücretsiz) · Edusa – Bir Anadolu Hikayesi, AKM Türk Telekom Opera Salonu, 15.00 · Bu Benim Çantam, Bu Benim, Salon Tersane · İpek Dinç Band, Nardis Jazz Club\nPazar 29 Kasım: Frank Bowling: Yaratım ve Yıkım sergisi, Pera Müzesi · Winter Town, Tersane İstanbul\nHafta sonu planı yapan birine gönder.\nSaat ve bilet bilgisini mekanın duyurusundan teyit edin. Reklam değildir.\nKaynaklar: tersaneistanbul.com.tr, nardisjazz.com, oggusto.com, diken.com.tr · 26 Kasım 2026\n#beyoğlu #beyogluradar #istanbul #istanbuletkinlik #kasımpaşa",
+    "alt_texts": [
+     "Beyoğlu'nda bu hafta sonu, 27-29 Kasım 2026: Tersane İstanbul'da 2 ücretsiz akustik konser",
+     "Cuma 27 Kasım: Melis Karaduman, Tersane, 19.00, ücretsiz. Cumartesi 28 Kasım: Deniz Sipahi, Tersane, 19.00, ücretsiz; Edusa operası, AKM, 15.00; Bu Benim Çantam, Salon Tersane; İpek Dinç Band, Nardis Jazz. Pazar 29 Kasım: Frank Bowling sergisi, Pera Müzesi; Winter Town, Tersane",
+     "Gönder, kaydet, takip et. Saat ve bilet bilgisini mekanın duyurusundan teyit edin."
+    ],
+    "post_after": "19:00",
+    "story_done": false,
+    "post_done": false,
+    "posted_at": null,
+    "media_id": null
+   }
   }
  ]
 }
