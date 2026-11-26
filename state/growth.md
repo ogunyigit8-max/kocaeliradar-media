@@ -1,14 +1,14 @@
 # Kocaeli Radar — Büyüme Kuralları (güncel)
-Son güncelleme: 2026-11-25 (Çarşamba) gece. Diğer görevler bu dosyayı okuyup uygular.
+Son güncelleme: 2026-11-26 (Perşembe) gece. Diğer görevler bu dosyayı okuyup uygular.
 Etiketler: [VERİ] kendi metriklerimiz · [META] Meta/Instagram kaynaklı · [KAYNAK] 3. taraf veri · [ÖNERİ] test edilecek.
 
 ## Durum ve hedef
-- 25.11 gece: 1.052 takipçi — 1.000 hedefi 25.11'de aşıldı. Yeni takipçi 22.11 +53 · 23.11 +27 · 24.11 +40; 22.11 gece 846 → 25.11 gece 1.052 (3 günde +206, ~+69/gün). Seyir: 15.11 ~107 → 18.11 511 → 21.11 790 → 25.11 1.052. [VERİ]
+- 26.11 gece: 1.109 takipçi. Yeni takipçi 22.11 +53 · 23.11 +27 · 24.11 +40 · 25.11 +183 (erişim 14,7 bin; 1.000 kutlaması + gece maç sonucu günü). 22.11 gece 846 → 26.11 gece 1.109 (4 günde +263, ~+66/gün). Seyir: 15.11 ~107 → 18.11 511 → 21.11 790 → 25.11 1.052. [VERİ]
+- 26.11 ALARM [VERİ]: günlük erişim 1,8 bin (25.11 14,7 bin). Sabah kesinti Reels'i 300 erişim (25.11 aynı saatte 1,9 bin), motorin 166, otobüs güzergahı 232, Beşiktaş destek 148; yalnız 'bugün maç var' Reels'i 1,2 bin. Tek gün; 27.11'de sabah Reels'i < 500 kalırsa Hesap Durumu'na (öneri uygunluğu) bakılmalı. Spor programı videoları her gün ~1,1–1,2 bin ile sabit ama 0–1 paylaşım.
 - Hafta (16–22.11): ~+740 takipçi, ~95 bin toplam günlük erişim, erişimin %95–99'u takip etmeyen. 7 günlük ort. ~+125/gün; lansman günleri (16–17.11) hariç son 5 gün ort. ~+77/gün. [VERİ]
 - Takipçi dönüşümü (yeni takipçi/günlük erişim) ~%0,6–1,5; büyüme viral Reels'e bağlı: 20 bin+ erişimli gün +150–270, olmayan gün +30–80. [VERİ]
 - En iyi video: 21.11 08:01 hibrit kesinti Reels'i (Emre) 28,7 bin erişim, 459 paylaşım, 47 kayıt, atlama %44, 10,3 sn. [VERİ]
-- Projeksiyon (TAHMİN, 25.11; viral olmayan gün ~+30–55, ort. ~+55–70/gün): 2.000 takipçi ≈ 10–18.12; Aralık sonu viral yoksa ~2,5–3 bin, haftada 1 viral günle ~3,5–4 bin. En büyük riskler: üretim kesintisi (24.11 30 sa boşluk) ve kesinti Reels'inin yorulması (25.11). 29.11'de yeniden hesapla. [VERİ+TAHMİN]
-- Kıyas: <1.000 takipçili hesaplarda Reels medyan erişimi ~134; 1–5 bin takipçide Reels başına ort. ~580 izlenme → bizim tüm videolarımız (aralık kuralına uyulanlar) 1.300+ erişimde. [KAYNAK: netinfluencer/Metricool, Socialinsider]
+- Projeksiyon (TAHMİN, 26.11; viral olmayan gün ~+30–55, ort. ~+55–70/gün): 2.000 takipçi ≈ 10–18.12 (26.11 düşüşü sürerse kayar); Aralık sonu viral yoksa ~2,5–3 bin, haftada 1 viral günle ~3,5–4 bin. En büyük riskler: üretim kesintisi (24.11 30 sa boşluk) ve kesinti Reels'inin yorulması (25.11). 29.11'de yeniden hesapla. [VERİ+TAHMİN]
 - Hedef metrikler: ilk 3 sn atlama < %40 (17–18.11 ort. ~%46; 19.11 ort. %53,6 — kötüleşiyor), ort. izlenme ≥ 10 sn (19.11 ort. 7,1 sn), paylaşım+kayıt / erişim ≥ %1. Instagram'ın evrensel atlama eşiği yok; kendi son 10–20 Reels medyanımızla kıyasla. [VERİ + KAYNAK: TrueFuture Media]
 
 ## Kitle (Instagram Insights, 22.11, 664 takipçi kırılımı) [VERİ]
@@ -20,6 +20,7 @@ Etiketler: [VERİ] kendi metriklerimiz · [META] Meta/Instagram kaynaklı · [KA
 - Yorumlar: kesinti videolarında "Derince'de kesilecek mi?", "kesilmedi?" soruları → kişiye özel bilgi talebi (karusel bunu çözer). Kaza/uyarı haberlerinde doğruluk itirazları ("1 ölü var", "yalan sıkmayın") → rakamı "ilk bilgilere göre" ve saatle ver, gelişince güncelle.
 
 ## Karusel + kesinti Reels (HİBRİT — 20.11 kullanıcı onayı, veriye göre)
+- 26.11 [VERİ]: (c) açısı "sabah 9'dan akşam 5'e" denendi: Reels 300 erişim, atlama %57, 0 paylaşım; karusel 143 (gün genelindeki düşüşle birlikte, ayrıştırılamıyor). Karusel 6 adet (20–26.11): 0 takip.
 - 25.11 [VERİ]: 8 ilçe kesinti Reels'i yalnız 1,7 bin erişim, atlama %59,8 (serinin en kötüsü), 10 paylaşım; karusel 291 erişim, 7 paylaşım, 0 takip, 2 profil. Başlık 23.11 ile neredeyse aynıydı ("8 ilçede, en uzun … 8 saat") → AYNI ŞABLON YORULUYOR. Kural: ilk sahne/başlık "N ilçede, en uzun X 8 saat" kalıbını iki gün üst üste KULLANMA; dönüşümlü açılar: (a) en kalabalık ilçe+mahalle sayısı "Darıca'da 10 mahallede elektrik yok", (b) mahalle adı önde "Nenehatun ve Kazımkarabekir 09.30-17.00", (c) saat/etki "Sabah 9'dan akşam 5'e: Gebze Muallimköy". Karusel toplamı (20–25.11, 5 adet): 0 takip.
 - Kesinti günlerinde sabah 1. video KISA KESİNTİ REELS'i (18–25 sn, 3–4 sahne, outage sim): ilk sahnede ilçe sayısı + en uzun/en kalabalık kesinti, her gün FARKLI açı (dünkü başlığı tekrarlama), son sahne "Tüm mahalle listesi profilimizde". Keşfet erişimi buradan gelir.
 - Tam mahalle listesi AYRICA karusel (Reels'ten ≥30 dk sonra) — takipçiye ve aramaya hizmet; büyüme kanalı değil.
@@ -28,13 +29,11 @@ Etiketler: [VERİ] kendi metriklerimiz · [META] Meta/Instagram kaynaklı · [KA
 - Paylaşım: önce hikâye (story.jpg, create_story image_url), sonra create_carousel_post (items: her kare image_url + alt_text "Kocaeli <tarih> elektrik kesintisi: <ilçe> <mahalleler> <saat>"). Karusel Reels 60 dk kuralına sayılmaz; Reels'ten en az 30 dk uzak tut.
 - Caption: "⚡ Kocaeli elektrik kesintisi <gün Ay>: <N> ilçede, en uzun <ilçe> <süre>" + "Mahallen listede mi? Kaydır 👉" + "Listede mahallesi olan birine gönder." + Kaynak + kesinti hashtag seti. API ile karusele müzik eklenemiyor; başarı ölçütü kayıt+gönderim/erişim ve media_follows. [KAYNAK: uppbeat 03.11.2026; karusel rehberleri (görüş); ÖNERİ]
 - 21–23.11 [VERİ]: kısa kesinti Reels'i 28,9 bin (21.11, 459 paylaşım) / 3,3 bin (22.11, 4 ilçe) / 6,4 bin (23.11, %2,3 paylaşım+kayıt/erişim); aynı günlerin karuselleri 169–330 erişim, 0 takip. Reels büyüme, karusel hizmet; Reels caption'ındaki "Tüm mahalle listesi profilimizde" kalsın.
-- İLK SONUÇ (20.11) [VERİ n=1]: Reels'siz karusel 238 erişim, 0 takip → Reels ~3 kat daha çok takip etmeyene ulaşır (Fanpage Karma, Oca–Nis 2026). [KAYNAK]
 - Ölçüm: karuselde media_follows / media_profile_visits ölçülebiliyor (Reels'te değil) → hangi içeriğin takip getirdiğini buradan öğren.
 
 ## Yorumlar
 - 25.11: yorum cevapları başladı (okul tatili sorusuna "Valilik açıklarsa ilk buradan" — iyi). "Takip ettim sende beni et" tipi takip-takas yorumlarına cevap/takip YOK (spam sayılır, kitle kalitesini bozar). [ÖNERİ]
-- 23.11 sarı kod videosunda yine okul tatili soruları ("Bu yüzden tatil oldun işte", "ilkokullar uçarak gidecek") → kural doğrulandı (n=2). Kesinti Reels'inde mahalle adı geçen yorumlar ("bide tam Nenehatun") → kalabalık mahalle adı ilk sahnede tutuyor. [VERİ]
-- 22.11: fırtına uyarısı videosunda "Okul tatil mi?", "Valimiz tatil yok mu?" → kötü hava günlerinde okul tatili kararı en çok merak edilen bilgi. Valilik kararı çıkarsa (A seviyesi) hemen ver; çıkmadıysa uyarı videosunda/caption'da "Valilikten okul tatili kararı henüz yok" yaz. [VERİ + ÖNERİ]
+- Kötü hava günlerinde en çok sorulan: okul tatili (22–23.11, n=2). Valilik kararı çıkarsa (A) hemen ver; çıkmadıysa caption'da "Valilikten okul tatili kararı henüz yok" yaz. Kesinti Reels'inde mahalle adı geçen yorumlar ("bide tam Nenehatun") → kalabalık mahalle adı ilk sahnede tutuyor. [VERİ]
 - 21.11 viral kesinti Reels'inde 13 yorum: "Nenehatun var mı", "Erenler var mı" (mahalle sorusu → cevap: "Tam liste profildeki kaydırmalı gönderide"), "kesilmedi / gitti" durum bildirimi, ve "Bugün yerine tarih deseniz daha iyi olur" → ekrandaki başlıkta ve ilk cümlede "bugün" yerine/yanında TARİH yaz ("21 Kasım'da 10 ilçede…"); video ertesi gün de öneriliyor. [VERİ n=1 + ÖNERİ]
 - Yorumlardaki SORULARA kısa, doğrulanmış, nazik cevap (ör. "Derince'de bugün Çenedağ ve Çınarlı'da 09.00-17.00; net bilgi SEDAŞ 186"); hakaret/polemik/siyasete cevap yok. Kesinti iptal/kayma şikâyeti ("Yoo kesilmedi", "kesilmedi?") tekrarlıyor → caption'da "SEDAŞ planı; çalışma iptal/kayabilir" notu ekle. [VERİ + ÖNERİ] Otomatik cevap HENÜZ AKTİF DEĞİL — kullanıcının açık onayı bekleniyor. [ÖNERİ]
 

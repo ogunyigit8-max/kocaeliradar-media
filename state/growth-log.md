@@ -211,3 +211,26 @@
 - Algoritma: 18.11 sonrası doğrulanmış sıralama değişikliği yok (keywordseverywhere son güncelleme 24.11). Instagram "linked Reels" (seri Reels) duyurdu; küresel tarih ve API desteği belirsiz → uygulamada çıkarsa kesinti/son dakika serilerinde denenebilir.
 **Kaynaklar:** https://keywordseverywhere.com/news/instagram-algorithm-updates/ · https://www.emarketer.com/content/instagram-introduces-linked-reels-enable-serialized-storytelling-drive-engagement · https://localmedia.org/2026/05/how-to-grow-your-instagram-reach-by-over-50-in-4-weeks/ (LMA, 12.05.2026: günlük hikâye, sabit saatte seri Reels; ölçülmüş sonuç yok)
 **Bildirilen:** yok (sessiz gün).
+
+## 2026-11-26 (Per, ~23:30 TSİ) — günlük analiz
+**Hesap (Windsor.ai):** 1.109 takipçi. Yeni takipçi 25.11 +183 (günlük erişim 14.673, takip etmeyen %97,5). 26.11 günlük erişim yalnız 1.825 (gün içi; 25.11'in ~%12'si). Projeksiyon (tahmin): 2.000 ≈ 10–18.12, düşüş sürerse kayar.
+| Saat (TSİ) | İçerik | Erişim | Atlama | Ort. izl. | Payl.+Kayıt/Erişim |
+|---|---|---|---|---|---|
+| 25.11 08:04 | Kesinti Reels 8 ilçe (güncel) | 1.878 | %58,3 | 6,6 | %1,1 |
+| 25.11 08:36 | Kesinti karuseli (güncel) | 368 | – | – | %2,2 |
+| 25.11 09:08 | Eskişehir 5 şehit (güncel) | 1.303 | %74,8 | 5,4 | %0,2 |
+| 25.11 15:34 | Körfez spor salonu (güncel) | 260 | %68,1 | 3,6 | %0 |
+| 25.11 20:54 | 1.000 kutlaması (güncel) | 201 | %84,1 | 2,6 | %0 |
+| 26.11 01:11 | Shakhtar 0-1 FB | 1.178 | %45,9 | 8,2 | %0 |
+| 26.11 08:07 | Kesinti Reels 6 ilçe ("sabah 9'dan akşam 5'e") | 300 | %57,1 | 7,6 | %0 |
+| 26.11 08:39 | Kesinti karuseli | 143 | – | – | %0,7 |
+| 26.11 10:39 | Bugün maç var (BJK, TS) | 1.238 | %56,2 | 7,6 | %0,1 |
+| 26.11 12:34 | Motorin 4,32 TL indirim | 166 | %58,0 | 5,6 | %0 |
+| 26.11 15:34 | İzmit 9 hat güzergah değişikliği | 232 | %56,2 | 5,8 | %0 |
+| 26.11 21:38 | Beşiktaş destek (kullanıcı isteği) | 148 (erken) | %64,5 | 4,4 | %0 |
+- 26.11 BÜYÜK DÜŞÜŞ: Kocaeli haberlerinin hepsi < 300 erişim (servis haberi otobüs güzergahı dahil; 17.11 Darıca hat değişikliği en iyi orandı). Yalnız maç programı ~1,2 bin. Tek gün, neden belirsiz (dağıtım/hesap durumu olabilir; ayrıştırılamıyor). 27.11 sabah Reels'iyle tekrar kontrol.
+- Karusel toplam 6 adet: 0 takip. Hikâye ve yorum verisi çekilmedi (kısa çalışma).
+- Kod değişikliği yok (düşüş konu/kalite kaynaklı görünmüyor; atlama oranları önceki günlerle benzer, erişim tabanı çöktü).
+- Algoritma: doğrulanmış yeni sıralama değişikliği bulunamadı (son bilinen: Nis 2026 yeniden yükleme politikası, Haz 2026 Your Algorithm ana akışta).
+**Kaynaklar:** https://petapixel.com/2026-04-30/new-instagram-policies-target-reposted-content/ · https://www.socialmediatoday.com/news/instagram-extends-your-algorithm-to-the-main-feed/822576/
+**Bildirilen (tekrar bildirme):** 26.11 erişim düşüşü + Hesap Durumu kontrolü önerisi.
