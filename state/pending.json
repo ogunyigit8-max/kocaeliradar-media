@@ -365,6 +365,69 @@
     "media_id": "18101984996413731",
     "story_media_id": "18019965152781205"
    }
+  },
+  {
+   "date": "2026-11-26",
+   "created_at": "2026-11-26T08:05:00+03:00",
+   "status": "scheduled",
+   "videos": [
+    {
+     "file": "v/2026-11-26-kesinti.mp4",
+     "title": "Sabah 9'dan akşam 5'e: Darıca, Çayırova ve Gebze'de elektrik kesintisi",
+     "caption": "⚡ Kocaeli elektrik kesintisi 26 Kasım: 6 ilçede, Darıca, Çayırova ve Gebze'de sabah 9'dan akşam 5'e\nSEDAŞ'ın planlı çalışmaları nedeniyle bugün Darıca, Çayırova, Gebze, İzmit, Kandıra ve Derince'de kesinti var.\nDarıca'da 10 mahallede çalışma: Cami, Kazımkarabekir, Nenehatun ve Piri Reis'in bazı sokaklarında 09.00-17.00. Çayırova Atatürk ve Yeni mahalleleri ile Gebze Balçık'ta da 09.00-17.00.\n\nTüm mahalle listesi profilimizde (kaydırmalı liste).\nListede mahallesi olan birine gönder.\n\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nGörseller temsilidir.\nKaynak: SEDAŞ planlı kesinti listesi, Özgün Kocaeli\n\n#kocaeli #kocaeliradar #elektrikkesintisi #darıca",
+     "voice": "aylin",
+     "sim": true,
+     "story_done": true,
+     "reel_done": true,
+     "posted_at": "2026-11-26T08:07:00+03:00",
+     "story_media_id": "18130752089303160",
+     "reel_media_id": "18151058143563287"
+    },
+    {
+     "file": "v/2026-11-26-motorin-indirim.mp4",
+     "title": "Kocaeli'de motorine 4,32 TL indirim: litresi ortalama 84,88 TL",
+     "caption": "⛽ Kocaeli'de motorine 4,32 TL indirim: litresi ortalama 84,88 TL\nMotorine gece yarısı litrede 4,32 TL indirim geldi; Kocaeli'de ortalama motorin fiyatı 84,88 TL oldu. 20 Kasım'daki 6,58 TL'lik indirimle birlikte motorin bir haftada 10,90 TL ucuzladı; 50 litrelik depo 545 TL daha az.\nBenzin Kocaeli'de ortalama 68,85 TL; benzinde de indirim bekleniyor ancak henüz kesinleşmedi. Fiyatlar firmaya ve istasyona göre değişebilir.\n\nDepoyu bugün mü dolduracaksınız, benzin indirimini mi bekleyeceksiniz?\nKaynak: sondakika.com; Kocaeli ortalaması isinolsa.com (26 Kasım 07:03)\n\n#kocaeli #kocaeliradar #ekonomi #kocaeliesnaf #izmit",
+     "voice": "emre",
+     "sim": false,
+     "story_done": false,
+     "reel_done": false,
+     "posted_at": null
+    },
+    {
+     "file": "v/2026-11-26-izmit-otobus-guzergah.mp4",
+     "title": "İzmit'te yarın 9 otobüs hattının güzergahı değişiyor",
+     "caption": "🚌 İzmit'te yarın 9 otobüs hattının güzergahı değişiyor\nKadıköy Mahallesi'ndeki üstyapı çalışması nedeniyle Esendal Sokak 27 Kasım Cuma 09.30-23.00 arasında araç trafiğine kapalı.\n16, 33, 115, 115Ç, 126, 145, KM29, KM31 ve KM34 numaralı hatlar bu saatlerde Bağdat Caddesi – Gazanfer Bilge Sokak üzerinden gidecek.\n\nBu hatları kullanan birine gönder.\nGörseller temsilidir.\nKaynak: Kocaeli Büyükşehir Belediyesi (Mavi Kocaeli, 25 Kasım 2026)\n\n#kocaeli #kocaeliradar #kocaelitrafik #kocaelibüyükşehir #izmit",
+     "voice": "aylin",
+     "sim": true,
+     "story_done": false,
+     "reel_done": false,
+     "posted_at": null
+    }
+   ],
+   "carousel": {
+    "dir": "c/2026-11-26-elektrik",
+    "slides": [
+     "c/2026-11-26-elektrik/01.jpg",
+     "c/2026-11-26-elektrik/02.jpg",
+     "c/2026-11-26-elektrik/03.jpg",
+     "c/2026-11-26-elektrik/04.jpg",
+     "c/2026-11-26-elektrik/05.jpg",
+     "c/2026-11-26-elektrik/06.jpg"
+    ],
+    "caption": "⚡ Kocaeli elektrik kesintisi 26 Kasım: 6 ilçede, Darıca, Çayırova ve Gebze'de 09.00-17.00\nMahallen listede mi? Kaydır 👉\nDarıca 10, İzmit 10, Kandıra 11, Çayırova 2, Derince 2 mahalle ve Gebze Balçık.\n\nListede mahallesi olan birine gönder.\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nKaynak: SEDAŞ planlı kesinti listesi, Özgün Kocaeli\n\n#kocaeli #kocaeliradar #elektrikkesintisi #darıca",
+    "alt_texts": [
+     "Kocaeli 26 Kasım 2026 elektrik kesintisi: 6 ilçe (Darıca, İzmit, Kandıra, Çayırova, Gebze, Derince); Darıca, Çayırova ve Gebze'de 09.00-17.00.",
+     "Kocaeli 26 Kasım 2026 elektrik kesintisi özeti: Darıca 10 mahalle 09.00-17.00, İzmit 10 mahalle 09.00-17.00, Kandıra 11 mahalle 09.00-17.00, Çayırova 2 mahalle 09.00-17.00, Gebze 1 mahalle 09.00-17.00, Derince 2 mahalle 13.00-17.15.",
+     "Kocaeli 26 Kasım 2026 elektrik kesintisi: Darıca Cami, Kazımkarabekir, Nenehatun, Piri Reis 09.00-17.00; Balçık, Beylikbağı, Cumhuriyet, Emek, Mimar Sinan 09.00-12.00; Nenehatun 09.00-11.00; Sırasöğütler 12.00-14.00. İzmit Ağaçağıl, Çakmaklar, Çalca, Çavuşlu 09.00-17.00.",
+     "Kocaeli 26 Kasım 2026 elektrik kesintisi: İzmit Tahtalı, Tatarahmet 09.00-17.00; Yenişehir 09.00-13.00; Doğan, Kuruçeşme Fatih, Yeni 09.00-12.30. Kandıra Akdurak 09.00-17.00; Bağlıca, Düğmeciler, Hıdırlar, Kaymaz, Ömerli, Selimköy 10.00-17.00; Akçaova, Akıncı, Selametli, Teksen 09.00-16.00.",
+     "Kocaeli 26 Kasım 2026 elektrik kesintisi: Çayırova Atatürk, Yeni 09.00-17.00. Gebze Balçık 09.00-17.00. Derince Fatih Sultan 13.00-15.45, Yavuz Sultan 16.15-17.15.",
+     "Kocaeli 26 Kasım 2026 elektrik kesintisi: gönder, kaydet, takip et. Arıza bildirimi SEDAŞ 186."
+    ],
+    "story_done": false,
+    "post_done": false,
+    "posted_at": null,
+    "media_id": null
+   }
   }
  ]
 }
