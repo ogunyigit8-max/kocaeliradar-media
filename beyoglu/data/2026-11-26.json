@@ -1,0 +1,7 @@
+{"date":"2026-11-26",
+ "weather":{"location":"İstanbul · Beyoğlu","high":14.0,"low":11.0,"condition":"Parçalı bulutlu","icon":"partly","rain":10,
+  "next":[{"day":"Cuma","high":16.0,"low":11.0,"icon":"cloud"},{"day":"Cumartesi","high":18.0,"low":12.0,"icon":"cloud"},{"day":"Pazar","high":13.0,"low":11.0,"icon":"cloud"}],
+  "source":"Hava tahmin servisi"},
+ "gold":{"gram_buy":5729.09,"gram_sell":5730.12,"quarter_buy":9763.0,"quarter_sell":10013.0,"prev_gram_sell":5730.12,"time":"10:00","source":"Truncgil Finans"},
+ "usd":{"buy":50.6745,"sell":50.6813,"prev_sell":50.6813,"time":"10:00","source":"Truncgil Finans"},
+ "eur":{"buy":55.4160,"sell":55.4308,"prev_sell":55.4308,"time":"10:00","source":"Truncgil Finans"}}
