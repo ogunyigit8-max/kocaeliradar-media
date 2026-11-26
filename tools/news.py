@@ -40,7 +40,7 @@ haber.json:
    tarih/başvuru/son gün→calendar; duyuru/uyarı→megaphone; deprem→quake; konut/TOKİ→house; sağlık→hospital;
    sanayi/OSB→factory; feribot/deniz→ship. Sayılar (value, score, mag, from/to) KAYNAKTAKİ değerle birebir.
    Simge 0. karede (kapak) tam görünür; sayılar sıfırdan sayarak gerçek değere varır.
-SESLENDİRME METNİ: her cümleyi TTS'e göndermeden önce `python3 tools/tr_numbers.py --ses <emre|aylin> "<cümle>"` ile çevir
+SESLENDİRME METNİ: her cümleyi TTS'e göndermeden önce `python3 tools/tr_numbers.py "<cümle>"` ile çevir
    (sayılar bütün okunur: 1000 -> bin, D-100 -> Deyüz, 17.30 -> on yedi otuz, %109 -> yüzde yüz dokuz,
    95,60 TL -> doksan beş lira altmış kuruş). Altyazı (narr) metninde rakamlar olduğu gibi kalır.
 "words" (isteğe bağlı, önerilir): o sahnenin WAV'ı için Speko audio_transcribe
