@@ -1,12 +1,13 @@
 # Beyoğlu Radar — Büyüme Kuralları (güncel)
-Son güncelleme: 2026-11-25 gece (ilk gün verisi işlendi). Diğer görevler bu dosyayı okuyup uygular.
+Son güncelleme: 2026-11-26 gece (2. gün verisi işlendi). Diğer görevler bu dosyayı okuyup uygular.
 Etiketler: [VERİ-K] Kocaeli Radar'da doğrulandı · [VERİ] Beyoğlu metrikleri · [META] Meta/Instagram kaynaklı · [ÖNERİ] test edilecek.
 Kocaeli'nin genel kuralları (state/growth.md) burada özetlendi; Beyoğlu'na özel rakamlar ilk 2 haftada Beyoğlu verisiyle öğrenilecek.
 
 ## Durum ve hedef
 - Hesap: Instagram @beyogluradar34 (25.11.2026 açıldı). İlk 14 gün öğrenme dönemi: her gece metrikleri oku, bu dosyayı güncelle.
 - İlk gün (25.11): 77 takipçi; hesap erişimi 8.856, görüntülenme 10.034, erişimin %99,9'u takip etmeyen (Keşfet/öneri), 32 paylaşım, 10 kayıt, 119 etkileşen hesap. Kocaeli aynı gün 9.555 erişim / 1.056 takipçi. [VERİ, n=1 gün]
-- Projeksiyon (tahmin, 1 güne dayanıyor, 7 günde yenilenecek): ilk gün hızı sürerse 1. haftada 250-400, 1. ayda ~1.000 takipçi. Öneri trafiği açık; büyüme takipçiye çevirmeye bağlı.
+- 25.11 kesin veri: erişim 12.500 (%99,96 takip etmeyen), görüntülenme 14.304, 43 paylaşım, 13 kayıt, 146 etkileşen. 26.11 sonu: 106 takipçi (2 günde +106). 26.11 gün içi hesap erişimi yalnızca 744 (önbellek, eksik olabilir); ilk gün öneri patlaması 2. gün sürmedi. [VERİ, n=2 gün]
+- Projeksiyon (tahmin, 2 güne dayanıyor, 7 günde yenilenecek): ilk gün hızı yarıya inerse 1. haftada 200-300, 1. ayda 600-1.000 takipçi. Büyüme Reels'in takip etmeyene önerilmesine bağlı; ilk 3 sn tutma (atlama oranı) en büyük kaldıraç.
 - Haber hacmi (19–21.11 taraması): 3 günde ~7 video adayı (günde 2–3), çoğu asayiş; 1 tane A seviyesi (İstiklal yangını, tramvay durdu). [VERİ, n=3 gün]
 - Başlangıç temposu (kullanıcı 25.11.2026: "gerekirse günlük haber yayınını çoğalt"): günde en fazla 5 sabah Reels'i (yeterli doğrulanmış haber yoksa daha az) + varsa kesinti karuseli + 4 günlük hikâye (hava, altın, dolar, euro). Son dakika ayrıca. [ÖNERİ]
 
@@ -25,6 +26,7 @@ Kocaeli'nin genel kuralları (state/growth.md) burada özetlendi; Beyoğlu'na ö
 
 ## Paylaşım aralığı (EN ÖNEMLİ) [VERİ-K]
 - İki Reels arasında EN AZ 60 dk (tercihen 2+ saat). Peş peşe atılan videolar erişimde çöküyor.
+- Aynı olay/maç sonucu için TEK Reels: destek/tebrik/sonuç videoları ayrı ayrı atılmaz (26.11: Beşiktaş tebrik 23.20 + sonuç 23.29 → ikincisi 0 erişim). Kullanıcı özel video istediyse sonuç videosu o gece atılmaz; skor hikâyeyle verilir. [VERİ]
 - Son dakika istisnadır; 60 dk içinde başka Reels atılmışsa sıradaki video bir sonraki slota kayar.
 - Başlangıç slotları: ~08:15 (sabah görevi, 1. video), 10:46, 12:46, 15:46, 18:46, 21:46 (saatlik görev; Kocaeli görevleriyle aynı dakikaya denk gelmesin diye :46). Beyoğlu için akşam slotlarının daha güçlü olması bekleniyor; 14 gün sonra saat bazlı erişimle güncellenecek. [ÖNERİ]
 
@@ -53,10 +55,13 @@ Son: EN FAZLA 5 hashtag.
 - + konu (1): #sondakika / #istiklalcaddesi / #taksim / #sukesintisi / #elektrikkesintisi / #istanbuletkinlik
 - + semt (1): #galata #karaköy #cihangir #kasımpaşa #tarlabaşı #şişhane #tophane #hasköy #perşembepazarı
 
-## İlk veri gözlemleri (25.11, n=1 gün; 7 günde doğrula) [VERİ]
+## İlk veri gözlemleri (25-26.11, n=2 gün; 7 günde doğrula) [VERİ]
 - Reels yerelde 130-204 erişim; ulusal duygusal haber (Eskişehir şehit, kullanıcı isteği) 1.567 erişim, 55 beğeni, tüm yorumlar onda. Yerel kural değişmez; ulusal büyük olay yalnızca kullanıcı isterse.
 - Karuseller yalnızca takipçiye gidiyor (15-23 erişim). Kesinti/konser listesi karuseli Reels'in yerine geçmez; Reels + karusel hibriti korunur.
 - Atlama oranı yüksek (%59-68), ort. izlenme 3,6-7,2 sn. En iyi yerel: metro kapanışı (atlama %59, 7,2 sn); en kötü: elektrik kesintisi (atlama %68, 3,6 sn). İlk sahnede etkilenen kişiyi doğrudan söyle ("Taksim'de metro durmuyor") ve ilk 1 sn'de hareket/kırmızı kapanma görseli olsun. [ÖNERİ]
+- 26.11 en iyi: İstiklal Mahallesi elektrik kesintisi Reels'i 681 erişim (07.51'de, günün ilk videosu; dün aynı format 130). Fark: başlıkta tanınan yer adı "İstiklal" + erken saat. Kesinti başlığında mahalleden çok bilinen semt/cadde adı öne. [ÖNERİ, n=1]
+- Maç sonucu Reels'i en iyi tutma: FB 1-0 atlama %44, ort. 17,4 sn (diğerleri %57-73, 3,7-7,2 sn). Skor ilk karede, kısa video tutuyor. "Bugün maç var" ön videoları zayıf (126-182 erişim, atlama %65-69). [VERİ, n=2]
+- Konser/etkinlik Reels'i (Tersane, 134 erişim, atlama %73) ve karuseller (3-34 erişim) şu an en zayıf. Karusel yalnızca takipçiye gidiyor; konser karuselini hikâyeyle destekle, Reels kotasını haber/ulaşıma ayır. [VERİ, n=2]
 - Hikâyeler takipçilerin ~%35'ine ulaşıyor (22-29); konser hikâyesinde çıkış 13/22 (en yüksek). Konser hikâyesinde tek öne çıkan konser + saat göster, liste değil. [ÖNERİ]
 
 ## Formatlar
