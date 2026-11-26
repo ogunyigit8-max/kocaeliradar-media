@@ -35,6 +35,7 @@ Beyoğlu Belediyesi resmi hesabı, İstanbul son dakika ve trafik sayfaları. Ku
 growth.md'deki kurala uy: siyasi haberden Reels yok; büyük gelişmede en fazla bir sade hikâye/karusel.
 
 ## Okunabilirlik (tarihli notlar; görevler ekler)
+- 26.11.2026 (son dakika 11:47): okunabildi → haberturk.com, aspor.com.tr, fotomac.com.tr, cumhuriyet.com.tr, aksam.com.tr maç programı sayfaları (yayın saati meta'da).
 - 26.11.2026 (hikâye): hava → windbornesystems İstanbul yine bayat ("As of" 25.11 20:51), buluttan.com İstanbul Beyoğlu okundu ve kullanıldı (yağış ihtimali % yok, mm verildi). finans.truncgil.com Update_Date 25.11 10:00 (dünküyle aynı değerler); truncgil/tcmb curl 403, web-fetch ile okundu.
 - 25.11.2026 (hikâye): hava → windbornesystems İstanbul sayfası bayat ("As of" 24.11), buluttan.com İstanbul Beyoğlu okundu ve kullanıldı. finans.truncgil.com ve tcmb.gov.tr doğrudan curl ile 403 (proxy); web-fetch ile okunabildi.
 - 25.11.2026: okunabildi → beyoglu.bel.tr (duyuru 24.11), haberler.com/beyoglu (24.11), sondakika.com/beyoglu (liste eski önbellek, 25.10), turkiyegazetesi.com.tr/beyoglu (26.10), hurriyet Beyoğlu listesi (tarihsiz), tersaneistanbul.com.tr, iett.istanbul (yalnızca ana sayfa). Okunamadı → beyoglu.gov.tr, istanbul.gov.tr, uym.ibb.gov.tr, metro.istanbul, bedas.com.tr, iski.istanbul, igdas.istanbul (robots okunamadı); sehirhatlari.istanbul, dha.com.tr/istanbul/beyoglu-haber, sondakika.beyazgazete.com (client_error); halktv.com.tr (robots engeli, 21.11); deprem.afad.gov.tr (JavaScript, veri yok).
