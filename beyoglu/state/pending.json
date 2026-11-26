@@ -101,7 +101,7 @@
   {
    "date": "2026-11-26",
    "created_at": "2026-11-26T07:48+03:00",
-   "status": "scheduled",
+   "status": "published",
    "videos": [
     {
      "file": "beyoglu/v/2026-11-26-istiklal-mahallesi-elektrik.mp4",
@@ -126,9 +126,13 @@
        "username": "tersaneistanbul"
       }
      ],
-     "story_done": false,
-     "reel_done": false,
-     "posted_at": null
+     "story_done": true,
+     "reel_done": true,
+     "posted_at": "2026-11-26T12:59:00+03:00",
+     "slot": "12:46",
+     "reel_media_id": "17959723620033263",
+     "story_media_id": null,
+     "note": "Hikâye çağrısı zaman aşımına uğradı (sonucu bilinmiyor), çift hikâye riski nedeniyle tekrar gönderilmedi"
     }
    ],
    "carousel": null,
