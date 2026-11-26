@@ -35,7 +35,6 @@ Beyoğlu Belediyesi resmi hesabı, İstanbul son dakika ve trafik sayfaları. Ku
 growth.md'deki kurala uy: siyasi haberden Reels yok; büyük gelişmede en fazla bir sade hikâye/karusel.
 
 ## Okunabilirlik (tarihli notlar; görevler ekler)
-- 26.11.2026 (hikâye): hava → windbornesystems İstanbul yine bayat ("As of" 25.11 20:51), buluttan.com İstanbul Beyoğlu okundu ve kullanıldı (yağış ihtimali % yok, mm verildi). finans.truncgil.com Update_Date 25.11 10:00 (dünküyle aynı değerler); truncgil/tcmb curl 403, web-fetch ile okundu.
 - 25.11.2026 (son dakika 10:47): okunabildi → ntv.com.tr, haberturk.com maç programı (sayfa uzun, kesiliyor), sondakika.com haber sayfası (sayfadaki saat render zamanı, yayın tarihi değil). Okunamadı → akom.ibb.istanbul (robots okunamadı).
 - 25.11.2026 (son dakika 13:47): okunabildi → sabah.com.tr haber sayfası (Giriş Tarihi yazıyor), sondakika.com/guncel haber sayfası (yayın saati meta'da). Okunamadı → iett.istanbul/Announcement/Detail (server_error).
 - 25.11.2026 (son dakika 18:48): okunabildi → milligazete.com.tr (Taksim metro durumu, 17:00 haberi), karar.com, sabah.com.tr. haberler.com/beyoglu önbellekli (meta 10:02), son saatler için güvenilmez.
@@ -50,3 +49,4 @@ growth.md'deki kurala uy: siyasi haberden Reels yok; büyük gelişmede en fazla
 - 26.11.2026 21:47: Grup 1-3 + genel aramalar yeni Beyoğlu olayı göstermedi (Karaköy taksi yangını 10.11, Taksim kapanışları 25.11, eski). okunabildi → ajansspor.com (Son Güncelleme saati var), sporx.com (meta DC.Date), ntvspor canlı anlatım 20:46'dan sonra güncellenmemiş. Beşiktaş-Hapoel maçı 25'te olaylar nedeniyle ~30 dk durdu, yeniden başladı (Sporx 21:46).
 - 26.11.2026 22:47: Grup 1-3 + genel aramalar yeni Beyoğlu olayı göstermedi (Taksim kapanış/yol haberleri 25.11; DHA/İHA yangın sonuçları eski). İstanbul'da hissedilen deprem haberi yok. Beşiktaş maç sonucu ayrı takipte (23:13 uyanma).
 - 26.11.2026 23:47: Grup 1-3 + deprem araması yeni Beyoğlu olayı göstermedi (Taksim kapanış/yol haberleri 25.11, eski). CSKA Sofya-Trabzonspor sürüyor; sonuç 00:55 uyanmasında takipte.
+- 27.11.2026 00:47: Grup 1-3 + deprem araması yeni Beyoğlu olayı göstermedi (DHA/İHA yangın sonuçları eski, metro.istanbul kapanış duyuruları eski tarihli). CSKA Sofya-Trabzonspor ilk yarı 1-0 (Habertürk); sonuç 00:55 uyanmasında takipte, bu çalışma üretmedi (çift video riski).
