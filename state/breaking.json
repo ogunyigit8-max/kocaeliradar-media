@@ -728,6 +728,16 @@
       "time": "21:35",
       "topic": "Tarama: yeni A/B/C olayı yok (Grup 1-7 + genel/resmi aramalarda can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; sonuçlar önceki saatlerdeki eski/tarihsiz başlıklar). 0c: bugünkü batch tamamen paylaşılmış. Spor: Hapoel Beer Sheva-Beşiktaş sürüyor (sporx: tribünlerde olay, maç durdu haberi), 22:40 maç sonu kontrolü planlı (trig_01Ub85qLuDoSFeecAPZNLwmA, gecikmede 10 dk'da bir yeniden planlar); CSKA Sofya-Trabzonspor 23.00 takibi 22:35 çalışmasında. 0e: kutlama Reels yorumu Windsor önbelleğinde yok, cevap verilmedi. Video yapılmadı",
       "level": null
+    },
+    {
+      "date": "2026-11-26",
+      "time": "21:45",
+      "topic": "Beşiktaş destek videosu (kullanıcı isteği): Hapoel Beer Sheva-Beşiktaş, UEFA Avrupa Ligi, Batum, TRT 1",
+      "level": "C",
+      "voice": "aylin",
+      "sim": false,
+      "file": "v/2026-11-26-spor-besiktas-destek.mp4",
+      "reel_posted_at": null
     }
   ]
 }
