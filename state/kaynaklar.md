@@ -33,7 +33,6 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - WebSearch ile "site:instagram.com <hesap>" veya hesap adı + "son dakika" ara. Burada görülen haberi Grup 1-6'daki bir siteden doğrulamadan PAYLAŞMA. Görselleri/videoları kullanma (telif).
 
 ## Okunabilirlik (tarihli notlar; görevler ekler)
-- 25.11.2026 07:35: okunabildi → ntv.com.tr deprem listesi (01:00), sabah.com.tr/son-depremler/kocaeli, ozgunkocaeli.com.tr (eski 10.10 deprem). Okunamadı (client_error) → seskocaeli.com, bugunkocaeli.com.tr; hurriyet deprem listesi JS ile boş.
 - 25.11.2026 08:10 (sabah): okunabildi → kocaelikentgazetesi.com (25.11 kesinti listesi 07:39), yerel-haberler.haberturk.com/kocaeli-haberleri (en yeni 24.11 23:20), daricagazetesi.com.tr, haberler.com, ntv.com.tr (eski lodos haberleri). Okunamadı (client_error) → cagdaskocaeli, kocaeligazetesi, kocaelidenge, kocaelibarisgazetesi, kocaelihalkgazetesi, seskocaeli, bugunkocaeli, noktagazetesi, iha.com.tr; kocaeli.gov.tr ROBOTS_UNREACHABLE.
 - 25.11.2026 09:35: okunabildi → gebzehaber.net (son dakika listesi + valilik fırtına uyarısı 24.11 15:13). Okunamadı (client_error) → seskocaeli.com, bugunkocaeli.com.tr.
 - 25.11.2026 10:35: okunabildi → haberturk.com, hurriyet.com.tr, fotomac.com.tr, fanatik.com.tr (maç programı), gebzehaber.net, kocaelimeydan.com, sabah.com.tr/son-depremler/kocaeli. Okunamadı (client_error) → istekocaeli.com, ozgurkocaeli.com.tr, bugunkocaeli.com.tr.
