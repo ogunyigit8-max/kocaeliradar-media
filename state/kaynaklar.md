@@ -38,6 +38,7 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - 26.11.2026 00:35: okunabildi → sondakika.com/kocaeli (güncel, 00:33 damgalı), hurriyet.com.tr canlı anlatım, ntvspor.net. Okunamadı (client_error) → iha.com.tr/kocaeli, gundemkocaeli.com.tr, kocaelitv.com.tr.
 - 26.11.2026 01:35: okunabildi → sondakika.com/kocaeli (01:32 damgalı, en yeni 25.11 16:32). Okunamadı (client_error) → bugunkocaeli.com.tr (haber ve /asayis).
 - 26.11.2026 03:35: okunabildi → sondakika.com/kocaeli-izmit (en yeni 23.11, footer 00:27).
+- 26.11.2026 17:35: okunabildi → sondakika.com/kocaeli-kaza (footer 26.11 16:17), yerel-haberler.haberturk.com; sondakika.com/kocaeli eski kopya döndü (footer 27.10). Okunamadı (client_error) → bugunkocaeli.com.tr.
 - 26.11.2026 04:35: okunabildi → sondakika.com/kocaeli (04:32 damgalı, en yeni 26.11 01:49); sondakika.com/kocaeli-kaza eski (en yeni 22.10).
 - 26.11.2026 05:35: okunabildi → sondakika.com/kocaeli (05:30 damgalı, en yeni 26.11 01:49 spor).
 - 26.11.2026 07:35: okunabildi → golcukpostasi.com (eski 15.10 haberi). Okunamadı (PROVENANCE_REQUIRED) → sondakika.com/kocaeli.
