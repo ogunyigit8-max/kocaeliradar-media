@@ -55,12 +55,24 @@
   "2026-11-26 BEDAŞ planlı kesinti İstiklal Mahallesi (Paşalı Hasan) 09.00-17.00",
   "2026-11-26 Tersane Winter Town ücretsiz akustik: Melis Karaduman 27.11, Deniz Sipahi 28.11 19.00",
   "2026-11-26 Bu akşam Beyoğlu konserleri karuseli (Nardis Berna Çiçeksever, Blind Cardinals)",
-  "2026-11-26 Beyoğlu'nda bu hafta sonu karuseli (27-29 Kasım)"
+  "2026-11-26 Beyoğlu'nda bu hafta sonu karuseli (27-29 Kasım)",
+  {
+   "date": "2026-11-26",
+   "time": "07:52",
+   "topic": "BEDAŞ planlı kesinti İstiklal Mahallesi (Paşalı Hasan) 09.00-17.00 (sabah 1. video)",
+   "level": "B",
+   "voice": "aylin",
+   "sim": true,
+   "file": "beyoglu/v/2026-11-26-istiklal-mahallesi-elektrik.mp4",
+   "reel_posted_at": "2026-11-26T07:52:00+03:00",
+   "reel_media_id": "17960628411263816"
+  }
  ],
  "reel_posted_at": [
   "2026-11-25T10:38:00+03:00",
   "2026-11-25T13:33:00+03:00",
   "2026-11-25T15:55:00+03:00",
-  "2026-11-26T01:13:00+03:00"
+  "2026-11-26T01:13:00+03:00",
+  "2026-11-26T07:52:00+03:00"
  ]
 }

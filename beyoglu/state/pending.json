@@ -109,9 +109,11 @@
      "caption": "⚡ Beyoğlu elektrik kesintisi 26 Kasım: İstiklal Mahallesi'nde 8 saat\nBEDAŞ'ın planlı kesinti listesine göre İstiklal Mahallesi'nde (Paşalı Hasan) 26 Kasım'da 09.00-17.00 arasında elektrik kesintisi var. Kesinti İstiklal Caddesi'ni değil, İstiklal Mahallesi'ni kapsıyor; listede Beyoğlu'ndan başka bölge yok.\nBu bölgede oturan ya da çalışan birine gönder.\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi BEDAŞ 186.\nGörseller temsilidir. Konum yaklaşıktır.\nKaynak: BEDAŞ planlı kesinti listesi (Yeni Şafak, Genç Gazete, Manşet Haber) · 26 Kasım 2026\n#beyoğlu #beyogluradar #istanbul #elektrikkesintisi",
      "voice": "aylin",
      "sim": true,
-     "story_done": false,
-     "reel_done": false,
-     "posted_at": null
+     "story_done": true,
+     "reel_done": true,
+     "posted_at": "2026-11-26T07:52:00+03:00",
+     "story_media_id": "17978078859152873",
+     "reel_media_id": "17960628411263816"
     },
     {
      "file": "beyoglu/v/2026-11-26-tersane-ucretsiz-konser.mp4",
