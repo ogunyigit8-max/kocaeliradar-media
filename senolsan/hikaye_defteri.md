@@ -77,4 +77,4 @@ Yeni bölüm yazmadan önce bu dosyanın tamamı okunur. Tutarlılık şart: isi
 - Soru: Öteki senin peşinden koşacak mısın, yaşlı seni dinleyecek misin? KOŞ / DİNLE.
 - Reels: https://www.instagram.com/reel/DgK6P-HP-1g/ (hikaye de paylaşıldı). Tahmin ustası: yok (6. bölüme oy/tahmin gelmedi).
 - Açık sırlar: yaşlı Emre neden paketi gönderdi, köprüde kim bekliyor, paket teslim edilirse gece neden baştan başlıyor, anahtar hangi kapıyı açıyor.
-- Sonuç: (bekleniyor)
+- Sonuç: oy gelmedi (KOŞ 0, DİNLE 0; 26.11 17:00 itibarıyla; tek yorum "Kaç" iki seçeneğe de uymadı). Hikayeyi daha gerilimli ilerleten KOŞ seçildi, Emre öteki Emre'nin peşinden köprüye koştu.
