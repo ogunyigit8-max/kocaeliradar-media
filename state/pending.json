@@ -1,434 +1,436 @@
 {
- "batches": [
-  {
-   "date": "2026-11-18",
-   "created_at": "2026-11-18T08:16:00+03:00",
-   "status": "published",
-   "videos": [
+  "batches": [
     {
-     "file": "v/2026-11-18-elektrik-kesintisi.mp4",
-     "title": "Kocaeli'de bugün 7 ilçede elektrik kesintisi",
-     "caption": "⚡ Kocaeli elektrik kesintisi: bugün 7 ilçede, bazı adreslerde 8 saat\n18 Kasım'da Gebze (Arapçeşme, Sultan Orhan) ve Dilovası Tepecik'te 09.00-17.00 arası kesinti var. Darıca'da Cami, Piri Reis ve Bağlarbaşı'nda 09.00-15.00, Çayırova'da 09.00-16.00 arası dönem dönem elektrik kesilecek.\nİzmit Yahyakaptan'da 09.00-12.00 ve 13.00-16.00, Derince Çenedağ ve Çınarlı'da 09.00-17.00 arası; Kandıra'da Kurtyeri dahil 11 mahallede de kesinti planlandı.\nMahallenizde kesinti var mı? Bu listeyi etkilenen birine gönder.\nGörseller temsilidir.\nKaynak: Özgün Kocaeli\n#kocaeli #kocaeliradar #elektrikkesintisi #gebze #izmit",
-     "voice": "aylin",
-     "sim": true,
-     "story_done": true,
-     "reel_done": true,
-     "posted_at": "2026-11-18T08:09:26+03:00",
-     "story_media_id": "18134824450765755",
-     "reel_media_id": "18101536721457613"
+      "date": "2026-11-18",
+      "created_at": "2026-11-18T08:16:00+03:00",
+      "status": "published",
+      "videos": [
+        {
+          "file": "v/2026-11-18-elektrik-kesintisi.mp4",
+          "title": "Kocaeli'de bugün 7 ilçede elektrik kesintisi",
+          "caption": "⚡ Kocaeli elektrik kesintisi: bugün 7 ilçede, bazı adreslerde 8 saat\n18 Kasım'da Gebze (Arapçeşme, Sultan Orhan) ve Dilovası Tepecik'te 09.00-17.00 arası kesinti var. Darıca'da Cami, Piri Reis ve Bağlarbaşı'nda 09.00-15.00, Çayırova'da 09.00-16.00 arası dönem dönem elektrik kesilecek.\nİzmit Yahyakaptan'da 09.00-12.00 ve 13.00-16.00, Derince Çenedağ ve Çınarlı'da 09.00-17.00 arası; Kandıra'da Kurtyeri dahil 11 mahallede de kesinti planlandı.\nMahallenizde kesinti var mı? Bu listeyi etkilenen birine gönder.\nGörseller temsilidir.\nKaynak: Özgün Kocaeli\n#kocaeli #kocaeliradar #elektrikkesintisi #gebze #izmit",
+          "voice": "aylin",
+          "sim": true,
+          "story_done": true,
+          "reel_done": true,
+          "posted_at": "2026-11-18T08:09:26+03:00",
+          "story_media_id": "18134824450765755",
+          "reel_media_id": "18101536721457613"
+        },
+        {
+          "file": "v/2026-11-18-barajlar.mp4",
+          "title": "Yuvacık Barajı %78 dolu, geçen yıl bu dönemde %11'di",
+          "caption": "💧 Kocaeli baraj doluluk: Yuvacık %78, geçen yıl bu dönemde %11'di\nİSU'nun 17 Kasım verilerine göre Kocaeli'nin içme suyunun yaklaşık %80'ini karşılayan Yuvacık Barajı %78 dolu. AA'ya göre geçen yıl aynı dönemde doluluk %11'le kritik seviyedeydi.\nKandıra'daki Namazgah Barajı %53'te ve son günlerde düşüşte; Gölcük'teki İhsaniye Barajı %83 ile en dolu baraj. Üç barajda toplam 58 milyon 370 bin metreküp su var.\nSizce bu kış su sıkıntısı yaşanır mı?\nKaynak: İSU, Kocaeli Kent Gazetesi, AA\n#kocaeli #kocaeliradar #baraj #kocaelihaber #başiskele",
+          "voice": "emre",
+          "sim": false,
+          "story_done": true,
+          "reel_done": true,
+          "posted_at": "2026-11-18T12:34:37+03:00",
+          "story_media_id": "18118356659523089",
+          "reel_media_id": "18100321754673015"
+        }
+      ]
     },
     {
-     "file": "v/2026-11-18-barajlar.mp4",
-     "title": "Yuvacık Barajı %78 dolu, geçen yıl bu dönemde %11'di",
-     "caption": "💧 Kocaeli baraj doluluk: Yuvacık %78, geçen yıl bu dönemde %11'di\nİSU'nun 17 Kasım verilerine göre Kocaeli'nin içme suyunun yaklaşık %80'ini karşılayan Yuvacık Barajı %78 dolu. AA'ya göre geçen yıl aynı dönemde doluluk %11'le kritik seviyedeydi.\nKandıra'daki Namazgah Barajı %53'te ve son günlerde düşüşte; Gölcük'teki İhsaniye Barajı %83 ile en dolu baraj. Üç barajda toplam 58 milyon 370 bin metreküp su var.\nSizce bu kış su sıkıntısı yaşanır mı?\nKaynak: İSU, Kocaeli Kent Gazetesi, AA\n#kocaeli #kocaeliradar #baraj #kocaelihaber #başiskele",
-     "voice": "emre",
-     "sim": false,
-     "story_done": true,
-     "reel_done": true,
-     "posted_at": "2026-11-18T12:34:37+03:00",
-     "story_media_id": "18118356659523089",
-     "reel_media_id": "18100321754673015"
+      "date": "2026-11-19",
+      "created_at": "2026-11-19T08:16:00+03:00",
+      "status": "published",
+      "videos": [
+        {
+          "file": "v/2026-11-19-firtina-uyarisi.mp4",
+          "title": "Kocaeli'de bugün fırtına: rüzgâr 75 km'ye çıkabilir",
+          "caption": "🌬️ Kocaeli fırtına uyarısı: bugün rüzgâr saatte 75 km'ye çıkabilir\nKocaeli Valiliği, Meteoroloji'nin değerlendirmesine göre fırtınanın 19 Kasım sabahından itibaren etkili olacağını duyurdu. Batı ve kuzeybatıdan esecek rüzgârın saatte 50-75 km'ye ulaşması, akşam saatlerinden itibaren etkisini yitirmesi bekleniyor.\nMeteoroloji Kocaeli dahil 9 ile sarı kodlu uyarı verdi. Özellikle deniz ulaşımında aksamalar yaşanabilir; İzmit, Gölcük ve Karamürsel'de yola çıkmadan seferleri kontrol edin.\nBugün feribot ya da deniz yolu kullanacak birine gönder.\nGörseller temsilidir.\nKaynak: Kocaeli Valiliği, AA, Mavi Kocaeli, Özgün Kocaeli\n#kocaeli #kocaeliradar #havadurumu #kocaelihavadurumu #izmit",
+          "voice": "aylin",
+          "sim": true,
+          "story_done": true,
+          "reel_done": true,
+          "posted_at": "2026-11-19T08:09:44+03:00",
+          "story_media_id": "18149591065570747",
+          "reel_media_id": "18126219622989764"
+        },
+        {
+          "file": "v/2026-11-19-elektrik-8-saat.mp4",
+          "title": "Derince, Dilovası, Çayırova ve Kandıra'da 8 saatlik elektrik kesintisi",
+          "caption": "⚡ Kocaeli elektrik kesintisi: Dilovası'nda 6 mahallede 8 saat elektrik yok\nBugün 09.00-17.00 arası Derince'de Çenedağ ve Çınarlı, Dilovası'nda Kargalı, Tepecik, Yağcılar, Ahatlı, Duraklı ve Hatipler, Çayırova'da Atatürk ve Yeni, Kandıra'da Çalköy'ün bazı adreslerinde planlı kesinti var.\nGebze Yenikent'te 09.00-16.00 arası, Darıca'da Nenehatun, Sırasöğütler, İstasyon ve Kazımkarabekir'de daha kısa kesintiler planlandı. Arıza bildirimi için SEDAŞ 186.\nMahallenizde elektrik kesik mi? Bu listeyi etkilenen birine gönder.\nGörseller temsilidir.\nKaynak: SEDAŞ listesi, Kocaeli Kent Gazetesi, Özgün Kocaeli\n#kocaeli #kocaeliradar #elektrikkesintisi #dilovası",
+          "voice": "emre",
+          "sim": true,
+          "story_done": true,
+          "reel_done": true,
+          "posted_at": "2026-11-19T12:33:50+03:00",
+          "story_media_id": "18436092802150563",
+          "reel_media_id": "17934673518164013"
+        },
+        {
+          "file": "v/2026-11-19-servis-denetimi.mp4",
+          "title": "Kocaeli'de 6.380 servis denetlendi, 1.799'una işlem",
+          "caption": "🚐 Kocaeli servis denetimi: 6.380 araç denetlendi, 1.799'una işlem yapıldı\nKocaeli Büyükşehir Belediyesi Toplu Taşıma Şube Müdürlüğü ekipleri kent genelinde 6 bin 380 servis aracını denetledi; evrak eksiği bulunan 1.799 araç ve sürücüsü hakkında işlem yapıldı.\nAraçların teknik donanımı, fiziki durumu ve sürücülerin belgeleri incelendi; özellikle öğrenci taşımacılığında güvenliğe dikkat çekildi.\nÇocuğunuzun servisinin belgelerini kontrol ettiniz mi? Bu haberi servis kullanan bir veliye gönder.\nKaynak: Kocaeli Büyükşehir Belediyesi, İHA\n#kocaeli #kocaeliradar #kocaelibüyükşehir #kocaelihaber #izmit",
+          "voice": "aylin",
+          "sim": false,
+          "story_done": true,
+          "reel_done": true,
+          "posted_at": "2026-11-19T18:41:38+03:00",
+          "story_media_id": "18088590428319930",
+          "reel_media_id": "18030301862879814"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "created_at": "2026-11-20T07:56:45+03:00",
+      "status": "published",
+      "videos": [],
+      "note": "Speko (TTS) bağlantısı koptuğu için bugün sabah videosu üretilemedi.",
+      "carousel": {
+        "dir": "c/2026-11-20-elektrik",
+        "slides": [
+          "c/2026-11-20-elektrik/01.jpg",
+          "c/2026-11-20-elektrik/02.jpg",
+          "c/2026-11-20-elektrik/03.jpg",
+          "c/2026-11-20-elektrik/04.jpg",
+          "c/2026-11-20-elektrik/05.jpg",
+          "c/2026-11-20-elektrik/06.jpg",
+          "c/2026-11-20-elektrik/07.jpg"
+        ],
+        "caption": "⚡ Kocaeli elektrik kesintisi 20 Kasım: 12 ilçede, en uzun İzmit Kozluca'da 8 saat\nMahallen listede mi? Kaydır 👉\n\nSEDAŞ'ın planlı çalışmaları nedeniyle bugün Kartepe, Gölcük, Körfez, Kandıra, İzmit, Dilovası, Gebze, Karamürsel, Çayırova, Darıca, Başiskele ve Derince'de elektrik kesintisi var. En geniş etkilenen ilçe Kartepe: 9 mahalle, 09.30-18.00 arası.\n\nMahallende kesinti var mı?\nListede mahallesi olan birine gönder.\n\nArıza bildirimi: SEDAŞ 186\nKaynak: SEDAŞ, Kocaeli Kent Gazetesi\n\n#kocaeli #kocaeliradar #elektrikkesintisi #izmit",
+        "alt_texts": [
+          "Kocaeli 20 Kasım 2026 elektrik kesintisi: 12 ilçede planlı kesinti (Kartepe, Gölcük, Körfez, Kandıra, İzmit, Dilovası, Gebze, Karamürsel, Çayırova, Darıca, Başiskele, Derince). En uzun: İzmit Kozluca'da 09.30-17.30, 8 saat.",
+          "Kocaeli 20 Kasım 2026 elektrik kesintisi: ilçe özeti. Kartepe 9 mahalle 09.30-18.00; Gölcük 6 mahalle 09.00-17.00; Körfez 5 mahalle 09.00-17.00; Kandıra 5 mahalle 09.00-17.00; İzmit 4 mahalle 09.00-17.30; Dilovası 4 mahalle 09.00-17.00; Gebze 3 mahalle 08.30-16.00; Karamürsel 3 mahalle 09.00-17.00; Çayırova 2 mahalle 09.00-17.00; Darıca 2 mahalle 12.30-15.30; Başiskele 1 mahalle 09.00-11.00; Derince 1 mahalle 09.00-13.00.",
+          "Kocaeli 20 Kasım 2026 elektrik kesintisi: Kartepe: Havluburun, Uzuntarla 09.30-12.00; Emekevler, Uzuntarla 14.00-17.00; Acısu, Emekevler, Sarımeşe, Suadiye 14.00-16.00; Eşme, Eşmeahmediye, Havluburun, Ketenciler, Uzuntarla 16.00-18.00. Gölcük: Ayvazpınarı, Lütfiye, Mesruriye, Şevketiye 09.00-17.00; Çiftlik 09.00-13.30 ve 14.00-15.30; Değirmendere Merkez 16.00-17.00.",
+          "Kocaeli 20 Kasım 2026 elektrik kesintisi: Körfez: Çıraklı, Cuma, Karayakuplu, Osmanlı, Sevindikli 09.00-17.00. Kandıra: Goncaaydın, Kocakaymas, Topluca 09.00-16.00; Çalca, Selametli 09.00-17.00. İzmit: Kuruçeşme Fatih, Şirintepe 09.00-17.00; Yahyakaptan 09.00-12.00 ve 13.00-17.00; Kozluca 09.30-17.30.",
+          "Kocaeli 20 Kasım 2026 elektrik kesintisi: Dilovası: Ahatlı, Duraklı, Hatipler, Tepemanayır 09.00-17.00. Gebze: Barış 08.30-10.30 ve 10.30-12.30; Yenikent 09.00-16.00; Köşklü Çeşme 09.00-15.00. Karamürsel: Akpınar, Safiye, Suludere 09.00-17.00. Çayırova: Emek, Yavuz Selim 09.00-12.00.",
+          "Kocaeli 20 Kasım 2026 elektrik kesintisi: Çayırova: Emek 09.30-11.00 ve 09.30-17.00. Darıca: Bayramoğlu, Emek 12.30-15.30. Başiskele: Karadenizliler 09.00-11.00. Derince: Yavuz Sultan 09.00-13.00.",
+          "Kocaeli 20 Kasım 2026 elektrik kesintisi: listede mahallesi olan birine gönder, kaydet, takip et. Arıza bildirimi: SEDAŞ 186."
+        ],
+        "story_done": true,
+        "post_done": true,
+        "posted_at": "2026-11-20T07:59:01+03:00",
+        "media_id": "17920011522265836",
+        "story_media_id": "18120879079788489"
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "created_at": "2026-11-21T08:00:06+03:00",
+      "status": "published",
+      "videos": [
+        {
+          "file": "v/2026-11-21-kesinti.mp4",
+          "title": "Gebze'de 8 saat: bugün 10 ilçede elektrik kesintisi",
+          "caption": "⚡ Kocaeli elektrik kesintisi 21 Kasım: 10 ilçede, en uzun Gebze Balçık 8 saat\nSEDAŞ'ın planlı çalışmaları nedeniyle bugün Gebze, İzmit, Körfez, Kandıra, Darıca, Dilovası, Başiskele, Gölcük, Karamürsel ve Kartepe'de kesinti var.\nGebze Balçık ve TOSB'de 10.30-18.30, Darıca Bağlarbaşı ve Cami'de 09.30-17.00, İzmit Bağlıca'da 09.30-17.30.\n\nTüm mahalle listesi profilimizde (kaydırmalı liste).\nListede mahallesi olan birine gönder.\n\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nGörseller temsilidir.\nKaynak: SEDAŞ, Kocaeli Kent Gazetesi\n\n#kocaeli #kocaeliradar #elektrikkesintisi #gebze",
+          "voice": "emre",
+          "sim": true,
+          "story_done": true,
+          "reel_done": true,
+          "posted_at": "2026-11-21T08:02:04+03:00",
+          "media_id": "17908018815352115"
+        },
+        {
+          "file": "v/2026-11-21-akaryakit.mp4",
+          "title": "Kocaeli'de benzin 68,80 TL'ye indi: 2 günde 2 indirim",
+          "caption": "⛽ Kocaeli'de benzin 68,80 TL'ye indi: 2 günde 2 indirim\nBenzine gece yarısı yaklaşık 2,90 TL indirim geldi; Kocaeli ortalamasında litresi 71,70 TL'den 68,80 TL'ye düştü. Motorine dün 6,58 TL indirim gelmişti, Kocaeli'de motorin 89,20 TL.\nFiyatlar ortalamadır, istasyona göre değişebilir.\n\nBu haberi araç kullanan birine gönder.\n\nKaynak: Kocaeli Kent Gazetesi, Gençgazete, Kayseri Haber\n\n#kocaeli #kocaeliradar #ekonomi #kocaeliesnaf #izmit",
+          "voice": "aylin",
+          "sim": false,
+          "story_done": true,
+          "reel_done": true,
+          "posted_at": "2026-11-21T12:35:19+03:00",
+          "story_media_id": "18470933992191839",
+          "reel_media_id": "18102032471387984"
+        },
+        {
+          "file": "v/2026-11-21-kocaelispor-fb.mp4",
+          "title": "Kocaelispor - Fenerbahçe bu akşam: iki takım da 19 puan",
+          "caption": "⚽ Kocaelispor - Fenerbahçe bu akşam 19.00'da: iki takım da 19 puan\nSüper Lig'in 12. haftasında Kocaelispor, Fenerbahçe'yi Kocaeli Stadı'nda ağırlıyor. Kocaelispor 7., Fenerbahçe 6. sırada; iki takım da 11 maçta 6 galibiyet aldı.\nMaç beIN Sports 1'den canlı yayınlanacak.\n\nSkor tahminin ne? Yorumlara yaz.\n\nKaynak: Sporx, Kocaeli Kent Gazetesi\n\n#kocaeli #kocaeliradar #kocaelispor #izmit",
+          "voice": "emre",
+          "sim": false,
+          "story_done": true,
+          "reel_done": true,
+          "posted_at": "2026-11-21T15:33:56+03:00",
+          "story_media_id": "18145371298611716",
+          "reel_media_id": "18210083008373398"
+        }
+      ],
+      "carousel": {
+        "dir": "c/2026-11-21-elektrik",
+        "slides": [
+          "c/2026-11-21-elektrik/01.jpg",
+          "c/2026-11-21-elektrik/02.jpg",
+          "c/2026-11-21-elektrik/03.jpg",
+          "c/2026-11-21-elektrik/04.jpg",
+          "c/2026-11-21-elektrik/05.jpg",
+          "c/2026-11-21-elektrik/06.jpg",
+          "c/2026-11-21-elektrik/07.jpg"
+        ],
+        "caption": "⚡ Kocaeli elektrik kesintisi 21 Kasım: 10 ilçede, en uzun Gebze Balçık 8 saat\nMahallen listede mi? Kaydır 👉\n\nSEDAŞ'ın planlı çalışmaları nedeniyle bugün Gebze, İzmit, Körfez, Kandıra, Darıca, Dilovası, Başiskele, Gölcük, Karamürsel ve Kartepe'de elektrik kesintisi var. Gebze Balçık ve TOSB'de 10.30-18.30, İzmit Bağlıca'da 09.30-17.30.\n\nMahallende kesinti var mı?\nListede mahallesi olan birine gönder.\n\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir. Arıza bildirimi: SEDAŞ 186\nKaynak: SEDAŞ, Kocaeli Kent Gazetesi\n\n#kocaeli #kocaeliradar #elektrikkesintisi #izmit",
+        "alt_texts": [
+          "Kocaeli 21 Kasım 2026 elektrik kesintisi: 10 ilçede planlı kesinti (Gebze, İzmit, Körfez, Kandıra, Darıca, Dilovası, Başiskele, Gölcük, Karamürsel, Kartepe). En uzun: Gebze Balçık ve TOSB 10.30-18.30, 8 saat.",
+          "Kocaeli 21 Kasım 2026 elektrik kesintisi: ilçe özeti. Gebze 6 mahalle 09.30-18.30; İzmit 6 mahalle 09.00-17.30; Körfez 6 mahalle 09.00-17.00; Kandıra 6 mahalle 09.00-17.00; Darıca 2 mahalle 09.30-17.00; Dilovası 3 mahalle 09.00-17.00; Başiskele 4 mahalle 00.30-15.00; Gölcük 2 mahalle 09.00-17.00; Karamürsel 2 mahalle 10.00-12.00; Kartepe 1 mahalle 09.00-17.00.",
+          "Kocaeli 21 Kasım 2026 elektrik kesintisi: Gebze Beylikbağı, İstasyon 09.30-14.00; Balçık, TOSB 10.30-18.30; Adem Yavuz, Cumhuriyet 14.30-16.00. İzmit Ovacık 09.00-16.00; Yenişehir 09.00-15.00 ve 09.00-17.00; Bağlıca 09.30-17.30; Kozluk, Turgut 12.15-13.45; Alikahya Fatih 14.30-17.00.",
+          "Kocaeli 21 Kasım 2026 elektrik kesintisi: Körfez Şirinyalı 09.00-17.00; Kışladüzü 09.00-17.00; Alihocalar, Cuma, Dikenli, Karagöllü 09.00-15.00. Kandıra Akçabeyli, Arıfağa, Emekevler, Karaağaç, Pınardüzü 09.00-17.00; Dalca 09.00-13.30. Darıca Bağlarbaşı, Cami 09.30-17.00.",
+          "Kocaeli 21 Kasım 2026 elektrik kesintisi: Dilovası Çerkeşli, Çerkeşli OSB, Demirciler OSB 09.00-17.00. Başiskele Karadenizliler, Vezirçiftliği 00.30-04.00; Karadenizliler, Ovacık 09.00-15.00; Kullar Merkez, Ovacık 09.00-15.00. Gölcük Yazlık Yeni, Yeniköy Merkez 09.00-17.00. Karamürsel Kadriye, Tahtalı 10.00-12.00.",
+          "Kocaeli 21 Kasım 2026 elektrik kesintisi: Kartepe Uzuntarla 09.00-17.00.",
+          "Kocaeli 21 Kasım 2026 elektrik kesintisi: listeyi kaydet, mahallesi listede olan birine gönder. Arıza bildirimi SEDAŞ 186."
+        ],
+        "story_done": true,
+        "post_done": true,
+        "posted_at": "2026-11-21T08:34:11+03:00",
+        "media_id": "17960341749274239"
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "created_at": "2026-11-22T08:22:00+03:00",
+      "status": "published",
+      "videos": [
+        {
+          "file": "v/2026-11-22-kesinti.mp4",
+          "title": "Gebze ve Kandıra'da 8 saat: 22 Kasım'da 4 ilçede elektrik kesintisi",
+          "caption": "⚡ Kocaeli elektrik kesintisi 22 Kasım: 4 ilçede, en uzun Gebze ve Kandıra 8 saat\nSEDAŞ'ın planlı çalışmaları nedeniyle bugün Gebze, Kandıra, İzmit ve Dilovası'nda kesinti var.\nGebze Barış, İstasyon, Kazımkarabekir ve Tatlıkuyu'da 09.00-17.00, Tavşanlı'da 10.00-17.30; Kandıra Aydınlık, Çarşı ve Orhan'da 09.00-17.00.\n\nTüm mahalle listesi profilimizde (kaydırmalı liste).\nListede mahallesi olan birine gönder.\n\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nGörseller temsilidir.\nKaynak: SEDAŞ, Özgün Kocaeli\n\n#kocaeli #kocaeliradar #elektrikkesintisi #gebze",
+          "voice": "aylin",
+          "sim": true,
+          "story_done": true,
+          "reel_done": true,
+          "posted_at": "2026-11-22T08:08:21+03:00",
+          "story_media_id": "18062169467645997",
+          "reel_media_id": "17941514223121978"
+        },
+        {
+          "file": "v/2026-11-22-okullar-aciliyor.mp4",
+          "title": "Kocaeli'de yarın okul var: ara tatil bitti, ders başı 23 Kasım",
+          "caption": "🎒 Kocaeli'de yarın okul var: ara tatil bitti, ders başı 23 Kasım Pazartesi\nTürkiye genelinde yaklaşık 17 milyon öğrencinin 9 günlük ara tatili bugün sona eriyor. Birinci dönem 22 Ocak'ta bitiyor; yarıyıl tatili 25 Ocak-5 Şubat 2027, ikinci dönem ara tatili 8-12 Mart 2027.\n\nOkula giden çocuğu olan birine gönder.\n\nKaynak: AA/NTV, Milli Gazete (MEB 2026-2027 takvimi)\n\n#kocaeli #kocaeliradar #kocaelihaber #aratatil #izmit",
+          "voice": "emre",
+          "sim": false,
+          "story_done": true,
+          "reel_done": true,
+          "posted_at": "2026-11-22T12:34:36+03:00",
+          "story_media_id": "18130653248477245",
+          "reel_media_id": "17968082988208089"
+        },
+        {
+          "file": "v/2026-11-22-hava-soguyor.mp4",
+          "title": "Kocaeli'de pazartesi 23, çarşamba 10 derece: 2 günde 13 derece düşüş",
+          "caption": "🌧️ Kocaeli'de pazartesi 23, çarşamba 10 derece: sıcaklık 2 günde 13 derece düşüyor\nMGM tahminine göre yarın (pazartesi) gök gürültülü sağanak var, en yüksek 23 derece. Salı yağmur sürüyor ve en yüksek sıcaklık 13 dereceye iniyor. Çarşamba parçalı bulutlu; en düşük 5, en yüksek 10 derece.\n\nMontları çıkarma vakti: sabah erken çıkan birine gönder.\n\nGörseller temsilidir.\nKaynak: MGM (Özgün Kocaeli, Darıca Gazetesi)\n\n#kocaeli #kocaeliradar #havadurumu #kocaelihavadurumu #izmit",
+          "voice": "aylin",
+          "sim": true,
+          "story_done": true,
+          "reel_done": true,
+          "posted_at": "2026-11-22T15:37:11+03:00",
+          "story_media_id": "17980116233929208",
+          "reel_media_id": "17990314821088966"
+        }
+      ],
+      "carousel": {
+        "dir": "c/2026-11-22-elektrik",
+        "slides": [
+          "c/2026-11-22-elektrik/01.jpg",
+          "c/2026-11-22-elektrik/02.jpg",
+          "c/2026-11-22-elektrik/03.jpg",
+          "c/2026-11-22-elektrik/04.jpg",
+          "c/2026-11-22-elektrik/05.jpg"
+        ],
+        "caption": "⚡ Kocaeli elektrik kesintisi 22 Kasım: 4 ilçede, en uzun Gebze ve Kandıra 8 saat\nMahallen listede mi? Kaydır 👉\n\nSEDAŞ'ın planlı çalışmaları nedeniyle bugün Gebze, Kandıra, İzmit ve Dilovası'nda elektrik kesintisi var. Gebze Barış, İstasyon, Kazımkarabekir ve Tatlıkuyu'da 09.00-17.00, Tavşanlı'da 10.00-17.30.\n\nMahallende kesinti var mı?\nListede mahallesi olan birine gönder.\n\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir. Arıza bildirimi: SEDAŞ 186\nKaynak: SEDAŞ, Özgün Kocaeli\n\n#kocaeli #kocaeliradar #elektrikkesintisi #kandıra",
+        "alt_texts": [
+          "Kocaeli 22 Kasım 2026 elektrik kesintisi: 4 ilçede planlı kesinti (Gebze, Kandıra, İzmit, Dilovası). En uzun: Gebze ve Kandıra'da 8 saat.",
+          "Kocaeli 22 Kasım 2026 elektrik kesintisi: ilçe özeti. Gebze 5 mahalle 09.00-17.30; Kandıra 3 mahalle 09.00-17.00; İzmit 3 mahalle 09.00-14.00; Dilovası 2 mahalle 09.00-15.00.",
+          "Kocaeli 22 Kasım 2026 elektrik kesintisi: Gebze Barış, İstasyon, Kazımkarabekir, Tatlıkuyu 09.00-17.00; Tavşanlı 10.00-17.30. Kandıra Aydınlık, Çarşı, Orhan 09.00-17.00. İzmit Körfez, Sanayi 09.00-14.00.",
+          "Kocaeli 22 Kasım 2026 elektrik kesintisi: İzmit Sanayi 09.00-13.00; Kuğu Sokak çevresi 10.00-12.00. Dilovası Organize Bölge 09.00-11.00; Köseler, Organize Bölge 11.00-15.00.",
+          "Kocaeli 22 Kasım 2026 elektrik kesintisi: listeyi mahallesi olan birine gönder, kaydet, Kocaeli Radar'ı takip et. Arıza bildirimi: SEDAŞ 186."
+        ],
+        "story_done": true,
+        "post_done": true,
+        "posted_at": "2026-11-22T08:40:42+03:00",
+        "media_id": "18350569270248806",
+        "story_media_id": "18040509770659117"
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "created_at": "2026-11-23T08:00:58+03:00",
+      "status": "published",
+      "videos": [
+        {
+          "file": "v/2026-11-23-kesinti.mp4",
+          "title": "Darıca, İzmit ve Kandıra'da 8 saat: 23 Kasım'da 8 ilçede elektrik kesintisi",
+          "caption": "⚡ Kocaeli elektrik kesintisi 23 Kasım: 8 ilçede, en uzun İzmit, Kandıra ve Darıca 8 saat\nSEDAŞ'ın planlı çalışmaları nedeniyle bugün Darıca, Gebze, İzmit, Kandıra, Kartepe, Gölcük, Dilovası ve Karamürsel'de kesinti var.\nDarıca Nenehatun ve Kazımkarabekir'de 09.00-17.00; İzmit Yenişehir ve Kaynarca, Süverler gibi köy mahallelerinde 09.00-17.00; Kandıra'da 13 mahallede çalışma var. Gebze'de Muallimköy 08.30-15.30.\n\nTüm mahalle listesi profilimizde (kaydırmalı liste).\nListede mahallesi olan birine gönder.\n\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nGörseller temsilidir.\nKaynak: SEDAŞ planlı kesinti listesi, Kocaeli Kent Gazetesi\n\n#kocaeli #kocaeliradar #elektrikkesintisi #darıca",
+          "voice": "aylin",
+          "sim": true,
+          "story_done": true,
+          "reel_done": true,
+          "posted_at": "2026-11-23T08:02:30+03:00",
+          "story_media_id": "18419755606083626",
+          "reel_media_id": "17957933394280586"
+        },
+        {
+          "file": "v/2026-11-23-sari-kod.mp4",
+          "title": "Kocaeli'ye sarı kod: öğleden sonra kuvvetli sağanak, rüzgar yer yer 90 km/sa",
+          "caption": "🌧️ Kocaeli'ye sarı kod: öğleden sonra kuvvetli sağanak, rüzgar yer yer 90 km/sa\nMeteoroloji, Kocaeli'yi bugün (23 Kasım) sarı kodlu uyarı verilen 22 il arasına aldı. Valiliğe göre güney ve güneybatıdan esen rüzgar saatte 50-70, yer yer 80-90 km'ye ulaşabilir; öğleden sonra metrekareye 21-50 kg yağış bekleniyor.\nÇatı uçması, ağaç ve direk devrilmesi, ani sel ve soba/doğalgaz kaynaklı baca gazına dikkat. Acil durumda 112.\n\nBu uyarıyı akşam yola çıkacak birine gönder.\nGörseller temsilidir.\nKaynak: MGM (TRT Haber, Habertürk), Kocaeli Valiliği\n\n#kocaeli #kocaeliradar #havadurumu #kocaelihavadurumu #izmit",
+          "voice": "aylin",
+          "sim": true,
+          "story_done": true,
+          "reel_done": true,
+          "posted_at": "2026-11-23T12:34:02+03:00"
+        },
+        {
+          "file": "v/2026-11-23-tapu-guvenli-odeme.mp4",
+          "title": "1 Aralık'tan itibaren tapuda güvenli ödeme zorunlu",
+          "caption": "🏠 1 Aralık'tan itibaren tapuda yeni dönem: ev, arsa ve iş yeri satışında güvenli ödeme zorunlu\nTicaret Bakanlığı düzenlemesiyle satış bedeli, tapu devri tamamlanana kadar güvenli hesapta tutulacak; devir olunca satıcıya geçecek, satış olmazsa alıcıya iade edilecek.\nNakit, havale ve EFT ile yapılan ödemeler kapsamda. Hizmet bedelinin tutarı henüz açıklanmadı.\n\nYakında ev ya da arsa alıp satacak birine gönder.\nKaynak: Karar, Milli Gazete (Ticaret Bakanlığı düzenlemesi)\n\n#kocaeli #kocaeliradar #ekonomi #kocaeliesnaf #izmit",
+          "voice": "emre",
+          "sim": false,
+          "story_done": true,
+          "reel_done": true,
+          "posted_at": "2026-11-23T15:34:17+03:00",
+          "story_media_id": "17923393101242079",
+          "reel_media_id": "17964721329224150"
+        }
+      ],
+      "carousel": {
+        "dir": "c/2026-11-23-elektrik",
+        "slides": [
+          "c/2026-11-23-elektrik/01.jpg",
+          "c/2026-11-23-elektrik/02.jpg",
+          "c/2026-11-23-elektrik/03.jpg",
+          "c/2026-11-23-elektrik/04.jpg",
+          "c/2026-11-23-elektrik/05.jpg",
+          "c/2026-11-23-elektrik/06.jpg",
+          "c/2026-11-23-elektrik/07.jpg"
+        ],
+        "caption": "⚡ Kocaeli elektrik kesintisi 23 Kasım: 8 ilçede, en uzun İzmit, Kandıra ve Darıca 8 saat\nMahallen listede mi? Kaydır 👉\nDarıca, İzmit, Kandıra, Kartepe, Gölcük, Gebze, Dilovası ve Karamürsel'de SEDAŞ'ın planlı çalışmaları var; tüm mahalleler ve saatler karelerde.\nListede mahallesi olan birine gönder.\n\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nKaynak: SEDAŞ planlı kesinti listesi, Kocaeli Kent Gazetesi\n\n#kocaeli #kocaeliradar #elektrikkesintisi #darıca",
+        "alt_texts": [
+          "Kocaeli 23 Kasım 2026 elektrik kesintisi: 8 ilçede planlı kesinti; en uzun İzmit, Kandıra ve Darıca'da 8 saat (09.00-17.00).",
+          "Kocaeli 23 Kasım 2026 elektrik kesintisi: özet: Darıca 11 mahalle 09.00-17.00, İzmit 10 mahalle 09.00-17.00, Kandıra 13 mahalle 09.00-17.00, Kartepe 11 mahalle 09.00-16.00, Gölcük 7 mahalle 09.00-17.00, Gebze 1 mahalle 08.30-15.30, Dilovası 2 mahalle 09.00-17.00, Karamürsel 2 mahalle 09.00-17.00.",
+          "Kocaeli 23 Kasım 2026 elektrik kesintisi: Darıca Abdi İpekçi, Kazımkarabekir, Sırasöğütler 09.00-12.00; Yeni 09.00-13.00; Kazımkarabekir, Nenehatun 09.00-17.00; Abdi İpekçi, Balçık, Kazımkarabekir, Pelitli, Tavşanlı 12.00-15.00; Balçık, Fevziçakmak, Kazımkarabekir, Piri Reis, Sultan Orhan 13.00-15.00; Kazımkarabekir 15.00-17.00. İzmit Bögürgen, Çağırgan, Geredeli, Hakaniye 09.00-17.00.",
+          "Kocaeli 23 Kasım 2026 elektrik kesintisi: İzmit Kaynarca, Kulmahmut, Süverler, Tahtalı, Yenişehir, Gökçeören 09.00-17.00. Kandıra Antaplı, Balaban, Beylerbeyi, Çerçili, Merkez Erikli 09.00-17.00; Beyce, Eğercili, Gebeşler, Hacışeyh, Hüdaverdiler, Karadivan, Kubuzcu, Sepetçi 09.00-15.30.",
+          "Kocaeli 23 Kasım 2026 elektrik kesintisi: Kartepe Eşme, Uzuntarla 09.00-12.00; Bayraktar, Karaabdülbaki, Ketenciler, Uzunbey, Uzuntarla 09.00-13.00; İbrikdere, Maşukiye, Uzuntarla, Havluburun, Acısu, Derbent 13.00-16.00. Gölcük Şehitler, Yeni 09.00-10.30; Düzağaç, İpek Yolu, Şirinköy, Yeni 11.00-13.00; Piyalepaşa, Şehitler 13.00-15.00.",
+          "Kocaeli 23 Kasım 2026 elektrik kesintisi: Gölcük Dumlupınar 15.30-17.00; Gebze Muallimköy 08.30-15.30; Dilovası Çerkeşli, Çerkeşli OSB 09.00-17.00; Karamürsel Ulaşlı, Ulaşlı Yalı 09.00-17.00.",
+          "Kocaeli 23 Kasım 2026 elektrik kesintisi: listeyi mahallesi olan birine gönder, kaydet, Kocaeli Radar'ı takip et. Arıza bildirimi: SEDAŞ 186."
+        ],
+        "story_done": true,
+        "post_done": true,
+        "posted_at": "2026-11-23T08:32:40+03:00",
+        "media_id": "18082980305739180",
+        "story_media_id": "18035377487681294"
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "created_at": "2026-11-25T08:05:00+03:00",
+      "status": "published",
+      "videos": [
+        {
+          "file": "v/2026-11-25-kesinti.mp4",
+          "title": "Darıca'da 10 mahalle: 25 Kasım'da 8 ilçede elektrik kesintisi",
+          "caption": "⚡ Kocaeli elektrik kesintisi 25 Kasım: 8 ilçede, en uzun Gebze, Dilovası, İzmit ve Karamürsel'de 8 saat\nSEDAŞ'ın planlı çalışmaları nedeniyle bugün Darıca, Gebze, Dilovası, İzmit, Karamürsel, Derince, Başiskele ve Kandıra'da kesinti var.\nDarıca'da 10 mahallede çalışma: Nenehatun ve Kazımkarabekir'in bazı sokaklarında 09.30-17.00, Cami Mahallesi'nde 09.00-16.00. Gebze Muallimköy ve Dilovası Demirciler'de 09.00-17.00.\n\nTüm mahalle listesi profilimizde (kaydırmalı liste).\nListede mahallesi olan birine gönder.\n\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nGörseller temsilidir.\nKaynak: SEDAŞ planlı kesinti listesi, Kocaeli Kent Gazetesi\n\n#kocaeli #kocaeliradar #elektrikkesintisi #darıca",
+          "voice": "emre",
+          "sim": true,
+          "story_done": true,
+          "reel_done": true,
+          "posted_at": "2026-11-25T08:05:00+03:00",
+          "story_media_id": "18147937669593338",
+          "reel_media_id": "18146448163718326"
+        },
+        {
+          "file": "v/2026-11-25-korfez-golcuk-spor-tesisi.mp4",
+          "title": "Körfez'e 1.000 kişilik kapalı spor salonu: inşaat yüzde 48'de",
+          "caption": "🏟️ Körfez'e 1.000 kişilik kapalı spor salonu: inşaat yüzde 48'de\nKörfez Güney Mahallesi'ndeki 12 bin m² kapalı spor kompleksinde fiziki ilerleme %48'e ulaştı. Tesiste hentbol, basketbol ve voleybola uygun 1.061 m² saha, 1.000 kişilik tribün, 5 antrenman salonu ve 125 araçlık otopark olacak (Büyükşehir, Spor Toto ve Körfez Belediyesi iş birliği).\nGölcük'te de 5.400 m² kapalı spor salonu ile 25 metre, 5 kulvarlı yarı olimpik kapalı havuz yapılıyor; havuzun çatısı tamamlandı.\n\nÇocuğunuzu hangi branşa yazdırmak isterdiniz?\nKaynak: İHA (Habertürk Yerel), 24 Kasım 2026\n\n#kocaeli #kocaeliradar #kocaelibüyükşehir #kocaelihaber #körfez",
+          "voice": "aylin",
+          "sim": false,
+          "story_done": true,
+          "reel_done": true,
+          "posted_at": "2026-11-25T15:34:40+03:00",
+          "story_media_id": "17919319710504732",
+          "reel_media_id": "18075106781781316"
+        }
+      ],
+      "carousel": {
+        "dir": "c/2026-11-25-elektrik",
+        "slides": [
+          "c/2026-11-25-elektrik/01.jpg",
+          "c/2026-11-25-elektrik/02.jpg",
+          "c/2026-11-25-elektrik/03.jpg",
+          "c/2026-11-25-elektrik/04.jpg",
+          "c/2026-11-25-elektrik/05.jpg",
+          "c/2026-11-25-elektrik/06.jpg"
+        ],
+        "caption": "⚡ Kocaeli elektrik kesintisi 25 Kasım: 8 ilçede, en uzun Gebze, Dilovası, İzmit ve Karamürsel'de 8 saat\nMahallen listede mi? Kaydır 👉\nDarıca 10, Kandıra 12, İzmit 5, Karamürsel 4, Derince 3, Başiskele 3 mahalle; Gebze Muallimköy ve Dilovası Demirciler.\n\nListede mahallesi olan birine gönder.\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nKaynak: SEDAŞ planlı kesinti listesi, Kocaeli Kent Gazetesi\n\n#kocaeli #kocaeliradar #elektrikkesintisi #darıca",
+        "alt_texts": [
+          "Kocaeli 25 Kasım 2026 elektrik kesintisi: 8 ilçe (Darıca, Kandıra, İzmit, Karamürsel, Derince, Başiskele, Gebze, Dilovası); Darıca'da 10 mahalle, en uzun 8 saat (09.00-17.00).",
+          "Kocaeli 25 Kasım 2026 elektrik kesintisi özeti: Darıca 10 mahalle 09.00-17.00, Kandıra 12 mahalle 09.00-14.30, İzmit 5 mahalle 09.00-17.00, Karamürsel 4 mahalle 09.00-17.00, Derince 3 mahalle 09.00-17.00, Başiskele 3 mahalle 09.00-16.00, Gebze Muallimköy 09.00-17.00, Dilovası Demirciler 09.00-17.00.",
+          "Kocaeli 25 Kasım 2026 elektrik kesintisi: Darıca Kazımkarabekir, Nenehatun 09.30-17.00; Cami 09.00-16.00; Nenehatun 09.00-13.00; Kazımkarabekir, Nenehatun 09.00-11.00; Bağlarbaşı, Balçık, Cami, Cumhuriyet, Pelitli, Tepecik 12.00-14.00; Bayramoğlu, Piri Reis 13.00-16.00. Kandıra Babaköy, Kefken, Kerpe, Kıncıllı, Kurtyeri 09.00-12.00; Çakırcaali 09.30-12.30.",
+          "Kocaeli 25 Kasım 2026 elektrik kesintisi: Kandıra Kaymaz Erikli, Kırkarmut, Sarıahmetler, Sarıcaali, Sinanlıbilalli, Topluca 13.30-14.30. İzmit Bulduk, Çağırgan, Fethiye, Tahtalı, Kulmahmut 09.00-17.00. Karamürsel İnebeyli, Dereköy, Oluklu, Ovacık 09.00-17.00. Derince Çınarlı 09.00-10.00.",
+          "Kocaeli 25 Kasım 2026 elektrik kesintisi: Derince Fatih Sultan 10.30-13.30, İbnisina 14.00-17.00. Başiskele Barbaros, Körfez, Sahil 09.00-16.00. Gebze Muallimköy 09.00-17.00. Dilovası Demirciler 09.00-17.00.",
+          "Kocaeli 25 Kasım 2026 elektrik kesintisi: kaydet, gönder, takip et. Arıza bildirimi SEDAŞ 186."
+        ],
+        "story_done": true,
+        "post_done": true,
+        "posted_at": "2026-11-25T08:36:00+03:00",
+        "media_id": "18101984996413731",
+        "story_media_id": "18019965152781205"
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "created_at": "2026-11-26T08:05:00+03:00",
+      "status": "scheduled",
+      "videos": [
+        {
+          "file": "v/2026-11-26-kesinti.mp4",
+          "title": "Sabah 9'dan akşam 5'e: Darıca, Çayırova ve Gebze'de elektrik kesintisi",
+          "caption": "⚡ Kocaeli elektrik kesintisi 26 Kasım: 6 ilçede, Darıca, Çayırova ve Gebze'de sabah 9'dan akşam 5'e\nSEDAŞ'ın planlı çalışmaları nedeniyle bugün Darıca, Çayırova, Gebze, İzmit, Kandıra ve Derince'de kesinti var.\nDarıca'da 10 mahallede çalışma: Cami, Kazımkarabekir, Nenehatun ve Piri Reis'in bazı sokaklarında 09.00-17.00. Çayırova Atatürk ve Yeni mahalleleri ile Gebze Balçık'ta da 09.00-17.00.\n\nTüm mahalle listesi profilimizde (kaydırmalı liste).\nListede mahallesi olan birine gönder.\n\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nGörseller temsilidir.\nKaynak: SEDAŞ planlı kesinti listesi, Özgün Kocaeli\n\n#kocaeli #kocaeliradar #elektrikkesintisi #darıca",
+          "voice": "aylin",
+          "sim": true,
+          "story_done": true,
+          "reel_done": true,
+          "posted_at": "2026-11-26T08:07:00+03:00",
+          "story_media_id": "18130752089303160",
+          "reel_media_id": "18151058143563287"
+        },
+        {
+          "file": "v/2026-11-26-motorin-indirim.mp4",
+          "title": "Kocaeli'de motorine 4,32 TL indirim: litresi ortalama 84,88 TL",
+          "caption": "⛽ Kocaeli'de motorine 4,32 TL indirim: litresi ortalama 84,88 TL\nMotorine gece yarısı litrede 4,32 TL indirim geldi; Kocaeli'de ortalama motorin fiyatı 84,88 TL oldu. 20 Kasım'daki 6,58 TL'lik indirimle birlikte motorin bir haftada 10,90 TL ucuzladı; 50 litrelik depo 545 TL daha az.\nBenzin Kocaeli'de ortalama 68,85 TL; benzinde de indirim bekleniyor ancak henüz kesinleşmedi. Fiyatlar firmaya ve istasyona göre değişebilir.\n\nDepoyu bugün mü dolduracaksınız, benzin indirimini mi bekleyeceksiniz?\nKaynak: sondakika.com; Kocaeli ortalaması isinolsa.com (26 Kasım 07:03)\n\n#kocaeli #kocaeliradar #ekonomi #kocaeliesnaf #izmit",
+          "voice": "emre",
+          "sim": false,
+          "story_done": true,
+          "reel_done": true,
+          "posted_at": "2026-11-26T12:34:31+03:00",
+          "story_media_id": "18142584370628072",
+          "reel_media_id": "17969249574233022"
+        },
+        {
+          "file": "v/2026-11-26-izmit-otobus-guzergah.mp4",
+          "title": "İzmit'te yarın 9 otobüs hattının güzergahı değişiyor",
+          "caption": "🚌 İzmit'te yarın 9 otobüs hattının güzergahı değişiyor\nKadıköy Mahallesi'ndeki üstyapı çalışması nedeniyle Esendal Sokak 27 Kasım Cuma 09.30-23.00 arasında araç trafiğine kapalı.\n16, 33, 115, 115Ç, 126, 145, KM29, KM31 ve KM34 numaralı hatlar bu saatlerde Bağdat Caddesi – Gazanfer Bilge Sokak üzerinden gidecek.\n\nBu hatları kullanan birine gönder.\nGörseller temsilidir.\nKaynak: Kocaeli Büyükşehir Belediyesi (Mavi Kocaeli, 25 Kasım 2026)\n\n#kocaeli #kocaeliradar #kocaelitrafik #kocaelibüyükşehir #izmit",
+          "voice": "aylin",
+          "sim": true,
+          "story_done": false,
+          "reel_done": false,
+          "posted_at": null
+        }
+      ],
+      "carousel": {
+        "dir": "c/2026-11-26-elektrik",
+        "slides": [
+          "c/2026-11-26-elektrik/01.jpg",
+          "c/2026-11-26-elektrik/02.jpg",
+          "c/2026-11-26-elektrik/03.jpg",
+          "c/2026-11-26-elektrik/04.jpg",
+          "c/2026-11-26-elektrik/05.jpg",
+          "c/2026-11-26-elektrik/06.jpg"
+        ],
+        "caption": "⚡ Kocaeli elektrik kesintisi 26 Kasım: 6 ilçede, Darıca, Çayırova ve Gebze'de 09.00-17.00\nMahallen listede mi? Kaydır 👉\nDarıca 10, İzmit 10, Kandıra 11, Çayırova 2, Derince 2 mahalle ve Gebze Balçık.\n\nListede mahallesi olan birine gönder.\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nKaynak: SEDAŞ planlı kesinti listesi, Özgün Kocaeli\n\n#kocaeli #kocaeliradar #elektrikkesintisi #darıca",
+        "alt_texts": [
+          "Kocaeli 26 Kasım 2026 elektrik kesintisi: 6 ilçe (Darıca, İzmit, Kandıra, Çayırova, Gebze, Derince); Darıca, Çayırova ve Gebze'de 09.00-17.00.",
+          "Kocaeli 26 Kasım 2026 elektrik kesintisi özeti: Darıca 10 mahalle 09.00-17.00, İzmit 10 mahalle 09.00-17.00, Kandıra 11 mahalle 09.00-17.00, Çayırova 2 mahalle 09.00-17.00, Gebze 1 mahalle 09.00-17.00, Derince 2 mahalle 13.00-17.15.",
+          "Kocaeli 26 Kasım 2026 elektrik kesintisi: Darıca Cami, Kazımkarabekir, Nenehatun, Piri Reis 09.00-17.00; Balçık, Beylikbağı, Cumhuriyet, Emek, Mimar Sinan 09.00-12.00; Nenehatun 09.00-11.00; Sırasöğütler 12.00-14.00. İzmit Ağaçağıl, Çakmaklar, Çalca, Çavuşlu 09.00-17.00.",
+          "Kocaeli 26 Kasım 2026 elektrik kesintisi: İzmit Tahtalı, Tatarahmet 09.00-17.00; Yenişehir 09.00-13.00; Doğan, Kuruçeşme Fatih, Yeni 09.00-12.30. Kandıra Akdurak 09.00-17.00; Bağlıca, Düğmeciler, Hıdırlar, Kaymaz, Ömerli, Selimköy 10.00-17.00; Akçaova, Akıncı, Selametli, Teksen 09.00-16.00.",
+          "Kocaeli 26 Kasım 2026 elektrik kesintisi: Çayırova Atatürk, Yeni 09.00-17.00. Gebze Balçık 09.00-17.00. Derince Fatih Sultan 13.00-15.45, Yavuz Sultan 16.15-17.15.",
+          "Kocaeli 26 Kasım 2026 elektrik kesintisi: gönder, kaydet, takip et. Arıza bildirimi SEDAŞ 186."
+        ],
+        "story_done": true,
+        "post_done": true,
+        "posted_at": "2026-11-26T08:39:00+03:00",
+        "media_id": "18439881964182396",
+        "story_media_id": "18132579649865765"
+      }
     }
-   ]
-  },
-  {
-   "date": "2026-11-19",
-   "created_at": "2026-11-19T08:16:00+03:00",
-   "status": "published",
-   "videos": [
-    {
-     "file": "v/2026-11-19-firtina-uyarisi.mp4",
-     "title": "Kocaeli'de bugün fırtına: rüzgâr 75 km'ye çıkabilir",
-     "caption": "🌬️ Kocaeli fırtına uyarısı: bugün rüzgâr saatte 75 km'ye çıkabilir\nKocaeli Valiliği, Meteoroloji'nin değerlendirmesine göre fırtınanın 19 Kasım sabahından itibaren etkili olacağını duyurdu. Batı ve kuzeybatıdan esecek rüzgârın saatte 50-75 km'ye ulaşması, akşam saatlerinden itibaren etkisini yitirmesi bekleniyor.\nMeteoroloji Kocaeli dahil 9 ile sarı kodlu uyarı verdi. Özellikle deniz ulaşımında aksamalar yaşanabilir; İzmit, Gölcük ve Karamürsel'de yola çıkmadan seferleri kontrol edin.\nBugün feribot ya da deniz yolu kullanacak birine gönder.\nGörseller temsilidir.\nKaynak: Kocaeli Valiliği, AA, Mavi Kocaeli, Özgün Kocaeli\n#kocaeli #kocaeliradar #havadurumu #kocaelihavadurumu #izmit",
-     "voice": "aylin",
-     "sim": true,
-     "story_done": true,
-     "reel_done": true,
-     "posted_at": "2026-11-19T08:09:44+03:00",
-     "story_media_id": "18149591065570747",
-     "reel_media_id": "18126219622989764"
-    },
-    {
-     "file": "v/2026-11-19-elektrik-8-saat.mp4",
-     "title": "Derince, Dilovası, Çayırova ve Kandıra'da 8 saatlik elektrik kesintisi",
-     "caption": "⚡ Kocaeli elektrik kesintisi: Dilovası'nda 6 mahallede 8 saat elektrik yok\nBugün 09.00-17.00 arası Derince'de Çenedağ ve Çınarlı, Dilovası'nda Kargalı, Tepecik, Yağcılar, Ahatlı, Duraklı ve Hatipler, Çayırova'da Atatürk ve Yeni, Kandıra'da Çalköy'ün bazı adreslerinde planlı kesinti var.\nGebze Yenikent'te 09.00-16.00 arası, Darıca'da Nenehatun, Sırasöğütler, İstasyon ve Kazımkarabekir'de daha kısa kesintiler planlandı. Arıza bildirimi için SEDAŞ 186.\nMahallenizde elektrik kesik mi? Bu listeyi etkilenen birine gönder.\nGörseller temsilidir.\nKaynak: SEDAŞ listesi, Kocaeli Kent Gazetesi, Özgün Kocaeli\n#kocaeli #kocaeliradar #elektrikkesintisi #dilovası",
-     "voice": "emre",
-     "sim": true,
-     "story_done": true,
-     "reel_done": true,
-     "posted_at": "2026-11-19T12:33:50+03:00",
-     "story_media_id": "18436092802150563",
-     "reel_media_id": "17934673518164013"
-    },
-    {
-     "file": "v/2026-11-19-servis-denetimi.mp4",
-     "title": "Kocaeli'de 6.380 servis denetlendi, 1.799'una işlem",
-     "caption": "🚐 Kocaeli servis denetimi: 6.380 araç denetlendi, 1.799'una işlem yapıldı\nKocaeli Büyükşehir Belediyesi Toplu Taşıma Şube Müdürlüğü ekipleri kent genelinde 6 bin 380 servis aracını denetledi; evrak eksiği bulunan 1.799 araç ve sürücüsü hakkında işlem yapıldı.\nAraçların teknik donanımı, fiziki durumu ve sürücülerin belgeleri incelendi; özellikle öğrenci taşımacılığında güvenliğe dikkat çekildi.\nÇocuğunuzun servisinin belgelerini kontrol ettiniz mi? Bu haberi servis kullanan bir veliye gönder.\nKaynak: Kocaeli Büyükşehir Belediyesi, İHA\n#kocaeli #kocaeliradar #kocaelibüyükşehir #kocaelihaber #izmit",
-     "voice": "aylin",
-     "sim": false,
-     "story_done": true,
-     "reel_done": true,
-     "posted_at": "2026-11-19T18:41:38+03:00",
-     "story_media_id": "18088590428319930",
-     "reel_media_id": "18030301862879814"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-20",
-   "created_at": "2026-11-20T07:56:45+03:00",
-   "status": "published",
-   "videos": [],
-   "note": "Speko (TTS) bağlantısı koptuğu için bugün sabah videosu üretilemedi.",
-   "carousel": {
-    "dir": "c/2026-11-20-elektrik",
-    "slides": [
-     "c/2026-11-20-elektrik/01.jpg",
-     "c/2026-11-20-elektrik/02.jpg",
-     "c/2026-11-20-elektrik/03.jpg",
-     "c/2026-11-20-elektrik/04.jpg",
-     "c/2026-11-20-elektrik/05.jpg",
-     "c/2026-11-20-elektrik/06.jpg",
-     "c/2026-11-20-elektrik/07.jpg"
-    ],
-    "caption": "⚡ Kocaeli elektrik kesintisi 20 Kasım: 12 ilçede, en uzun İzmit Kozluca'da 8 saat\nMahallen listede mi? Kaydır 👉\n\nSEDAŞ'ın planlı çalışmaları nedeniyle bugün Kartepe, Gölcük, Körfez, Kandıra, İzmit, Dilovası, Gebze, Karamürsel, Çayırova, Darıca, Başiskele ve Derince'de elektrik kesintisi var. En geniş etkilenen ilçe Kartepe: 9 mahalle, 09.30-18.00 arası.\n\nMahallende kesinti var mı?\nListede mahallesi olan birine gönder.\n\nArıza bildirimi: SEDAŞ 186\nKaynak: SEDAŞ, Kocaeli Kent Gazetesi\n\n#kocaeli #kocaeliradar #elektrikkesintisi #izmit",
-    "alt_texts": [
-     "Kocaeli 20 Kasım 2026 elektrik kesintisi: 12 ilçede planlı kesinti (Kartepe, Gölcük, Körfez, Kandıra, İzmit, Dilovası, Gebze, Karamürsel, Çayırova, Darıca, Başiskele, Derince). En uzun: İzmit Kozluca'da 09.30-17.30, 8 saat.",
-     "Kocaeli 20 Kasım 2026 elektrik kesintisi: ilçe özeti. Kartepe 9 mahalle 09.30-18.00; Gölcük 6 mahalle 09.00-17.00; Körfez 5 mahalle 09.00-17.00; Kandıra 5 mahalle 09.00-17.00; İzmit 4 mahalle 09.00-17.30; Dilovası 4 mahalle 09.00-17.00; Gebze 3 mahalle 08.30-16.00; Karamürsel 3 mahalle 09.00-17.00; Çayırova 2 mahalle 09.00-17.00; Darıca 2 mahalle 12.30-15.30; Başiskele 1 mahalle 09.00-11.00; Derince 1 mahalle 09.00-13.00.",
-     "Kocaeli 20 Kasım 2026 elektrik kesintisi: Kartepe: Havluburun, Uzuntarla 09.30-12.00; Emekevler, Uzuntarla 14.00-17.00; Acısu, Emekevler, Sarımeşe, Suadiye 14.00-16.00; Eşme, Eşmeahmediye, Havluburun, Ketenciler, Uzuntarla 16.00-18.00. Gölcük: Ayvazpınarı, Lütfiye, Mesruriye, Şevketiye 09.00-17.00; Çiftlik 09.00-13.30 ve 14.00-15.30; Değirmendere Merkez 16.00-17.00.",
-     "Kocaeli 20 Kasım 2026 elektrik kesintisi: Körfez: Çıraklı, Cuma, Karayakuplu, Osmanlı, Sevindikli 09.00-17.00. Kandıra: Goncaaydın, Kocakaymas, Topluca 09.00-16.00; Çalca, Selametli 09.00-17.00. İzmit: Kuruçeşme Fatih, Şirintepe 09.00-17.00; Yahyakaptan 09.00-12.00 ve 13.00-17.00; Kozluca 09.30-17.30.",
-     "Kocaeli 20 Kasım 2026 elektrik kesintisi: Dilovası: Ahatlı, Duraklı, Hatipler, Tepemanayır 09.00-17.00. Gebze: Barış 08.30-10.30 ve 10.30-12.30; Yenikent 09.00-16.00; Köşklü Çeşme 09.00-15.00. Karamürsel: Akpınar, Safiye, Suludere 09.00-17.00. Çayırova: Emek, Yavuz Selim 09.00-12.00.",
-     "Kocaeli 20 Kasım 2026 elektrik kesintisi: Çayırova: Emek 09.30-11.00 ve 09.30-17.00. Darıca: Bayramoğlu, Emek 12.30-15.30. Başiskele: Karadenizliler 09.00-11.00. Derince: Yavuz Sultan 09.00-13.00.",
-     "Kocaeli 20 Kasım 2026 elektrik kesintisi: listede mahallesi olan birine gönder, kaydet, takip et. Arıza bildirimi: SEDAŞ 186."
-    ],
-    "story_done": true,
-    "post_done": true,
-    "posted_at": "2026-11-20T07:59:01+03:00",
-    "media_id": "17920011522265836",
-    "story_media_id": "18120879079788489"
-   }
-  },
-  {
-   "date": "2026-11-21",
-   "created_at": "2026-11-21T08:00:06+03:00",
-   "status": "published",
-   "videos": [
-    {
-     "file": "v/2026-11-21-kesinti.mp4",
-     "title": "Gebze'de 8 saat: bugün 10 ilçede elektrik kesintisi",
-     "caption": "⚡ Kocaeli elektrik kesintisi 21 Kasım: 10 ilçede, en uzun Gebze Balçık 8 saat\nSEDAŞ'ın planlı çalışmaları nedeniyle bugün Gebze, İzmit, Körfez, Kandıra, Darıca, Dilovası, Başiskele, Gölcük, Karamürsel ve Kartepe'de kesinti var.\nGebze Balçık ve TOSB'de 10.30-18.30, Darıca Bağlarbaşı ve Cami'de 09.30-17.00, İzmit Bağlıca'da 09.30-17.30.\n\nTüm mahalle listesi profilimizde (kaydırmalı liste).\nListede mahallesi olan birine gönder.\n\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nGörseller temsilidir.\nKaynak: SEDAŞ, Kocaeli Kent Gazetesi\n\n#kocaeli #kocaeliradar #elektrikkesintisi #gebze",
-     "voice": "emre",
-     "sim": true,
-     "story_done": true,
-     "reel_done": true,
-     "posted_at": "2026-11-21T08:02:04+03:00",
-     "media_id": "17908018815352115"
-    },
-    {
-     "file": "v/2026-11-21-akaryakit.mp4",
-     "title": "Kocaeli'de benzin 68,80 TL'ye indi: 2 günde 2 indirim",
-     "caption": "⛽ Kocaeli'de benzin 68,80 TL'ye indi: 2 günde 2 indirim\nBenzine gece yarısı yaklaşık 2,90 TL indirim geldi; Kocaeli ortalamasında litresi 71,70 TL'den 68,80 TL'ye düştü. Motorine dün 6,58 TL indirim gelmişti, Kocaeli'de motorin 89,20 TL.\nFiyatlar ortalamadır, istasyona göre değişebilir.\n\nBu haberi araç kullanan birine gönder.\n\nKaynak: Kocaeli Kent Gazetesi, Gençgazete, Kayseri Haber\n\n#kocaeli #kocaeliradar #ekonomi #kocaeliesnaf #izmit",
-     "voice": "aylin",
-     "sim": false,
-     "story_done": true,
-     "reel_done": true,
-     "posted_at": "2026-11-21T12:35:19+03:00",
-     "story_media_id": "18470933992191839",
-     "reel_media_id": "18102032471387984"
-    },
-    {
-     "file": "v/2026-11-21-kocaelispor-fb.mp4",
-     "title": "Kocaelispor - Fenerbahçe bu akşam: iki takım da 19 puan",
-     "caption": "⚽ Kocaelispor - Fenerbahçe bu akşam 19.00'da: iki takım da 19 puan\nSüper Lig'in 12. haftasında Kocaelispor, Fenerbahçe'yi Kocaeli Stadı'nda ağırlıyor. Kocaelispor 7., Fenerbahçe 6. sırada; iki takım da 11 maçta 6 galibiyet aldı.\nMaç beIN Sports 1'den canlı yayınlanacak.\n\nSkor tahminin ne? Yorumlara yaz.\n\nKaynak: Sporx, Kocaeli Kent Gazetesi\n\n#kocaeli #kocaeliradar #kocaelispor #izmit",
-     "voice": "emre",
-     "sim": false,
-     "story_done": true,
-     "reel_done": true,
-     "posted_at": "2026-11-21T15:33:56+03:00",
-     "story_media_id": "18145371298611716",
-     "reel_media_id": "18210083008373398"
-    }
-   ],
-   "carousel": {
-    "dir": "c/2026-11-21-elektrik",
-    "slides": [
-     "c/2026-11-21-elektrik/01.jpg",
-     "c/2026-11-21-elektrik/02.jpg",
-     "c/2026-11-21-elektrik/03.jpg",
-     "c/2026-11-21-elektrik/04.jpg",
-     "c/2026-11-21-elektrik/05.jpg",
-     "c/2026-11-21-elektrik/06.jpg",
-     "c/2026-11-21-elektrik/07.jpg"
-    ],
-    "caption": "⚡ Kocaeli elektrik kesintisi 21 Kasım: 10 ilçede, en uzun Gebze Balçık 8 saat\nMahallen listede mi? Kaydır 👉\n\nSEDAŞ'ın planlı çalışmaları nedeniyle bugün Gebze, İzmit, Körfez, Kandıra, Darıca, Dilovası, Başiskele, Gölcük, Karamürsel ve Kartepe'de elektrik kesintisi var. Gebze Balçık ve TOSB'de 10.30-18.30, İzmit Bağlıca'da 09.30-17.30.\n\nMahallende kesinti var mı?\nListede mahallesi olan birine gönder.\n\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir. Arıza bildirimi: SEDAŞ 186\nKaynak: SEDAŞ, Kocaeli Kent Gazetesi\n\n#kocaeli #kocaeliradar #elektrikkesintisi #izmit",
-    "alt_texts": [
-     "Kocaeli 21 Kasım 2026 elektrik kesintisi: 10 ilçede planlı kesinti (Gebze, İzmit, Körfez, Kandıra, Darıca, Dilovası, Başiskele, Gölcük, Karamürsel, Kartepe). En uzun: Gebze Balçık ve TOSB 10.30-18.30, 8 saat.",
-     "Kocaeli 21 Kasım 2026 elektrik kesintisi: ilçe özeti. Gebze 6 mahalle 09.30-18.30; İzmit 6 mahalle 09.00-17.30; Körfez 6 mahalle 09.00-17.00; Kandıra 6 mahalle 09.00-17.00; Darıca 2 mahalle 09.30-17.00; Dilovası 3 mahalle 09.00-17.00; Başiskele 4 mahalle 00.30-15.00; Gölcük 2 mahalle 09.00-17.00; Karamürsel 2 mahalle 10.00-12.00; Kartepe 1 mahalle 09.00-17.00.",
-     "Kocaeli 21 Kasım 2026 elektrik kesintisi: Gebze Beylikbağı, İstasyon 09.30-14.00; Balçık, TOSB 10.30-18.30; Adem Yavuz, Cumhuriyet 14.30-16.00. İzmit Ovacık 09.00-16.00; Yenişehir 09.00-15.00 ve 09.00-17.00; Bağlıca 09.30-17.30; Kozluk, Turgut 12.15-13.45; Alikahya Fatih 14.30-17.00.",
-     "Kocaeli 21 Kasım 2026 elektrik kesintisi: Körfez Şirinyalı 09.00-17.00; Kışladüzü 09.00-17.00; Alihocalar, Cuma, Dikenli, Karagöllü 09.00-15.00. Kandıra Akçabeyli, Arıfağa, Emekevler, Karaağaç, Pınardüzü 09.00-17.00; Dalca 09.00-13.30. Darıca Bağlarbaşı, Cami 09.30-17.00.",
-     "Kocaeli 21 Kasım 2026 elektrik kesintisi: Dilovası Çerkeşli, Çerkeşli OSB, Demirciler OSB 09.00-17.00. Başiskele Karadenizliler, Vezirçiftliği 00.30-04.00; Karadenizliler, Ovacık 09.00-15.00; Kullar Merkez, Ovacık 09.00-15.00. Gölcük Yazlık Yeni, Yeniköy Merkez 09.00-17.00. Karamürsel Kadriye, Tahtalı 10.00-12.00.",
-     "Kocaeli 21 Kasım 2026 elektrik kesintisi: Kartepe Uzuntarla 09.00-17.00.",
-     "Kocaeli 21 Kasım 2026 elektrik kesintisi: listeyi kaydet, mahallesi listede olan birine gönder. Arıza bildirimi SEDAŞ 186."
-    ],
-    "story_done": true,
-    "post_done": true,
-    "posted_at": "2026-11-21T08:34:11+03:00",
-    "media_id": "17960341749274239"
-   }
-  },
-  {
-   "date": "2026-11-22",
-   "created_at": "2026-11-22T08:22:00+03:00",
-   "status": "published",
-   "videos": [
-    {
-     "file": "v/2026-11-22-kesinti.mp4",
-     "title": "Gebze ve Kandıra'da 8 saat: 22 Kasım'da 4 ilçede elektrik kesintisi",
-     "caption": "⚡ Kocaeli elektrik kesintisi 22 Kasım: 4 ilçede, en uzun Gebze ve Kandıra 8 saat\nSEDAŞ'ın planlı çalışmaları nedeniyle bugün Gebze, Kandıra, İzmit ve Dilovası'nda kesinti var.\nGebze Barış, İstasyon, Kazımkarabekir ve Tatlıkuyu'da 09.00-17.00, Tavşanlı'da 10.00-17.30; Kandıra Aydınlık, Çarşı ve Orhan'da 09.00-17.00.\n\nTüm mahalle listesi profilimizde (kaydırmalı liste).\nListede mahallesi olan birine gönder.\n\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nGörseller temsilidir.\nKaynak: SEDAŞ, Özgün Kocaeli\n\n#kocaeli #kocaeliradar #elektrikkesintisi #gebze",
-     "voice": "aylin",
-     "sim": true,
-     "story_done": true,
-     "reel_done": true,
-     "posted_at": "2026-11-22T08:08:21+03:00",
-     "story_media_id": "18062169467645997",
-     "reel_media_id": "17941514223121978"
-    },
-    {
-     "file": "v/2026-11-22-okullar-aciliyor.mp4",
-     "title": "Kocaeli'de yarın okul var: ara tatil bitti, ders başı 23 Kasım",
-     "caption": "🎒 Kocaeli'de yarın okul var: ara tatil bitti, ders başı 23 Kasım Pazartesi\nTürkiye genelinde yaklaşık 17 milyon öğrencinin 9 günlük ara tatili bugün sona eriyor. Birinci dönem 22 Ocak'ta bitiyor; yarıyıl tatili 25 Ocak-5 Şubat 2027, ikinci dönem ara tatili 8-12 Mart 2027.\n\nOkula giden çocuğu olan birine gönder.\n\nKaynak: AA/NTV, Milli Gazete (MEB 2026-2027 takvimi)\n\n#kocaeli #kocaeliradar #kocaelihaber #aratatil #izmit",
-     "voice": "emre",
-     "sim": false,
-     "story_done": true,
-     "reel_done": true,
-     "posted_at": "2026-11-22T12:34:36+03:00",
-     "story_media_id": "18130653248477245",
-     "reel_media_id": "17968082988208089"
-    },
-    {
-     "file": "v/2026-11-22-hava-soguyor.mp4",
-     "title": "Kocaeli'de pazartesi 23, çarşamba 10 derece: 2 günde 13 derece düşüş",
-     "caption": "🌧️ Kocaeli'de pazartesi 23, çarşamba 10 derece: sıcaklık 2 günde 13 derece düşüyor\nMGM tahminine göre yarın (pazartesi) gök gürültülü sağanak var, en yüksek 23 derece. Salı yağmur sürüyor ve en yüksek sıcaklık 13 dereceye iniyor. Çarşamba parçalı bulutlu; en düşük 5, en yüksek 10 derece.\n\nMontları çıkarma vakti: sabah erken çıkan birine gönder.\n\nGörseller temsilidir.\nKaynak: MGM (Özgün Kocaeli, Darıca Gazetesi)\n\n#kocaeli #kocaeliradar #havadurumu #kocaelihavadurumu #izmit",
-     "voice": "aylin",
-     "sim": true,
-     "story_done": true,
-     "reel_done": true,
-     "posted_at": "2026-11-22T15:37:11+03:00",
-     "story_media_id": "17980116233929208",
-     "reel_media_id": "17990314821088966"
-    }
-   ],
-   "carousel": {
-    "dir": "c/2026-11-22-elektrik",
-    "slides": [
-     "c/2026-11-22-elektrik/01.jpg",
-     "c/2026-11-22-elektrik/02.jpg",
-     "c/2026-11-22-elektrik/03.jpg",
-     "c/2026-11-22-elektrik/04.jpg",
-     "c/2026-11-22-elektrik/05.jpg"
-    ],
-    "caption": "⚡ Kocaeli elektrik kesintisi 22 Kasım: 4 ilçede, en uzun Gebze ve Kandıra 8 saat\nMahallen listede mi? Kaydır 👉\n\nSEDAŞ'ın planlı çalışmaları nedeniyle bugün Gebze, Kandıra, İzmit ve Dilovası'nda elektrik kesintisi var. Gebze Barış, İstasyon, Kazımkarabekir ve Tatlıkuyu'da 09.00-17.00, Tavşanlı'da 10.00-17.30.\n\nMahallende kesinti var mı?\nListede mahallesi olan birine gönder.\n\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir. Arıza bildirimi: SEDAŞ 186\nKaynak: SEDAŞ, Özgün Kocaeli\n\n#kocaeli #kocaeliradar #elektrikkesintisi #kandıra",
-    "alt_texts": [
-     "Kocaeli 22 Kasım 2026 elektrik kesintisi: 4 ilçede planlı kesinti (Gebze, Kandıra, İzmit, Dilovası). En uzun: Gebze ve Kandıra'da 8 saat.",
-     "Kocaeli 22 Kasım 2026 elektrik kesintisi: ilçe özeti. Gebze 5 mahalle 09.00-17.30; Kandıra 3 mahalle 09.00-17.00; İzmit 3 mahalle 09.00-14.00; Dilovası 2 mahalle 09.00-15.00.",
-     "Kocaeli 22 Kasım 2026 elektrik kesintisi: Gebze Barış, İstasyon, Kazımkarabekir, Tatlıkuyu 09.00-17.00; Tavşanlı 10.00-17.30. Kandıra Aydınlık, Çarşı, Orhan 09.00-17.00. İzmit Körfez, Sanayi 09.00-14.00.",
-     "Kocaeli 22 Kasım 2026 elektrik kesintisi: İzmit Sanayi 09.00-13.00; Kuğu Sokak çevresi 10.00-12.00. Dilovası Organize Bölge 09.00-11.00; Köseler, Organize Bölge 11.00-15.00.",
-     "Kocaeli 22 Kasım 2026 elektrik kesintisi: listeyi mahallesi olan birine gönder, kaydet, Kocaeli Radar'ı takip et. Arıza bildirimi: SEDAŞ 186."
-    ],
-    "story_done": true,
-    "post_done": true,
-    "posted_at": "2026-11-22T08:40:42+03:00",
-    "media_id": "18350569270248806",
-    "story_media_id": "18040509770659117"
-   }
-  },
-  {
-   "date": "2026-11-23",
-   "created_at": "2026-11-23T08:00:58+03:00",
-   "status": "published",
-   "videos": [
-    {
-     "file": "v/2026-11-23-kesinti.mp4",
-     "title": "Darıca, İzmit ve Kandıra'da 8 saat: 23 Kasım'da 8 ilçede elektrik kesintisi",
-     "caption": "⚡ Kocaeli elektrik kesintisi 23 Kasım: 8 ilçede, en uzun İzmit, Kandıra ve Darıca 8 saat\nSEDAŞ'ın planlı çalışmaları nedeniyle bugün Darıca, Gebze, İzmit, Kandıra, Kartepe, Gölcük, Dilovası ve Karamürsel'de kesinti var.\nDarıca Nenehatun ve Kazımkarabekir'de 09.00-17.00; İzmit Yenişehir ve Kaynarca, Süverler gibi köy mahallelerinde 09.00-17.00; Kandıra'da 13 mahallede çalışma var. Gebze'de Muallimköy 08.30-15.30.\n\nTüm mahalle listesi profilimizde (kaydırmalı liste).\nListede mahallesi olan birine gönder.\n\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nGörseller temsilidir.\nKaynak: SEDAŞ planlı kesinti listesi, Kocaeli Kent Gazetesi\n\n#kocaeli #kocaeliradar #elektrikkesintisi #darıca",
-     "voice": "aylin",
-     "sim": true,
-     "story_done": true,
-     "reel_done": true,
-     "posted_at": "2026-11-23T08:02:30+03:00",
-     "story_media_id": "18419755606083626",
-     "reel_media_id": "17957933394280586"
-    },
-    {
-     "file": "v/2026-11-23-sari-kod.mp4",
-     "title": "Kocaeli'ye sarı kod: öğleden sonra kuvvetli sağanak, rüzgar yer yer 90 km/sa",
-     "caption": "🌧️ Kocaeli'ye sarı kod: öğleden sonra kuvvetli sağanak, rüzgar yer yer 90 km/sa\nMeteoroloji, Kocaeli'yi bugün (23 Kasım) sarı kodlu uyarı verilen 22 il arasına aldı. Valiliğe göre güney ve güneybatıdan esen rüzgar saatte 50-70, yer yer 80-90 km'ye ulaşabilir; öğleden sonra metrekareye 21-50 kg yağış bekleniyor.\nÇatı uçması, ağaç ve direk devrilmesi, ani sel ve soba/doğalgaz kaynaklı baca gazına dikkat. Acil durumda 112.\n\nBu uyarıyı akşam yola çıkacak birine gönder.\nGörseller temsilidir.\nKaynak: MGM (TRT Haber, Habertürk), Kocaeli Valiliği\n\n#kocaeli #kocaeliradar #havadurumu #kocaelihavadurumu #izmit",
-     "voice": "aylin",
-     "sim": true,
-     "story_done": true,
-     "reel_done": true,
-     "posted_at": "2026-11-23T12:34:02+03:00"
-    },
-    {
-     "file": "v/2026-11-23-tapu-guvenli-odeme.mp4",
-     "title": "1 Aralık'tan itibaren tapuda güvenli ödeme zorunlu",
-     "caption": "🏠 1 Aralık'tan itibaren tapuda yeni dönem: ev, arsa ve iş yeri satışında güvenli ödeme zorunlu\nTicaret Bakanlığı düzenlemesiyle satış bedeli, tapu devri tamamlanana kadar güvenli hesapta tutulacak; devir olunca satıcıya geçecek, satış olmazsa alıcıya iade edilecek.\nNakit, havale ve EFT ile yapılan ödemeler kapsamda. Hizmet bedelinin tutarı henüz açıklanmadı.\n\nYakında ev ya da arsa alıp satacak birine gönder.\nKaynak: Karar, Milli Gazete (Ticaret Bakanlığı düzenlemesi)\n\n#kocaeli #kocaeliradar #ekonomi #kocaeliesnaf #izmit",
-     "voice": "emre",
-     "sim": false,
-     "story_done": true,
-     "reel_done": true,
-     "posted_at": "2026-11-23T15:34:17+03:00",
-     "story_media_id": "17923393101242079",
-     "reel_media_id": "17964721329224150"
-    }
-   ],
-   "carousel": {
-    "dir": "c/2026-11-23-elektrik",
-    "slides": [
-     "c/2026-11-23-elektrik/01.jpg",
-     "c/2026-11-23-elektrik/02.jpg",
-     "c/2026-11-23-elektrik/03.jpg",
-     "c/2026-11-23-elektrik/04.jpg",
-     "c/2026-11-23-elektrik/05.jpg",
-     "c/2026-11-23-elektrik/06.jpg",
-     "c/2026-11-23-elektrik/07.jpg"
-    ],
-    "caption": "⚡ Kocaeli elektrik kesintisi 23 Kasım: 8 ilçede, en uzun İzmit, Kandıra ve Darıca 8 saat\nMahallen listede mi? Kaydır 👉\nDarıca, İzmit, Kandıra, Kartepe, Gölcük, Gebze, Dilovası ve Karamürsel'de SEDAŞ'ın planlı çalışmaları var; tüm mahalleler ve saatler karelerde.\nListede mahallesi olan birine gönder.\n\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nKaynak: SEDAŞ planlı kesinti listesi, Kocaeli Kent Gazetesi\n\n#kocaeli #kocaeliradar #elektrikkesintisi #darıca",
-    "alt_texts": [
-     "Kocaeli 23 Kasım 2026 elektrik kesintisi: 8 ilçede planlı kesinti; en uzun İzmit, Kandıra ve Darıca'da 8 saat (09.00-17.00).",
-     "Kocaeli 23 Kasım 2026 elektrik kesintisi: özet: Darıca 11 mahalle 09.00-17.00, İzmit 10 mahalle 09.00-17.00, Kandıra 13 mahalle 09.00-17.00, Kartepe 11 mahalle 09.00-16.00, Gölcük 7 mahalle 09.00-17.00, Gebze 1 mahalle 08.30-15.30, Dilovası 2 mahalle 09.00-17.00, Karamürsel 2 mahalle 09.00-17.00.",
-     "Kocaeli 23 Kasım 2026 elektrik kesintisi: Darıca Abdi İpekçi, Kazımkarabekir, Sırasöğütler 09.00-12.00; Yeni 09.00-13.00; Kazımkarabekir, Nenehatun 09.00-17.00; Abdi İpekçi, Balçık, Kazımkarabekir, Pelitli, Tavşanlı 12.00-15.00; Balçık, Fevziçakmak, Kazımkarabekir, Piri Reis, Sultan Orhan 13.00-15.00; Kazımkarabekir 15.00-17.00. İzmit Bögürgen, Çağırgan, Geredeli, Hakaniye 09.00-17.00.",
-     "Kocaeli 23 Kasım 2026 elektrik kesintisi: İzmit Kaynarca, Kulmahmut, Süverler, Tahtalı, Yenişehir, Gökçeören 09.00-17.00. Kandıra Antaplı, Balaban, Beylerbeyi, Çerçili, Merkez Erikli 09.00-17.00; Beyce, Eğercili, Gebeşler, Hacışeyh, Hüdaverdiler, Karadivan, Kubuzcu, Sepetçi 09.00-15.30.",
-     "Kocaeli 23 Kasım 2026 elektrik kesintisi: Kartepe Eşme, Uzuntarla 09.00-12.00; Bayraktar, Karaabdülbaki, Ketenciler, Uzunbey, Uzuntarla 09.00-13.00; İbrikdere, Maşukiye, Uzuntarla, Havluburun, Acısu, Derbent 13.00-16.00. Gölcük Şehitler, Yeni 09.00-10.30; Düzağaç, İpek Yolu, Şirinköy, Yeni 11.00-13.00; Piyalepaşa, Şehitler 13.00-15.00.",
-     "Kocaeli 23 Kasım 2026 elektrik kesintisi: Gölcük Dumlupınar 15.30-17.00; Gebze Muallimköy 08.30-15.30; Dilovası Çerkeşli, Çerkeşli OSB 09.00-17.00; Karamürsel Ulaşlı, Ulaşlı Yalı 09.00-17.00.",
-     "Kocaeli 23 Kasım 2026 elektrik kesintisi: listeyi mahallesi olan birine gönder, kaydet, Kocaeli Radar'ı takip et. Arıza bildirimi: SEDAŞ 186."
-    ],
-    "story_done": true,
-    "post_done": true,
-    "posted_at": "2026-11-23T08:32:40+03:00",
-    "media_id": "18082980305739180",
-    "story_media_id": "18035377487681294"
-   }
-  },
-  {
-   "date": "2026-11-25",
-   "created_at": "2026-11-25T08:05:00+03:00",
-   "status": "published",
-   "videos": [
-    {
-     "file": "v/2026-11-25-kesinti.mp4",
-     "title": "Darıca'da 10 mahalle: 25 Kasım'da 8 ilçede elektrik kesintisi",
-     "caption": "⚡ Kocaeli elektrik kesintisi 25 Kasım: 8 ilçede, en uzun Gebze, Dilovası, İzmit ve Karamürsel'de 8 saat\nSEDAŞ'ın planlı çalışmaları nedeniyle bugün Darıca, Gebze, Dilovası, İzmit, Karamürsel, Derince, Başiskele ve Kandıra'da kesinti var.\nDarıca'da 10 mahallede çalışma: Nenehatun ve Kazımkarabekir'in bazı sokaklarında 09.30-17.00, Cami Mahallesi'nde 09.00-16.00. Gebze Muallimköy ve Dilovası Demirciler'de 09.00-17.00.\n\nTüm mahalle listesi profilimizde (kaydırmalı liste).\nListede mahallesi olan birine gönder.\n\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nGörseller temsilidir.\nKaynak: SEDAŞ planlı kesinti listesi, Kocaeli Kent Gazetesi\n\n#kocaeli #kocaeliradar #elektrikkesintisi #darıca",
-     "voice": "emre",
-     "sim": true,
-     "story_done": true,
-     "reel_done": true,
-     "posted_at": "2026-11-25T08:05:00+03:00",
-     "story_media_id": "18147937669593338",
-     "reel_media_id": "18146448163718326"
-    },
-    {
-     "file": "v/2026-11-25-korfez-golcuk-spor-tesisi.mp4",
-     "title": "Körfez'e 1.000 kişilik kapalı spor salonu: inşaat yüzde 48'de",
-     "caption": "🏟️ Körfez'e 1.000 kişilik kapalı spor salonu: inşaat yüzde 48'de\nKörfez Güney Mahallesi'ndeki 12 bin m² kapalı spor kompleksinde fiziki ilerleme %48'e ulaştı. Tesiste hentbol, basketbol ve voleybola uygun 1.061 m² saha, 1.000 kişilik tribün, 5 antrenman salonu ve 125 araçlık otopark olacak (Büyükşehir, Spor Toto ve Körfez Belediyesi iş birliği).\nGölcük'te de 5.400 m² kapalı spor salonu ile 25 metre, 5 kulvarlı yarı olimpik kapalı havuz yapılıyor; havuzun çatısı tamamlandı.\n\nÇocuğunuzu hangi branşa yazdırmak isterdiniz?\nKaynak: İHA (Habertürk Yerel), 24 Kasım 2026\n\n#kocaeli #kocaeliradar #kocaelibüyükşehir #kocaelihaber #körfez",
-     "voice": "aylin",
-     "sim": false,
-     "story_done": true,
-     "reel_done": true,
-     "posted_at": "2026-11-25T15:34:40+03:00",
-     "story_media_id": "17919319710504732",
-     "reel_media_id": "18075106781781316"
-    }
-   ],
-   "carousel": {
-    "dir": "c/2026-11-25-elektrik",
-    "slides": [
-     "c/2026-11-25-elektrik/01.jpg",
-     "c/2026-11-25-elektrik/02.jpg",
-     "c/2026-11-25-elektrik/03.jpg",
-     "c/2026-11-25-elektrik/04.jpg",
-     "c/2026-11-25-elektrik/05.jpg",
-     "c/2026-11-25-elektrik/06.jpg"
-    ],
-    "caption": "⚡ Kocaeli elektrik kesintisi 25 Kasım: 8 ilçede, en uzun Gebze, Dilovası, İzmit ve Karamürsel'de 8 saat\nMahallen listede mi? Kaydır 👉\nDarıca 10, Kandıra 12, İzmit 5, Karamürsel 4, Derince 3, Başiskele 3 mahalle; Gebze Muallimköy ve Dilovası Demirciler.\n\nListede mahallesi olan birine gönder.\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nKaynak: SEDAŞ planlı kesinti listesi, Kocaeli Kent Gazetesi\n\n#kocaeli #kocaeliradar #elektrikkesintisi #darıca",
-    "alt_texts": [
-     "Kocaeli 25 Kasım 2026 elektrik kesintisi: 8 ilçe (Darıca, Kandıra, İzmit, Karamürsel, Derince, Başiskele, Gebze, Dilovası); Darıca'da 10 mahalle, en uzun 8 saat (09.00-17.00).",
-     "Kocaeli 25 Kasım 2026 elektrik kesintisi özeti: Darıca 10 mahalle 09.00-17.00, Kandıra 12 mahalle 09.00-14.30, İzmit 5 mahalle 09.00-17.00, Karamürsel 4 mahalle 09.00-17.00, Derince 3 mahalle 09.00-17.00, Başiskele 3 mahalle 09.00-16.00, Gebze Muallimköy 09.00-17.00, Dilovası Demirciler 09.00-17.00.",
-     "Kocaeli 25 Kasım 2026 elektrik kesintisi: Darıca Kazımkarabekir, Nenehatun 09.30-17.00; Cami 09.00-16.00; Nenehatun 09.00-13.00; Kazımkarabekir, Nenehatun 09.00-11.00; Bağlarbaşı, Balçık, Cami, Cumhuriyet, Pelitli, Tepecik 12.00-14.00; Bayramoğlu, Piri Reis 13.00-16.00. Kandıra Babaköy, Kefken, Kerpe, Kıncıllı, Kurtyeri 09.00-12.00; Çakırcaali 09.30-12.30.",
-     "Kocaeli 25 Kasım 2026 elektrik kesintisi: Kandıra Kaymaz Erikli, Kırkarmut, Sarıahmetler, Sarıcaali, Sinanlıbilalli, Topluca 13.30-14.30. İzmit Bulduk, Çağırgan, Fethiye, Tahtalı, Kulmahmut 09.00-17.00. Karamürsel İnebeyli, Dereköy, Oluklu, Ovacık 09.00-17.00. Derince Çınarlı 09.00-10.00.",
-     "Kocaeli 25 Kasım 2026 elektrik kesintisi: Derince Fatih Sultan 10.30-13.30, İbnisina 14.00-17.00. Başiskele Barbaros, Körfez, Sahil 09.00-16.00. Gebze Muallimköy 09.00-17.00. Dilovası Demirciler 09.00-17.00.",
-     "Kocaeli 25 Kasım 2026 elektrik kesintisi: kaydet, gönder, takip et. Arıza bildirimi SEDAŞ 186."
-    ],
-    "story_done": true,
-    "post_done": true,
-    "posted_at": "2026-11-25T08:36:00+03:00",
-    "media_id": "18101984996413731",
-    "story_media_id": "18019965152781205"
-   }
-  },
-  {
-   "date": "2026-11-26",
-   "created_at": "2026-11-26T08:05:00+03:00",
-   "status": "scheduled",
-   "videos": [
-    {
-     "file": "v/2026-11-26-kesinti.mp4",
-     "title": "Sabah 9'dan akşam 5'e: Darıca, Çayırova ve Gebze'de elektrik kesintisi",
-     "caption": "⚡ Kocaeli elektrik kesintisi 26 Kasım: 6 ilçede, Darıca, Çayırova ve Gebze'de sabah 9'dan akşam 5'e\nSEDAŞ'ın planlı çalışmaları nedeniyle bugün Darıca, Çayırova, Gebze, İzmit, Kandıra ve Derince'de kesinti var.\nDarıca'da 10 mahallede çalışma: Cami, Kazımkarabekir, Nenehatun ve Piri Reis'in bazı sokaklarında 09.00-17.00. Çayırova Atatürk ve Yeni mahalleleri ile Gebze Balçık'ta da 09.00-17.00.\n\nTüm mahalle listesi profilimizde (kaydırmalı liste).\nListede mahallesi olan birine gönder.\n\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nGörseller temsilidir.\nKaynak: SEDAŞ planlı kesinti listesi, Özgün Kocaeli\n\n#kocaeli #kocaeliradar #elektrikkesintisi #darıca",
-     "voice": "aylin",
-     "sim": true,
-     "story_done": true,
-     "reel_done": true,
-     "posted_at": "2026-11-26T08:07:00+03:00",
-     "story_media_id": "18130752089303160",
-     "reel_media_id": "18151058143563287"
-    },
-    {
-     "file": "v/2026-11-26-motorin-indirim.mp4",
-     "title": "Kocaeli'de motorine 4,32 TL indirim: litresi ortalama 84,88 TL",
-     "caption": "⛽ Kocaeli'de motorine 4,32 TL indirim: litresi ortalama 84,88 TL\nMotorine gece yarısı litrede 4,32 TL indirim geldi; Kocaeli'de ortalama motorin fiyatı 84,88 TL oldu. 20 Kasım'daki 6,58 TL'lik indirimle birlikte motorin bir haftada 10,90 TL ucuzladı; 50 litrelik depo 545 TL daha az.\nBenzin Kocaeli'de ortalama 68,85 TL; benzinde de indirim bekleniyor ancak henüz kesinleşmedi. Fiyatlar firmaya ve istasyona göre değişebilir.\n\nDepoyu bugün mü dolduracaksınız, benzin indirimini mi bekleyeceksiniz?\nKaynak: sondakika.com; Kocaeli ortalaması isinolsa.com (26 Kasım 07:03)\n\n#kocaeli #kocaeliradar #ekonomi #kocaeliesnaf #izmit",
-     "voice": "emre",
-     "sim": false,
-     "story_done": false,
-     "reel_done": false,
-     "posted_at": null
-    },
-    {
-     "file": "v/2026-11-26-izmit-otobus-guzergah.mp4",
-     "title": "İzmit'te yarın 9 otobüs hattının güzergahı değişiyor",
-     "caption": "🚌 İzmit'te yarın 9 otobüs hattının güzergahı değişiyor\nKadıköy Mahallesi'ndeki üstyapı çalışması nedeniyle Esendal Sokak 27 Kasım Cuma 09.30-23.00 arasında araç trafiğine kapalı.\n16, 33, 115, 115Ç, 126, 145, KM29, KM31 ve KM34 numaralı hatlar bu saatlerde Bağdat Caddesi – Gazanfer Bilge Sokak üzerinden gidecek.\n\nBu hatları kullanan birine gönder.\nGörseller temsilidir.\nKaynak: Kocaeli Büyükşehir Belediyesi (Mavi Kocaeli, 25 Kasım 2026)\n\n#kocaeli #kocaeliradar #kocaelitrafik #kocaelibüyükşehir #izmit",
-     "voice": "aylin",
-     "sim": true,
-     "story_done": false,
-     "reel_done": false,
-     "posted_at": null
-    }
-   ],
-   "carousel": {
-    "dir": "c/2026-11-26-elektrik",
-    "slides": [
-     "c/2026-11-26-elektrik/01.jpg",
-     "c/2026-11-26-elektrik/02.jpg",
-     "c/2026-11-26-elektrik/03.jpg",
-     "c/2026-11-26-elektrik/04.jpg",
-     "c/2026-11-26-elektrik/05.jpg",
-     "c/2026-11-26-elektrik/06.jpg"
-    ],
-    "caption": "⚡ Kocaeli elektrik kesintisi 26 Kasım: 6 ilçede, Darıca, Çayırova ve Gebze'de 09.00-17.00\nMahallen listede mi? Kaydır 👉\nDarıca 10, İzmit 10, Kandıra 11, Çayırova 2, Derince 2 mahalle ve Gebze Balçık.\n\nListede mahallesi olan birine gönder.\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nKaynak: SEDAŞ planlı kesinti listesi, Özgün Kocaeli\n\n#kocaeli #kocaeliradar #elektrikkesintisi #darıca",
-    "alt_texts": [
-     "Kocaeli 26 Kasım 2026 elektrik kesintisi: 6 ilçe (Darıca, İzmit, Kandıra, Çayırova, Gebze, Derince); Darıca, Çayırova ve Gebze'de 09.00-17.00.",
-     "Kocaeli 26 Kasım 2026 elektrik kesintisi özeti: Darıca 10 mahalle 09.00-17.00, İzmit 10 mahalle 09.00-17.00, Kandıra 11 mahalle 09.00-17.00, Çayırova 2 mahalle 09.00-17.00, Gebze 1 mahalle 09.00-17.00, Derince 2 mahalle 13.00-17.15.",
-     "Kocaeli 26 Kasım 2026 elektrik kesintisi: Darıca Cami, Kazımkarabekir, Nenehatun, Piri Reis 09.00-17.00; Balçık, Beylikbağı, Cumhuriyet, Emek, Mimar Sinan 09.00-12.00; Nenehatun 09.00-11.00; Sırasöğütler 12.00-14.00. İzmit Ağaçağıl, Çakmaklar, Çalca, Çavuşlu 09.00-17.00.",
-     "Kocaeli 26 Kasım 2026 elektrik kesintisi: İzmit Tahtalı, Tatarahmet 09.00-17.00; Yenişehir 09.00-13.00; Doğan, Kuruçeşme Fatih, Yeni 09.00-12.30. Kandıra Akdurak 09.00-17.00; Bağlıca, Düğmeciler, Hıdırlar, Kaymaz, Ömerli, Selimköy 10.00-17.00; Akçaova, Akıncı, Selametli, Teksen 09.00-16.00.",
-     "Kocaeli 26 Kasım 2026 elektrik kesintisi: Çayırova Atatürk, Yeni 09.00-17.00. Gebze Balçık 09.00-17.00. Derince Fatih Sultan 13.00-15.45, Yavuz Sultan 16.15-17.15.",
-     "Kocaeli 26 Kasım 2026 elektrik kesintisi: gönder, kaydet, takip et. Arıza bildirimi SEDAŞ 186."
-    ],
-    "story_done": true,
-    "post_done": true,
-    "posted_at": "2026-11-26T08:39:00+03:00",
-    "media_id": "18439881964182396",
-    "story_media_id": "18132579649865765"
-   }
-  }
- ]
+  ]
 }
