@@ -423,10 +423,11 @@
      "Kocaeli 26 Kasım 2026 elektrik kesintisi: Çayırova Atatürk, Yeni 09.00-17.00. Gebze Balçık 09.00-17.00. Derince Fatih Sultan 13.00-15.45, Yavuz Sultan 16.15-17.15.",
      "Kocaeli 26 Kasım 2026 elektrik kesintisi: gönder, kaydet, takip et. Arıza bildirimi SEDAŞ 186."
     ],
-    "story_done": false,
-    "post_done": false,
-    "posted_at": null,
-    "media_id": null
+    "story_done": true,
+    "post_done": true,
+    "posted_at": "2026-11-26T08:39:00+03:00",
+    "media_id": "18439881964182396",
+    "story_media_id": "18132579649865765"
    }
   }
  ]
