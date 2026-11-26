@@ -8,6 +8,13 @@ Kullanım (her seslendirme cümlesi için, audio_synthesize'dan ÖNCE):
     python3 tools/tr_numbers.py "Gebze'de D-100'de kaza: 19 yaralı"
     -> Gebze'de D yüz'de kaza: on dokuz yaralı
 Altyazı (narr) metninde rakamlar kalır; yalnızca TTS metni çevrilir.
+
+Ses seçimi (ay adı telaffuzu sese göre değişir): --ses emre|aylin
+    python3 tools/tr_numbers.py --ses aylin "26 Kasım"
+Verilmezse RADAR_CITY'ye göre state/voice.json (veya <şehir>/state/voice.json) "next" sesi kullanılır
+(görevler seslendirme sırasında "next" sesiyle konuşur, next'i video bitince günceller).
+"Kasım": Emre'de "Kâsım" (kullanıcı 25.11.2026 örnek 2), Aylin'de olduğu gibi "Kasım"
+(kullanıcı 26.11.2026: Aylin'de Kâsım yanlış okunuyordu, örnek 1 seçildi).
 """
 import re
 import sys
@@ -81,7 +88,19 @@ def _ondalik(tam, kesir):
 NUM = r"\d{1,3}(?:\.\d{3})+|\d+"  # 1.250.000 veya 1250
 
 
-def tts_text(s):
+def _aktif_ses():
+    import json, os
+    city = os.environ.get("RADAR_CITY", "").strip()
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    yol = os.path.join(root, city, "state", "voice.json") if city and city != "kocaeli" else os.path.join(root, "state", "voice.json")
+    try:
+        return json.load(open(yol)).get("next", "emre")
+    except Exception:
+        return "emre"
+
+
+def tts_text(s, ses=None):
+    ses = (ses or _aktif_ses()).lower()
     # para: 71,60 TL / 4.780 TL / 50 lira
     def para(m):
         tam, kesir = m.group(1), m.group(2)
@@ -103,9 +122,13 @@ def tts_text(s):
     # binlik ayraçlı ve düz tam sayılar (ek korunur: 100'de -> yüz'de)
     s = re.sub(rf"\b({NUM})\b(?:['’](?=\w))?", lambda m: sayi(_int(m.group(1))), s)
     # ay adı telaffuzu (kullanıcı 25.11.2026: "Kasım" yapay okunuyordu; Emre örnek 2 seçildi): Kasım -> Kâsım
-    s = re.sub(r"\bKasım(?=\b|['’])", "Kâsım", s)
-    s = re.sub(r"\bKASIM\b", "Kâsım", s)
-    s = re.sub(r"\bkasım(?=\b|['’])", "kâsım", s)
+    # Aylin'de düz "Kasım" doğru okunuyor (kullanıcı 26.11.2026, örnek 1); yalnızca büyük harf yazım düzeltilir
+    if ses == "aylin":
+        s = re.sub(r"\bKASIM\b", "Kasım", s)
+    else:
+        s = re.sub(r"\bKasım(?=\b|['’])", "Kâsım", s)
+        s = re.sub(r"\bKASIM\b", "Kâsım", s)
+        s = re.sub(r"\bkasım(?=\b|['’])", "kâsım", s)
     # birimler
     s = re.sub(r"\bkm\b", "kilometre", s)
     s = re.sub(r"\bkg/m²|\bkg/m2\b|\bkg\b", "kilogram", s)
@@ -115,4 +138,8 @@ def tts_text(s):
 
 
 if __name__ == "__main__":
-    print(tts_text(" ".join(sys.argv[1:]) if len(sys.argv) > 1 else sys.stdin.read()))
+    args = sys.argv[1:]
+    ses = None
+    if len(args) >= 2 and args[0] == "--ses":
+        ses, args = args[1], args[2:]
+    print(tts_text(" ".join(args) if args else sys.stdin.read(), ses))
