@@ -1,571 +1,578 @@
 {
- "covered": [
-  {
-   "date": "2026-11-16",
-   "topic": "16 Kasım planlı elektrik kesintisi (10 ilçe)"
-  },
-  {
-   "date": "2026-11-16",
-   "topic": "16 Kasım İzmit akaryakıt fiyatları"
-  },
-  {
-   "date": "2026-11-16",
-   "topic": "COP31 yeşil lojistik / Tepecik Lojistik Köyü"
-  },
-  {
-   "date": "2026-11-16",
-   "time": "14:50",
-   "topic": "Kocaeli Valiliği kuvvetli sağanak/sel uyarısı (16 Kasım gece - 17 Kasım öğle, 21-50 kg/m²)",
-   "level": "A"
-  },
-  {
-   "date": "2026-11-16",
-   "time": "19:45",
-   "topic": "Gebze D-100 Feniş Kavşağı minibüs-otomobil kazası, 19 yaralı",
-   "level": "A"
-  },
-  {
-   "date": "2026-11-17",
-   "topic": "17 Kasım planlı elektrik kesintisi (SEDAŞ, 8 saat)",
-   "reel_posted_at": "2026-11-17T08:15:02+03:00"
-  },
-  {
-   "date": "2026-11-17",
-   "topic": "Darıca İstasyon Cad. altyapı: 26 otobüs hattı güzergâh değişikliği (18-19 Kasım)"
-  },
-  {
-   "date": "2026-11-17",
-   "topic": "Kocaelispor-Fenerbahçe 12. hafta (21 Kasım) maç önü"
-  },
-  {
-   "date": "2026-11-17",
-   "time": "15:45",
-   "topic": "MGM sarı kodlu rüzgar/fırtına uyarısı Kocaeli (18 Kasım 00.00 - 19 Kasım 13.00, güneyli 60-80 km/s)",
-   "level": "B",
-   "voice": "emre",
-   "sim": true,
-   "reel_posted_at": "2026-11-17T15:41:34+03:00",
-   "story_media_id": "18030562565699388",
-   "reel_media_id": "17937680184413119"
-  },
-  {
-   "date": "2026-11-18",
-   "topic": "18 Kasım planlı elektrik kesintisi (7 ilçe, 8 saate kadar)",
-   "reel_posted_at": "2026-11-18T08:09:26+03:00"
-  },
-  {
-   "date": "2026-11-18",
-   "topic": "Kocaeli baraj doluluk 17 Kasım (Yuvacık %78, Namazgah %53, İhsaniye %83)",
-   "reel_posted_at": "2026-11-18T12:34:37+03:00"
-  },
-  {
-   "date": "2026-11-19",
-   "topic": "Kocaeli Valiliği fırtına uyarısı 19 Kasım (sabah-akşam, batı/kuzeybatı 50-75 km/s, deniz ulaşımı aksayabilir; MGM 9 ile sarı kod)",
-   "reel_posted_at": "2026-11-19T08:09:44+03:00"
-  },
-  {
-   "date": "2026-11-19",
-   "topic": "19 Kasım planlı elektrik kesintisi (Derince, Dilovası, Çayırova, Kandıra 8 saat; Gebze, Darıca)"
-  },
-  {
-   "date": "2026-11-19",
-   "topic": "Kocaeli Büyükşehir servis denetimi: 6.380 araç, 1.799 işlem (18 Kasım açıklaması)"
-  },
-  {
-   "date": "2026-11-19",
-   "time": "17:36",
-   "topic": "MGM sarı kodlu rüzgar/fırtına uyarısı 20 Kasım Cuma 03.00-13.00 (güney yönlü 50-70, hamle 80 km/s; İzmit, Gebze, Derince, Körfez, Kandıra)",
-   "level": "B",
-   "voice": "emre",
-   "sim": true,
-   "reel_posted_at": "2026-11-19T17:39:11+03:00",
-   "story_media_id": "17993323473081640",
-   "reel_media_id": "17953130502056151"
-  },
-  {
-   "date": "2026-11-20",
-   "topic": "20 Kasım planlı elektrik kesintisi (SEDAŞ, 12 ilçe; en uzun İzmit Kozluca 8 saat) — karusel"
-  },
-  {
-   "date": "2026-11-20",
-   "time": "14:10",
-   "topic": "Kocaeli Valiliği kuvvetli sağanak uyarısı 20 Kasım öğleden sonra (21-45 kg/m²; sel, su baskını, yıldırım, dolu, ulaşımda aksama)",
-   "level": "A",
-   "voice": "aylin",
-   "sim": true,
-   "reel_posted_at": "2026-11-20T14:07:10+03:00",
-   "story_media_id": "18469287196189703",
-   "reel_media_id": "17949454182358304"
-  },
-  {
-   "date": "2026-11-21",
-   "topic": "21 Kasım planlı elektrik kesintisi (SEDAŞ, 10 ilçe; en uzun Gebze Balçık/TOSB 10.30-18.30, 8 saat) — kesinti Reels + karusel",
-   "voice": "emre",
-   "sim": true,
-   "reel_posted_at": "2026-11-21T08:02:04+03:00"
-  },
-  {
-   "date": "2026-11-21",
-   "topic": "Benzine ~2,90 TL indirim (21 Kasım), Kocaeli benzin 68,80, motorin 89,20 (20 Kasım 6,58 TL indirim)",
-   "reel_posted_at": "2026-11-21T12:35:19+03:00"
-  },
-  {
-   "date": "2026-11-21",
-   "topic": "Kocaelispor-Fenerbahçe 12. hafta maç günü (19.00, Kocaeli Stadı, ikisi de 19 puan)"
-  },
-  {
-   "date": "2026-11-21",
-   "time": "11:32",
-   "topic": "Kocaeli pazarda sağanak/dolu/yıldırım (İHA), valilik 21-45 kg/m² uyarısını yineledi (20 Kasım uyarısıyla aynı) — yaralı/hasar yok, video yapılmadı"
-  },
-  {
-   "date": "2026-11-21",
-   "time": "13:38",
-   "topic": "Gölcük Değirmendere'de sağanak su baskını: rögarlar taştı, araçlar suda mahsur kaldı (DHA/haberler.com 13:12) — yaralı yok, yerel; B eşiği altında, video yapılmadı"
-  },
-  {
-   "date": "2026-11-21",
-   "time": "14:35",
-   "topic": "Başiskele Doğantepe'de yine su baskını (Kocaeli Gazetesi) + Kartepe teleferik seferleri durdu (Özgür Kocaeli) — sağanak kaynaklı yerel etkiler, ölü/yaralı bildirimi yok, turuncu/kırmızı kod yok; B eşiği altında, video yapılmadı"
-  },
-  {
-   "date": "2026-11-21",
-   "time": "15:35",
-   "topic": "Ford Otosan (Gölcük/Yeniköy) fabrikasında iş kazası: lojistik işçisi forkliftin altında kaldı, 1 işçi yaralandı (Kocaeli Gazetesi, Çağdaş Kocaeli, Özgün Kocaeli) — tek yaralı, A/B eşiği altında, video yapılmadı"
-  },
-  {
-   "date": "2026-11-21",
-   "time": "17:35",
-   "topic": "Anadolu Otoyolu Ankara yönü 14 araçlı zincirleme kaza, 15 yaralı (NTV/DHA, Star/AA, Özgün Kocaeli 15:05) — kaza Sakarya Sapanca Yenimahalle mevkisinde, Kocaeli dışında; video yapılmadı"
-  },
-  {
-   "date": "2026-11-21",
-   "time": "17:35",
-   "topic": "Başiskele Helikon Sanat Derneği/sanat merkezinde yangın, çatı çöktü (Kocaeli Gazetesi, Nokta, Kocaeli TV) — 'facianın eşiğinden dönüldü', can kaybı/yaralı bildirimi yok, sanayi değil; A/B eşiği altında, video yapılmadı"
-  },
-  {
-   "date": "2026-11-21",
-   "time": "21:40",
-   "topic": "Kocaelispor 2-2 Fenerbahçe (Süper Lig 12. hafta, Kocaeli Stadı; FB 61' öne geçti, Kocaelispor penaltı + 76' ile 2-1, FB 90+3' kafa golüyle 2-2; ikisi de 20 puan) — Sözcü, Fanatik",
-   "level": "B",
-   "voice": "aylin",
-   "sim": false,
-   "file": "v/2026-11-21-sondakika-kocaelispor-fb-2-2.mp4",
-   "reel_posted_at": "2026-11-21T21:38:05+03:00",
-   "story_media_id": "18135715618889997",
-   "reel_media_id": "18378490483212161"
-  },
-  {
-   "date": "2026-11-22",
-   "topic": "22 Kasım planlı elektrik kesintisi (SEDAŞ, 4 ilçe: Gebze, Kandıra, İzmit, Dilovası; en uzun Gebze Barış/İstasyon/Kazımkarabekir/Tatlıkuyu ve Kandıra 09.00-17.00) — kesinti Reels + karusel",
-   "voice": "aylin",
-   "sim": true,
-   "reel_posted_at": "2026-11-22T08:08:21+03:00",
-   "file": "v/2026-11-22-kesinti.mp4"
-  },
-  {
-   "date": "2026-11-22",
-   "topic": "Kasım ara tatili bitti, okullar 23 Kasım Pazartesi açılıyor (yarıyıl 25 Ocak-5 Şubat 2027, 2. ara tatil 8-12 Mart 2027)",
-   "voice": "emre"
-  },
-  {
-   "date": "2026-11-22",
-   "topic": "Kocaeli'de sıcaklık düşüşü (MGM 5 günlük: Pzt 23 Kasım sağanak 11/23, Salı yağmur 12/13, Çarşamba parçalı bulutlu 5/10)",
-   "voice": "aylin",
-   "sim": true
-  },
-  {
-   "date": "2026-11-22",
-   "time": "15:37",
-   "topic": "Valilik yerel kuvvetli yağış/sel uyarısı (21-45 kg/m2) + Gölcük Değirmendere'de sağanakla araçlar su altında (sondakika.com 11:52-13:14) — renk kodu yok, can kaybı/yaralı yok; Kocaeli MGM sarı listede değil (Hürriyet). 0c bu saat paylaştı, A eşiği altında; video yapılmadı"
-  },
-  {
-   "date": "2026-11-22",
-   "time": "16:35",
-   "topic": "'5 katlı binada yangın: 1 ölü 7 yaralı' (seskocaeli asayiş) — olay İstanbul Küçükçekmece, Kocaeli değil; Kocaeli'deki benzer haber Gebze çatı yangını 11.11 (Hürses/AA). Yeni A/B olayı yok, video yapılmadı"
-  },
-  {
-   "date": "2026-11-22",
-   "time": "17:35",
-   "topic": "Tarama: yeni A/B olayı yok (kocaelikoz 'Sürücüler dikkat: peş peşe uyarılar' = valilik yağış uyarısıyla aynı konu, zaten kayıtlı; istekocaeli 'yangında 1 kişi can verdi' tarihsiz/okunamadı, eski haber izlenimi). Takipçi 825 (<1000). Video yapılmadı"
-  },
-  {
-   "date": "2026-11-22",
-   "time": "18:45",
-   "topic": "Kocaeli Valiliği 23 Kasım Pazartesi fırtına (güney/güneybatı 50-70, yer yer 80-90 km/sa, sabahtan itibaren) + öğleden sonra yerel kuvvetli sağanak (21-50 kg/m²) uyarısı; renk kodu yok — Özgün Kocaeli 16:27, Gölcük Postası 16:54",
-   "level": "B",
-   "voice": "emre",
-   "sim": true,
-   "file": "v/2026-11-22-sondakika-firtina-uyarisi.mp4",
-   "reel_posted_at": "2026-11-22T18:38:47+03:00",
-   "story_media_id": "18127309303715418",
-   "reel_media_id": "18122990356991878"
-  },
-  {
-   "date": "2026-11-22",
-   "time": "19:32",
-   "topic": "Tarama: yeni A/B olayı yok (fırtına/yağış uyarısı zaten kayıtlı; 23 Kasım için valilik okul tatili kararı yok, okullar açılıyor; Gebze bıçaklama ve Gölcük kayıp yaşlı adam A/B değil). 0d: son Reels 18:38, 60 dk dolmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-22",
-   "time": "20:35",
-   "topic": "Tarama: yeni A/B olayı yok (Gebze baba bıçaklama tutuklama, Kocaelispor 2-2 FB, valilik fırtına/yağış uyarısı zaten kayıtlı; deprem/büyük kaza/yangın yok). Takipçi 825 (<1000). Video yapılmadı"
-  },
-  {
-   "date": "2026-11-22",
-   "time": "21:35",
-   "topic": "Tarama: yeni A/B olayı yok (sondakika.com/kocaeli 21:33: İzmit park/cami tehdit gözaltıları, Gebze bıçaklama tutuklama, Kandıra enduro; Marmara'da deprem yok; enkocaeli 'İzmit 6 araç' tarihsiz/okunamadı). Takipçi 825 (<1000). 0c: bugünkü batch zaten tamamlanmış. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-22",
-   "time": "22:35",
-   "topic": "Tarama: yeni A/B olayı yok (aramalarda yalnızca önceden kayıtlı konular: Gebze bıçaklama tutuklama, İzmit park tehdit gözaltı, Kocaelispor 2-2 FB, valilik fırtına/yağış uyarısı; 23 Kasım için okul tatili kararı yok, okullar açılıyor). 0d: saat 22:00 sonrası. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-22",
-   "time": "23:35",
-   "topic": "Tarama: yeni A olayı yok (yalnızca önceden kayıtlı konular: İzmit park tehdit gözaltı, Gebze bıçaklama tutuklama, Kocaelispor 2-2 FB, valilik yağış uyarısı; Marmara'da deprem yok; Gebze minibüs kazası haberi tarihsiz/eski görünüyor). Saat 23:00 sonrası B yok, 0d 22:00 sonrası. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "00:35",
-   "topic": "Tarama (gece, yalnızca A): yeni A olayı yok (yalnızca önceden kayıtlı konular: valilik 23 Kasım fırtına/yağış uyarısı, Kocaelispor 2-2 FB, tarihsiz/eski asayiş haberleri; 23 Kasım planlı elektrik kesintisi sıradan; Marmara'da yeni deprem yok). 0c/0d saat dışı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "01:35",
-   "topic": "Tarama (gece, yalnızca A): yeni A olayı yok (sondakika.com/kocaeli en yeni 22.11 20:53: önceden kayıtlı asayiş haberleri; tekkocaeli 'deprem oldu' 08.08 Sındırgı, eski; istekocaeli yangın/korku haberleri okunamadı, tarihsiz; Marmara'da yeni deprem haberi yok). 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "02:35",
-   "topic": "Tarama (gece, yalnızca A): yeni A olayı yok (yalnızca kayıtlı konular: valilik 23 Kasım fırtına/sağanak uyarısı, 23 Kasım planlı elektrik kesintisi 8 ilçe (sıradan), Gebze bıçaklama tutuklama, İzmit cami tehdit gözaltı; Marmara'da yeni deprem haberi yok). 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "03:35",
-   "topic": "Tarama (gece, yalnızca A): yeni A olayı yok (sondakika.com/kocaeli en yeni 22.11 20:53: kayıtlı asayiş haberleri; demokratkocaeli '8 ilçe flaş uyarı' = kayıtlı planlı elektrik kesintisi/valilik uyarısı, okunamadı; istekocaeli yangın haberi tarihsiz/okunamadı; Marmara'da yeni deprem haberi yok). 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "04:35",
-   "topic": "Tarama (gece, yalnızca A): yeni A olayı yok (sondakika.com/kocaeli-izmit en yeni 22.11 13:41: kayıtlı İzmit park tehdit haberleri; sabah son depremler Kocaeli kayıt yok; valilik 23 Kasım fırtına/sağanak uyarısı kayıtlı, okul tatili kararı yok, okullar açılıyor). 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "05:35",
-   "topic": "Tarama (gece, yalnızca A): yeni A olayı yok (kayıtlı konular: valilik 23 Kasım fırtına/sağanak uyarısı, okullar açılıyor; enkocaeli 'İzmit 6 araç kaza' yine tarihsiz/okunamadı, can kaybı bilgisi yok; Kocaelispor-Fenerbahçe 2-2 dün akşam; Marmara'da yeni deprem haberi yok). 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "06:35",
-   "topic": "Tarama (gece, yalnızca A): yeni A olayı yok (kayıtlı konular: valilik 23 Kasım fırtına/sağanak uyarısı, 23 Kasım planlı elektrik kesintisi; yeni: Kartepe'ye kar/eksi 5 derece tahmini (A değil); Derince yanan araçta iş insanı ölümü 14.11, eski; enkocaeli 'İzmit 6 araç' tarihsiz; Marmara'da yeni deprem haberi yok). 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "07:35",
-   "topic": "Tarama (08:00 öncesi, yalnızca A): yeni A olayı yok (kayıtlı konular: valilik 23 Kasım fırtına/sağanak uyarısı (renk kodu yok), 8 ilçe planlı elektrik kesintisi, okullar açık; Sözcü 'deniz ile kara birleşti' 22.11 sağanağı, eski; Gebze minibüs 19 yaralı eski; Marmara'da yeni deprem haberi yok). 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "08:25",
-   "topic": "23 Kasım planlı elektrik kesintisi (SEDAŞ, 8 ilçe: Darıca, Gebze, İzmit, Kandıra, Kartepe, Gölcük, Dilovası, Karamürsel; en uzun İzmit/Kandıra/Darıca 09.00-17.00) — kesinti Reels'i 08:02 + karusel"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "08:25",
-   "topic": "MGM 23 Kasım sarı kod (22 il, Kocaeli dahil; kuvvetli yağış ve rüzgar) + valilik 50-70/80-90 km/sa, öğleden sonra 21-50 kg/m² — sabah videosu (12:31 slotu)"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "08:25",
-   "topic": "Tapuda Güvenli Ödeme Sistemi 1 Aralık 2026'da zorunlu (konut, arsa, iş yeri) — sabah videosu (15:31 slotu)"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "08:25",
-   "topic": "24 Kasım Öğretmenler Günü videosu hazırlandı (ozelgun.json, yarın sabah paylaşılacak)"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "08:35",
-   "topic": "Tarama: yeni A/B olayı yok (fırtına/sağanak sarı kod zaten 12:31 sabah videosunda; istekocaeli 'yangında 1 kişi can verdi' ve bugunkocaeli 'Gebze yangın' okunamadı, tarihsiz/eski; Derince'de çocuk ölümü (ozgunkocaeli 00:03, neden belirsiz, A ölçütü değil); Marmara'da yeni deprem haberi yok). 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "09:35",
-   "topic": "Tarama: yeni A/B olayı yok (fırtına 15.00'ten itibaren 90 km/sa + akşam sağanak zaten 12:31 sabah videosunda; Ege Denizi M4.1 02:42, Marmara'da M4+ yok; ozgunkocaeli en yeni 00:03, sondakika.com/kocaeli-izmit 22.11 14:32; istekocaeli okunamadı). 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "10:35",
-   "topic": "Tarama: yeni A/B olayı yok (MGM sarı kod fırtına/sağanak zaten 12:31 sabah videosunda, turuncu/kırmızı yok; Kocaelispor-FB 2-2 kayıtlı; İzmit park tehdit sevk kayıtlı; ozgunkocaeli en yeni 00:03; istekocaeli 'vatandaşlar sokağa döküldü' tarihsiz/okunamadı; Marmara'da M4+ deprem yok). Takipçi 860 (<1000). 0c saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "11:35",
-   "topic": "Tarama: yeni A/B olayı yok (MGM sarı kod fırtına 15.00'ten itibaren zaten 12:31 sabah videosunda; park kavgası/tehdit sevk kayıtlı; habersosyal 'lodos 2 tekne battı' ve duzcedamla 'deprem oldu' okunamadı, tarihsiz (23.11.2022 Düzce yıldönümü olabilir); Milliyet AFAD listesi 09:55: Marmara'da M3.5+ yok, yalnızca Ege M4.2 02:42). Takipçi 860 (<1000). 0c saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "12:35",
-   "topic": "Tarama: yeni A/B olayı yok (MGM/valilik sarı kod fırtına-sağanak kayıtlı, 0c ile 12:34'te paylaşıldı; AKOM 11:19 İstanbul sağanak 15.00; enkocaeli 'İzmit 6 araç' yine tarihsiz; 'iş insanına silahlı saldırı' ve 'fırına el bombası' tarihsiz yan başlık, A ölçütü değil; Marmara'da M4+ deprem yok). 0c: sari-kod hikâye+Reels paylaşıldı; 0d atlandı (0c paylaştı); 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "13:35",
-   "topic": "Tarama: yeni A/B olayı yok (sarı kod fırtına 15.00'ten itibaren kayıtlı, 12:34'te paylaşıldı; haber41 'fırtına vurdu' 08.01.2026 tarihli eski haber; park kavgası/cami saldırısı adliyeye sevk, A/B değil; Fenerbahçe maçı kayıtlı; ozgunkocaeli en yeni 00:03; Marmara'da M4+ deprem yok). 0c/0d saat dışı veya 60 dk kuralı, 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "14:35",
-   "topic": "Tarama: yeni A/B olayı yok (sarı kod fırtına kayıtlı, 12:34'te paylaşıldı; kartepebulteni 'boya fabrikası yangını' 10.07.2026 tarihli eski haber; seskocaeli 'küçük Yasin' okunamadı (Derince çocuk ölümü olabilir, A ölçütü değil); park kavgası adliyeye sevk kayıtlı; Marmara'da M4+ deprem yok). Takipçi 860 (<1000). 0c saat dışı (14:xx), 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "15:35",
-   "topic": "Tarama: yeni A/B olayı yok (sarı kod fırtına kayıtlı, 12:34'te paylaşıldı; bugün fırtına hasarına dair doğrulanmış haber yok; golcukpostasi 'Gölcük'te sağanak' 22.11 tarihli; seskocaeli 'yeni araç takla attı', kocaelikoz 'iş makinesi 4 araca çarptı', enkocaeli 'İzmit'te can pazarı' okunamadı, A ölçütü görünmüyor; haberturk benzin yangını Denizli; Marmara'da M4+ deprem yok). 0c: tapu-guvenli-odeme hikâye+Reels 15:34 paylaşıldı (bugünkü batch tamamlandı); 0d atlandı (0c paylaştı); 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "16:35",
-   "topic": "Tarama: yeni A/B olayı yok (İzmit Kuruçeşme'de freni boşalan kamyon park halindeki 5-6 araca çarptı, ilk bilgilere göre 2 yaralı: A ölçütü değil, 15:35'te not edilen olay; 5 ilçede planlı elektrik ve Derince/Darıca su kesintisi sıradan; istekocaeli 'yangında bir kişi can verdi' tarihsiz/eski görünüyor, başka kaynakta bugüne ait kayıt yok; valilik sarı kod fırtına/yağış kayıtlı; Marmara'da M4+ deprem yok). 0c saat dışı (16:xx); 0d: son Reels 15:34 (<60 dk), takipçi son ölçüm 860; 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-24",
-   "time": "22:35",
-   "topic": "Büyükşehir: İzmit Orhan Mahallesi'nde öğretmenlere 240 konut (Kent Konut; 7 adet 1+1, 233 adet 2+1, 6 ticari alan). Kullanıcının canlı isteğiyle paylaşıldı",
-   "level": "B",
-   "voice": "aylin",
-   "sim": false,
-   "file": "v/2026-11-24-ogretmen-240-konut.mp4",
-   "reel_posted_at": "2026-11-24T22:31:39+03:00",
-   "story_media_id": "17992107860874600",
-   "reel_media_id": "18125766679734224"
-  },
-  {
-   "date": "2026-11-24",
-   "time": "22:35",
-   "topic": "İzmit kurşunlama (17 Kasım Kadıköy Mah.) ve fırına el bombası (M. Ali Paşa Mah.) soruşturmasında 2'si çocuk 8 şüpheli tutuklandı (İHA 20:10). Kullanıcının canlı isteğiyle paylaşıldı",
-   "level": "B",
-   "voice": "emre",
-   "sim": false,
-   "file": "v/2026-11-24-izmit-8-tutuklama.mp4",
-   "reel_posted_at": "2026-11-24T22:31:39+03:00",
-   "story_media_id": "18127804475515976",
-   "reel_media_id": "18654124510049808"
-  },
-  {
-   "date": "2026-11-24",
-   "time": "22:35",
-   "topic": "Tarama: yeni A olayı yok (22:31'de kullanıcı isteğiyle 2 B videosu paylaşıldı, son Reels <60 dk → yalnızca A aranacaktı; 8 tutuklama ve öğretmen konutu kayıtlı; ozgurkocaeli 'bir ilimizde korkutan deprem' ve istekocaeli 'korku dolu anlar' okunamadı, başka kaynakta Kocaeli'de M4+ deprem yok; Yalova M3.2 haberi eski). 0c saat dışı (22:xx); 0d atlandı (22:00 sonrası, son Reels <60 dk); 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-24",
-   "time": "22:45",
-   "topic": "Spor: Şampiyonlar Ligi 5. hafta Galatasaray 1-0 Aston Villa (RAMS Park, gol Deniz Gül 77'; GS 9 puan, üst üste 3. galibiyet; sıradaki maç 8 Aralık AEK deplasmanı). Kullanıcının canlı isteğiyle (spor haberleri, 24.11.2026)",
-   "level": "C",
-   "voice": "aylin",
-   "sim": false,
-   "file": "v/2026-11-24-spor-galatasaray-aston-villa.mp4",
-   "reel_posted_at": "2026-11-24T22:51:24+03:00",
-   "story_media_id": "18126638081473348",
-   "reel_media_id": "17876607933601635"
-  },
-  {
-   "date": "2026-11-24",
-   "time": "23:35",
-   "topic": "Tarama: yeni A/C olayı yok (B saat dışı, 23:00 sonrası). Bugün tek Türk maçı GS 1-0 Aston Villa kayıtlı; Fenerbahçe-Shakhtar yarın (ŞL). seskocaeli 'genç diş hekimi yaşamını yitirdi' okunamadı, başka kaynakta kaza/yangın bilgisi yok, A ölçütü doğrulanamadı; Darıca daire yangınında mahsur kadın kurtarıldı (yaralı yok); 'Düzce depremi 23 Kasım 04.08' yıl dönümü haberi; 8 tutuklama kayıtlı; Kocaeli'de M4+ deprem yok. 0b bekleyen yok, 0c saat dışı, 0d saat dışı (22:00 sonrası), 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "00:35",
-   "topic": "Tarama: yeni A/C olayı yok (B saat dışı). Özgün Kocaeli 'devrilen elektrik direği aracın üzerine düştü' Bolu D-100'de (Kocaeli değil); Hürriyet 24.11 21:35 MGM uyarısında Kocaeli için renk kodu yok, yalnızca aralıklı sağanak tahmini; Habertürk turuncu alarm haberi 2024 tarihli; Darıca yangını ve 8 tutuklama kayıtlı; Kocaeli'de M4+ deprem yok. Spor: 24.11 gece biten yeni Türk maçı yok (GS 1-0 Aston Villa kayıtlı), Fenerbahçe-Shakhtar 25.11. 0b bekleyen yok, 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "01:35",
-   "topic": "Tarama: yeni A/C olayı yok (B saat dışı). sondakika.com/kocaeli en yeni 24.11 23:19 (İzmit bisiklet haberi), kayıtlı 8 tutuklama ve Darıca yangını dışında yeni olay yok; noktagazetesi 'yangında hayatını kaybetti' ve istekocaeli 'yanarak can verdi' okunamadı, tarihsiz/eski görünüyor, başka kaynakta yeni ölümlü yangın yok; Kocaeli'de M4+ deprem yok. Spor: 24.11 gece biten yeni Türk maçı yok, Fenerbahçe-Shakhtar 25.11. 0b bekleyen yok, 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "02:35",
-   "topic": "Tarama: yeni A/C olayı yok (B saat dışı). sondakika.com/kocaeli son haber 24.11 23:19 (bisiklet haberi); can kayıplı kaza/büyük yangın/M4+ deprem/yol kapanması/okul tatili yok. cagdaskocaeli 'şiddetli deprem' haberi (id 29202213, eski) okunamadı, başka kaynakta Kocaeli'de yeni M4+ deprem yok. Spor: GS 1-0 Aston Villa kayıtlı, gece biten yeni Türk maçı yok; Fenerbahçe-Shakhtar bugün akşam. 0b bekleyen yok, 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "03:35",
-   "topic": "Tarama: yeni A/C olayı yok (B saat dışı). sondakika.com/kocaeli-kaza en yeni 21.11 (Körfez yaya ölümü, eski); aramalarda 25.11'e ait can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok (AA kozmetik fabrikası yangını eski). Spor: gece biten yeni Türk maçı yok, Fenerbahçe-Shakhtar bugün akşam. 0b bekleyen yok, 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "04:35",
-   "topic": "Tarama: yeni A/C olayı yok (B saat dışı). Grup 1-7 ve genel aramalarda 25.11 gecesine ait can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; Hürriyet 'yanan araçta iş insanı' 14.11 (eski), Darıca yangını kayıtlı. Spor: gece biten yeni Türk maçı yok (GS 1-0 Aston Villa kayıtlı), Fenerbahçe-Shakhtar bugün akşam. 0b bekleyen yok, 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "05:35",
-   "topic": "Tarama: yeni A/C olayı yok (B saat dışı). Yeni: Kocaeli Valiliği fırtına uyarısı ('yarın başlayacak', büyük olasılıkla 25-26.11 lodos; kocaeligazetesi 29216480, cagdaskocaeli 29216615, seskocaeli 29216538 — üçü de okunamadı, renk kodu doğrulanamadı; aramalarda turuncu/kırmızı kod veya okul tatili kararı yok) → 08:00 sonrası B adayı, doğrulanırsa değerlendirilecek. Can kayıplı kaza/yangın, M4+ deprem, yol kapanması yok. Spor: gece biten yeni Türk maçı yok (GS 1-0 Aston Villa kayıtlı), Fenerbahçe-Shakhtar bugün akşam. 0b bekleyen yok, 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "06:35",
-   "topic": "Tarama: yeni A/C olayı yok (B saat dışı). Grup 1-7 + genel aramalarda 25.11'e ait can kayıplı kaza/yangın, M4+ deprem, yol kapanması, turuncu/kırmızı uyarı veya valilik okul tatili kararı yok (fırtına/sağanak haberleri 23-24.11 sarı kod, kayıtlı; su baskını haberleri eski). Spor: gece biten yeni Türk maçı yok; Shakhtar-Fenerbahçe bugün akşam (TRT 1). 0b bekleyen yok, 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "07:35",
-   "topic": "Tarama: yeni A/C olayı yok (B saat dışı, 07:32). Grup 1-7 + genel aramalarda 25.11'e ait can kayıplı kaza/yangın, yol kapanması, valilik okul tatili kararı, turuncu/kırmızı uyarı yok. Deprem: seskocaeli 'Komşuda deprem: Kocaeli'de hissedildi' (29219998) ve bugunkocaeli deprem haberi okunamadı; NTV AFAD/Kandilli listesi (25.11 01:00) ve Sabah Kocaeli listesinde Marmara'da M3.5+ yok, Muğla Milas M4.5 (24.11 21:39) Kocaeli dışı; ozgunkocaeli deprem haberi 10.10 (eski). Valilik fırtına uyarısı B adayı olarak 08:00 sonrası değerlendirilecek. Spor: gece biten yeni Türk maçı yok; Shakhtar-Fenerbahçe bugün akşam. 0b bekleyen yok, 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "08:05",
-   "reel_posted_at": "2026-11-25T08:05:00+03:00",
-   "topic": "SEDAŞ 25 Kasım planlı kesinti: 8 ilçe (Darıca 10 mahalle; Gebze Muallimköy, Dilovası Demirciler, İzmit köyleri, Karamürsel 09.00-17.00) — sabah kesinti Reels'i + karusel"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "08:20",
-   "topic": "Körfez Kapalı Spor Kompleksi %48 (12 bin m², 1.000 kişilik tribün, 125 araç otopark) + Gölcük 5.400 m² spor salonu ve 25 m yarı olimpik havuz (İHA 24.11) — sabah videosu (12:31 slotu)"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "08:20",
-   "topic": "Sabah taraması notu: Valilik fırtına uyarısı ('yarın başlayacak', büyük olasılıkla 26.11 lodos) yerel sitelerde okunamadı, ayrıntı doğrulanamadı → video yapılmadı; doğrulanırsa son dakika görevi değerlendirebilir"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "08:35",
-   "topic": "Tarama: yeni A/C olayı yok. B adayı Valilik fırtına uyarısı (kocaeli.gov.tr 'Kuvvetli Rüzgar ve Fırtınaya Dikkat !' arama sonucunda görüldü, renk kodu/tarih doğrulanmadı) bu saat beklemede: son Reels 08:05 (60 dk kuralı) → 09:35'te doğrulanıp değerlendirilecek. Demokrat Kocaeli 'yangında mahsur kalan kadın kurtarıldı' can kaybı yok. Spor: gece biten yeni Türk maçı yok; Shakhtar-Fenerbahçe bu akşam (ŞL) → C-MAÇ GÜNÜ program videosu 10:00 sonrası. 0b bekleyen yok, 0c/0d saat dışı/60 dk kuralı, 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "09:06",
-   "reel_posted_at": "2026-11-25T09:06:00+03:00",
-   "file": "v/2026-11-25-eskisehir-5-sehit.mp4",
-   "voice": "emre",
-   "story_media_id": "18486042691112024",
-   "reel_media_id": "18147027022612436",
-   "topic": "Eskişehir Tepebaşı (Yörükakçayır yakınları) AS-532 helikopter kazası, 24.11 eğitim uçuşu: 5 şehit (Hv. Plt. Albay Mehmet Çöl, Hv. Plt. Üsteğmen Halil Karabulut, Astsb. Bçvş. Volkan Demirhan, Astsb. Bçvş. Muhammed Nurullah Erarslan, Astsb. Kd. Çvş. Mehmet Alp Gürdağ). Kocaeli bağlantısı bulunamadı. Kullanıcının canlı isteğiyle paylaşıldı"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "09:35",
-   "topic": "Tarama: yeni A/C olayı yok. Valilik fırtına uyarısı doğrulandı (gebzehaber.net 24.11 15:13): 25.11 sabahtan akşama batı-kuzeybatı 6-8 kuvvetinde (50-75 km/sa) fırtına, renk kodu yok, okul tatili yok → B adayı ama son Reels 09:06 (60 dk kuralı) ve 'bugün' hava videosu zayıf; bu saat paylaşılmadı. Can kayıplı kaza/yangın, M4+ deprem, yol kapanması yok (8 tutuklama kayıtlı). Spor: gece biten yeni maç yok; Shakhtar-Fenerbahçe bu akşam (TRT 1) → C-MAÇ GÜNÜ program videosu 10:00 sonrası ve 60 dk kuralına göre. 0b bekleyen yok, 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "10:50",
-   "topic": "maç programı 2026-11-25: Shakhtar Donetsk - Fenerbahçe (ŞL lig aşaması 5. hafta) 23.00 TRT 1, Stamford Bridge Londra; FB 5 puan, Shakhtar 4 puan. Diğer takip edilen takımların bugün futbol maçı yok (Habertürk günün programı)",
-   "level": "C",
-   "voice": "aylin",
-   "sim": false,
-   "file": "v/2026-11-25-spor-program.mp4",
-   "reel_posted_at": "2026-11-25T10:40:00+03:00",
-   "story_media_id": "18119934401600303",
-   "reel_media_id": "17962174989272151"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "13:35",
-   "topic": "Tarama: yeni A/B/C olayı yok. Grup 1-7 + genel aramalarda can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; sondakika.com/kocaeli en yeni 13:23 (Demet Akalın bisiklet haberi). istekocaeli 'yangında bir kişi can verdi' ve 'vatandaşlar sokağa döküldü', bugunkocaeli 'Darıca yangın alarmı' okunamadı, tarihsiz/eski görünüyor. Spor: biten maç yok; Shakhtar-Fenerbahçe 23.00 (program paylaşıldı). 0c saat dışı (13:xx), 0d takipçi 923, 0e yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "14:35",
-   "topic": "Tarama: yeni A/B/C olayı yok. Grup 1-7 + genel aramalarda can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; İzmit Yenidoğan/Zabıtan anlık su kesintisi (16.00'ya kadar, kısa/yerel), Derince eski kaymakamının Muş valiliği, Gölcük kayıp yaşlı arama haberleri video kriterine girmiyor. Spor: biten maç yok; Shakhtar-Fenerbahçe 23.00 (program paylaşıldı). 0b bekleyen yok, 0c saat dışı (14:xx; Körfez-Gölcük videosu 15:xx'te), 0d takipçi 923, 0e yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "15:35",
-   "topic": "0c: Körfez-Gölcük spor tesisi sabah videosu 15:34 paylaşıldı (story 17919319710504732, reel 18075106781781316); bugünkü batch tamamlandı. Tarama: Grup 1-7 + genel aramalarda yeni A olayı yok (can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; Valilik fırtına uyarısı ve Darıca yangın alarmı önceden değerlendirildi). Spor: biten maç yok; Shakhtar-Fenerbahçe 23.00 (program paylaşıldı). 0d bu saat uygulanmadı (0c paylaştı). Son dakika videosu yapılmadı"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "16:35",
-   "topic": "Tarama: yeni A/B/C olayı yok. Grup 1-7 + genel aramalarda can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok (İzmit 25 Kasım etkinlikleri, su kesintisi listesi video kriterine girmiyor; istekocaeli yangın başlıkları tarihsiz/eski, önceden değerlendirildi). Spor: biten maç yok; Shakhtar-Fenerbahçe 23.00 (program paylaşıldı). 0b bekleyen yok, 0c saat dışı (16:xx), 0d takipçi 923, 0e yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "17:35",
-   "topic": "Tarama: yeni A/B/C olayı yok. Grup 1-7 + genel aramalarda can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; sondakika.com/kocaeli en yeni 16:32 (25 Kasım yürüyüşü), 16:09 savunma sanayi etkinliği; gebzehaber.net valilik fırtına uyarısı 24.11 15:13 (önceden değerlendirildi). Spor: biten maç yok; Shakhtar-Fenerbahçe 23.00 (program paylaşıldı; FB U19 0-6 yenilgisi A takım değil). 0b bekleyen yok, 0c saat dışı (17:xx), 0d takipçi 923, 0e yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "18:35",
-   "topic": "Tarama: yeni A/B/C olayı yok. Grup 1-7 + genel aramalarda can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; sondakika.com/kocaeli en yeni 16:32 (25 Kasım yürüyüşü); gebzehaber.net'teki Gölcük 12 işçi zehirlenmesi tarihsiz/eski (güncel kaynak yok). Spor: biten maç yok; Shakhtar-Fenerbahçe 23.00 (program paylaşıldı). 0b bekleyen yok, 0c bugünkü batch tamam, 0d takipçi 923, 0e yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "19:35",
-   "topic": "Tarama: yeni A/B/C olayı yok. Grup 1-7 + genel aramalarda can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; Kartepe'de sağanak site otoparkını su bastı (yerel, B değil), 'Komşuda deprem Kocaeli'de hissedildi' = Hendek M3.1 (06:20, A eşiği altı); Gebze kağıt yüklü kamyon yangını okunamadı (ozgurkocaeli client_error), yaralı bilgisi yok. Spor: Shakhtar-Fenerbahçe 23.00 henüz oynanmadı (FB U19 0-6 A takım değil). 0b bekleyen yok, 0c saat dışı, 0d takipçi 923, 0e yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "20:35",
-   "topic": "Tarama: yeni A/B/C olayı yok. Grup 1-7 + genel aramalarda can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok (Çağdaş Kocaeli 25 Kasım yürüyüşü 2 gözaltı, sondakika.com yürüyüş haberleri video kriterine girmiyor; istekocaeli yangın başlıkları tarihsiz/eski). Spor: Shakhtar-Fenerbahçe 23.00 henüz oynanmadı; Kocaelispor'da yeni gelişme yok. 0b bekleyen yok, 0c saat dışı (20:xx), 0d takipçi 923, 0e yayınlanmadı. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "21:35",
-   "topic": "Tarama: yeni A/B/C olayı yok (sondakika.com/kocaeli en yeni 16:32; can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili yok; Gebze kamyon yangını ve Darıca daire yangını önceden değerlendirildi). Spor: Shakhtar-Fenerbahçe 23.00 henüz oynanmadı. 0b/0c bekleyen yok, 0d kutlama 20:56'da paylaşıldı, 0e: kutlama Reels yorumları Windsor önbelleğinde henüz yok (force_refresh plan dışı), cevap verilmedi. Video yapılmadı",
-   "level": null,
-   "reel_posted_at": null,
-   "voice": null
-  },
-  {
-   "date": "2026-11-25",
-   "time": "22:35",
-   "topic": "Tarama: yeni A/B/C olayı yok (Grup 1-7 + resmi kurum aramalarında can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; istekocaeli/enkocaeli yangın başlıkları tarihsiz/eski). Spor: Shakhtar-Fenerbahçe 23.00 henüz başlamadı (FB U19 0-6 A takım değil); Kocaelispor'da videoluk gelişme yok. 0b/0c bekleyen yok, 0d kutlama zaten paylaşıldı, 0e: kutlama Reels yorumları Windsor önbelleğinde yok (force_refresh plan dışı), cevap verilmedi. Video yapılmadı"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "23:35",
-   "topic": "Tarama: yeni A/B/C olayı yok (Grup 1-7 + genel aramalarda can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; 'yangında mahsur kalan kadın kurtarıldı' yaralısız, A değil; istekocaeli/enkocaeli başlıkları tarihsiz/eski). Spor: Shakhtar-Fenerbahçe 23.00'te başladı, devam ediyor (ntvspor canlı anlatım); sonuç bir sonraki çalışmada. 0b/0c bekleyen yok, 0d kutlama zaten paylaşıldı, 0e: kutlama Reels yorumları Windsor önbelleğinde yok (force_refresh planda yok), cevap verilmedi. Video yapılmadı",
-   "level": null,
-   "reel_posted_at": null,
-   "voice": null
-  },
-  {
-   "date": "2026-11-26",
-   "time": "00:35",
-   "topic": "Tarama: yeni A/B/C olayı yok (Grup 1-7 + resmi kurum aramalarında can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; sondakika.com/kocaeli 00:33 itibarıyla en yeni 25.11 16:32). Spor: Shakhtar-Fenerbahçe (ŞL, 23.00, Stamford Bridge) henüz bitmedi (son kaynak 23:21'de 0-0, Muriqi 17' golü VAR ile iptal); sonuç bir sonraki çalışmada. Kocaelispor'da videoluk gelişme yok. 0b/0c/0d yok, 0e: kutlama Reels yorumları Windsor önbelleğinde yok (force_refresh plan dışı), cevap verilmedi. Video yapılmadı",
-   "level": null,
-   "reel_posted_at": null,
-   "voice": null
-  },
-  {
-   "date": "2026-11-26",
-   "time": "01:15",
-   "topic": "Spor: Şampiyonlar Ligi 5. hafta Shakhtar Donetsk 0-1 Fenerbahçe (Stamford Bridge, Londra; gol Vedat Muriqi 56'; FB 8 puan, üst üste 2. galibiyet; sıradaki ŞL maçı 9 Aralık LASK Linz deplasmanı). 00:35 taramasında maç sürüyordu; kullanıcının canlı uyarısıyla maç bitiminde yapıldı",
-   "level": "C",
-   "voice": "emre",
-   "sim": false,
-   "file": "v/2026-11-26-spor-shakhtar-fenerbahce.mp4",
-   "reel_posted_at": "2026-11-26T01:16:00+03:00",
-   "story_media_id": "17914288893580191",
-   "reel_media_id": "18138481822735967"
-  },
-  {
-   "date": "2026-11-26",
-   "time": "01:35",
-   "topic": "Tarama: yeni A/B/C olayı yok (Grup 1-7 + resmi kurum aramalarında can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; sondakika.com/kocaeli 01:32 itibarıyla en yeni 25.11 16:32; İzmit Kuruçeşme tek katlı yapı yangını bugunkocaeli okunamadı, yaralı/can kaybı bilgisi yok, A değil). Spor: Shakhtar 0-1 Fenerbahçe sonucu 01:16'da zaten paylaşıldı; 26.11 Perşembe Beşiktaş ve Trabzonspor (CSKA Sofya) UEFA maçları görünüyor, program videosu 10:00 sonrası. 0b/0c/0d yok, 0e: kutlama Reels yorumları Windsor önbelleğinde yok (planda yenileme yok), cevap verilmedi. Video yapılmadı",
-   "level": null,
-   "reel_posted_at": null
-  },
-  {
-   "date": "2026-11-26",
-   "time": "02:35",
-   "topic": "Tarama: yeni A/B/C olayı yok (Grup 1-7 + resmi kurum aramalarında can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; İzmit Kuruçeşme yapı yangını önceden değerlendirildi; istekocaeli/enkocaeli başlıkları tarihsiz/eski). Spor: devam eden takip maçı yok; 26.11 Beşiktaş-Hapoel Beer Sheva (AL) ve Trabzonspor UEFA maçı için program videosu 10:00 sonrası. 0b/0c/0d yok, 0e: force_refresh denendi, Windsor planı yenilemeye izin vermiyor (önbellek), kutlama Reels yorumu görünmüyor, cevap verilmedi. Video yapılmadı",
-   "level": null,
-   "reel_posted_at": null
-  },
-  {
-   "date": "2026-11-26",
-   "time": "03:35",
-   "topic": "Tarama: yeni A/B/C olayı yok (Grup 1-7 + genel/resmi aramalarda can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; sondakika.com/kocaeli-izmit en yeni 23.11). Spor: devam eden takip maçı yok; 26.11 Beşiktaş-Hapoel Beer Sheva (AL) ve CSKA Sofya-Trabzonspor (KL) için program videosu 10:00 sonrası. 0b/0c/0d yok, 0e: kutlama Reels yorumu görünmüyor, cevap verilmedi. Video yapılmadı",
-   "level": null,
-   "reel_posted_at": null
-  }
- ]
+  "covered": [
+    {
+      "date": "2026-11-16",
+      "topic": "16 Kasım planlı elektrik kesintisi (10 ilçe)"
+    },
+    {
+      "date": "2026-11-16",
+      "topic": "16 Kasım İzmit akaryakıt fiyatları"
+    },
+    {
+      "date": "2026-11-16",
+      "topic": "COP31 yeşil lojistik / Tepecik Lojistik Köyü"
+    },
+    {
+      "date": "2026-11-16",
+      "time": "14:50",
+      "topic": "Kocaeli Valiliği kuvvetli sağanak/sel uyarısı (16 Kasım gece - 17 Kasım öğle, 21-50 kg/m²)",
+      "level": "A"
+    },
+    {
+      "date": "2026-11-16",
+      "time": "19:45",
+      "topic": "Gebze D-100 Feniş Kavşağı minibüs-otomobil kazası, 19 yaralı",
+      "level": "A"
+    },
+    {
+      "date": "2026-11-17",
+      "topic": "17 Kasım planlı elektrik kesintisi (SEDAŞ, 8 saat)",
+      "reel_posted_at": "2026-11-17T08:15:02+03:00"
+    },
+    {
+      "date": "2026-11-17",
+      "topic": "Darıca İstasyon Cad. altyapı: 26 otobüs hattı güzergâh değişikliği (18-19 Kasım)"
+    },
+    {
+      "date": "2026-11-17",
+      "topic": "Kocaelispor-Fenerbahçe 12. hafta (21 Kasım) maç önü"
+    },
+    {
+      "date": "2026-11-17",
+      "time": "15:45",
+      "topic": "MGM sarı kodlu rüzgar/fırtına uyarısı Kocaeli (18 Kasım 00.00 - 19 Kasım 13.00, güneyli 60-80 km/s)",
+      "level": "B",
+      "voice": "emre",
+      "sim": true,
+      "reel_posted_at": "2026-11-17T15:41:34+03:00",
+      "story_media_id": "18030562565699388",
+      "reel_media_id": "17937680184413119"
+    },
+    {
+      "date": "2026-11-18",
+      "topic": "18 Kasım planlı elektrik kesintisi (7 ilçe, 8 saate kadar)",
+      "reel_posted_at": "2026-11-18T08:09:26+03:00"
+    },
+    {
+      "date": "2026-11-18",
+      "topic": "Kocaeli baraj doluluk 17 Kasım (Yuvacık %78, Namazgah %53, İhsaniye %83)",
+      "reel_posted_at": "2026-11-18T12:34:37+03:00"
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "Kocaeli Valiliği fırtına uyarısı 19 Kasım (sabah-akşam, batı/kuzeybatı 50-75 km/s, deniz ulaşımı aksayabilir; MGM 9 ile sarı kod)",
+      "reel_posted_at": "2026-11-19T08:09:44+03:00"
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "19 Kasım planlı elektrik kesintisi (Derince, Dilovası, Çayırova, Kandıra 8 saat; Gebze, Darıca)"
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "Kocaeli Büyükşehir servis denetimi: 6.380 araç, 1.799 işlem (18 Kasım açıklaması)"
+    },
+    {
+      "date": "2026-11-19",
+      "time": "17:36",
+      "topic": "MGM sarı kodlu rüzgar/fırtına uyarısı 20 Kasım Cuma 03.00-13.00 (güney yönlü 50-70, hamle 80 km/s; İzmit, Gebze, Derince, Körfez, Kandıra)",
+      "level": "B",
+      "voice": "emre",
+      "sim": true,
+      "reel_posted_at": "2026-11-19T17:39:11+03:00",
+      "story_media_id": "17993323473081640",
+      "reel_media_id": "17953130502056151"
+    },
+    {
+      "date": "2026-11-20",
+      "topic": "20 Kasım planlı elektrik kesintisi (SEDAŞ, 12 ilçe; en uzun İzmit Kozluca 8 saat) — karusel"
+    },
+    {
+      "date": "2026-11-20",
+      "time": "14:10",
+      "topic": "Kocaeli Valiliği kuvvetli sağanak uyarısı 20 Kasım öğleden sonra (21-45 kg/m²; sel, su baskını, yıldırım, dolu, ulaşımda aksama)",
+      "level": "A",
+      "voice": "aylin",
+      "sim": true,
+      "reel_posted_at": "2026-11-20T14:07:10+03:00",
+      "story_media_id": "18469287196189703",
+      "reel_media_id": "17949454182358304"
+    },
+    {
+      "date": "2026-11-21",
+      "topic": "21 Kasım planlı elektrik kesintisi (SEDAŞ, 10 ilçe; en uzun Gebze Balçık/TOSB 10.30-18.30, 8 saat) — kesinti Reels + karusel",
+      "voice": "emre",
+      "sim": true,
+      "reel_posted_at": "2026-11-21T08:02:04+03:00"
+    },
+    {
+      "date": "2026-11-21",
+      "topic": "Benzine ~2,90 TL indirim (21 Kasım), Kocaeli benzin 68,80, motorin 89,20 (20 Kasım 6,58 TL indirim)",
+      "reel_posted_at": "2026-11-21T12:35:19+03:00"
+    },
+    {
+      "date": "2026-11-21",
+      "topic": "Kocaelispor-Fenerbahçe 12. hafta maç günü (19.00, Kocaeli Stadı, ikisi de 19 puan)"
+    },
+    {
+      "date": "2026-11-21",
+      "time": "11:32",
+      "topic": "Kocaeli pazarda sağanak/dolu/yıldırım (İHA), valilik 21-45 kg/m² uyarısını yineledi (20 Kasım uyarısıyla aynı) — yaralı/hasar yok, video yapılmadı"
+    },
+    {
+      "date": "2026-11-21",
+      "time": "13:38",
+      "topic": "Gölcük Değirmendere'de sağanak su baskını: rögarlar taştı, araçlar suda mahsur kaldı (DHA/haberler.com 13:12) — yaralı yok, yerel; B eşiği altında, video yapılmadı"
+    },
+    {
+      "date": "2026-11-21",
+      "time": "14:35",
+      "topic": "Başiskele Doğantepe'de yine su baskını (Kocaeli Gazetesi) + Kartepe teleferik seferleri durdu (Özgür Kocaeli) — sağanak kaynaklı yerel etkiler, ölü/yaralı bildirimi yok, turuncu/kırmızı kod yok; B eşiği altında, video yapılmadı"
+    },
+    {
+      "date": "2026-11-21",
+      "time": "15:35",
+      "topic": "Ford Otosan (Gölcük/Yeniköy) fabrikasında iş kazası: lojistik işçisi forkliftin altında kaldı, 1 işçi yaralandı (Kocaeli Gazetesi, Çağdaş Kocaeli, Özgün Kocaeli) — tek yaralı, A/B eşiği altında, video yapılmadı"
+    },
+    {
+      "date": "2026-11-21",
+      "time": "17:35",
+      "topic": "Anadolu Otoyolu Ankara yönü 14 araçlı zincirleme kaza, 15 yaralı (NTV/DHA, Star/AA, Özgün Kocaeli 15:05) — kaza Sakarya Sapanca Yenimahalle mevkisinde, Kocaeli dışında; video yapılmadı"
+    },
+    {
+      "date": "2026-11-21",
+      "time": "17:35",
+      "topic": "Başiskele Helikon Sanat Derneği/sanat merkezinde yangın, çatı çöktü (Kocaeli Gazetesi, Nokta, Kocaeli TV) — 'facianın eşiğinden dönüldü', can kaybı/yaralı bildirimi yok, sanayi değil; A/B eşiği altında, video yapılmadı"
+    },
+    {
+      "date": "2026-11-21",
+      "time": "21:40",
+      "topic": "Kocaelispor 2-2 Fenerbahçe (Süper Lig 12. hafta, Kocaeli Stadı; FB 61' öne geçti, Kocaelispor penaltı + 76' ile 2-1, FB 90+3' kafa golüyle 2-2; ikisi de 20 puan) — Sözcü, Fanatik",
+      "level": "B",
+      "voice": "aylin",
+      "sim": false,
+      "file": "v/2026-11-21-sondakika-kocaelispor-fb-2-2.mp4",
+      "reel_posted_at": "2026-11-21T21:38:05+03:00",
+      "story_media_id": "18135715618889997",
+      "reel_media_id": "18378490483212161"
+    },
+    {
+      "date": "2026-11-22",
+      "topic": "22 Kasım planlı elektrik kesintisi (SEDAŞ, 4 ilçe: Gebze, Kandıra, İzmit, Dilovası; en uzun Gebze Barış/İstasyon/Kazımkarabekir/Tatlıkuyu ve Kandıra 09.00-17.00) — kesinti Reels + karusel",
+      "voice": "aylin",
+      "sim": true,
+      "reel_posted_at": "2026-11-22T08:08:21+03:00",
+      "file": "v/2026-11-22-kesinti.mp4"
+    },
+    {
+      "date": "2026-11-22",
+      "topic": "Kasım ara tatili bitti, okullar 23 Kasım Pazartesi açılıyor (yarıyıl 25 Ocak-5 Şubat 2027, 2. ara tatil 8-12 Mart 2027)",
+      "voice": "emre"
+    },
+    {
+      "date": "2026-11-22",
+      "topic": "Kocaeli'de sıcaklık düşüşü (MGM 5 günlük: Pzt 23 Kasım sağanak 11/23, Salı yağmur 12/13, Çarşamba parçalı bulutlu 5/10)",
+      "voice": "aylin",
+      "sim": true
+    },
+    {
+      "date": "2026-11-22",
+      "time": "15:37",
+      "topic": "Valilik yerel kuvvetli yağış/sel uyarısı (21-45 kg/m2) + Gölcük Değirmendere'de sağanakla araçlar su altında (sondakika.com 11:52-13:14) — renk kodu yok, can kaybı/yaralı yok; Kocaeli MGM sarı listede değil (Hürriyet). 0c bu saat paylaştı, A eşiği altında; video yapılmadı"
+    },
+    {
+      "date": "2026-11-22",
+      "time": "16:35",
+      "topic": "'5 katlı binada yangın: 1 ölü 7 yaralı' (seskocaeli asayiş) — olay İstanbul Küçükçekmece, Kocaeli değil; Kocaeli'deki benzer haber Gebze çatı yangını 11.11 (Hürses/AA). Yeni A/B olayı yok, video yapılmadı"
+    },
+    {
+      "date": "2026-11-22",
+      "time": "17:35",
+      "topic": "Tarama: yeni A/B olayı yok (kocaelikoz 'Sürücüler dikkat: peş peşe uyarılar' = valilik yağış uyarısıyla aynı konu, zaten kayıtlı; istekocaeli 'yangında 1 kişi can verdi' tarihsiz/okunamadı, eski haber izlenimi). Takipçi 825 (<1000). Video yapılmadı"
+    },
+    {
+      "date": "2026-11-22",
+      "time": "18:45",
+      "topic": "Kocaeli Valiliği 23 Kasım Pazartesi fırtına (güney/güneybatı 50-70, yer yer 80-90 km/sa, sabahtan itibaren) + öğleden sonra yerel kuvvetli sağanak (21-50 kg/m²) uyarısı; renk kodu yok — Özgün Kocaeli 16:27, Gölcük Postası 16:54",
+      "level": "B",
+      "voice": "emre",
+      "sim": true,
+      "file": "v/2026-11-22-sondakika-firtina-uyarisi.mp4",
+      "reel_posted_at": "2026-11-22T18:38:47+03:00",
+      "story_media_id": "18127309303715418",
+      "reel_media_id": "18122990356991878"
+    },
+    {
+      "date": "2026-11-22",
+      "time": "19:32",
+      "topic": "Tarama: yeni A/B olayı yok (fırtına/yağış uyarısı zaten kayıtlı; 23 Kasım için valilik okul tatili kararı yok, okullar açılıyor; Gebze bıçaklama ve Gölcük kayıp yaşlı adam A/B değil). 0d: son Reels 18:38, 60 dk dolmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-22",
+      "time": "20:35",
+      "topic": "Tarama: yeni A/B olayı yok (Gebze baba bıçaklama tutuklama, Kocaelispor 2-2 FB, valilik fırtına/yağış uyarısı zaten kayıtlı; deprem/büyük kaza/yangın yok). Takipçi 825 (<1000). Video yapılmadı"
+    },
+    {
+      "date": "2026-11-22",
+      "time": "21:35",
+      "topic": "Tarama: yeni A/B olayı yok (sondakika.com/kocaeli 21:33: İzmit park/cami tehdit gözaltıları, Gebze bıçaklama tutuklama, Kandıra enduro; Marmara'da deprem yok; enkocaeli 'İzmit 6 araç' tarihsiz/okunamadı). Takipçi 825 (<1000). 0c: bugünkü batch zaten tamamlanmış. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-22",
+      "time": "22:35",
+      "topic": "Tarama: yeni A/B olayı yok (aramalarda yalnızca önceden kayıtlı konular: Gebze bıçaklama tutuklama, İzmit park tehdit gözaltı, Kocaelispor 2-2 FB, valilik fırtına/yağış uyarısı; 23 Kasım için okul tatili kararı yok, okullar açılıyor). 0d: saat 22:00 sonrası. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-22",
+      "time": "23:35",
+      "topic": "Tarama: yeni A olayı yok (yalnızca önceden kayıtlı konular: İzmit park tehdit gözaltı, Gebze bıçaklama tutuklama, Kocaelispor 2-2 FB, valilik yağış uyarısı; Marmara'da deprem yok; Gebze minibüs kazası haberi tarihsiz/eski görünüyor). Saat 23:00 sonrası B yok, 0d 22:00 sonrası. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "00:35",
+      "topic": "Tarama (gece, yalnızca A): yeni A olayı yok (yalnızca önceden kayıtlı konular: valilik 23 Kasım fırtına/yağış uyarısı, Kocaelispor 2-2 FB, tarihsiz/eski asayiş haberleri; 23 Kasım planlı elektrik kesintisi sıradan; Marmara'da yeni deprem yok). 0c/0d saat dışı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "01:35",
+      "topic": "Tarama (gece, yalnızca A): yeni A olayı yok (sondakika.com/kocaeli en yeni 22.11 20:53: önceden kayıtlı asayiş haberleri; tekkocaeli 'deprem oldu' 08.08 Sındırgı, eski; istekocaeli yangın/korku haberleri okunamadı, tarihsiz; Marmara'da yeni deprem haberi yok). 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "02:35",
+      "topic": "Tarama (gece, yalnızca A): yeni A olayı yok (yalnızca kayıtlı konular: valilik 23 Kasım fırtına/sağanak uyarısı, 23 Kasım planlı elektrik kesintisi 8 ilçe (sıradan), Gebze bıçaklama tutuklama, İzmit cami tehdit gözaltı; Marmara'da yeni deprem haberi yok). 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "03:35",
+      "topic": "Tarama (gece, yalnızca A): yeni A olayı yok (sondakika.com/kocaeli en yeni 22.11 20:53: kayıtlı asayiş haberleri; demokratkocaeli '8 ilçe flaş uyarı' = kayıtlı planlı elektrik kesintisi/valilik uyarısı, okunamadı; istekocaeli yangın haberi tarihsiz/okunamadı; Marmara'da yeni deprem haberi yok). 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "04:35",
+      "topic": "Tarama (gece, yalnızca A): yeni A olayı yok (sondakika.com/kocaeli-izmit en yeni 22.11 13:41: kayıtlı İzmit park tehdit haberleri; sabah son depremler Kocaeli kayıt yok; valilik 23 Kasım fırtına/sağanak uyarısı kayıtlı, okul tatili kararı yok, okullar açılıyor). 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "05:35",
+      "topic": "Tarama (gece, yalnızca A): yeni A olayı yok (kayıtlı konular: valilik 23 Kasım fırtına/sağanak uyarısı, okullar açılıyor; enkocaeli 'İzmit 6 araç kaza' yine tarihsiz/okunamadı, can kaybı bilgisi yok; Kocaelispor-Fenerbahçe 2-2 dün akşam; Marmara'da yeni deprem haberi yok). 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "06:35",
+      "topic": "Tarama (gece, yalnızca A): yeni A olayı yok (kayıtlı konular: valilik 23 Kasım fırtına/sağanak uyarısı, 23 Kasım planlı elektrik kesintisi; yeni: Kartepe'ye kar/eksi 5 derece tahmini (A değil); Derince yanan araçta iş insanı ölümü 14.11, eski; enkocaeli 'İzmit 6 araç' tarihsiz; Marmara'da yeni deprem haberi yok). 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "07:35",
+      "topic": "Tarama (08:00 öncesi, yalnızca A): yeni A olayı yok (kayıtlı konular: valilik 23 Kasım fırtına/sağanak uyarısı (renk kodu yok), 8 ilçe planlı elektrik kesintisi, okullar açık; Sözcü 'deniz ile kara birleşti' 22.11 sağanağı, eski; Gebze minibüs 19 yaralı eski; Marmara'da yeni deprem haberi yok). 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "08:25",
+      "topic": "23 Kasım planlı elektrik kesintisi (SEDAŞ, 8 ilçe: Darıca, Gebze, İzmit, Kandıra, Kartepe, Gölcük, Dilovası, Karamürsel; en uzun İzmit/Kandıra/Darıca 09.00-17.00) — kesinti Reels'i 08:02 + karusel"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "08:25",
+      "topic": "MGM 23 Kasım sarı kod (22 il, Kocaeli dahil; kuvvetli yağış ve rüzgar) + valilik 50-70/80-90 km/sa, öğleden sonra 21-50 kg/m² — sabah videosu (12:31 slotu)"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "08:25",
+      "topic": "Tapuda Güvenli Ödeme Sistemi 1 Aralık 2026'da zorunlu (konut, arsa, iş yeri) — sabah videosu (15:31 slotu)"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "08:25",
+      "topic": "24 Kasım Öğretmenler Günü videosu hazırlandı (ozelgun.json, yarın sabah paylaşılacak)"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "08:35",
+      "topic": "Tarama: yeni A/B olayı yok (fırtına/sağanak sarı kod zaten 12:31 sabah videosunda; istekocaeli 'yangında 1 kişi can verdi' ve bugunkocaeli 'Gebze yangın' okunamadı, tarihsiz/eski; Derince'de çocuk ölümü (ozgunkocaeli 00:03, neden belirsiz, A ölçütü değil); Marmara'da yeni deprem haberi yok). 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "09:35",
+      "topic": "Tarama: yeni A/B olayı yok (fırtına 15.00'ten itibaren 90 km/sa + akşam sağanak zaten 12:31 sabah videosunda; Ege Denizi M4.1 02:42, Marmara'da M4+ yok; ozgunkocaeli en yeni 00:03, sondakika.com/kocaeli-izmit 22.11 14:32; istekocaeli okunamadı). 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "10:35",
+      "topic": "Tarama: yeni A/B olayı yok (MGM sarı kod fırtına/sağanak zaten 12:31 sabah videosunda, turuncu/kırmızı yok; Kocaelispor-FB 2-2 kayıtlı; İzmit park tehdit sevk kayıtlı; ozgunkocaeli en yeni 00:03; istekocaeli 'vatandaşlar sokağa döküldü' tarihsiz/okunamadı; Marmara'da M4+ deprem yok). Takipçi 860 (<1000). 0c saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "11:35",
+      "topic": "Tarama: yeni A/B olayı yok (MGM sarı kod fırtına 15.00'ten itibaren zaten 12:31 sabah videosunda; park kavgası/tehdit sevk kayıtlı; habersosyal 'lodos 2 tekne battı' ve duzcedamla 'deprem oldu' okunamadı, tarihsiz (23.11.2022 Düzce yıldönümü olabilir); Milliyet AFAD listesi 09:55: Marmara'da M3.5+ yok, yalnızca Ege M4.2 02:42). Takipçi 860 (<1000). 0c saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "12:35",
+      "topic": "Tarama: yeni A/B olayı yok (MGM/valilik sarı kod fırtına-sağanak kayıtlı, 0c ile 12:34'te paylaşıldı; AKOM 11:19 İstanbul sağanak 15.00; enkocaeli 'İzmit 6 araç' yine tarihsiz; 'iş insanına silahlı saldırı' ve 'fırına el bombası' tarihsiz yan başlık, A ölçütü değil; Marmara'da M4+ deprem yok). 0c: sari-kod hikâye+Reels paylaşıldı; 0d atlandı (0c paylaştı); 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "13:35",
+      "topic": "Tarama: yeni A/B olayı yok (sarı kod fırtına 15.00'ten itibaren kayıtlı, 12:34'te paylaşıldı; haber41 'fırtına vurdu' 08.01.2026 tarihli eski haber; park kavgası/cami saldırısı adliyeye sevk, A/B değil; Fenerbahçe maçı kayıtlı; ozgunkocaeli en yeni 00:03; Marmara'da M4+ deprem yok). 0c/0d saat dışı veya 60 dk kuralı, 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "14:35",
+      "topic": "Tarama: yeni A/B olayı yok (sarı kod fırtına kayıtlı, 12:34'te paylaşıldı; kartepebulteni 'boya fabrikası yangını' 10.07.2026 tarihli eski haber; seskocaeli 'küçük Yasin' okunamadı (Derince çocuk ölümü olabilir, A ölçütü değil); park kavgası adliyeye sevk kayıtlı; Marmara'da M4+ deprem yok). Takipçi 860 (<1000). 0c saat dışı (14:xx), 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "15:35",
+      "topic": "Tarama: yeni A/B olayı yok (sarı kod fırtına kayıtlı, 12:34'te paylaşıldı; bugün fırtına hasarına dair doğrulanmış haber yok; golcukpostasi 'Gölcük'te sağanak' 22.11 tarihli; seskocaeli 'yeni araç takla attı', kocaelikoz 'iş makinesi 4 araca çarptı', enkocaeli 'İzmit'te can pazarı' okunamadı, A ölçütü görünmüyor; haberturk benzin yangını Denizli; Marmara'da M4+ deprem yok). 0c: tapu-guvenli-odeme hikâye+Reels 15:34 paylaşıldı (bugünkü batch tamamlandı); 0d atlandı (0c paylaştı); 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "16:35",
+      "topic": "Tarama: yeni A/B olayı yok (İzmit Kuruçeşme'de freni boşalan kamyon park halindeki 5-6 araca çarptı, ilk bilgilere göre 2 yaralı: A ölçütü değil, 15:35'te not edilen olay; 5 ilçede planlı elektrik ve Derince/Darıca su kesintisi sıradan; istekocaeli 'yangında bir kişi can verdi' tarihsiz/eski görünüyor, başka kaynakta bugüne ait kayıt yok; valilik sarı kod fırtına/yağış kayıtlı; Marmara'da M4+ deprem yok). 0c saat dışı (16:xx); 0d: son Reels 15:34 (<60 dk), takipçi son ölçüm 860; 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-24",
+      "time": "22:35",
+      "topic": "Büyükşehir: İzmit Orhan Mahallesi'nde öğretmenlere 240 konut (Kent Konut; 7 adet 1+1, 233 adet 2+1, 6 ticari alan). Kullanıcının canlı isteğiyle paylaşıldı",
+      "level": "B",
+      "voice": "aylin",
+      "sim": false,
+      "file": "v/2026-11-24-ogretmen-240-konut.mp4",
+      "reel_posted_at": "2026-11-24T22:31:39+03:00",
+      "story_media_id": "17992107860874600",
+      "reel_media_id": "18125766679734224"
+    },
+    {
+      "date": "2026-11-24",
+      "time": "22:35",
+      "topic": "İzmit kurşunlama (17 Kasım Kadıköy Mah.) ve fırına el bombası (M. Ali Paşa Mah.) soruşturmasında 2'si çocuk 8 şüpheli tutuklandı (İHA 20:10). Kullanıcının canlı isteğiyle paylaşıldı",
+      "level": "B",
+      "voice": "emre",
+      "sim": false,
+      "file": "v/2026-11-24-izmit-8-tutuklama.mp4",
+      "reel_posted_at": "2026-11-24T22:31:39+03:00",
+      "story_media_id": "18127804475515976",
+      "reel_media_id": "18654124510049808"
+    },
+    {
+      "date": "2026-11-24",
+      "time": "22:35",
+      "topic": "Tarama: yeni A olayı yok (22:31'de kullanıcı isteğiyle 2 B videosu paylaşıldı, son Reels <60 dk → yalnızca A aranacaktı; 8 tutuklama ve öğretmen konutu kayıtlı; ozgurkocaeli 'bir ilimizde korkutan deprem' ve istekocaeli 'korku dolu anlar' okunamadı, başka kaynakta Kocaeli'de M4+ deprem yok; Yalova M3.2 haberi eski). 0c saat dışı (22:xx); 0d atlandı (22:00 sonrası, son Reels <60 dk); 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-24",
+      "time": "22:45",
+      "topic": "Spor: Şampiyonlar Ligi 5. hafta Galatasaray 1-0 Aston Villa (RAMS Park, gol Deniz Gül 77'; GS 9 puan, üst üste 3. galibiyet; sıradaki maç 8 Aralık AEK deplasmanı). Kullanıcının canlı isteğiyle (spor haberleri, 24.11.2026)",
+      "level": "C",
+      "voice": "aylin",
+      "sim": false,
+      "file": "v/2026-11-24-spor-galatasaray-aston-villa.mp4",
+      "reel_posted_at": "2026-11-24T22:51:24+03:00",
+      "story_media_id": "18126638081473348",
+      "reel_media_id": "17876607933601635"
+    },
+    {
+      "date": "2026-11-24",
+      "time": "23:35",
+      "topic": "Tarama: yeni A/C olayı yok (B saat dışı, 23:00 sonrası). Bugün tek Türk maçı GS 1-0 Aston Villa kayıtlı; Fenerbahçe-Shakhtar yarın (ŞL). seskocaeli 'genç diş hekimi yaşamını yitirdi' okunamadı, başka kaynakta kaza/yangın bilgisi yok, A ölçütü doğrulanamadı; Darıca daire yangınında mahsur kadın kurtarıldı (yaralı yok); 'Düzce depremi 23 Kasım 04.08' yıl dönümü haberi; 8 tutuklama kayıtlı; Kocaeli'de M4+ deprem yok. 0b bekleyen yok, 0c saat dışı, 0d saat dışı (22:00 sonrası), 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "00:35",
+      "topic": "Tarama: yeni A/C olayı yok (B saat dışı). Özgün Kocaeli 'devrilen elektrik direği aracın üzerine düştü' Bolu D-100'de (Kocaeli değil); Hürriyet 24.11 21:35 MGM uyarısında Kocaeli için renk kodu yok, yalnızca aralıklı sağanak tahmini; Habertürk turuncu alarm haberi 2024 tarihli; Darıca yangını ve 8 tutuklama kayıtlı; Kocaeli'de M4+ deprem yok. Spor: 24.11 gece biten yeni Türk maçı yok (GS 1-0 Aston Villa kayıtlı), Fenerbahçe-Shakhtar 25.11. 0b bekleyen yok, 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "01:35",
+      "topic": "Tarama: yeni A/C olayı yok (B saat dışı). sondakika.com/kocaeli en yeni 24.11 23:19 (İzmit bisiklet haberi), kayıtlı 8 tutuklama ve Darıca yangını dışında yeni olay yok; noktagazetesi 'yangında hayatını kaybetti' ve istekocaeli 'yanarak can verdi' okunamadı, tarihsiz/eski görünüyor, başka kaynakta yeni ölümlü yangın yok; Kocaeli'de M4+ deprem yok. Spor: 24.11 gece biten yeni Türk maçı yok, Fenerbahçe-Shakhtar 25.11. 0b bekleyen yok, 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "02:35",
+      "topic": "Tarama: yeni A/C olayı yok (B saat dışı). sondakika.com/kocaeli son haber 24.11 23:19 (bisiklet haberi); can kayıplı kaza/büyük yangın/M4+ deprem/yol kapanması/okul tatili yok. cagdaskocaeli 'şiddetli deprem' haberi (id 29202213, eski) okunamadı, başka kaynakta Kocaeli'de yeni M4+ deprem yok. Spor: GS 1-0 Aston Villa kayıtlı, gece biten yeni Türk maçı yok; Fenerbahçe-Shakhtar bugün akşam. 0b bekleyen yok, 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "03:35",
+      "topic": "Tarama: yeni A/C olayı yok (B saat dışı). sondakika.com/kocaeli-kaza en yeni 21.11 (Körfez yaya ölümü, eski); aramalarda 25.11'e ait can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok (AA kozmetik fabrikası yangını eski). Spor: gece biten yeni Türk maçı yok, Fenerbahçe-Shakhtar bugün akşam. 0b bekleyen yok, 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "04:35",
+      "topic": "Tarama: yeni A/C olayı yok (B saat dışı). Grup 1-7 ve genel aramalarda 25.11 gecesine ait can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; Hürriyet 'yanan araçta iş insanı' 14.11 (eski), Darıca yangını kayıtlı. Spor: gece biten yeni Türk maçı yok (GS 1-0 Aston Villa kayıtlı), Fenerbahçe-Shakhtar bugün akşam. 0b bekleyen yok, 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "05:35",
+      "topic": "Tarama: yeni A/C olayı yok (B saat dışı). Yeni: Kocaeli Valiliği fırtına uyarısı ('yarın başlayacak', büyük olasılıkla 25-26.11 lodos; kocaeligazetesi 29216480, cagdaskocaeli 29216615, seskocaeli 29216538 — üçü de okunamadı, renk kodu doğrulanamadı; aramalarda turuncu/kırmızı kod veya okul tatili kararı yok) → 08:00 sonrası B adayı, doğrulanırsa değerlendirilecek. Can kayıplı kaza/yangın, M4+ deprem, yol kapanması yok. Spor: gece biten yeni Türk maçı yok (GS 1-0 Aston Villa kayıtlı), Fenerbahçe-Shakhtar bugün akşam. 0b bekleyen yok, 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "06:35",
+      "topic": "Tarama: yeni A/C olayı yok (B saat dışı). Grup 1-7 + genel aramalarda 25.11'e ait can kayıplı kaza/yangın, M4+ deprem, yol kapanması, turuncu/kırmızı uyarı veya valilik okul tatili kararı yok (fırtına/sağanak haberleri 23-24.11 sarı kod, kayıtlı; su baskını haberleri eski). Spor: gece biten yeni Türk maçı yok; Shakhtar-Fenerbahçe bugün akşam (TRT 1). 0b bekleyen yok, 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "07:35",
+      "topic": "Tarama: yeni A/C olayı yok (B saat dışı, 07:32). Grup 1-7 + genel aramalarda 25.11'e ait can kayıplı kaza/yangın, yol kapanması, valilik okul tatili kararı, turuncu/kırmızı uyarı yok. Deprem: seskocaeli 'Komşuda deprem: Kocaeli'de hissedildi' (29219998) ve bugunkocaeli deprem haberi okunamadı; NTV AFAD/Kandilli listesi (25.11 01:00) ve Sabah Kocaeli listesinde Marmara'da M3.5+ yok, Muğla Milas M4.5 (24.11 21:39) Kocaeli dışı; ozgunkocaeli deprem haberi 10.10 (eski). Valilik fırtına uyarısı B adayı olarak 08:00 sonrası değerlendirilecek. Spor: gece biten yeni Türk maçı yok; Shakhtar-Fenerbahçe bugün akşam. 0b bekleyen yok, 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "08:05",
+      "reel_posted_at": "2026-11-25T08:05:00+03:00",
+      "topic": "SEDAŞ 25 Kasım planlı kesinti: 8 ilçe (Darıca 10 mahalle; Gebze Muallimköy, Dilovası Demirciler, İzmit köyleri, Karamürsel 09.00-17.00) — sabah kesinti Reels'i + karusel"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "08:20",
+      "topic": "Körfez Kapalı Spor Kompleksi %48 (12 bin m², 1.000 kişilik tribün, 125 araç otopark) + Gölcük 5.400 m² spor salonu ve 25 m yarı olimpik havuz (İHA 24.11) — sabah videosu (12:31 slotu)"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "08:20",
+      "topic": "Sabah taraması notu: Valilik fırtına uyarısı ('yarın başlayacak', büyük olasılıkla 26.11 lodos) yerel sitelerde okunamadı, ayrıntı doğrulanamadı → video yapılmadı; doğrulanırsa son dakika görevi değerlendirebilir"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "08:35",
+      "topic": "Tarama: yeni A/C olayı yok. B adayı Valilik fırtına uyarısı (kocaeli.gov.tr 'Kuvvetli Rüzgar ve Fırtınaya Dikkat !' arama sonucunda görüldü, renk kodu/tarih doğrulanmadı) bu saat beklemede: son Reels 08:05 (60 dk kuralı) → 09:35'te doğrulanıp değerlendirilecek. Demokrat Kocaeli 'yangında mahsur kalan kadın kurtarıldı' can kaybı yok. Spor: gece biten yeni Türk maçı yok; Shakhtar-Fenerbahçe bu akşam (ŞL) → C-MAÇ GÜNÜ program videosu 10:00 sonrası. 0b bekleyen yok, 0c/0d saat dışı/60 dk kuralı, 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "09:06",
+      "reel_posted_at": "2026-11-25T09:06:00+03:00",
+      "file": "v/2026-11-25-eskisehir-5-sehit.mp4",
+      "voice": "emre",
+      "story_media_id": "18486042691112024",
+      "reel_media_id": "18147027022612436",
+      "topic": "Eskişehir Tepebaşı (Yörükakçayır yakınları) AS-532 helikopter kazası, 24.11 eğitim uçuşu: 5 şehit (Hv. Plt. Albay Mehmet Çöl, Hv. Plt. Üsteğmen Halil Karabulut, Astsb. Bçvş. Volkan Demirhan, Astsb. Bçvş. Muhammed Nurullah Erarslan, Astsb. Kd. Çvş. Mehmet Alp Gürdağ). Kocaeli bağlantısı bulunamadı. Kullanıcının canlı isteğiyle paylaşıldı"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "09:35",
+      "topic": "Tarama: yeni A/C olayı yok. Valilik fırtına uyarısı doğrulandı (gebzehaber.net 24.11 15:13): 25.11 sabahtan akşama batı-kuzeybatı 6-8 kuvvetinde (50-75 km/sa) fırtına, renk kodu yok, okul tatili yok → B adayı ama son Reels 09:06 (60 dk kuralı) ve 'bugün' hava videosu zayıf; bu saat paylaşılmadı. Can kayıplı kaza/yangın, M4+ deprem, yol kapanması yok (8 tutuklama kayıtlı). Spor: gece biten yeni maç yok; Shakhtar-Fenerbahçe bu akşam (TRT 1) → C-MAÇ GÜNÜ program videosu 10:00 sonrası ve 60 dk kuralına göre. 0b bekleyen yok, 0c/0d saat dışı, 0e milestone yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "10:50",
+      "topic": "maç programı 2026-11-25: Shakhtar Donetsk - Fenerbahçe (ŞL lig aşaması 5. hafta) 23.00 TRT 1, Stamford Bridge Londra; FB 5 puan, Shakhtar 4 puan. Diğer takip edilen takımların bugün futbol maçı yok (Habertürk günün programı)",
+      "level": "C",
+      "voice": "aylin",
+      "sim": false,
+      "file": "v/2026-11-25-spor-program.mp4",
+      "reel_posted_at": "2026-11-25T10:40:00+03:00",
+      "story_media_id": "18119934401600303",
+      "reel_media_id": "17962174989272151"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "13:35",
+      "topic": "Tarama: yeni A/B/C olayı yok. Grup 1-7 + genel aramalarda can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; sondakika.com/kocaeli en yeni 13:23 (Demet Akalın bisiklet haberi). istekocaeli 'yangında bir kişi can verdi' ve 'vatandaşlar sokağa döküldü', bugunkocaeli 'Darıca yangın alarmı' okunamadı, tarihsiz/eski görünüyor. Spor: biten maç yok; Shakhtar-Fenerbahçe 23.00 (program paylaşıldı). 0c saat dışı (13:xx), 0d takipçi 923, 0e yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "14:35",
+      "topic": "Tarama: yeni A/B/C olayı yok. Grup 1-7 + genel aramalarda can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; İzmit Yenidoğan/Zabıtan anlık su kesintisi (16.00'ya kadar, kısa/yerel), Derince eski kaymakamının Muş valiliği, Gölcük kayıp yaşlı arama haberleri video kriterine girmiyor. Spor: biten maç yok; Shakhtar-Fenerbahçe 23.00 (program paylaşıldı). 0b bekleyen yok, 0c saat dışı (14:xx; Körfez-Gölcük videosu 15:xx'te), 0d takipçi 923, 0e yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "15:35",
+      "topic": "0c: Körfez-Gölcük spor tesisi sabah videosu 15:34 paylaşıldı (story 17919319710504732, reel 18075106781781316); bugünkü batch tamamlandı. Tarama: Grup 1-7 + genel aramalarda yeni A olayı yok (can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; Valilik fırtına uyarısı ve Darıca yangın alarmı önceden değerlendirildi). Spor: biten maç yok; Shakhtar-Fenerbahçe 23.00 (program paylaşıldı). 0d bu saat uygulanmadı (0c paylaştı). Son dakika videosu yapılmadı"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "16:35",
+      "topic": "Tarama: yeni A/B/C olayı yok. Grup 1-7 + genel aramalarda can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok (İzmit 25 Kasım etkinlikleri, su kesintisi listesi video kriterine girmiyor; istekocaeli yangın başlıkları tarihsiz/eski, önceden değerlendirildi). Spor: biten maç yok; Shakhtar-Fenerbahçe 23.00 (program paylaşıldı). 0b bekleyen yok, 0c saat dışı (16:xx), 0d takipçi 923, 0e yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "17:35",
+      "topic": "Tarama: yeni A/B/C olayı yok. Grup 1-7 + genel aramalarda can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; sondakika.com/kocaeli en yeni 16:32 (25 Kasım yürüyüşü), 16:09 savunma sanayi etkinliği; gebzehaber.net valilik fırtına uyarısı 24.11 15:13 (önceden değerlendirildi). Spor: biten maç yok; Shakhtar-Fenerbahçe 23.00 (program paylaşıldı; FB U19 0-6 yenilgisi A takım değil). 0b bekleyen yok, 0c saat dışı (17:xx), 0d takipçi 923, 0e yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "18:35",
+      "topic": "Tarama: yeni A/B/C olayı yok. Grup 1-7 + genel aramalarda can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; sondakika.com/kocaeli en yeni 16:32 (25 Kasım yürüyüşü); gebzehaber.net'teki Gölcük 12 işçi zehirlenmesi tarihsiz/eski (güncel kaynak yok). Spor: biten maç yok; Shakhtar-Fenerbahçe 23.00 (program paylaşıldı). 0b bekleyen yok, 0c bugünkü batch tamam, 0d takipçi 923, 0e yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "19:35",
+      "topic": "Tarama: yeni A/B/C olayı yok. Grup 1-7 + genel aramalarda can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; Kartepe'de sağanak site otoparkını su bastı (yerel, B değil), 'Komşuda deprem Kocaeli'de hissedildi' = Hendek M3.1 (06:20, A eşiği altı); Gebze kağıt yüklü kamyon yangını okunamadı (ozgurkocaeli client_error), yaralı bilgisi yok. Spor: Shakhtar-Fenerbahçe 23.00 henüz oynanmadı (FB U19 0-6 A takım değil). 0b bekleyen yok, 0c saat dışı, 0d takipçi 923, 0e yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "20:35",
+      "topic": "Tarama: yeni A/B/C olayı yok. Grup 1-7 + genel aramalarda can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok (Çağdaş Kocaeli 25 Kasım yürüyüşü 2 gözaltı, sondakika.com yürüyüş haberleri video kriterine girmiyor; istekocaeli yangın başlıkları tarihsiz/eski). Spor: Shakhtar-Fenerbahçe 23.00 henüz oynanmadı; Kocaelispor'da yeni gelişme yok. 0b bekleyen yok, 0c saat dışı (20:xx), 0d takipçi 923, 0e yayınlanmadı. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "21:35",
+      "topic": "Tarama: yeni A/B/C olayı yok (sondakika.com/kocaeli en yeni 16:32; can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili yok; Gebze kamyon yangını ve Darıca daire yangını önceden değerlendirildi). Spor: Shakhtar-Fenerbahçe 23.00 henüz oynanmadı. 0b/0c bekleyen yok, 0d kutlama 20:56'da paylaşıldı, 0e: kutlama Reels yorumları Windsor önbelleğinde henüz yok (force_refresh plan dışı), cevap verilmedi. Video yapılmadı",
+      "level": null,
+      "reel_posted_at": null,
+      "voice": null
+    },
+    {
+      "date": "2026-11-25",
+      "time": "22:35",
+      "topic": "Tarama: yeni A/B/C olayı yok (Grup 1-7 + resmi kurum aramalarında can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; istekocaeli/enkocaeli yangın başlıkları tarihsiz/eski). Spor: Shakhtar-Fenerbahçe 23.00 henüz başlamadı (FB U19 0-6 A takım değil); Kocaelispor'da videoluk gelişme yok. 0b/0c bekleyen yok, 0d kutlama zaten paylaşıldı, 0e: kutlama Reels yorumları Windsor önbelleğinde yok (force_refresh plan dışı), cevap verilmedi. Video yapılmadı"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "23:35",
+      "topic": "Tarama: yeni A/B/C olayı yok (Grup 1-7 + genel aramalarda can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; 'yangında mahsur kalan kadın kurtarıldı' yaralısız, A değil; istekocaeli/enkocaeli başlıkları tarihsiz/eski). Spor: Shakhtar-Fenerbahçe 23.00'te başladı, devam ediyor (ntvspor canlı anlatım); sonuç bir sonraki çalışmada. 0b/0c bekleyen yok, 0d kutlama zaten paylaşıldı, 0e: kutlama Reels yorumları Windsor önbelleğinde yok (force_refresh planda yok), cevap verilmedi. Video yapılmadı",
+      "level": null,
+      "reel_posted_at": null,
+      "voice": null
+    },
+    {
+      "date": "2026-11-26",
+      "time": "00:35",
+      "topic": "Tarama: yeni A/B/C olayı yok (Grup 1-7 + resmi kurum aramalarında can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; sondakika.com/kocaeli 00:33 itibarıyla en yeni 25.11 16:32). Spor: Shakhtar-Fenerbahçe (ŞL, 23.00, Stamford Bridge) henüz bitmedi (son kaynak 23:21'de 0-0, Muriqi 17' golü VAR ile iptal); sonuç bir sonraki çalışmada. Kocaelispor'da videoluk gelişme yok. 0b/0c/0d yok, 0e: kutlama Reels yorumları Windsor önbelleğinde yok (force_refresh plan dışı), cevap verilmedi. Video yapılmadı",
+      "level": null,
+      "reel_posted_at": null,
+      "voice": null
+    },
+    {
+      "date": "2026-11-26",
+      "time": "01:15",
+      "topic": "Spor: Şampiyonlar Ligi 5. hafta Shakhtar Donetsk 0-1 Fenerbahçe (Stamford Bridge, Londra; gol Vedat Muriqi 56'; FB 8 puan, üst üste 2. galibiyet; sıradaki ŞL maçı 9 Aralık LASK Linz deplasmanı). 00:35 taramasında maç sürüyordu; kullanıcının canlı uyarısıyla maç bitiminde yapıldı",
+      "level": "C",
+      "voice": "emre",
+      "sim": false,
+      "file": "v/2026-11-26-spor-shakhtar-fenerbahce.mp4",
+      "reel_posted_at": "2026-11-26T01:16:00+03:00",
+      "story_media_id": "17914288893580191",
+      "reel_media_id": "18138481822735967"
+    },
+    {
+      "date": "2026-11-26",
+      "time": "01:35",
+      "topic": "Tarama: yeni A/B/C olayı yok (Grup 1-7 + resmi kurum aramalarında can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; sondakika.com/kocaeli 01:32 itibarıyla en yeni 25.11 16:32; İzmit Kuruçeşme tek katlı yapı yangını bugunkocaeli okunamadı, yaralı/can kaybı bilgisi yok, A değil). Spor: Shakhtar 0-1 Fenerbahçe sonucu 01:16'da zaten paylaşıldı; 26.11 Perşembe Beşiktaş ve Trabzonspor (CSKA Sofya) UEFA maçları görünüyor, program videosu 10:00 sonrası. 0b/0c/0d yok, 0e: kutlama Reels yorumları Windsor önbelleğinde yok (planda yenileme yok), cevap verilmedi. Video yapılmadı",
+      "level": null,
+      "reel_posted_at": null
+    },
+    {
+      "date": "2026-11-26",
+      "time": "02:35",
+      "topic": "Tarama: yeni A/B/C olayı yok (Grup 1-7 + resmi kurum aramalarında can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; İzmit Kuruçeşme yapı yangını önceden değerlendirildi; istekocaeli/enkocaeli başlıkları tarihsiz/eski). Spor: devam eden takip maçı yok; 26.11 Beşiktaş-Hapoel Beer Sheva (AL) ve Trabzonspor UEFA maçı için program videosu 10:00 sonrası. 0b/0c/0d yok, 0e: force_refresh denendi, Windsor planı yenilemeye izin vermiyor (önbellek), kutlama Reels yorumu görünmüyor, cevap verilmedi. Video yapılmadı",
+      "level": null,
+      "reel_posted_at": null
+    },
+    {
+      "date": "2026-11-26",
+      "time": "03:35",
+      "topic": "Tarama: yeni A/B/C olayı yok (Grup 1-7 + genel/resmi aramalarda can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; sondakika.com/kocaeli-izmit en yeni 23.11). Spor: devam eden takip maçı yok; 26.11 Beşiktaş-Hapoel Beer Sheva (AL) ve CSKA Sofya-Trabzonspor (KL) için program videosu 10:00 sonrası. 0b/0c/0d yok, 0e: kutlama Reels yorumu görünmüyor, cevap verilmedi. Video yapılmadı",
+      "level": null,
+      "reel_posted_at": null
+    },
+    {
+      "date": "2026-11-26",
+      "time": "04:35",
+      "topic": "Tarama: yeni A/B/C olayı yok (Grup 1-7 + genel/resmi aramalarda can kayıplı kaza/yangın, M4+ deprem, yol kapanması, okul tatili, turuncu/kırmızı uyarı yok; sondakika.com/kocaeli 04:32 damgalı, en yeni 26.11 01:49 spor haberi, Kocaeli olayı yok). Spor: devam eden takip maçı yok; 26.11 Beşiktaş-Hapoel Beer Sheva (AL) ve CSKA Sofya-Trabzonspor (KL) için program videosu 10:00 sonrası. 0b/0c/0d yok, 0e: kutlama Reels yorumu Windsor önbelleğinde yok, cevap verilmedi. Video yapılmadı",
+      "level": null,
+      "reel_posted_at": null
+    }
+  ]
 }
