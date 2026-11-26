@@ -48,3 +48,4 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - 26.11.2026 10:35: okunabildi → fotomac.com.tr, haberturk.com/spor, ajansspor.com, hurriyet.com.tr/sporarena (maç saat/kanal). Okunamadı → ozgurkocaeli.com.tr (client_error); aa.com.tr haber metni boş.
 - 26.11.2026 11:35: okunabildi → sondakika.com/kocaeli (11:30 damgalı, en yeni 26.11 01:49).
 - 26.11.2026 12:35: okunabildi → sondakika.com/kocaeli (footer 12:22, öğe saatleri tutarsız/önbellek olabilir).
+- 26.11.2026 13:35: okunabildi → sondakika.com/kocaeli (13:33). Okunamadı (client_error) → ozgurkocaeli.com.tr.
