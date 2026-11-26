@@ -33,7 +33,6 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - WebSearch ile "site:instagram.com <hesap>" veya hesap adı + "son dakika" ara. Burada görülen haberi Grup 1-6'daki bir siteden doğrulamadan PAYLAŞMA. Görselleri/videoları kullanma (telif).
 
 ## Okunabilirlik (tarihli notlar; görevler ekler)
-- 26.11.2026 03:35: okunabildi → sondakika.com/kocaeli-izmit (en yeni 23.11, footer 00:27).
 - 26.11.2026 17:35: okunabildi → sondakika.com/kocaeli-kaza (footer 26.11 16:17), yerel-haberler.haberturk.com; sondakika.com/kocaeli eski kopya döndü (footer 27.10). Okunamadı (client_error) → bugunkocaeli.com.tr.
 - 26.11.2026 04:35: okunabildi → sondakika.com/kocaeli (04:32 damgalı, en yeni 26.11 01:49); sondakika.com/kocaeli-kaza eski (en yeni 22.10).
 - 26.11.2026 05:35: okunabildi → sondakika.com/kocaeli (05:30 damgalı, en yeni 26.11 01:49 spor).
@@ -48,3 +47,4 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - 26.11.2026 18:35: okunabildi → sondakika.com/kocaeli (18:33 damgalı, bugün en yeni 15:46). Okunamadı (client_error) → seskocaeli.com haber, istekocaeli.com.
 - 26.11.2026 23:35: okunamadı → sondakika.com/kocaeli (PROVENANCE_REQUIRED), istekocaeli.com (client_error).
 - 27.11.2026 01:35: okunabildi → sondakika.com/kocaeli (01:33 damgalı, en yeni 27.11 01:30), ntv.com.tr deprem listesi. Okunamadı (client_error) → istekocaeli.com, seskocaeli.com.
+- 27.11.2026 02:35: okunabildi → sondakika.com/kocaeli (footer 02:33, en yeni 27.11 01:30).
