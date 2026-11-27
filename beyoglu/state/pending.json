@@ -210,10 +210,11 @@
      "Beyoğlu 27 Kasım elektrik kesintisi: Camiikebir Mahallesi (Kasımpaşa Salhanesi, Mutfak Kapısı, Tabakhane Yokuşu, Turşucu Bayram) ve Kadımehmet Efendi Mahallesi (Bahriye Hastanesi Yokuşu, Mutfak Kapısı, Paşa Çeşmesi, Paşa Çeşmesi Yokuşu, Serin, Toprak Yokuşu), 09.00-17.00",
      "Gönder, kaydet, takip et. Arıza bildirimi: BEDAŞ 186."
     ],
-    "story_done": false,
-    "post_done": false,
-    "posted_at": null,
-    "media_id": null
+    "story_done": true,
+    "post_done": true,
+    "posted_at": "2026-11-27T08:22:00+03:00",
+    "media_id": "18160179640516928",
+    "story_media_id": "18130978729856767"
    },
    "weekend_carousel": null,
    "concert_carousel": {
