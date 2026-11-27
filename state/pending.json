@@ -433,6 +433,49 @@
     "media_id": "18439881964182396",
     "story_media_id": "18132579649865765"
    }
+  },
+  {
+   "date": "2026-11-27",
+   "created_at": "2026-11-27T08:04:44+03:00",
+   "status": "scheduled",
+   "videos": [
+    {
+     "file": "v/2026-11-27-kesinti.mp4",
+     "title": "27 Kasım: Gebze Osman Yılmaz ve Hürriyet'te elektrik kesintisi (8 ilçe)",
+     "caption": "⚡ Kocaeli elektrik kesintisi 27 Kasım: 8 ilçede, Gebze Osman Yılmaz ve Hürriyet'te de var\nGebze'de Osman Yılmaz (09.00-17.00) ve Hürriyet (09.00-14.00) mahallelerinin bazı sokaklarında elektrik kesilecek. Darıca Kazımkarabekir 08.30-16.00, Çayırova Akse 11.00-14.00; Kandıra'da 34 yerleşim 09.00-17.00.\nİzmit, Derince, Körfez ve Dilovası da listede.\nTüm mahalle listesi profilimizde (kaydırmalı liste).\nListede mahallesi olan birine gönder.\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nGörseller temsilidir.\nKaynak: SEDAŞ, Özgün Kocaeli\n\n#kocaeli #kocaeliradar #elektrikkesintisi #gebze",
+     "voice": "emre",
+     "sim": true,
+     "story_done": false,
+     "reel_done": false,
+     "posted_at": null
+    }
+   ],
+   "carousel": {
+    "dir": "c/2026-11-27-elektrik",
+    "slides": [
+     "c/2026-11-27-elektrik/01.jpg",
+     "c/2026-11-27-elektrik/02.jpg",
+     "c/2026-11-27-elektrik/03.jpg",
+     "c/2026-11-27-elektrik/04.jpg",
+     "c/2026-11-27-elektrik/05.jpg",
+     "c/2026-11-27-elektrik/06.jpg",
+     "c/2026-11-27-elektrik/07.jpg"
+    ],
+    "caption": "⚡ Kocaeli elektrik kesintisi 27 Kasım: 8 ilçede, en uzun Körfez 09.30-17.30\nMahallen listede mi? Kaydır 👉\nGebze 8, Darıca 2, Çayırova 1, İzmit 3, Derince 4, Körfez 5, Dilovası 2 mahalle ve Kandıra'da 34 yerleşim.\nListede mahallesi olan birine gönder.\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi SEDAŞ 186.\nKaynak: SEDAŞ, Özgün Kocaeli\n\n#kocaeli #kocaeliradar #elektrikkesintisi #gebze #kandıra",
+    "alt_texts": [
+     "Kocaeli 27 Kasım 2026 elektrik kesintisi: 8 ilçe — Gebze, Darıca, Çayırova, İzmit, Derince, Körfez, Dilovası, Kandıra. Kandıra'da 34 yerleşim 09.00-17.00.",
+     "Kocaeli 27 Kasım 2026 elektrik kesintisi özeti: Gebze 8 mahalle 01.00-17.00, Darıca 2 mahalle 08.30-16.00, Çayırova 1 mahalle 11.00-14.00, İzmit 3 mahalle 09.00-17.00, Derince 4 mahalle 09.00-16.45, Körfez 5 mahalle 09.30-17.30, Dilovası 2 mahalle 09.00-15.00, Kandıra 34 yerleşim 09.00-17.00.",
+     "Kocaeli 27 Kasım 2026 elektrik kesintisi: Gebze Pelitli 01.00-02.00; Kirazpınar 09.00-17.00; Osman Yılmaz 09.00-17.00; Hürriyet 09.00-14.00; Akse, Atatürk, Özgürlük, Şekerpınar 10.00-12.00; Darıca Kazımkarabekir 08.30-16.00.",
+     "Kocaeli 27 Kasım 2026 elektrik kesintisi: Darıca Bağlarbaşı 09.00-16.00; Çayırova Akse 11.00-14.00; İzmit Yassıbağ, Çubuklubala, Kısalar 09.00-17.00; Derince İbnisina 09.00-12.00, Çınarlı ve Deniz 12.15-14.15.",
+     "Kocaeli 27 Kasım 2026 elektrik kesintisi: Derince Çenedağ ve Deniz 14.30-15.30, Deniz 15.45-16.45; Körfez Karayakuplu, Kutluca, Osmanlı, Şemsettin, Sevindikli 09.30-17.30; Dilovası Çerkeşli 09.00-15.00, Çerkeşli ve Tavşancıl 10.00-12.00; Kandıra Ağaçağıl, Ahmethacılar, Akçakese 09.00-17.00.",
+     "Kocaeli 27 Kasım 2026 elektrik kesintisi, Kandıra 09.00-17.00: Akmeşe Atatürk, Akmeşe Cumhuriyet, Ambarcı, Bağlıca, Çalyer, Çavuşoğlu, Dalca, Deliveli, Düğmeciler, Elmacık, Goncaaydın, Güvercinlik, Hıdırlar, Karadavutlu, Karadivan, Kaymaz, Kaymaz Erikli, Kısalar, Kocakaymas, Nasuhlar, Ömerli, Pirceler, Şahinler, Sarışeyh, Sarnıçlar, Selimköy, Şerefsungur, Terziler, Üğümce, Yenice, Yusufça.",
+     "Kocaeli Radar: listede mahallesi olan birine gönder, kaydet, takip et. Arıza bildirimi SEDAŞ 186."
+    ],
+    "story_done": false,
+    "post_done": false,
+    "posted_at": null,
+    "media_id": null
+   }
   }
  ]
 }
