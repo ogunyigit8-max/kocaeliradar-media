@@ -437,7 +437,7 @@
   {
    "date": "2026-11-27",
    "created_at": "2026-11-27T08:04:44+03:00",
-   "status": "scheduled",
+   "status": "published",
    "videos": [
     {
      "file": "v/2026-11-27-kesinti.mp4",
@@ -456,9 +456,11 @@
      "caption": "💧 Kocaeli'de suya %25 zam: yeni tarife 1 Ocak 2027'de başlıyor\nİSU Genel Kurulu'nda kabul edilen kararla metreküp üzerinden ücretlendirilen su tarifeleri yüzde 25 artacak.\nBağ ve bahçe sulamasında ilk 5 metreküpün birim fiyatı 50 TL olacak; aylık TÜFE güncellemeleri sürecek.\nSu faturanız aylık ortalama ne kadar geliyor?\nKaynak: İSU Genel Kurulu, Pozitif Kocaeli\n\n#kocaeli #kocaeliradar #ekonomi #kocaelibüyükşehir #izmit",
      "voice": "aylin",
      "sim": false,
-     "story_done": false,
-     "reel_done": false,
-     "posted_at": null
+     "story_done": true,
+     "reel_done": true,
+     "posted_at": "2026-11-27T12:34:48+03:00",
+     "story_media_id": "18107221163030377",
+     "reel_media_id": "18575845324076287"
     }
    ],
    "carousel": {
