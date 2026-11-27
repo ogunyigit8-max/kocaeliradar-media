@@ -105,13 +105,26 @@
    "reel_media_id": "17991260441881706"
   },
   "2026-11-27 BEDAŞ planlı kesinti Kasımpaşa: Camiikebir, Kadımehmet Efendi 09.00-17.00",
-  "2026-11-27 Bu akşam Beyoğlu konserleri karuseli (AKM İDSO, Tersane Melis Karaduman, Nardis Duygu Soylu, Salon İKSV Ferit Odman, Blind 2MUCH!)"
+  "2026-11-27 Bu akşam Beyoğlu konserleri karuseli (AKM İDSO, Tersane Melis Karaduman, Nardis Duygu Soylu, Salon İKSV Ferit Odman, Blind 2MUCH!)",
+  {
+   "date": "2026-11-27",
+   "time": "07:49",
+   "topic": "BEDAŞ planlı kesinti Kasımpaşa (Camiikebir, Kadımehmet Efendi) 09.00-17.00 (sabah 1. video)",
+   "level": "B",
+   "voice": "emre",
+   "sim": true,
+   "file": "beyoglu/v/2026-11-27-kasimpasa-elektrik.mp4",
+   "reel_posted_at": "2026-11-27T07:49:00+03:00",
+   "reel_media_id": "17978343291139308",
+   "story_media_id": "18189644488424899"
+  }
  ],
  "reel_posted_at": [
   "2026-11-25T10:38:00+03:00",
   "2026-11-25T13:33:00+03:00",
   "2026-11-25T15:55:00+03:00",
   "2026-11-26T01:13:00+03:00",
-  "2026-11-26T07:52:00+03:00"
+  "2026-11-26T07:52:00+03:00",
+  "2026-11-27T07:49:00+03:00"
  ]
 }
