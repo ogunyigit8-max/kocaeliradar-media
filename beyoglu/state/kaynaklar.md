@@ -35,7 +35,6 @@ Beyoğlu Belediyesi resmi hesabı, İstanbul son dakika ve trafik sayfaları. Ku
 growth.md'deki kurala uy: siyasi haberden Reels yok; büyük gelişmede en fazla bir sade hikâye/karusel.
 
 ## Okunabilirlik (tarihli notlar; görevler ekler)
-- 25.11.2026 (son dakika 18:48): okunabildi → milligazete.com.tr (Taksim metro durumu, 17:00 haberi), karar.com, sabah.com.tr. haberler.com/beyoglu önbellekli (meta 10:02), son saatler için güvenilmez.
 - 25.11.2026 (son dakika 19:47): okunabildi → cumhuriyet.com.tr (güncelleme saati var), tgrthaber.com, milligazete.com.tr. Taksim metro/F1 için 19:06 itibarıyla açılış duyurusu yok.
 - 25.11.2026 (son dakika 20:47): okunabildi → turkiyegazetesi.com.tr haber sayfası (meta saat var; 18:12 itibarıyla Taksim metro açılış duyurusu yok), milligazete.com.tr (sayfa uzun, kesiliyor), cumhuriyet.com.tr.
 - 25.11.2026 (son dakika 22:47): okunabildi → sondakika.com/guncel (meta saat var), yenidevir.com.tr (Taksim açılış haberi 2025 tarihli, eski), internethaber.com (sayfada tarih yok). Okunamadı → t24.com.tr, turkgun.com (client_error). 22:47 itibarıyla Taksim metro/F1 açılış duyurusu doğrulanamadı.
@@ -50,3 +49,4 @@ growth.md'deki kurala uy: siyasi haberden Reels yok; büyük gelişmede en fazla
 - 27.11.2026 00:47: Grup 1-3 + deprem araması yeni Beyoğlu olayı göstermedi (DHA/İHA yangın sonuçları eski, metro.istanbul kapanış duyuruları eski tarihli). CSKA Sofya-Trabzonspor ilk yarı 1-0 (Habertürk); sonuç 00:55 uyanmasında takipte, bu çalışma üretmedi (çift video riski).
 - 27.11.2026 03:47: Grup 1-3 + deprem/genel aramalar yeni Beyoğlu olayı göstermedi (İHA/DHA yangın sonuçları eski; depremler Kaş ve Sındırgı, İstanbul'da hissedilen yok). Takip edilen maç yok.
 - 27.11.2026 04:47: Grup 1-3 + deprem/valilik/metro aramaları yeni Beyoğlu A olayı göstermedi (çıkan yangın/patlama sonuçları eski tarihli). Takip edilen maç yok.
+- 27.11.2026 05:48: Grup 1-3 + deprem/valilik/metro aramaları yeni Beyoğlu A olayı göstermedi (İHA/DHA yangın sonuçları eski; depremler Antalya/Kaş ve Sındırgı, İstanbul'da hissedilen yok). Takip edilen maç yok.
