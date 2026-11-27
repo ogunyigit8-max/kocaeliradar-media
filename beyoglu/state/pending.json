@@ -178,6 +178,73 @@
     "media_id": "17920841193266024",
     "story_media_id": "18649747138030582"
    }
+  },
+  {
+   "date": "2026-11-27",
+   "created_at": "2026-11-27T08:10:00+03:00",
+   "status": "scheduled",
+   "videos": [
+    {
+     "file": "beyoglu/v/2026-11-27-kasimpasa-elektrik.mp4",
+     "title": "Kasımpaşa'da 2 mahallede 8 saat elektrik kesintisi (27 Kasım)",
+     "caption": "⚡ Kasımpaşa elektrik kesintisi 27 Kasım: 2 mahallede 8 saat\nBEDAŞ'ın planlı kesinti listesine göre Beyoğlu'nda Camiikebir ve Kadımehmet Efendi mahallelerinde 27 Kasım'da 09.00-17.00 arasında elektrik kesintisi var. Listede Bahriye Hastanesi Yokuşu, Tabakhane Yokuşu ve Paşa Çeşmesi Yokuşu gibi sokaklar bulunuyor.\nTüm sokak listesi profilimizde (kaydırmalı liste).\nListede sokağı olan birine gönder.\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi BEDAŞ 186.\nGörseller temsilidir. Konum yaklaşıktır.\nKaynak: BEDAŞ planlı kesinti listesi (Genç Gazete, Manşet Haber) · 27 Kasım 2026\n#beyoğlu #beyogluradar #istanbul #elektrikkesintisi #kasımpaşa",
+     "voice": "emre",
+     "sim": true,
+     "story_done": false,
+     "reel_done": false,
+     "posted_at": null
+    }
+   ],
+   "carousel": {
+    "dir": "beyoglu/c/2026-11-27-elektrik",
+    "slides": [
+     "beyoglu/c/2026-11-27-elektrik/01.jpg",
+     "beyoglu/c/2026-11-27-elektrik/02.jpg",
+     "beyoglu/c/2026-11-27-elektrik/03.jpg"
+    ],
+    "caption": "⚡ Beyoğlu elektrik kesintisi 27 Kasım: Kasımpaşa'da 2 mahalle, sokak sokak liste\nCamiikebir Mahallesi: Kasımpaşa Salhanesi, Mutfak Kapısı, Tabakhane Yokuşu, Turşucu Bayram (09.00-17.00)\nKadımehmet Efendi Mahallesi: Bahriye Hastanesi Yokuşu, Mutfak Kapısı, Paşa Çeşmesi, Paşa Çeşmesi Yokuşu, Serin, Toprak Yokuşu (09.00-17.00)\nSokağınız listede mi?\nListede sokağı olan birine gönder.\nPlanlı çalışmalar iptal edilebilir veya saatler kayabilir; net bilgi BEDAŞ 186.\nKaynak: BEDAŞ planlı kesinti listesi (Genç Gazete, Manşet Haber) · 27 Kasım 2026\n#beyoğlu #beyogluradar #istanbul #elektrikkesintisi #kasımpaşa",
+    "alt_texts": [
+     "Beyoğlu 27 Kasım 2026 elektrik kesintisi: Kasımpaşa'da Camiikebir ve Kadımehmet Efendi mahalleleri, 09.00-17.00",
+     "Beyoğlu 27 Kasım elektrik kesintisi: Camiikebir Mahallesi (Kasımpaşa Salhanesi, Mutfak Kapısı, Tabakhane Yokuşu, Turşucu Bayram) ve Kadımehmet Efendi Mahallesi (Bahriye Hastanesi Yokuşu, Mutfak Kapısı, Paşa Çeşmesi, Paşa Çeşmesi Yokuşu, Serin, Toprak Yokuşu), 09.00-17.00",
+     "Gönder, kaydet, takip et. Arıza bildirimi: BEDAŞ 186."
+    ],
+    "story_done": false,
+    "post_done": false,
+    "posted_at": null,
+    "media_id": null
+   },
+   "weekend_carousel": null,
+   "concert_carousel": {
+    "dir": "beyoglu/c/2026-11-27-konser",
+    "slides": [
+     "beyoglu/c/2026-11-27-konser/01.jpg",
+     "beyoglu/c/2026-11-27-konser/02.jpg",
+     "beyoglu/c/2026-11-27-konser/03.jpg"
+    ],
+    "caption": "🎶 Bu akşam Beyoğlu'nda 5 konser: İDSO, Melis Karaduman, Duygu Soylu Quintet\nAKM Türk Telekom Opera Salonu: İDSO Öğretmenler Günü Konseri, 20.00\nTersane İstanbul Winter Town: Melis Karaduman, 19.00 (ücretsiz)\nNardis Jazz Club (Galata): Duygu Soylu Quintet, 21.30\nFiba Salon İKSV (Şişhane): Ferit Odman Quartet Jam Session, 22.00\nBlind İstanbul: 2MUCH!, 23.59\nHangisine gidiyorsunuz?\nBu akşam çıkacak birine gönder.\nSaat ve bilet bilgisini mekanın duyurusundan teyit edin. Reklam değildir.\nKaynaklar: Haber Gazetesi, nardisjazz.com, tersaneistanbul.com.tr · 27 Kasım 2026\n#beyoğlu #beyogluradar #istanbul #konser #galata",
+    "alt_texts": [
+     "Bu akşam Beyoğlu'nda 5 konser, 27 Kasım 2026: AKM'de İDSO Öğretmenler Günü Konseri 20.00",
+     "AKM: İDSO Öğretmenler Günü Konseri 20.00. Tersane İstanbul Winter Town: Melis Karaduman 19.00 (ücretsiz). Nardis Jazz Club: Duygu Soylu Quintet 21.30. Fiba Salon İKSV: Ferit Odman Quartet Jam Session 22.00. Blind İstanbul: 2MUCH! 23.59",
+     "Gönder, kaydet, takip et. Saat ve bilet bilgisini mekanın duyurusundan teyit edin."
+    ],
+    "user_tags": [
+     {
+      "username": "akmistanbul",
+      "x": 0.5,
+      "y": 0.5
+     },
+     {
+      "username": "tersaneistanbul",
+      "x": 0.3,
+      "y": 0.4
+     }
+    ],
+    "post_after": "16:00",
+    "story_done": false,
+    "post_done": false,
+    "posted_at": null,
+    "media_id": null
+   }
   }
  ]
 }
