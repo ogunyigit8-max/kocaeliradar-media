@@ -50,3 +50,4 @@ growth.md'deki kurala uy: siyasi haberden Reels yok; büyük gelişmede en fazla
 - 26.11.2026 22:47: Grup 1-3 + genel aramalar yeni Beyoğlu olayı göstermedi (Taksim kapanış/yol haberleri 25.11; DHA/İHA yangın sonuçları eski). İstanbul'da hissedilen deprem haberi yok. Beşiktaş maç sonucu ayrı takipte (23:13 uyanma).
 - 26.11.2026 23:47: Grup 1-3 + deprem araması yeni Beyoğlu olayı göstermedi (Taksim kapanış/yol haberleri 25.11, eski). CSKA Sofya-Trabzonspor sürüyor; sonuç 00:55 uyanmasında takipte.
 - 27.11.2026 00:47: Grup 1-3 + deprem araması yeni Beyoğlu olayı göstermedi (DHA/İHA yangın sonuçları eski, metro.istanbul kapanış duyuruları eski tarihli). CSKA Sofya-Trabzonspor ilk yarı 1-0 (Habertürk); sonuç 00:55 uyanmasında takipte, bu çalışma üretmedi (çift video riski).
+- 27.11.2026 03:47: Grup 1-3 + deprem/genel aramalar yeni Beyoğlu olayı göstermedi (İHA/DHA yangın sonuçları eski; depremler Kaş ve Sındırgı, İstanbul'da hissedilen yok). Takip edilen maç yok.
