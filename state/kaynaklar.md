@@ -48,3 +48,4 @@ aa.com.tr, dha.com.tr, iha.com.tr, yerel-haberler.haberturk.com, sabah.com.tr, h
 - 27.11.2026 01:35: okunabildi → sondakika.com/kocaeli (01:33 damgalı, en yeni 27.11 01:30), ntv.com.tr deprem listesi. Okunamadı (client_error) → istekocaeli.com, seskocaeli.com.
 - 27.11.2026 02:35: okunabildi → sondakika.com/kocaeli (footer 02:33, en yeni 27.11 01:30).
 - 27.11.2026 03:35: okunabildi → sondakika.com/kocaeli (footer 03:34, en yeni 27.11 01:30).
+- 27.11.2026 04:35: okunabildi → sondakika.com/kocaeli-izmit (04:32 damgalı, en yeni 23.11), sondakika.com/kocaeli-kaza (en yeni 21.11).
