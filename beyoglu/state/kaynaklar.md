@@ -35,7 +35,6 @@ Beyoğlu Belediyesi resmi hesabı, İstanbul son dakika ve trafik sayfaları. Ku
 growth.md'deki kurala uy: siyasi haberden Reels yok; büyük gelişmede en fazla bir sade hikâye/karusel.
 
 ## Okunabilirlik (tarihli notlar; görevler ekler)
-- 26.11.2026 19:47: Grup 1-3 + genel aramalar yeni olay göstermedi; Taksim metro/füniküler kapanışı ve yol kapanışı haberleri 25.11 (25 Kasım programı) tarihli, eski.
 - 26.11.2026 20:47: Grup 1-3 + genel aramalar yeni Beyoğlu olayı göstermedi (Taksim kapanış/yol haberleri 25.11, eski). Beşiktaş-Hapoel maçı sürüyor; aramada çıkan "Hapoel 1-3 Beşiktaş" sonucu eski sezona ait, dikkat.
 - 26.11.2026 21:47: Grup 1-3 + genel aramalar yeni Beyoğlu olayı göstermedi (Karaköy taksi yangını 10.11, Taksim kapanışları 25.11, eski). okunabildi → ajansspor.com (Son Güncelleme saati var), sporx.com (meta DC.Date), ntvspor canlı anlatım 20:46'dan sonra güncellenmemiş. Beşiktaş-Hapoel maçı 25'te olaylar nedeniyle ~30 dk durdu, yeniden başladı (Sporx 21:46).
 - 26.11.2026 22:47: Grup 1-3 + genel aramalar yeni Beyoğlu olayı göstermedi (Taksim kapanış/yol haberleri 25.11; DHA/İHA yangın sonuçları eski). İstanbul'da hissedilen deprem haberi yok. Beşiktaş maç sonucu ayrı takipte (23:13 uyanma).
@@ -50,3 +49,4 @@ growth.md'deki kurala uy: siyasi haberden Reels yok; büyük gelişmede en fazla
 - 27.11.2026 09:15 (hikâye): hava → windbornesystems.com/weather/turkey/istanbul okunabildi (As of 27.11 02:06); finans → truncgil (Update_Date 26.11 10:00) ve TCMB (26.11 bülteni) web-fetch ile okunabildi, curl ile truncgil proxy 403.
 - 27.11.2026 09:47: Grup 1-3 + deprem/yangın/metro aramaları yeni Beyoğlu olayı göstermedi (Yahya Kahya/Camiikebir ahşap bina yangını 18.11, İstiklal 5 katlı bina yangını 21.11, eski; sondakika.com/beyoglu listesi 26.10 önbelleği). DİKKAT: m.sporx.com Rizespor-Kasımpaşa istatistik sayfası '29 Kasım Pazar 21:00' gösteriyor, önceki not 'bugün 20.00 beIN 1' diyor; program videosundan önce tarih/saati 2 kaynakla yeniden doğrula.
 - 27.11.2026 10:47: Grup 1-3 + deprem aramaları yeni Beyoğlu olayı göstermedi. Rizespor-Kasımpaşa tarihi netleşti: 27.11 Cuma 20.00 beIN SPORTS 1, Çaykur Didi (A Spor 09:24, Fotomaç, Habertürk, Ajansspor; hepsi web-fetch ile okundu). m.sporx canlı izle sayfasındaki '29 Kasım' bilgisi hatalı.
+- 27.11.2026 11:47: Grup 1-3 + genel aramalar yeni Beyoğlu olayı göstermedi (İstiklal/Camii Kebir yangın sonuçları eski; Taksim metro kapanışı 25.11). İstanbul'da hissedilen deprem yok. Son Reels 10:55 (maç programı), Kasımpaşa maçı 20.00.
